@@ -66,30 +66,40 @@ ga('send', 'pageview');
                 {% if page.url == "/" %}
                 <li class="nav-item active">
                 {% else %}
+
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
+                <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
                 </li>
 
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
-                </li>
+                {% if page.url == "/categories" %}
+                <li class="nav-item active">
+                    {% else %}
 
                 <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
+                    {% endif %}
+                    <a class="nav-link" href="{{ site.baseurl }}/categories">Categories</a>
                 </li>
 
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> WP Version</a>
-                </li>
+<!--                <li class="nav-item">-->
+<!--                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>-->
+<!--                </li>-->
 
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>
-                </li>
+<!--                <li class="nav-item">-->
+<!--                <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>-->
+<!--                </li>-->
 
-                <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
-                </li>
+<!--                <li class="nav-item">-->
+<!--                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> WP Version</a>-->
+<!--                </li>-->
+
+<!--                <li class="nav-item">-->
+<!--                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>-->
+<!--                </li>-->
+
+<!--                <li class="nav-item">-->
+<!--                <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>-->
+<!--                </li>-->
 
                 {% include search-lunr.html %}
 
@@ -110,12 +120,12 @@ ga('send', 'pageview');
 
 <!-- Site Title
 ================================================== -->
-<div class="mainheading">
-    <h1 class="sitetitle">{{ site.name }}</h1>
-    <p class="lead">
-        {{ site.description }}
-    </p>
-</div>
+<!--<div class="mainheading">-->
+<!--    <h1 class="sitetitle">{{ site.name }}</h1>-->
+<!--    <p class="lead">-->
+<!--        {{ site.description }}-->
+<!--    </p>-->
+<!--</div>-->
 
 <!-- Content
 ================================================== -->
