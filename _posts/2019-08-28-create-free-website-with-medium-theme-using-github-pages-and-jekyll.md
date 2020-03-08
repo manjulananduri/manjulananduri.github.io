@@ -16,14 +16,13 @@ Creating a website has become the bread and butter for everyone out there. What 
 Read through to create your own website up and running within next 15minutes. 
 
 ### What we need? 
-1. Github pages account. 
+1. *Github* pages account. 
 2. Mediumish blog template. 
 3. Jekyll build generator (optional). 
 
 #### Github Pages account:
-Step1: Head on to github.com and create an account (if you haven't already )
-Step1: Head on to github.com and create an account (if you haven't already )
-Step1: Head on to github.com and create an account (if you haven't already )
+1. Head on to github.com and create an account (if you haven't already )
+2. Super 
 
 ```html
 ---
