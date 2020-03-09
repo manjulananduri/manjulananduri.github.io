@@ -333,7 +333,7 @@ span.post-read-more a:hover {
     font-family: merriweather,"pt serif",Georgia,times new roman,serif;
     /*font-size: 1.1rem;*/
     line-height: 1.84;
-    color: rgba(0, 0, 0, .8);
+    color: rgba(0, 0, 0, 1);
 }
 
 blockquote {
