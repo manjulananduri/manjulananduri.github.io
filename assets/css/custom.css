@@ -1,0 +1,19 @@
+
+.bg-banner{
+    /*background-color: #f7f8ff!important;*/
+    background-color: #009688 !important;
+}
+
+
+.bg-white {
+    /*background-color: #f7f8ff!important;*/
+    background-color: white !important;
+}
+
+.navbar-light .navbar-brand {
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
