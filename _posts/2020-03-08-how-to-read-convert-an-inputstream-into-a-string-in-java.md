@@ -4,7 +4,7 @@ title:  "How to read or convert an inputstream into a string in java"
 author: Pramod
 categories: [ Java, Streams ]
 tags: [red, yellow]
-image: assets/images/websitescreenshot.jpg
+image:
 description: "How to read or convert an inputstream into a string in java"
 featured: true
 hidden: true

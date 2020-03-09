@@ -309,8 +309,10 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.posttitle {
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 1rem;
+    font-family: merriweather,"pt serif",Georgia,times new roman,serif;
+    font-size: 2rem;
 }
 
 .footer {
