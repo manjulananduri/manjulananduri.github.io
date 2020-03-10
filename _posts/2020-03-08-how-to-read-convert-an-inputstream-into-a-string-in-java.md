@@ -20,7 +20,7 @@ InputStream inputStream;
 ```
 Check the ways below. 
 
-##### 1. Java 8+ Streams way: 
+##### 1. Using Java 1.8+ inbuilt Streams package: 
 ```java
 String result = new BufferedReader(new InputStreamReader(inputStream))
                     .lines().collect(Collectors.joining("\n"));
