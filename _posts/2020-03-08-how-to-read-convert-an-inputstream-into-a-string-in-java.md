@@ -8,7 +8,7 @@ image: assets/images/javastream.jpeg
 description: "How to read or convert an inputstream into a string in java"
 featured: true
 hidden: true
-rating: 4.5
+rating: 5
 ---
 
 In many development projects, we might need to convert an InputStream into a String in java. 
