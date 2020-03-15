@@ -4,10 +4,11 @@ title:  "How to read or convert an inputstream into a string in java"
 author: Pramod
 categories: [ Java, Streams ]
 tags: [red, yellow]
+image: assets/images/javastream.jpeg
 description: "How to read or convert an inputstream into a string in java"
 featured: true
 hidden: true
-rating: 4.5
+rating: 5
 ---
 
 In many development projects, we might need to convert an InputStream into a String in java. 
@@ -20,7 +21,7 @@ InputStream inputStream;
 ```
 Check the ways below. 
 
-##### 1. Java 8+ Streams way: 
+##### 1. Using Java 1.8+ inbuilt Streams package: 
 ```java
 String result = new BufferedReader(new InputStreamReader(inputStream))
                     .lines().collect(Collectors.joining("\n"));
