@@ -1,0 +1,15 @@
+---
+title: "Tags"
+layout: default
+permalink: "/tips.html"
+---
+<h1>Tips</h1>
+
+<ul>
+    {% for tip in site.tips %}
+    <li>
+        <h2>{{ tip.tiptitle}}</h2>
+        <h3>{{ tip.tipcontent }}</h3>
+    </li>
+    {% endfor %}
+</ul>
