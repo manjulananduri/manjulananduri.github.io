@@ -62,3 +62,9 @@ adsense-data-ad-slot: "1363087678"
 lazyimages: "disabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+
+page_gen:
+  - index_files: true
+    data: 'tech'
+    template: 'tip'
+    name: 'id'
