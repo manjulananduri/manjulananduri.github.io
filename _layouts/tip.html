@@ -1,6 +1,145 @@
 ---
+layout: default
+
 ---
+<head>
+    <!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css" rel="stylesheet">-->
+    <!--    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js"></script>-->
 
-TipTitle: {{page.tiptitle}}
+</head>
 
-TipBody: {{page.tipcontent}}
+<style>
+
+</style>
+
+<div class="container">
+    <div class="row">
+
+        <!-- Post Share -->
+        <div class="col-md-2 pl-0">
+            {% include share.html %}
+        </div>
+
+
+        <div class="col-md-9 flex-first flex-md-unordered">
+            <div class="mainheading">
+
+                <!--                &lt;!&ndash; Post Title &ndash;&gt;-->
+                <!--                <h1 class="posttitle">{{ page.title }}</h1>-->
+
+                <!-- Author Box -->
+                {% if page.author %}
+                <div class="row post-top-meta">
+                    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+                        {% if author.avatar %}
+                        <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}"
+                             alt="{{ author.display_name }}">
+                        {% else %}
+                        <img class="author-thumb"
+                             src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x"
+                             alt="{{ author.display_name }}">
+                        {% endif %}
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
+                        <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a
+                            target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+                        <div class="author-description">{{ author.description }}</div>
+                    </div>
+                </div>
+                {% endif %}
+
+
+            </div>
+
+            <div class="article-post text-center">
+
+                <!--                {% if page.previous.url %}-->
+                <!--                Prev: <a href="{{site.baseurl}}{{page.previous.url}}">{{page.previous.url}}</a>-->
+                <!--                {% endif %}-->
+
+                <!--                <br>-->
+                <!--                {% if page.next.url %}-->
+                <!--                Next: <a href="{{site.baseurl}}{{page.next.url}}">{{page.next.url}}</a>-->
+                <!--                {% endif %}-->
+
+                <!--                <div class="shadow-lg p-3 mb-5 bg-white rounded">-->
+
+
+                <div class="card text-center ">
+                    <div class="card-header">
+                        {{page.tiptype | capitalize}} Tip # {{page.tipid}}
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{page.tiptitle}}</h5>
+                        <p class="card-text">{{page.tipcontent}}</p>
+<!--                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                    </div>
+
+
+                    <div class="card-footer text-muted">
+
+                        <div>
+                            <a href="{{site.baseurl}}{{page.previous.url}}">
+                                <span class="round"><i class="fa fa-chevron-left"></i></span>
+                                <span class="txt">Previous</span>
+                            </a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="{{site.baseurl}}{{page.next.url}}">
+                                <span class="txt">Next</span>
+                                <span class="round"><i class="fa fa-chevron-right"></i></span>
+                            </a>
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+                <!--                </div>-->
+
+                <!--                <div class="card text-center shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">-->
+                <!--                    <div class="card-body">-->
+                <!--                        <h5 class="card-title">{{page.tiptitle}}</h5>-->
+                <!--                        <p class="card-text">{{page.tipcontent}}</p>-->
+                <!--                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+
+
+            </div>
+
+            <!-- Card -->
+            <!--            <div class="card testimonial-card">-->
+
+            <!--                &lt;!&ndash; Background color &ndash;&gt;-->
+            <!--                <div class="card-up indigo lighten-1"></div>-->
+
+            <!--                &lt;!&ndash; Avatar &ndash;&gt;-->
+            <!--                <div class="avatar mx-auto white">-->
+            <!--                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle"-->
+            <!--                         alt="woman avatar">-->
+            <!--                </div>-->
+
+            <!--                &lt;!&ndash; Content &ndash;&gt;-->
+            <!--                <div class="card-body">-->
+            <!--                    &lt;!&ndash; Name &ndash;&gt;-->
+            <!--                    <h4 class="card-title">Anna Doe</h4>-->
+            <!--                    <hr>-->
+            <!--                    &lt;!&ndash; Quotation &ndash;&gt;-->
+            <!--                    <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,-->
+            <!--                        adipisci-->
+            <!--                    </p>-->
+            <!--                </div>-->
+
+            <!--            </div>-->
+            <!-- Card -->
+
+        </div>
+
+    </div>
+
+</div>
+
+
