@@ -6,7 +6,7 @@ categories: [ Jekyll, tutorial ]
 tags: [red, yellow]
 image: assets/images/websitescreenshot.jpg
 description: "Clean tutorial to create a free website with medium like theme using github pages , jekyll , mediumish template"
-featured: true
+featured: false
 hidden: true
 rating: 5
 ---
