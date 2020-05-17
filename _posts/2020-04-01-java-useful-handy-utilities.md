@@ -9,7 +9,7 @@ featured: false
 toc: true
 ---
 
-#Print all the elements in a queue. 
+#### Print all the elements in a queue. 
 ```java
 for(Integer x : queue) { 
     System.out.print(x + ","); 

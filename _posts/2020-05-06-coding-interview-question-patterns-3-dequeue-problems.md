@@ -8,9 +8,15 @@ beforetoc: "DEQueue as it stands for double-ended queue (pronouned as 'deck') is
 toc: true
 ---
 
-Dequeue is a datastructure similar to queue with one modification. Normal queue allows us to enqueue elements at the tail of the queue and deque elements
+Dequeue is a data structure similar to queue with one modification. Normal queue allows us to enqueue elements at the tail of the queue and deque elements
 from the head of the queue. But in case of a Dequeue, we can perform enqueue or dequeue from both head or tail. All the operations are similar 
 to queue but just that it allows them on both ends of the queue. 
+
+Top interview problems that can be solved with this pattern include: 
+
+<a target="_blank" href="https://leetcode.com/problems/sliding-window-maximum/">Sliding Window Maximum</a> <br> 
+<a target="_blank" href="https://leetcode.com/problems/largest-rectangle-in-histogram/">Largest rectangle in a histogram</a>
+
 
   
 ```java
