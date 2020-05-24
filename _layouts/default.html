@@ -151,7 +151,7 @@ ga('send', 'pageview');
     {{ content }}
 </div>
 
-{% if site.mailchimp-list %}
+{% if site.mailchimp-list and site.mailchimp-enable%}
 <!-- Bottom Alert Bar
 ================================================== -->
 <div class="alertbar">
