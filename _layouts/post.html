@@ -79,6 +79,20 @@ post_class: post-template
                 {{content}}
             </div>
 
+
+            <!-- Suggested Reads -->
+            {% if page.suggestions %}
+            <div class="rating mb-4 d-flex align-items-center">
+                <strong class="mr-1">What Others are also Reading:</strong>
+
+                {% assign suggestedReads = page.suggestions %}
+                {% for suggestion in suggestedReads %}
+                    <a href="{{site.baseurl}}/{{suggestion}}">{{ suggestion }}</a>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+
             <!-- Rating -->
             {% if page.rating %}
             <div class="rating mb-4 d-flex align-items-center">

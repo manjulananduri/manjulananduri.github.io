@@ -8,8 +8,8 @@ import java.util.stream.Stream;
 
 public class FileGenerator {
     public static void main(String[] args) {
-        String title = "Yo Number Of Islands";
-        String postTitle = "Yo Number of Islands Solution (Leetcode 200) - Top Google Coding Interview Question";
+        String title = "Count Complete Tree Nodes";
+        String postTitle = "Count Complete Tree Nodes (Leetcode 222) - Top Google Coding Interview Question";
         String postFileSuffix = "-top-google-coding-interview-question";
         new FileGenerator().generate(title, postTitle, postFileSuffix);
     }

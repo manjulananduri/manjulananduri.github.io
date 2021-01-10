@@ -16,5 +16,3 @@ Solution:
 ```java
 {% include_relative solutions/java/NumberOfIslands.java %}
 ```
-
-

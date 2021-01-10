@@ -4,14 +4,14 @@ title:  "Coding Interview Questions - Pattern 1 - Tries (Prefix Trees)"
 author: Pramod
 categories: [ Jekyll, tutorial ]
 image: assets/images/trie.png
-beforetoc: "Trie is a must learn data structure for top tech companies. "
+beforetoc: "Trie is a must learn data structure for top tech company interviews."
 toc: true
 ---
 
 One of the most frequently asked coding interview questions for FAANG companies [Facebook (FB), Amazon (AMZN), Apple (AAPL), Netflix (NFLX); and Alphabet (GOOG) (formerly known as Google).] include Tries. 
-Trie has multiple variants. But its very important to learn the data structure befor going to onsite interviews. Lets get into the details of it. 
+Trie has multiple variants. But its very important to learn the data structure before going to onsite interviews. Lets get into the details of it. 
 
-Frequent questions related to trie include: 
+Top Interview Questions related to trie (Must Learn) include: 
 
 <a target="_blank" href="https://leetcode.com/problems/implement-trie-prefix-tree/">Implement Trie Datastructure</a>
 
