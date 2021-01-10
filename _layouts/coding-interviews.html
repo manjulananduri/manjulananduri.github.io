@@ -1,0 +1,25 @@
+---
+title: "Top Interview Questions"
+layout: default
+permalink: "/coding-interviews.html"
+---
+
+<div class="row listrecent">
+    <div class="section-title col-md-12 mt-4">
+        <h2 ><span class="text-capitalize">Top Coding Interview Questions</span></h2>
+    </div>
+
+    {% for post in site.interviews %}
+    {% if post.title != null %}
+    {% if group == null or group == post.group %}
+
+
+    {% include postbox.html %}
+
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
+</div>

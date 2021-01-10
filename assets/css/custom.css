@@ -19,3 +19,17 @@
 .nav-link {
     color: white !important;
 }
+
+.code-post p {
+    margin: 0 0 1rem 0;
+}
+
+
+.code-post {
+    /*font-family: 'Oxygen', serif;*/
+    /*font-size: 1.3rem;*/
+    font-family: merriweather,"pt serif",Georgia,times new roman,serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 1);
+}

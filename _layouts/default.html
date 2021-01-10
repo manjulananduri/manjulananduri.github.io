@@ -6,7 +6,11 @@
 
 <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
 
-<title>{{ page.title }} | {{site.name}}</title>
+
+
+
+
+    <title>{{ page.title }} | {{site.name}}</title>
 
 {% seo %}
 
@@ -77,6 +81,18 @@ ga('send', 'pageview');
                 {% endif %}
                 <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
                 </li>
+
+
+                {% if page.url contains "/interviews/" %}
+                <li class="nav-item active">
+                    {% else %}
+
+                <li class="nav-item">
+                    {% endif %}
+                    <a class="nav-link" href="{{ site.baseurl }}/coding-interviews.html">Interviews</a>
+                </li>
+
+
 
 
                 {% if page.url contains "/tips/" %}
