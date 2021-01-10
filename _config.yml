@@ -62,9 +62,12 @@ adsense-data-ad-slot: "1363087678"
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, 'src', 'out']
 
 collections:
   tips:
     output: true
     permalink: /tips/:path
+  interviews:
+    output: true
+    permalink: /interviews/:path
