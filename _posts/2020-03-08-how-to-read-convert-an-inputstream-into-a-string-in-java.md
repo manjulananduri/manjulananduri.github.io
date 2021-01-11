@@ -9,6 +9,7 @@ description: "How to read or convert an inputstream into a string in java"
 featured: true
 hidden: true
 rating: 5
+suggestions: ['how-to-read-file-as-string-in-java/']
 ---
 
 In many development projects, we might need to convert an InputStream into a String in java. 
