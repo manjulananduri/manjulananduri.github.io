@@ -2,7 +2,7 @@
 layout: post
 title:  "How to read and write to file as a string in java in simple way"
 author: Pramod
-categories: [ Java, Streams ]
+categories: [ Java]
 tags: [red, yellow]
 image: assets/images/FileToString.jpg
 description: "How to read and write to a file as string in java in simple way"
