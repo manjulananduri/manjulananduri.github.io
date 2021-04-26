@@ -1,6 +1,6 @@
 ---
 layout: codepost
-title:  "Cherry Pickup II (Leetcode 1463)"
+title:  "Cherry Pickup II (Leetcode 1463) Solution"
 author: Pramod
 categories: [ Coding, Interviews ]
 tags: [ Coding, Interviews ]
