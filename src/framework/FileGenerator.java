@@ -8,8 +8,8 @@ import java.util.stream.Stream;
 
 public class FileGenerator {
     public static void main(String[] args) {
-        String title = "Meeting Rooms II";
-        String postTitle = "Solution to Meeting Rooms II (Leetcode 253) - Top Google Interview Question";
+        String title = "Longest Substring Without Repeating Characters";
+        String postTitle = "Longest Substring Without Repeating Characters (Leetcode 3) Solution - Top Google, Amazon Interview Question";
         String postFileSuffix = "-top-google-coding-interview-question";
         new FileGenerator().generate(title, postTitle, postFileSuffix);
     }
