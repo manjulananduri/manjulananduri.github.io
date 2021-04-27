@@ -11,7 +11,9 @@ rating: 5
 ---
 
 {% include_relative question/LongestSubstringWithoutRepeatingCharactersQuestion.html%}
-Solution:
+
+<hr>
+<b>Solution:<b>
 ```java
 {% include_relative solutions/java/LongestSubstringWithoutRepeatingCharacters.java%}
 ```

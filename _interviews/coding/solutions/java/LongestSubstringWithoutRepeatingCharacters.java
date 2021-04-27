@@ -8,7 +8,6 @@
  */
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-
         int l = 0;
         int max = 0;
         Map<Character, Integer> map = new HashMap<>();
