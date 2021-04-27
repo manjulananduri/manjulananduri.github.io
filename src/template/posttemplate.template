@@ -11,7 +11,8 @@ rating: 5
 ---
 
 {% include_relative question/>>>questionFileName<<<%}
-Solution:
+<hr>
+<b>Solution:<b>
 ```java
 {% include_relative solutions/java/>>>solutionFileName<<<%}
 ```
