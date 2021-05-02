@@ -33,5 +33,22 @@ Arrays.sort(months,
 );
 Arrays.sort(months, Comparator.comparingInt(String::length));
 
-
 ```
+
+
+#### Integer Parsing from string. 
+```java
+public static void main(String[] args) {
+        String s = "2";
+        int a = s.charAt(0) - '0';
+        System.out.println(a);
+        //result = 2
+        int b = s.charAt(0);
+        System.out.println(b);
+        //result = 50
+    }
+```
+
+
+## Tips for Coding
+1. In binary search, insert position of an element is nothing but the 'start' position (i.e. return start) in a iterative version of binary search.  

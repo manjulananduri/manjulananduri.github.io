@@ -8,9 +8,9 @@ import java.util.stream.Stream;
 
 public class FileGenerator {
     public static void main(String[] args) {
-        String title = "Search Insert Position";
-        String postTitle = "Search Insert Position (Leetcode 35) Solution - Top Interview Question";
-        String postFileSuffix = "-top-coding-interview-question";
+        String title = "Word Ladder";
+        String postTitle = "Word Ladder (Leetcode 127) Solution - Google Interview Question";
+        String postFileSuffix = "-google-coding-interview-question";
         new FileGenerator().generate(title, postTitle, postFileSuffix);
     }
 
