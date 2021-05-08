@@ -8,9 +8,9 @@ import java.util.stream.Stream;
 
 public class FileGenerator {
     public static void main(String[] args) {
-        String title = "Longest Substring with At Most Two Distinct Characters";
-        String postTitle = "Longest Substring with At Most Two Distinct Characters (Leetcode 159) Solution - Top Google Interview Question";
-        String postFileSuffix = "-top-google-coding-interview-question";
+        String title = "Word Ladder";
+        String postTitle = "Word Ladder (Leetcode 127) Solution - Google Interview Question";
+        String postFileSuffix = "-google-coding-interview-question";
         new FileGenerator().generate(title, postTitle, postFileSuffix);
     }
 
