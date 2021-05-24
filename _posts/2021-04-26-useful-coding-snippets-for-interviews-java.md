@@ -49,6 +49,24 @@ public static void main(String[] args) {
     }
 ```
 
+#### Print Integer in Binary or any Base
+```java
+int i = 20;
+Integer.toBinaryString(i); //Prints in Binary 
+Integer.toString(i, 2); //Prints in Base 2 i.e. Binary 
+Integer.toString(i, n); //Prints in Base n
+
+```
+
+#### Java TreeMap. 
+floorKey() : The floorKey method is used to return a keymapping associated with the greatest key less than or equal to the given key, or null if there is no such key.             
+Map.Entry floorEntry(): The floorEntry(K key) method is used to return a key-value mapping associated with the greatest key less than or equal to the given key, or null if there is no such key.
+ceilingKey() : The ceilingKey function of TreeMap Class returns the least key greater than or equal to the given key or null if the such a key is absent.
+
 
 ## Tips for Coding
-1. In binary search, insert position of an element is nothing but the 'start' position (i.e. return start) in a iterative version of binary search.  
+1. In binary search, insert position of an element is nothing but the 'start' position (i.e. return start) in a iterative version of binary search.
+2. Java Long range can be from -10^18 to 10^18 (precisely:  -9,223,372,036,854,775,808 to +9,223,372,036,854,775,807)
+3. If the number of occurances of more than two characters is odd, you cannot form a palindrome with it.   
+4. For palindromes, if the order doesn’t matter, may be go for a counting approach.
+5. In a matrix, current diagonal can be identified with ```int currDiagonal = row - col; int currAntiDiagonal = row + col;``` 
