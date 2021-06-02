@@ -69,4 +69,7 @@ ceilingKey() : The ceilingKey function of TreeMap Class returns the least key gr
 2. Java Long range can be from -10^18 to 10^18 (precisely:  -9,223,372,036,854,775,808 to +9,223,372,036,854,775,807)
 3. If the number of occurances of more than two characters is odd, you cannot form a palindrome with it.   
 4. For palindromes, if the order doesn’t matter, may be go for a counting approach.
-5. In a matrix, current diagonal can be identified with ```int currDiagonal = row - col; int currAntiDiagonal = row + col;``` 
+5. In a matrix, current diagonal can be identified with ```int currDiagonal = row - col; int currAntiDiagonal = row + col;```
+6. For the graph to be a valid tree, it must have exactly n - 1 edges. Any less, and it can't possibly be fully connected. 
+Any more, and it has to contain cycles. Additionally, if the graph is fully connected and contains exactly n - 1 edges, 
+it can't possibly contain a cycle, and therefore must be a tree! 
