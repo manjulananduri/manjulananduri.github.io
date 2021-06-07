@@ -8,8 +8,8 @@ import java.util.stream.Stream;
 
 public class FileGenerator {
     public static void main(String[] args) {
-        String title = "Is Graph Bipartite";
-        String postTitle = "Is Graph Bipartite (Leetcode 785) Solution - Coding Interview Question";
+        String title = "Unique Binary Search Trees";
+        String postTitle = "Unique Binary Search Trees (Leetcode 96) Solution - Coding Interview Question";
         String postFileSuffix = "-coding-interview-question";
         new FileGenerator().generate(title, postTitle, postFileSuffix);
     }
