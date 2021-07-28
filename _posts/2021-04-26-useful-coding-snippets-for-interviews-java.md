@@ -73,3 +73,4 @@ ceilingKey() : The ceilingKey function of TreeMap Class returns the least key gr
 6. For the graph to be a valid tree, it must have exactly n - 1 edges. Any less, and it can't possibly be fully connected. 
 Any more, and it has to contain cycles. Additionally, if the graph is fully connected and contains exactly n - 1 edges, 
 it can't possibly contain a cycle, and therefore must be a tree! 
+7. In some questions they ask for MOD (of 10^9 + 7) if the range is high. In that case you can define mod as int MOD = (1e9 + 7). The answer will be x % MOD. 
