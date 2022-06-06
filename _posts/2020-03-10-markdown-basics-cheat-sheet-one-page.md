@@ -19,6 +19,7 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
     <tr>
         <th>Style</th>
         <th>Syntax</th>
+        <th>Preview</th>
     </tr>
     <tr>
         <td>Heading style</td>
@@ -27,6 +28,14 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
             ## Heading Level 2<br>
             ### Heading Level 3<br>
             #### Heading Level 4<br>
+        </td>
+        <td>
+            <span style="display:block"> 
+                # Heading Level 1 <br>
+                ## Heading Level 2<br>
+                ### Heading Level 3<br>
+                #### Heading Level 4<br>
+            </span>
         </td>
     </tr>
     <tr>
