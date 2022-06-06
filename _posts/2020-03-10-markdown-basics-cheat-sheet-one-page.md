@@ -1,19 +1,15 @@
 ---
-layout: post
-title:  "Markdown one page syntax reference"
-author: Pramod
-categories: [ Markdown, Html ]
+layout: post title:  "Markdown one page syntax reference"
+author: Pramod categories: [ Markdown, Html ]
 tags: [red, yellow]
-image: assets/images/markdown.png
-beforetoc: "Markdown is a lightweight markup language for writing formatted elements with plain text"
-toc: true
-featured: true
-hidden: true
-rating: 4.5
+image: assets/images/markdown.png beforetoc: "Markdown is a lightweight markup language for writing formatted elements
+with plain text"
+toc: true featured: true hidden: true rating: 4.5
 ---
 
-When writing blog posts or news articles, Markdown language provides a simple syntax for a novice blogger to add styles to their content.  
-Here is the quick reference for Markdown syntax. Drop your questions in the comments below.  
+When writing blog posts or news articles, Markdown language provides a simple syntax for a novice blogger to add styles
+to their content.  
+Here is the quick reference for Markdown syntax. Drop your questions in the comments below.
 
 <table style="width:100%; border-collapse:collapse; border:1px solid #69899F; text-align:center" border="1">
     <tr>
@@ -30,12 +26,10 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
             #### Heading Level 4<br>
         </td>
         <td>
-            <span style="display:block"> 
-                # Heading Level 1 <br>
-                ## Heading Level 2<br>
-                ### Heading Level 3<br>
-                #### Heading Level 4<br>
-            </span>
+            <h1>Heading Level 1</h1>
+            <h2>Heading Level 2</h2>
+            <h3>Heading Level 3</h3>
+            <h4>Heading Level 4</h4>
         </td>
     </tr>
     <tr>
@@ -45,13 +39,8 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
         <td>
             ---    
         </td>
-    </tr>
-    <tr>
         <td>
-            Italic
-        </td>
-        <td>
-            *Italic text*    
+            <hr>    
         </td>
     </tr>
     <tr>
@@ -60,6 +49,20 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
         </td>
         <td>
             **Bold text**    
+        </td>
+        <td>
+            <b>Bold text</b>    
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Italic
+        </td>
+        <td>
+            *Italic text*    
+        </td>
+        <td>
+            <i>Italic text</i>    
         </td>
     </tr>
     <tr>
@@ -86,6 +89,13 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
             ```java <br>
                 Your code goes here. <br>
             ```   
+        </td>
+        <td>
+            <div markdown="1">
+                ```java <br>
+                    Your code goes here. <br>
+                ```   
+            </div>
         </td>
     </tr>
     <tr>
@@ -115,6 +125,13 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
             - Second item<br>
             - Third item   <br>
         </td>
+        <td>
+            <div markdown="1">
+            - First item<br>
+            - Second item<br>
+            - Third item   <br>
+            </div>
+        </td>
     </tr>
     <tr>
         <td>
@@ -132,6 +149,7 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
             ![alt text](myimage.jpg)   
         </td>
     </tr>
+
 </table>
 
 
