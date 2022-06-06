@@ -1,12 +1,12 @@
 ---
 layout: post 
-title:  "Markdown one page syntax reference"
+title:  "Basic Markdown syntax cheatsheet"
 author: Pramod 
 categories: [ Markdown, Html ]
-tags: [red, yellow]
-image: assets/images/markdown.png 
+tags: [red, yellow] 
 beforetoc: "Markdown is a lightweight markup language for writing formatted elements with plain text"
-toc: true 
+toc: true
+image: assets/images/markdown.jpeg
 featured: true 
 hidden: true 
 rating: 5
@@ -45,7 +45,7 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
             ---    
         </td>
         <td>
-            <hr>    
+            <b><hr width="80%" color="black"></b>    
         </td>
     </tr>
     <tr>
@@ -75,7 +75,14 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
             Blockquote
         </td>
         <td>
-            > Text in a seperate block    
+            > Text in a seperate block
+        </td>
+        <td>
+            <center>
+                <pre width="50%">
+                    > Text in a seperate block
+                </pre>
+            </center>
         </td>
     </tr>
     <tr>
@@ -83,7 +90,10 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
             Code Snippet
         </td>
         <td>
-            `code`   
+                `Single line code`
+        </td>
+        <td>
+                <span class="code-block-singleline">Single line code</span>
         </td>
     </tr>
     <tr>
@@ -91,29 +101,20 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
             Code Block
         </td>
         <td>
-            ```java <br>
-                Your code goes here. <br>
-            ```   
+            ```<br>
+                Multi line code <br>
+                Line 1<br>
+                Line 2...<br>
+            ```
         </td>
         <td>
-            <div  markdown=1>
-                ```java <br>
-                    Your code goes here. <br>
-                ```   
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Code Snippet
-        </td>
-        <td>
-            `code`
-        </td>
-        <td>
-            <div  markdown=1>
-                `code`
-            </div>
+            <center>
+                <div class="code-block-multiline">
+                    Multi line code <br>
+                        Line 1<br>
+                    Line 2...<br>
+                </div>
+            </center>
         </td>
     </tr>
     <tr>
@@ -124,6 +125,15 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
             1. First item<br>
             2. Second item<br>
             3. Third item<br>
+        </td>
+        <td>
+            <div>
+                <ol>
+                    <li style="padding-left:1em">First item</li>
+                    <li style="padding-left:1em">Second item</li>
+                    <li style="padding-left:1em">Third item</li>
+                </ol>
+            </div>
         </td>
     </tr>
     <tr>
@@ -136,11 +146,11 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
             - Third item   <br>
         </td>
         <td>
-            <div>
-            - First item<br>
-            - Second item<br>
-            - Third item   <br>
-            </div>
+           <ul>
+                <li style="padding-left:1em">First item</li>
+                <li style="padding-left:1em">Second item</li>
+                <li style="padding-left:1em">Third item</li>
+            </ul>
         </td>
     </tr>
     <tr>
@@ -150,16 +160,27 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
         <td>
             [title](https://www.pramod.me)   
         </td>
+        <td>
+            <a href="https://www.pramod.me">Link</a>   
+        </td>
     </tr>
     <tr>
         <td>
             Image
         </td>
         <td>
-            ![alt text](myimage.jpg)   
+            ![alt text](images/markdown.jpeg)   
+        </td>
+        <td>
+            <div style="margin:5px">
+                <img alt="markdown.jpeg"  src="../assets/images/markdown.jpeg" height="1%" width="10%"/>
+            </div>
         </td>
     </tr>
 
 </table>
+<br>
+
+If you would like to see other markdown elements as part of this cheatsheet , please leave a comment below. 
 
 
