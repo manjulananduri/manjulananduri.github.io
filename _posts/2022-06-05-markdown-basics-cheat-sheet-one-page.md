@@ -1,10 +1,15 @@
 ---
-layout: post title:  "Markdown one page syntax reference"
-author: Pramod categories: [ Markdown, Html ]
+layout: post 
+title:  "Markdown one page syntax reference"
+author: Pramod 
+categories: [ Markdown, Html ]
 tags: [red, yellow]
-image: assets/images/markdown.png beforetoc: "Markdown is a lightweight markup language for writing formatted elements
-with plain text"
-toc: true featured: true hidden: true rating: 4.5
+image: assets/images/markdown.png 
+beforetoc: "Markdown is a lightweight markup language for writing formatted elements with plain text"
+toc: true 
+featured: true 
+hidden: true 
+rating: 5
 ---
 
 When writing blog posts or news articles, Markdown language provides a simple syntax for a novice blogger to add styles
@@ -91,7 +96,7 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
             ```   
         </td>
         <td>
-            <div markdown=1>
+            <div  markdown=1>
                 ```java <br>
                     Your code goes here. <br>
                 ```   
@@ -103,7 +108,12 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
             Code Snippet
         </td>
         <td>
-            `code`   
+            `code`
+        </td>
+        <td>
+            <div  markdown=1>
+                `code`
+            </div>
         </td>
     </tr>
     <tr>
@@ -126,7 +136,7 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
             - Third item   <br>
         </td>
         <td>
-            <div markdown=1>
+            <div>
             - First item<br>
             - Second item<br>
             - Third item   <br>
