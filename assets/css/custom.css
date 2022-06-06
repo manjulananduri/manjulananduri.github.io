@@ -24,6 +24,24 @@
     margin: 0 0 1rem 0;
 }
 
+.code-block-singleline {
+  font-family: monospace;
+  background-color: #e9ecef;
+  margin: 0px;
+  padding:4px;
+  border-radius: 4px;
+  overflow: auto;
+  width: 50%;
+}
+
+.code-block-multiline {
+  font-family: monospace;
+  background-color: #e9ecef;
+  margin: 20px;
+  padding:4px;
+  border-radius: 4px;
+  width: 50%;
+}
 
 .code-post {
     /*font-family: 'Oxygen', serif;*/
