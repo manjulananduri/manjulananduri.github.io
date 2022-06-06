@@ -91,7 +91,7 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
             ```   
         </td>
         <td>
-            <div markdown="1">
+            <div markdown=1>
                 ```java <br>
                     Your code goes here. <br>
                 ```   
@@ -126,7 +126,7 @@ Here is the quick reference for Markdown syntax. Drop your questions in the comm
             - Third item   <br>
         </td>
         <td>
-            <div markdown="1">
+            <div markdown=1>
             - First item<br>
             - Second item<br>
             - Third item   <br>
