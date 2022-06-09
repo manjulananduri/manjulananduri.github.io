@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  "Useful snippets for coding interviews - Java"
+title:  "Java Programming Tips for interviews"
 author: Pramod
 categories: [ Jekyll, tutorial ]
-image: 
+image: assets/images/java_tips.png
 beforetoc: "Here are some of the most useful utilities in Java"
-featured: false
+featured: true
 toc: true
 ---
+
 
 #### Print all the elements in a queue.
  
@@ -64,7 +65,7 @@ Map.Entry floorEntry(): The floorEntry(K key) method is used to return a key-val
 ceilingKey() : The ceilingKey function of TreeMap Class returns the least key greater than or equal to the given key or null if the such a key is absent.
 
 
-## Tips for Coding
+## Additional tips for programming
 1. In binary search, insert position of an element is nothing but the 'start' position (i.e. return start) in a iterative version of binary search.
 2. Java Long range can be from -10^18 to 10^18 (precisely:  -9,223,372,036,854,775,808 to +9,223,372,036,854,775,807)
 3. If the number of occurances of more than two characters is odd, you cannot form a palindrome with it.   
@@ -75,4 +76,3 @@ Any more, and it has to contain cycles. Additionally, if the graph is fully conn
 it can't possibly contain a cycle, and therefore must be a tree! 
 7. In some questions they ask for MOD (of 10^9 + 7) if the range is high. In that case you can define mod as int MOD = (1e9 + 7). The answer will be x % MOD.
 8. Time complexity of a recursive function is : O(Number of Branches ^ depth of each branch). 
-   1. 

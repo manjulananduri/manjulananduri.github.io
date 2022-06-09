@@ -2,11 +2,11 @@
 layout: post
 title:  "How to read or convert an inputstream into a string in java"
 author: Pramod
-categories: [ Java]
+categories: [Java]
 tags: [red, yellow]
 image: assets/images/javastream.jpeg
 description: "How to read or convert an inputstream into a string in java"
-featured: true
+featured: false
 hidden: true
 rating: 5
 suggestions: ['how-to-read-file-as-string-in-java/']

@@ -12,7 +12,7 @@ rating: 5
 suggestions: ['how-to-read-convert-an-inputstream-into-a-string-in-java/']
 ---
 
-In many development projects, we might need to convert a file into a String in java. 
+In many programming projects, converting a file into a String is one of the most common use cases for development.  
 In this tutorial we will discuss simple and handpicked ways to read or convert a file into a String in Java.
 Depending upon your project configuration, you can use any of the following methods.   
 
