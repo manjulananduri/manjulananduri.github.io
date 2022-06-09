@@ -5,8 +5,8 @@ description: "Tip Season - Tech & Coding Interview Tips and Tricks"
 #logo: 'assets/images/logo1.png'
 #favicon: 'assets/images/logo.png'
 baseurl: ''
-google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
+google_analytics: 'G-KBVC6R6HS5'
+disqus: 'tipseason'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 mailchimp-enable: false
 include: ["_pages"]
