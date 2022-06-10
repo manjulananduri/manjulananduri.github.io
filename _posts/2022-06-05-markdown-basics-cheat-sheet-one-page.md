@@ -13,7 +13,9 @@ rating: 5
 ---
 
 When writing blog posts or news articles, Markdown language provides a simple syntax for a novice blogger to add styles
-to their content.  
+to their content. Most blogging websites such as medium, github pages use markdown for writing blog posts. In addition 
+developer documentation such as README docs are also written in markdown docs as it is more developer friendly too. 
+
 Here is the quick reference for Markdown syntax. Drop your questions in the comments below.
 
 <table style="width:100%; border-collapse:collapse; border:1px solid #69899F; text-align:center" border="1">
