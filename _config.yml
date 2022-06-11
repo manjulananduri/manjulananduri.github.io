@@ -15,13 +15,13 @@ permalink: /:title/
 # Authors
 authors:
   Pramod:
-    name: Pramod
-    display_name: Pramod
+    name: Mani
+    display_name: Mani
     avatar: 'assets/images/avatar.png'
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: pramodnanduri at gmail dot com
     web: http://www.pramod.me
-    twitter: https://twitter.com/pramodnanduri
+    twitter: https://twitter.com/thetipseason
     description: "Educating everyone with the beauty of programming!!"
 
 # Plugins
