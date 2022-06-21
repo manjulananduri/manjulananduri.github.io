@@ -70,6 +70,13 @@ post_class: post-template
                     {% if page.beforetoc %}
                         <p><em>{{page.beforetoc}}</em></p>
                     {% endif %}
+                    {% if page.tableofcontents %}
+                        <div class="alert alert-success" role="alert">
+                            <span class="text"><i class="material-icons">star</i> Table of Contents:</span>
+                            {% include toc.html html=content sanitize=true class="inline_toc" item_class="toc_items" id="my_toc" h_min=2 h_max=3 %}
+                        </div>
+                    {% endif %}
+
 <!--                    <div class="toc mt-4 mb-4 lead">-->
 <!--                        <h3 class="font-weight-bold">Summary</h3>-->
 <!--                        {% include toc.html html=content %}-->
@@ -80,14 +87,21 @@ post_class: post-template
             </div>
 
 
+            <!-- Post promotion -->
+            {% include promote.html %}
+            <!-- End of Post promotion -->
+
+
             <!-- Suggested Reads -->
             {% if page.suggestions %}
             <div class="rating mb-4 d-flex align-items-center">
                 <strong class="mr-1">What Others are also Reading:</strong>
-
+                <br>
                 {% assign suggestedReads = page.suggestions %}
                 {% for suggestion in suggestedReads %}
-                    <a href="{{site.baseurl}}/{{suggestion}}">{{ suggestion }}</a>
+                    <div>
+                        <a href="{{site.baseurl}}/{{suggestion}}">{{suggestion}}</a>
+                    </div>
                 {% endfor %}
             </div>
             {% endif %}
@@ -99,6 +113,8 @@ post_class: post-template
                 <strong class="mr-1">Rating:</strong> {% include star_rating.html %}
             </div>
             {% endif %}
+
+            <hr>
 
             <!-- Post Date -->
             <p>
