@@ -34,6 +34,16 @@
   width: 50%;
 }
 
+.code-block-singleline-fullwidth {
+  font-family: merriweather,"pt serif",Georgia,times new roman,serif;
+  background-color: #e9ecef;
+  color: #481313;
+  margin: 0px;
+  padding:4px;
+  border-radius: 4px;
+  overflow: auto;
+}
+
 .code-block-multiline {
   font-family: monospace;
   background-color: #e9ecef;
@@ -43,6 +53,11 @@
   width: 50%;
 }
 
+.code-highlight-focus {
+    color: #007dd4;
+    font-weight: 500;
+}
+
 .code-post {
     /*font-family: 'Oxygen', serif;*/
     /*font-size: 1.3rem;*/
@@ -50,4 +65,8 @@
     font-size: 1.1rem;
     line-height: 1.6;
     color: rgba(0, 0, 0, 1);
+}
+
+.toc_items a:link {
+    color: #09774e;
 }

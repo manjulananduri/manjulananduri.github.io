@@ -8,8 +8,8 @@ import java.util.stream.Stream;
 
 public class FileGenerator {
     public static void main(String[] args) {
-        String title = "Network Delay Time";
-        String postTitle = "Network Delay Time - (Leetcode 743) - Coding Interview Question";
+        String title = "Find K Closest Elements";
+        String postTitle = "Find K Closest Elements - (Leetcode 658) - Coding Interview Question";
         String postFileSuffix = "-coding-interview-question";
         new FileGenerator().generate(title, postTitle, postFileSuffix);
     }

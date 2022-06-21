@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * This is a variation of Unbounded Knapsack DP.
  * Important points to note:
@@ -29,4 +31,4 @@ class Solution {
 
         return dp[w.length][c] == Integer.MAX_VALUE / 2 ? -1 : dp[w.length][c];
     }
-}z
+}
