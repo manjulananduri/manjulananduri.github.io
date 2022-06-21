@@ -17,15 +17,15 @@ promote: true
 
 ## Introduction
 
-PostgreSQL and MySQL are widely used databases by major companies across multiple projects given the amount of scale and
+PostgreSQL and MySQL are widely used databases by major companies across multiple projects, given the amount of scale and
 performance these databases can handle. Many developers work on these two important databases when transitioning to
 different projects or different companies. When we get used to one database for example MySQL and then transition to
-other database say PostgresSQL or viceversa, then we tend to use the same commands across each other. However, syntax
+another database say PostgresSQL or viceversa, then we tend to use the same commands across each other. However, syntax
 for postgres and mysql is slightly different. In this tutorial we will compare and understand the differences between 
-PostgreSQL and MySQL in terms of syntax for various different operations or queries that are frequently used in 
+PostgreSQL and MySQL in terms of syntax for various operations or queries that are frequently used in 
 production systems. 
 
-For the purpose of this tutorial we use `psql` and `mysql` client for showing different examples. As a quick recap,<br>
+For the purpose of this tutorial we use `psql` and `mysql` clients for showcasing examples. As a quick recap,<br>
 `psql` is a terminal based client for PostgreSQL. We can connect to PostgreSQL server with `psql` and perform different operations.<br>
 `mysql` is a terminal based client for MySQL. We can connect to MySQL server with `mysql` and perform different operations.<br>
 So let's get started.
@@ -224,7 +224,7 @@ fields, index etc, we can use the below queries.
 
 ##### Describe table in PostgreSQL:
 To describe a table in PostgreSQL, we can use : `\dt {table_name}` or `\dt+ {table_name}`
-Alternatively `\d {table_name}` or `\d+ {table_name}` can also be used with each of the queries having slightly different columns. 
+Alternatively `\d {table_name}` or `\d+ {table_name}` can also be used with each of the queries resulting in slightly different columns. 
 
 <blockquote class="code-block-singleline-fullwidth">
     <div><span class="code-highlight-focus">\dt {table_name} </span> Gives basic information about specific table</div>
