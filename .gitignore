@@ -2,7 +2,9 @@ _site
 .DS_Store
 .idea
 .idea/misc.xml
+.idea/mediumish-theme-jekyll.iml
 *.swp
 .sass-cache
 *~
 *.iml
+.jekyll-cache
