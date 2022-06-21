@@ -1,6 +1,6 @@
 ---
 layout: post 
-title:  "PostgreSQL Vs MySQL differences in syntax side by side comparison cheatsheet for show databases, tables, schemas and more"
+title:  "PostgreSQL Vs MySQL differences in syntax - side by side comparison cheatsheet for show databases, tables, schemas and more"
 author: Pramod 
 categories: [MySQL, PostgreSQL]
 tags: [red, yellow]
@@ -11,7 +11,6 @@ suggestions: ['how-to-read-convert-an-inputstream-into-a-string-in-java/']
 beforetoc: "PostgreSQL Vs MySQL Syntax Comparison - Cheatsheet for databases, tables, schemas"
 toc: true
 promote: true
-featured: true
 ---
 
 In the previous post for [PostgreSQL Vs MySQL Syntax Comparison - Useful basic commands with examples](/postgres-vs-mysql-syntax-comparision/) , we compared the detailed differences between PostgreSQL

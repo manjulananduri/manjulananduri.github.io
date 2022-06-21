@@ -1,0 +1,121 @@
+---
+title: "Developer TimeZone Converter"
+layout: default
+permalink: "/timezone-converter.html"
+disqus: false
+archive: false
+---
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.33/moment-timezone.min.js"
+        integrity="sha512-jkvef+BAlqJubZdUhcyvaE84uD9XOoLR3e5GGX7YW7y8ywt0rwcGmTQHoxSMRzrJA3+Jh2T8Uy6f8TLU3WQhpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.33/moment-timezone-with-data.min.js"
+        integrity="sha512-rjmacQUGnwQ4OAAt3MoAmWDQIuswESNZwYcKC8nmdCIxAVkRC/Lk2ta2CWGgCZyS+FfBWPgaO01LvgwU/BX50Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="/assets/js/timezone.js"></script>
+<link rel="stylesheet" href="/assets/css/autosuggest.css">
+<script src="/assets/js/typeahead.bundle.js"></script>
+
+<div class="container">
+    <div class="row">
+
+        <!-- Post Share -->
+        <div class="col-md-2 pl-0">
+            {% include share.html %}
+        </div>
+
+        <div class="col-md-9 flex-first flex-md-unordered">
+            <div class="jumbotron">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <label for="fromTimeZone" class="form-label">From TimeZone (Eg: PST) </label>
+                            <br>
+                            <input type="text" class="form-control typeahead tt-query " id="fromTimeZone"
+                                   spellcheck="false"
+                                   placeholder="America/Los_Angeles">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="toTimeZone" class="form-label">To TimeZone (Eg: IST) </label>
+                            <br>
+                            <input type="text" class="form-control typeahead tt-query " id="toTimeZone"
+                                   spellcheck="false"
+                                   placeholder="America/Los_Angeles">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="time" class="form-label">Time (In any valid format) </label>
+                            <br>
+                            <input type="text" class="form-control typeahead tt-query " placeholder="Time" id="time"
+                                   aria-label="Time to convert" aria-describedby="basic-addon2">
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="button" value="Convert" class="btn btn-success">
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+$(document).ready(function(){
+    // Defining the local dataset
+    var cars = ['Audi', 'BMW', 'Bugatti', 'Ferrari', 'Ford', 'Lamborghini', 'Mercedes Benz', 'Porsche', 'Rolls-Royce', 'Volkswagen'];
+
+    // Constructing the suggestion engine
+    var cars = new Bloodhound({
+        datumTokenizer: Bloodhound.tokenizers.whitespace,
+        queryTokenizer: Bloodhound.tokenizers.whitespace,
+        local: cars
+    });
+
+    // Initializing the typeahead
+    $('.typeahead').typeahead({
+        hint: true,
+        highlight: true, /* Enable substring highlighting */
+        minLength: 1 /* Specify minimum characters required for showing result */
+    },
+    {
+        name: 'cars',
+        source: cars
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
