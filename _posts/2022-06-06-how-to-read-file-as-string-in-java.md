@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to read and write to file as a string in java in simple way"
+title:  "How to read and write to file as a string in java in 5 simple ways"
 author: Pramod
 categories: [ Java]
 tags: [red, yellow]
