@@ -1,8 +1,8 @@
 _site
 .DS_Store
 .idea
-.idea/*
+.idea/misc.xml
 *.swp
 .sass-cache
 *~
-t
+*.iml
