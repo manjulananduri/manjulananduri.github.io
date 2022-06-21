@@ -1,6 +1,6 @@
 ---
 layout: post 
-title:  "PostgreSQL Vs MySQL differences in syntax side by side comparison cheatsheet for show databases, tables, schemas and more"
+title:  "PostgreSQL Vs MySQL differences in syntax - side by side comparison cheatsheet for show databases, tables, schemas and more"
 author: Pramod 
 categories: [MySQL, PostgreSQL]
 tags: [red, yellow]
