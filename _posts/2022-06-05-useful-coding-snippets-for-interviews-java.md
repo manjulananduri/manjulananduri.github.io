@@ -72,7 +72,7 @@ ceilingKey() : The ceilingKey function of TreeMap Class returns the least key gr
 
 
 ## Additional tips for programming
-1. In binary search, insert position of an element is nothing but the 'start' position (i.e. return start) in a iterative version of binary search.
+1. In binary search, insert position of an element is nothing but the 'start' position (i.e. return start) in a iterative version of binary search. Using insert position problem, helps you solve many similar binary search problems. 
 2. Java Long range can be from -10^18 to 10^18 (precisely:  -9,223,372,036,854,775,808 to +9,223,372,036,854,775,807)
 3. If the number of occurances of more than two characters is odd, you cannot form a palindrome with it.   
 4. For palindromes, if the order doesn’t matter, may be go for a counting approach.
