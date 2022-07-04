@@ -11,8 +11,9 @@ toc: true
 
 
 #### Print all the elements in a queue.
- 
-```java
+If the queue has objects then using `System.out.println(queue)` will print hashcodes. So instead you can use: 
+
+```java 
 for(Integer x : queue) { 
     System.out.print(x + ","); 
 }
@@ -37,7 +38,7 @@ Arrays.sort(months, Comparator.comparingInt(String::length));
 ```
 
 
-#### Integer Parsing from string. 
+#### Digit Parsing from string. 
 ```java
 public static void main(String[] args) {
         String s = "2";
@@ -48,6 +49,11 @@ public static void main(String[] args) {
         System.out.println(b);
         //result = 50
     }
+```
+
+#### Integer Parsing from string.
+```java
+You can use Integer.valueOf(s) 
 ```
 
 #### Print Integer in Binary or any Base
