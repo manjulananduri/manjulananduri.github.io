@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DBT(Data build tool) in a real world scenario, Beginner DBT tutorial"
+title:  "DBT(Data build tool) course for beginners with dbt cloud + snowflake"
 author: Pramod
 categories: [DataScience, MySQL, PostgreSQL]
 tags: [red, yellow]
