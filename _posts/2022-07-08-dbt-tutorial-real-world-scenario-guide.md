@@ -29,15 +29,6 @@ To do that, with dbt you can develop, test, document and deploy the entire data 
 
 Maybe you still didn’t get it fully Right! Let’s take a real world example.
 
-<div class="alert alert-warning" role="alert">
-    <span class="text"><i class="material-icons">star</i>We are launching a DBT course for beginners with practical hands on project. <br>
-      First 20 people to signup for the course, will get course for free and next 30 people will get a 50% discount. Make sure to signup here.
-   </span>
-</div>
-
-
-{% include mailchimp.html %}
-
 ## DBT Real world example
 
 Imagine you are running an e-commerce website something like Amazon or Shopify or any other online store.
@@ -143,6 +134,12 @@ So your analytics engineers can act as software engineers as they can directly i
 
 
 If you don’t know what these roles are or you just started playing around Data, make sure you go signup for this course.
+
+<div class="alert alert-warning" role="alert">
+    <span class="text"><i class="material-icons">star</i>We are launching a DBT course for beginners with practical hands on project. <br>
+      First 20 people to signup for the course, will get course for free and next 30 people will get a 50% discount. Make sure to signup here.
+   </span>
+</div>
 
 {% include mailchimp.html %}
 
