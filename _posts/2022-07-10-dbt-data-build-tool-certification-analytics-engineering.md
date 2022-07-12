@@ -1,23 +1,23 @@
 ---
 layout: post
-title:  "dbt(Data build tool) course for beginners with dbt cloud + snowflake"
+title:  "DBT(Data build tool) course for beginners with dbt cloud + snowflake"
 author: Pramod
 categories: [DataScience, MySQL, PostgreSQL]
 tags: [red, yellow]
 image: 
-description: "dbt (Data build tool) explained with real world example, going from ETL to ELT and where exactly dbt fits in data transformation. A detailed course towards dbt certification"
+description: "DBT(Data build tool) explained with real world example, going from ETL to ELT and where exactly dbt fits in data transformation. DBT as it stands for data build tool connects with your data warehouse directly and can interact with all data reads and writes. If you want to perform some data analysis all we need to do is write simple SELECT queries on the raw data table. Once you write your SELECT query and run it, DBT automatically takes care of fetching the data, applying all different validations, logics and writes the data back into your warehouse."
 featured: false
 hidden: true
 suggestions: ['postgres-vs-mysql-syntax-comparision/']
-beforetoc: "dbt is a developmental framework that helps doing data data tranformation with simple SELECT queris. "
+beforetoc: "DBT is a developmental framework that helps doing data data tranformation with simple SELECT queris. "
 toc: true
 tableofcontents: false
 promote: true
 ---
 
-In the previous post we discussed about what dbt (data build tool) is in a real world scenario. You can check it out here [DBT Real world Tutorial](/dbt-tutorial-real-world-scenario-guide/)
+In the previous post we discussed about what dbt (data build tool) is in a real world scenario. You can check it out here [dbt Real world Tutorial](/dbt-tutorial-real-world-scenario-guide/)
 
-DBT has become one of the most emerging technologies for data transformation in ELT world. 
+dbt has become one of the most emerging technologies for data transformation in ELT world. 
 To help understand DBT with a real hands on project, we are launching a DBT course for beginners. This includes 
 detailed video explanation + working with dbt cloud with live demos. 
 
@@ -35,12 +35,12 @@ Here are the topics what we will be covering in this course.
 # Course Introduction
 - What , Why, How to use dbt
 
-1. What is dbt in a real world scenario ?
+1. What is DBT in a real world scenario ?
 - Introduction
 - ETL Vs ELT with example
 - Data analytics + Database Engineer = Analytics engineer
 
-2. Set up dbt with Snowflake
+2. Set up DBT with Snowflake
 - Project introduction + dbt setup Architecture
 - Setting up dbt Cloud
 - How to Set up Snowflake and connect with dbt.
@@ -72,12 +72,12 @@ Here are the topics what we will be covering in this course.
 - How to use Jinja in dbt
 - How to use Jinja with dbt macros ?
 
-7. Packages in dbt
+7. Packages in DBT
 - What are packages in dbt?
 - Integrating packages with dbt.
 
-8. Deployment in dbt
-- dbt Cloud job
+8. Deployment in DBT
+- DBT Cloud job
 - Monitor your dbt deployment
 
 9. Bonus content:
