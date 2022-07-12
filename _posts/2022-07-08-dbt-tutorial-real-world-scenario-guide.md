@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "dbt (Data build tool) in a real world scenario, Beginner dbt tutorial"
+title:  "dbt (data build tool) in a real world scenario, Beginner dbt tutorial"
 author: Pramod
 categories: [DataScience, MySQL, PostgreSQL]
 tags: [red, yellow]
 image: assets/images/dbt-introduction-tutorial.png
-description: "dbt (Data build tool) explained with real world example, going from ETL to ELT and where exactly dbt fits in data transformation. dbt as it stands for data build tool connects with your data warehouse directly and can interact with all data reads and writes. If you want to perform some data analysis all we need to do is write simple SELECT queries on the raw data table. Once you write your SELECT query and run it, dbt automatically takes care of fetching the data, applying all different validations, logics and writes the data back into your warehouse."
+description: "dbt (data build tool) explained with real world example, going from ETL to ELT and where exactly dbt fits in data transformation. dbt as it stands for data build tool connects with your data warehouse directly and can interact with all data reads and writes. If you want to perform some data analysis all we need to do is write simple SELECT queries on the raw data table. Once you write your SELECT query and run it, dbt automatically takes care of fetching the data, applying all different validations, logics and writes the data back into your warehouse."
 featured: true
 hidden: true
 suggestions: ['postgres-vs-mysql-syntax-comparision/']
@@ -76,7 +76,7 @@ In data world, they call this process as **ETL** (Extract, Transform, Load)  . W
 
 Wait, I still don't see dbt in this!
 
-## dbt (Data Build tool) Helps in Data transformation
+## dbt (data Build tool) Helps in Data transformation
 
 To understand that, let's zoom into what  happens behind the scenes into **Transform** part.
 To make your raw data into something meaningful, you transform your data by applying various operations such as data cleaning, data validation and so on. Some quick examples can include removing duplicates, checking for null values, checking for primary keys, foreign keys and custom business rules like currency conversion and so on.
