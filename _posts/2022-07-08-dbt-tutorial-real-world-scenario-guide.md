@@ -1,35 +1,35 @@
 ---
 layout: post
-title:  "DBT(Data build tool) in a real world scenario, Beginner DBT tutorial"
+title:  "dbt (Data build tool) in a real world scenario, Beginner dbt tutorial"
 author: Pramod
 categories: [DataScience, MySQL, PostgreSQL]
 tags: [red, yellow]
 image: assets/images/dbt-introduction-tutorial.png
-description: "DBT(Data build tool) explained with real world example, going from ETL to ELT and where exactly dbt fits in data transformation. DBT as it stands for data build tool connects with your data warehouse directly and can interact with all data reads and writes. If you want to perform some data analysis all we need to do is write simple SELECT queries on the raw data table. Once you write your SELECT query and run it, DBT automatically takes care of fetching the data, applying all different validations, logics and writes the data back into your warehouse."
+description: "dbt (Data build tool) explained with real world example, going from ETL to ELT and where exactly dbt fits in data transformation. dbt as it stands for data build tool connects with your data warehouse directly and can interact with all data reads and writes. If you want to perform some data analysis all we need to do is write simple SELECT queries on the raw data table. Once you write your SELECT query and run it, dbt automatically takes care of fetching the data, applying all different validations, logics and writes the data back into your warehouse."
 featured: true
 hidden: true
 suggestions: ['postgres-vs-mysql-syntax-comparision/']
-beforetoc: "DBT is a developmental framework that helps doing data data tranformation with simple SELECT queris. "
+beforetoc: "dbt is a developmental framework that helps doing data data tranformation with simple SELECT queris. "
 toc: true
 tableofcontents: true
 promote: true
 ---
 
-DBT (data build tool) has become one of the most used developmental frameworks for Data transformation. However most people don't actually get **What, Why and How** part of **DBT**. In this guide we will go through basics of DBT focusing primarily on What is DBT! and where does it fit with a real world project example. We will slowly evolve from ETL to ELT process and finally understand the exact use case of DBT. Make sure you read through end of this article to learn a lot of Data Analytics and Data Analysis topics in real world.
+dbt (data build tool) has become one of the most used developmental frameworks for Data transformation. However most people don't actually get **What, Why and How** part of **dbt**. In this guide we will go through basics of dbt focusing primarily on What is dbt! and where does it fit with a real world project example. We will slowly evolve from ETL to ELT process and finally understand the exact use case of dbt. Make sure you read through end of this article to learn a lot of Data Analytics and Data Analysis topics in real world.
 
-## What is DBT  ?
+## What is dbt  ?
 
 Let's say you have a huge amount of raw data. For beginners, raw data can be any kind of data collected from different sources and it can contain various information like urls, payment details, order information and so on. As you can imagine, this data can contain uncleaned rows such as null values, duplicates and what not right.
 Now, with this raw data, you want to do some data analysis for your reports or may be feed into some machine learning model and so on right!.
 
-So DBT is a development framework that helps you transform this raw data into meaningful data objects such as database tables, views etc , using simple SELECT queries.
+So dbt is a development framework that helps you transform this raw data into meaningful data objects such as database tables, views etc , using simple SELECT queries.
 
 Now once you have these data objects ready, you can use those to create your own metrics, ML models or any other data analytics.
 To do that, with dbt you can develop, test, document and deploy the entire data transformation changes.
 
 Maybe you still didn’t get it fully Right! Let’s take a real world example.
 
-## DBT Real world example
+## dbt Real world example
 
 Imagine you are running an e-commerce website something like Amazon or Shopify or any other online store.
 Now, things were pretty good until, one day, you suddenly started receiving a lot of complaints from your customers saying,
@@ -61,7 +61,7 @@ So as you can see that data can be scattered in multiple places and if we have t
 So the first thing we need to do is to somehow extract this information into a common place.
 For simplicity, let’s assume that we parsed and extracted that data into two tables i.e. order table (data source1) and tracking table ( data source 2).
 
-<img src="/assets/images/datatables.jpg" alt="DBT Cloud data tables real world example images" height="40%" width = "40%"/>
+<img src="/assets/images/datatables.jpg" alt="dbt Cloud data tables real world example images" height="40%" width = "40%"/>
 
 ## ETL Data transformation
 
@@ -74,9 +74,9 @@ This step is the load part of ETL.
 
 In data world, they call this process as **ETL** (Extract, Transform, Load)  . Where the 1st part is called data extraction, 2nd part is data transformation and third part is the data loading.
 
-Wait, I still don't see DBT in this!
+Wait, I still don't see dbt in this!
 
-## DBT (Data Build tool) Helps in Data transformation
+## dbt (Data Build tool) Helps in Data transformation
 
 To understand that, let's zoom into what  happens behind the scenes into **Transform** part.
 To make your raw data into something meaningful, you transform your data by applying various operations such as data cleaning, data validation and so on. Some quick examples can include removing duplicates, checking for null values, checking for primary keys, foreign keys and custom business rules like currency conversion and so on.
@@ -96,17 +96,17 @@ But doesn't this whole process look complicated? Transforming data into somethin
 
 What if this whole process of data transformation can be simplified ? What if we have a toolkit that can do all these data transformation tasks with simple configurations and SELECT queries ?
 
-Well, That’s exactly where DBT comes into picture.
+Well, That’s exactly where dbt comes into picture.
 
-With DBT you can streamline this whole data transformation process with simple configurations and SELECT queries. It can even help you develop, test, document, deploy these data transformation logics with a modular approach.
+With dbt you can streamline this whole data transformation process with simple configurations and SELECT queries. It can even help you develop, test, document, deploy these data transformation logics with a modular approach.
 
-Again DBT is only a data transformation tool. It doesn’t handle data extraction or loading.
+Again dbt is only a data transformation tool. It doesn’t handle data extraction or loading.
 
-Let’s dig into how things change with DBT
+Let’s dig into how things change with dbt
 
-# Moving from ETL to ELT using DBT transformations
+# Moving from ETL to ELT using dbt transformations
 
-With DBT the workflow becomes more like an ELT instead of ETL.
+With dbt the workflow becomes more like an ELT instead of ETL.
 Now let's see what ELT is.
 
 In ETL , we saw that data is first extracted, transformed, loaded into warehouse.
@@ -116,9 +116,9 @@ But with ELT, this workflow changes a bit. The E part remains the same.
 2. Now this raw data is directly loaded into data warehouse without doing any transformation. (The key difference is in ETL data is processed and then loaded into warehouse. But in ELT data raw data is directly loaded into data warehouse without processing)
 3. Once we have raw data loaded, thats when dbt kicks in.
 
-> dbt connects with your data warehouse directly and can interact with all data reads and writes. If you want to perform some data analysis for example building a metric , all we need to do is write simple SELECT queries on the raw data table. Once you write your SELECT query and run it, DBT automatically takes care of fetching the data, applying all different validations, logics and writes the data back into your warehouse.
+> dbt connects with your data warehouse directly and can interact with all data reads and writes. If you want to perform some data analysis for example building a metric , all we need to do is write simple SELECT queries on the raw data table. Once you write your SELECT query and run it, dbt automatically takes care of fetching the data, applying all different validations, logics and writes the data back into your warehouse.
 
-## Real advantages of DBT 
+## Real advantages of dbt 
 
 You might be thinking what is the real advantage here right. Well there is a lot.
 If you compare your old data flow with dbt based flow,
@@ -126,21 +126,29 @@ If you compare your old data flow with dbt based flow,
 2. Complexity of developing , testing, documenting these SELECT queries are clearly modularized  into dbt modules which we will study as part of this course.
 3. Deploying and adding new data is directly embedded into data analysis workflow. So if you want to build a new metric, you just have to change add a new SELECT query in dbt and the rest is taken care.
 
-So using DBT, Data Engineers and Data Analysts can be combined into one single role called as Analytics Engineers.
+Now that you have some background, you can read more about dbt at [getdbt](https://docs.getdbt.com/docs/introduction) 
+
+So using dbt, Data Engineers and Data Analysts can be combined into one single role called as Analytics Engineers.
 
 Data Analytics + Data Engineers = Analytics Engineers
 
 So your analytics engineers can act as software engineers as they can directly interact and modify data pipelines for faster data analysis.
 
-
-If you don’t know what these roles are or you just started playing around Data, make sure you go signup for this course.
+If you don’t know what these roles are or you just started playing around Data, 
+make sure to signup for [dbt course](https://tipseason.com/dbt-data-build-tool-course-beginner/) towards dbt certification here.
 
 <div class="alert alert-warning" role="alert">
-    <span class="text"><i class="material-icons">star</i>We are launching a DBT course for beginners with practical hands on project. <br>
+    <span class="text"><i class="material-icons">star</i>We are launching a dbt course for beginners with practical hands on project. <br>
       First 20 people to signup for the course, will get course for free and next 30 people will get a 50% discount. Make sure to signup here.
    </span>
 </div>
 
 {% include mailchimp.html %}
 
-Hope this post make things clear about DBT. In the next tutorial, we will talk about DBT Cloud and Step by step tutorial to setup your first DBT cloud project. Make sure you subscribe to our website by subscribing to our mailing list and by following us on Twitter (<a target="_blank" href="https://twitter.com/thetipseason">@thetipseason</a>)
+* Tip: dbt is never spelled in capital letters.  
+
+Hope this post make things clear about dbt. In the next tutorial, we will talk about
+
+- dbt Cloud and Step by step tutorial to setup your first dbt cloud project.
+
+Make sure you subscribe to our website by subscribing to our mailing list and by following us on Twitter (<a target="_blank" href="https://twitter.com/thetipseason">@thetipseason</a>)
