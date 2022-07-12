@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "dbt(Data build tool) course for beginners with dbt cloud + snowflake for dbt certification"
+title:  "dbt(data build tool) course for beginners with dbt cloud + snowflake for dbt certification"
 author: Pramod
 categories: [DataScience, MySQL, PostgreSQL]
 tags: [red, yellow]
 image: 
-description: "dbt (Data build tool) explained with real world example, going from ETL to ELT and where exactly dbt fits in data transformation. A detailed course towards dbt certification"
+description: "dbt (data build tool) explained with real world example, going from ETL to ELT and where exactly dbt fits in data transformation. A detailed course towards dbt certification"
 featured: false
 hidden: true
 suggestions: ['postgres-vs-mysql-syntax-comparision/']
@@ -24,7 +24,9 @@ To help understand dbt with a real hands on project, we are launching a DBT cour
 detailed video explanation + working with dbt cloud with live demos.
 
 In addition dbt recently announced [dbt certification](https://www.getdbt.com/blog/dbt-certification-program/) program to help 
-developers gain a certified badge. dbt certification is a great way to show case your dbt skills to companies hiring for dbt. 
+developers gain a certified badge. The name of the certification is dbt Analytics Engineering Certification with some practice / sample questions too.  
+
+dbt certification is a great way to show case your dbt skills to companies hiring for dbt. 
 
 So let's dive into the topics what we will be covering as part of this course. 
 
