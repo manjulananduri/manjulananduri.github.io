@@ -27,6 +27,16 @@ developers gain a certified badge. The name of the certification is dbt Analytic
 
 dbt certification is a great way to show case your dbt skills to companies hiring for dbt. 
 
+
+<div class="alert alert-warning" role="alert">
+    <span class="text"><i class="material-icons">star</i>We are launching this dbt course for beginners with practical hands on project toward gaining dbt certification. <br>
+      First 20 people to signup for the course, will get course for free and next 30 people will get a 50% discount. Make sure to signup here.
+   </span>
+</div>
+
+{% include mailchimp.html %}
+
+
 So let's dive into the topics that will be covered as part of this course. 
 
 # Course Introduction
@@ -83,11 +93,6 @@ So let's dive into the topics that will be covered as part of this course.
   - Incremental models
 - Snapshots
 
-<div class="alert alert-warning" role="alert">
-    <span class="text"><i class="material-icons">star</i>We are launching this dbt course for beginners with practical hands on project toward gaining dbt certification. <br>
-      First 20 people to signup for the course, will get course for free and next 30 people will get a 50% discount. Make sure to signup here.
-   </span>
-</div>
 
 {% include mailchimp.html %}
 
