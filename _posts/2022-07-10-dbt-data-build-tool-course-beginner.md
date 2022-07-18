@@ -4,7 +4,7 @@ title:  "dbt(data build tool) course for beginners with dbt cloud + snowflake fo
 author: Pramod
 categories: [DataScience, MySQL, PostgreSQL]
 tags: [red, yellow]
-image: 
+image: assets/images/dbt-course-cloud.jpg
 description: "dbt (data build tool) explained with real world example, going from ETL to ELT and where exactly dbt fits in data transformation. A detailed course towards dbt certification"
 featured: false
 hidden: true
@@ -15,20 +15,19 @@ tableofcontents: false
 promote: true
 ---
 
-In the previous post we discussed about what dbt (data build tool) is in a real world scenario with a beginners tutorial. 
-If you haven't read it yet, you can check it out here [DBT Real world Tutorial](/dbt-tutorial-real-world-scenario-guide/)
+dbt has become one of the most trending technologies for data transformation in ETL world.
 
-DBT has become one of the most emerging technologies for data transformation in ELT world. 
+If you are not sure of what dbt is, check this [dbt Real world Tutorial](/dbt-tutorial-real-world-scenario-guide/)
 
-To help understand dbt with a real hands on project, we are launching a DBT course for beginners. This includes 
+To help understand dbt with a real hands on project, we are launching a dbt course for beginners. This includes 
 detailed video explanation + working with dbt cloud with live demos.
 
 In addition dbt recently announced [dbt certification](https://www.getdbt.com/blog/dbt-certification-program/) program to help 
-developers gain a certified badge. The name of the certification is dbt Analytics Engineering Certification with some practice / sample questions too.  
+developers gain a certified badge. The name of the certification is dbt Analytics Engineering Certification with some practice questions too.  
 
 dbt certification is a great way to show case your dbt skills to companies hiring for dbt. 
 
-So let's dive into the topics what we will be covering as part of this course. 
+So let's dive into the topics that will be covered as part of this course. 
 
 # Course Introduction
 - What , Why, How to use dbt
@@ -85,7 +84,7 @@ So let's dive into the topics what we will be covering as part of this course.
 - Snapshots
 
 <div class="alert alert-warning" role="alert">
-    <span class="text"><i class="material-icons">star</i>We are launching this DBT course for beginners with practical hands on project toward gaining dbt certification. <br>
+    <span class="text"><i class="material-icons">star</i>We are launching this dbt course for beginners with practical hands on project toward gaining dbt certification. <br>
       First 20 people to signup for the course, will get course for free and next 30 people will get a 50% discount. Make sure to signup here.
    </span>
 </div>
