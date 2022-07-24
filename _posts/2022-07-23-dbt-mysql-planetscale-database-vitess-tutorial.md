@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Connecting dbt mysql with PlanetScale database (Vitess) - case study"
+title:  "Connecting dbt mysql with PlanetScale database (Vitess) - A case study"
 author: Pramod
 categories: [DataScience, MySQL, PostgreSQL]
 tags: [red, yellow]
