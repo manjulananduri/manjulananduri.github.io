@@ -1,0 +1,85 @@
+---
+layout: post
+title:  "[Solved] Carbon language execvp llvm-ar file not found error"
+author: Pramod
+categories: [Programming, Carbon, PostgreSQL]
+tags: [red, yellow]
+image: assets/images/carbon-language-tutorial.png
+description: "Carbon language execvp llvm-ar file not found error"
+featured: false
+hidden: true
+suggestions: ['dbt-tutorial-real-world-scenario-guide/']
+beforetoc: "Google Carbon language is an open source Programming language that is successor to C++"
+toc: true
+tableofcontents: true
+promote: true
+---
+
+Google introduced Carbon language as the next generation programming language with a goal to replace C++ as a successor. It is still in experimental phase and being actively developed by the open source community.
+
+When installing Carbon language especially on a MacOS, you might receive llvm-ar no such file or directory error 
+
+The error looks like this 
+
+```
+tipseason$ bazel run //explorer -- ./explorer/testdata/print/format_only.carbon
+
+INFO: Invocation ID: 761f1638-be60-4f1a-8b40-46d85ab8a08e
+WARNING: Download from https://mirror.bazel.build/ftp.gnu.org/gnu/m4/m4-1.4.18.tar.xz failed: class java.io.FileNotFoundException GET returned 404 Not Found
+WARNING: Download from https://mirror.bazel.build/github.com/jmillikin/rules_m4/releases/download/v0.1/m4-gnulib-788db09a9f88abbef73c97e8d7291c40455336d8.tar.xz failed: class java.io.FileNotFoundException GET returned 404 Not Found
+WARNING: Download from https://mirror.bazel.build/ftp.gnu.org/gnu/bison/bison-3.3.2.tar.xz failed: class java.io.FileNotFoundException GET returned 404 Not Found
+WARNING: Download from https://mirror.bazel.build/github.com/jmillikin/rules_bison/releases/download/v0.1/bison-gnulib-788db09a9f88abbef73c97e8d7291c40455336d8.tar.xz failed: class java.io.FileNotFoundException GET returned 404 Not Found
+INFO: Analyzed target //explorer:explorer (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+
+ERROR: /private/var/tmp/_bazel_tipseason/d1e2eba114061da7a658f0a9641e4b19/external/m4_v1.4.18/BUILD.bazel:2:11: Linking external/m4_v1.4.18/libm4_lib.a [for host] failed: (Exit 1): llvm-ar failed: error executing command /usr/bin/llvm-ar @bazel-out/host/bin/external/m4_v1.4.18/libm4_lib.a-2.params
+
+Use --sandbox_debug to see verbose messages from the sandbox
+src/main/tools/process-wrapper-legacy.cc:80: "execvp(/usr/bin/llvm-ar, ...)": No such file or directory
+Target //explorer:explorer failed to build
+Use --verbose_failures to see the command lines of failed build steps.
+INFO: Elapsed time: 2.498s, Critical Path: 2.20s
+INFO: 43 processes: 11 internal, 32 darwin-sandbox.
+FAILED: Build did NOT complete successfully
+FAILED: Build did NOT complete successfully
+
+```
+
+## How to fix llvm-ar error:
+
+The main reason for this error is the conflict installation of LLVM. MacOS by default comes with a default LLVM installed. 
+
+But when we do `brew install llvm` it installs the LLVM in the `/usr/local/opt/llvm/` directory. However when we run `bazel` command, 
+it expects the llvm to be present in `/usr/bin/llvm-ar` path. That is the reason in the error message you should see the error like
+`"execvp(/usr/bin/llvm-ar, ...)": No such file or directory` . The path is not being resolved properly by bazel. 
+
+To fix this issue, 
+
+1. Open `~/.bash_profile` file. In that enter the following commands and save the file.
+```
+export PATH="/usr/local/opt/llvm/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/llvm/lib"
+export CPPFLAGS="-I/usr/local/opt/llvm/include"
+export CC=$(which clang)
+```
+2. Once you save the file, run below command to compile above changes. 
+```
+source ~/.bash_profile
+```
+
+`$CC` is the main variable that fixes this issue. 
+
+Now try to rerun the bazel file and you should not see the error ideally. Try it in multiple tabs or wait for sometime and retry. 
+
+This should fix the issue. 
+
+If you are just getting started , check out this detailed Carbon programming syntax guide with examples here. [carbon-language-tutorial-syntax](https://tipseason.com/carbon-language-tutorial-syntax/)
+
+--- 
+## Suggested Articles:
+
+[Top 10 most loved programming languages of 2022 and which companies use them](https://tipseason.com/top-10-most-loved-programming-languages-2022/)
+
+[dbt (data build tool) in a real world scenario, Beginner dbt tutorial](https://tipseason.com/dbt-tutorial-real-world-scenario-guide/)
+
+[PostgreSQL Vs MySQL Syntax - A beginners guide to use postgres and mysql with comparison and examples](https://tipseason.com/postgres-vs-mysql-syntax-comparision/)
