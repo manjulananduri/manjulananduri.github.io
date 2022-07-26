@@ -47,13 +47,41 @@ FAILED: Build did NOT complete successfully
 
 ## How to fix llvm-ar error:
 
-The main reason for this error is the conflict installation of LLVM. MacOS by default comes with a default LLVM installed. 
+The main reason for this error is the conflict installation of LLVM. MacOS by default comes with a default LLVM installed.
 
-But when we do `brew install llvm` it installs the LLVM in the `/usr/local/opt/llvm/` directory. However when we run `bazel` command, 
-it expects the llvm to be present in `/usr/bin/llvm-ar` path. That is the reason in the error message you should see the error like
+But when we do `brew install llvm` it installs the LLVM in the `/usr/local/opt/llvm/` directory. 
+In addition you should see the warning message like: 
+
+```
+tipseason$ brew install llvm
+==> Downloading https://ghcr.io/v2/homebrew/core/llvm/manifests/14.0.6_1
+Already downloaded: /Users/tipseason/Library/Caches/Homebrew/downloads/cbaac22cb6f6e244c64563571c7d26a3e3ea4b1471e2bdc333593090506fd348--llvm-14.0.6_1.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/llvm/blobs/sha256:c0a14a92f8b6a1476ed853ad53baa225e561100354f63ed7ee88e664f187d117
+Already downloaded: /Users/tipseason/Library/Caches/Homebrew/downloads/6d094cf421785eec188be3e2f10f53012e620d4b19c4ad6d0e9a5992131ac662--llvm--14.0.6_1.monterey.bottle.tar.gz
+==> Pouring llvm--14.0.6_1.monterey.bottle.tar.gz
+==> Caveats
+To use the bundled libc++ please add the following LDFLAGS:
+  LDFLAGS="-L/usr/local/opt/llvm/lib -Wl,-rpath,/usr/local/opt/llvm/lib"
+
+llvm is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have llvm first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/llvm/bin:$PATH"' >> /Users/tipseason/.bash_profile
+
+For compilers to find llvm you may need to set:
+  export LDFLAGS="-L/usr/local/opt/llvm/lib"
+  export CPPFLAGS="-I/usr/local/opt/llvm/include"
+```
+
+As you can see in the above warning, llvm installed by homebrew doesn't link the paths properly due to conflict with MacOS. 
+
+So when we run `bazel` command, it expects the llvm to be present in `/usr/bin/llvm-ar` path. 
+That is the reason in the error message you should see the error like
 `"execvp(/usr/bin/llvm-ar, ...)": No such file or directory` . The path is not being resolved properly by bazel. 
 
-To fix this issue, 
+### To fix this issue, 
 
 1. Open `~/.bash_profile` file. In that enter the following commands and save the file.
 ```
