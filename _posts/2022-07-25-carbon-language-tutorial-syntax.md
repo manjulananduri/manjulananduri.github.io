@@ -513,6 +513,8 @@ fn Main() -> i32 {
 
 ### <span id="troubleshooting"> Carbon language Installation errors troubleshooting </span>
 
+[Carbon llvm-ar error fix](https://tipseason.com/carbon-language-execvp-error/): 
+
 ```
 llvm is keg-only, which means it was not symlinked into /usr/local,
 because macOS already provides this software and installing another version in
