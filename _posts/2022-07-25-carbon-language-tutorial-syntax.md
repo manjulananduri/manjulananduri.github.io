@@ -176,7 +176,7 @@ fn Main() -> i32 {
   //I am a comment. 
 
   var s: auto = "Hello world!"; // Auto Variable 
-  let x: i64 = 20; // Constant
+  let x: i32 = 20; // Constant
   var y: i32 = 3; // Integer variable 
   Print(s); // Print 
   return 0; //Return value 
