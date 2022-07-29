@@ -69,7 +69,8 @@ Getting started with Carbon language involves installation of
 - `LLVM`: LLVM is a low level virtual machine that Carbon language uses to run. You may not need to have full knowledge of LLVM to follow this tutorial. 
 - `Carbon Explorer`: Carbon explorer is like an implementation tool to Carbon language. To run all the programs of Carbon lang, we will use carbon explorer.
 
-For the purpose of this tutorial, we will use MacOS to install. However instructions for other operations can be similar. If you have any questions on installation you can drop a comment on this post.
+For the purpose of this tutorial, we will use MacOS to install. However instructions for other operating systems like linux or windows can be similar. If you have any questions on installation or if carbon language is not working for any reason, 
+you can drop a comment on this post. Will try to solve the issue. 
 
 To install carbon lang, run these commands in your terminal.
 
@@ -243,6 +244,8 @@ Strings literals can be declared in two ways.
 
 **Example:**
 ```
+package ExplorerTest api;
+
 fn Main() -> i32 {
   var singleLine: String = "Hello world!";
   var multiLine: String = """hello line 1
@@ -360,6 +363,7 @@ fn Main() -> i32 {
     Print("{0} is not known ", x);
   }
   return 0;
+}
 
 ```
 
