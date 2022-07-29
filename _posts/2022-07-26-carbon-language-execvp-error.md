@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Solved] Carbon language execvp llvm-ar file not found error"
+title:  "[Solved] Carbon language not working execvp llvm-ar file not found error"
 author: Pramod
 categories: [Programming, Carbon, PostgreSQL]
 tags: [red, yellow]
@@ -17,9 +17,13 @@ promote: true
 
 Google introduced Carbon language as the next generation programming language with a goal to replace C++ as a successor. It is still in experimental phase and being actively developed by the open source community.
 
-When installing Carbon language especially on a MacOS, you might receive llvm-ar no such file or directory error 
+For detailed tutorial with syntax and examples and installation, you can follow this [carbon language examples tutorial](https://tipseason.com/carbon-language-tutorial-syntax/)
 
-The error looks like this 
+When installing Carbon language especially on a MacOS, you might receive llvm-ar no such file or directory error
+
+Due to this error carbon language is not actually working for many people and the fix for this is very simple. 
+
+If the error looks like this 
 
 ```
 tipseason$ bazel run //explorer -- ./explorer/testdata/print/format_only.carbon
@@ -104,6 +108,10 @@ This should fix the issue.
 If you are just getting started , check out this detailed Carbon programming syntax guide with examples here. [carbon-language-tutorial-syntax](https://tipseason.com/carbon-language-tutorial-syntax/)
 
 --- 
+
+Carbon language is still in development phase. So installation in some of the platforms like Windows, Linux are having some issues. We will share detailed posts for each of them. Subscribe to our letter to stay tuned. 
+
+
 ## Suggested Articles:
 
 [Top 10 most loved programming languages of 2022 and which companies use them](https://tipseason.com/top-10-most-loved-programming-languages-2022/)
