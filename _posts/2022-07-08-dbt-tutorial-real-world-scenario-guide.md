@@ -152,3 +152,14 @@ Hope this post make things clear about dbt. In the next tutorial, we will talk a
 - dbt Cloud and Step by step tutorial to setup your first dbt cloud project.
 
 Make sure you subscribe to our website by subscribing to our mailing list and by following us on Twitter (<a target="_blank" href="https://twitter.com/thetipseason">@thetipseason</a>)
+
+## Suggested Articles:
+
+[Googles Latest Carbon Programming language tutorial](https://tipseason.com/carbon-language-tutorial-syntax/)
+
+[PostgreSQL Vs MySQL Syntax - A beginners guide to use postgres and mysql with comparison and examples](https://tipseason.com/postgres-vs-mysql-syntax-comparision/)
+
+[dbt (data build tool) mysql with Vitess + planetscale](https://tipseason.com/dbt-mysql-planetscale-database-vitess-tutorial/)
+
+[Top 10 most loved programming languages of 2022 and which companies use them](https://tipseason.com/top-10-most-loved-programming-languages-2022/)
+
