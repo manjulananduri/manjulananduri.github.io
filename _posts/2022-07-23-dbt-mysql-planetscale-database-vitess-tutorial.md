@@ -230,7 +230,7 @@ Make sure you subscribe to our website by subscribing to our mailing list and by
 
 ## Suggested Articles:
 
-[Googles Latest Carbon Programming language tutorial](https://tipseason.com/carbon-language-tutorial-syntax/)
+[Google Carbon Programming language tutorial](https://tipseason.com/carbon-language-tutorial-syntax/)
 
 [PostgreSQL Vs MySQL Syntax - A beginners guide to use postgres and mysql with comparison and examples](https://tipseason.com/postgres-vs-mysql-syntax-comparision/)
 
