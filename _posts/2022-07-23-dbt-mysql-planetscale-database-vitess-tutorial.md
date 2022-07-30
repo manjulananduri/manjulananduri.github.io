@@ -47,7 +47,7 @@ First thing we will do is to signup an account with PlanetScale. This is a strai
 
 You can follow this 35 seconds video to setup PlanetScale vitess account.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dkLOS95PJrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="**https://www.youtube.com/embed/dkLOS95PJrA**" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Once you create an account using above steps, you can configure a `pscale` planetscale client (which is a shell based tool) to connect to your db. To do that, for MacOS you use below steps. For other operating systems you can follow [this guide](https://github.com/planetscale/cli#installation)
 
