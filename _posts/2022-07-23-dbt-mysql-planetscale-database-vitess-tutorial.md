@@ -45,7 +45,9 @@ Let's dive into the actual workflows.
 ## Step 1: Create PlanetScale database
 First thing we will do is to signup an account with PlanetScale. This is a straight forward step like any other account signup. Here is the planetscale [signup link](https://auth.planetscale.com/sign-up)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dkLOS95PJrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+You can follow this 35 seconds video to setup PlanetScale vitess account.  
+
+<iframe width="560" height="315" src="**https://www.youtube.com/embed/dkLOS95PJrA**" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Once you create an account using above steps, you can configure a `pscale` planetscale client (which is a shell based tool) to connect to your db. To do that, for MacOS you use below steps. For other operating systems you can follow [this guide](https://github.com/planetscale/cli#installation)
 
@@ -230,7 +232,7 @@ Make sure you subscribe to our website by subscribing to our mailing list and by
 
 ## Suggested Articles:
 
-[Googles Latest Carbon Programming language tutorial](https://tipseason.com/carbon-language-tutorial-syntax/)
+[Google Carbon Programming language tutorial](https://tipseason.com/carbon-language-tutorial-syntax/)
 
 [PostgreSQL Vs MySQL Syntax - A beginners guide to use postgres and mysql with comparison and examples](https://tipseason.com/postgres-vs-mysql-syntax-comparision/)
 

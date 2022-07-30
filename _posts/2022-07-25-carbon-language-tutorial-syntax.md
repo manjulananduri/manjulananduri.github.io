@@ -64,7 +64,7 @@ Now that we know what Carbon language is and why we need to use it, let's dive i
 
 ## How to setup and install Carbon language:
 Getting started with Carbon language involves installation of
-- `Homebrew`: is a package installation tool. If you don't have homebrew installed you can follow these [instructions](https://brew.sh/)
+- `Homebrew`: is a package installation tool. If you don't have homebrew installed you can follow these [instructions](https://brew.sh/) . In MacOs you can install homebrew using `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - `Bazel` : Bazel is an open-source build and test tool which can support multiple languages, platforms.
 - `LLVM`: LLVM is a low level virtual machine that Carbon language uses to run. You may not need to have full knowledge of LLVM to follow this tutorial. 
 - `Carbon Explorer`: Carbon explorer is like an implementation tool to Carbon language. To run all the programs of Carbon lang, we will use carbon explorer.
