@@ -62,6 +62,13 @@ However for organizations that are already using C++ , it's very difficult to mi
 
 Now that we know what Carbon language is and why we need to use it, let's dive into the actual setup/installation, syntax, examples.
 
+## Video tutorial
+If you prefer to watch video version of this tutorial including live demos + walkthrough installation and working examples, you can follow this youtube video too.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vff1BRrQr_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Alright! Let's jump into carbon language. 
+
 ## How to setup and install Carbon language:
 Getting started with Carbon language involves installation of
 - `Homebrew`: is a package installation tool. If you don't have homebrew installed you can follow these [instructions](https://brew.sh/) . In MacOs you can install homebrew using `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
