@@ -4,9 +4,8 @@ title:  "Carbon language memory safety for secure memory management"
 author: Pramod
 categories: [Programming, Carbon, PostgreSQL]
 tags: [red, yellow]
-image: assets/images/carbon-language-tutorial.png
+image: assets/images/carbon-memory-safety.png
 description: "Memory management is critical to Carbon language to address memory safety issues from C++. Carbon language looks like it has great roadmap to achieve this"
-featured: true
 hidden: true
 suggestions: ['carbon-language-tutorial-syntax/']
 beforetoc: "Memory management is critical to Carbon language to address memory safety issues from C++"

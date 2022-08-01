@@ -520,6 +520,9 @@ fn Main() -> i32 {
 }
 ```
 
+### Memory safety in Carbon language: 
+Carbon language has a heavy focus on memory management especially when it comes to memory safety. Here is a detailed tutorial on how 
+memory safety is achieved in carbon along with goals and basics. Check [Carbon language memory safety for secure memory management](/carbon-language-memory-safety)
 
 
 ### <span id="troubleshooting"> Carbon language Installation errors troubleshooting </span>
