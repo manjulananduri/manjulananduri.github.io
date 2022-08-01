@@ -52,7 +52,7 @@ This memory safety includes
 - Dereference invalid pointers for uninitialized pointers, handling `NULL` in C++.   
 
 ### 2. Temporal memory safety
-Temporal memory safety involves avoiding access to addresses once they are deallocated. So if they address is deallocated, ideallly it should be restricted to protect against these references. 
+Temporal memory safety involves avoiding access to addresses once they are deallocated. So if the address is deallocated, ideally it should be restricted to protect against these references. 
 Checks that involve temporal memory safety in carbon are 
 - use-after-free for heap 
 - use-after-return for stack addresses. 
