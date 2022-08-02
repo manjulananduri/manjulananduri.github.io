@@ -62,11 +62,6 @@ However for organizations that are already using C++ , it's very difficult to mi
 
 Now that we know what Carbon language is and why we need to use it, let's dive into the actual setup/installation, syntax, examples.
 
-## Video tutorial
-If you prefer to watch video version of this tutorial including live demos + walkthrough installation and working examples, you can follow this youtube video too.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vff1BRrQr_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 Alright! Let's jump into carbon language. 
 
 ## How to setup and install Carbon language:
@@ -144,6 +139,13 @@ fn Main() -> i32 {
 The file extension for Carbon language code is `.carbon` . So if you write new carbon language file you need to have a file which ends with extension of `.carbon`. Example: `demo.carbon` .
 
 Now that we have carbon language setup, let's look at the some of the basic syntax that can be used in day to day basis for Carbon language.
+
+## Video tutorial
+If you prefer to watch video version of this tutorial including live demos + walkthrough installation and working examples, you can follow this youtube video too.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vff1BRrQr_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Let's jump into Carbon language basic syntax. 
 
 ## Carbon Language Basic Syntax with examples:
 
@@ -521,8 +523,12 @@ fn Main() -> i32 {
 ```
 
 ### Memory safety in Carbon language: 
-Carbon language has a heavy focus on memory management especially when it comes to memory safety. Here is a detailed tutorial on how 
-memory safety is achieved in carbon along with goals and basics. Check [Carbon language memory safety for secure memory management](/carbon-language-memory-safety)
+Carbon language has a heavy focus on memory management especially when it comes to memory safety. At a very high level carbon language plans to achieve memory 
+safety using 
+- Spatial Memory safety
+- Temporal memory safety
+Here is a detailed tutorial on how  memory safety is achieved in carbon along with goals and basics. 
+Check [Carbon language memory safety for secure memory management](/carbon-language-memory-safety)
 
 
 ### <span id="troubleshooting"> Carbon language Installation errors troubleshooting </span>
