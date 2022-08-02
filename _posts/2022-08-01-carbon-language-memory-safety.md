@@ -17,7 +17,7 @@ promote: false
 # Carbon language memory safety for secure memory management 
 
 Google open sourced Carbon language with a goal become a successor of C++. In the previous post, we learnt about what carbon language is along with syntax and working examples. In case you 
-missed it , here is the link for [carbon language tutorial](/2022-07-25-carbon-language-tutorial-syntax)
+missed it , here is the link for [carbon language tutorial](/carbon-language-tutorial-syntax)
 
 One of the primary goals of Google carbon programming language is the memory safety as part of its memory management. 
 Having a safer fundementals with incremental goals towards achieving robust memory safety is the key. 
