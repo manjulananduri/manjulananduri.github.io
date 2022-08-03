@@ -2,7 +2,7 @@
 layout: post 
 title:  "PostgreSQL Vs MySQL Syntax - A beginners guide to use postgres and mysql with comparison and examples"
 author: Pramod 
-categories: [MySQL, PostgreSQL]
+categories: [Database, MySQL, PostgreSQL]
 tags: [red, yellow]
 image: assets/images/postgres-vs-mysql.png 
 description: "PostgreSQL Vs MySQL Syntax Comparison - Basic differences in usage and cheatsheet for PostgreSQL and MySQL"

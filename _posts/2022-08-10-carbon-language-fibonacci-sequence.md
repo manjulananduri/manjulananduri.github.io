@@ -2,7 +2,7 @@
 layout: post
 title:  "Carbon language tutorial with syntax, examples to get started"
 author: Pramod
-categories: [Programming, Carbon]
+categories: [Carbon]
 tags: [red, yellow]
 description: "Google introduced Carbon language as the next generation programming language with a goal to replace C++ as a successor"
 featured: false
@@ -21,7 +21,7 @@ Google introduced [Carbon programming language](https://tipseason.com/carbon-lan
 
 One of the challenges many beginner users are facing is to run basic examples since the language is in a very early stage without even having a compiler. So here is a working example to print fibonacci series using Carbon language.
 
-
+dbt-data-build-tool-certification-analytics-engineering
 ```
 package sample api;
 

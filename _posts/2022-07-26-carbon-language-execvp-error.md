@@ -2,7 +2,7 @@
 layout: post
 title:  "[Solved] Carbon language not working execvp llvm-ar file not found error"
 author: Pramod
-categories: [Programming, Carbon, PostgreSQL]
+categories: [Carbon]
 tags: [red, yellow]
 image: assets/images/carbon-language-tutorial.png
 description: "Carbon language execvp llvm-ar file not found error"

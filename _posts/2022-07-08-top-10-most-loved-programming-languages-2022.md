@@ -2,7 +2,7 @@
 layout: post
 title:  "Top 10 most loved programming languages of 2022 and  which companies use them"
 author: Pramod
-categories: [DataScience, MySQL, PostgreSQL, Carbon]
+categories: [Carbon]
 tags: [red, yellow]
 image: assets/images/top-10-most-loved-programming-languages-2022.jpg
 description: "Here is the list of top 10 most loved programming languages of 2022 and which companies use each of these languages in real world. Also how many programming languuages exists in this world ?"

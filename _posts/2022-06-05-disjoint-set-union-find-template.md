@@ -2,7 +2,7 @@
 layout: post
 title:  "Template for Disjoint set - Union Find - Java"
 author: Pramod
-categories: [ Jekyll, tutorial ]
+categories: [ Interviews ]
 image: 
 beforetoc: "Template for Disjoint set - Union Find - Java"
 featured: false

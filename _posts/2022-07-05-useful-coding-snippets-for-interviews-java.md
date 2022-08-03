@@ -2,7 +2,7 @@
 layout: post
 title:  "Java Programming Tips for interviews"
 author: Pramod
-categories: [ Jekyll, tutorial ]
+categories: [ Interviews, Java ]
 image: assets/images/java_tips.png
 beforetoc: "Here are some of the most useful utilities in Java"
 featured: true
