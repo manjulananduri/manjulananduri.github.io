@@ -2,7 +2,7 @@
 layout: post
 title:  "Coding Interview Questions - Pattern 3 - Dequeue Problems"
 author: Pramod
-categories: [ Jekyll, tutorial ]
+categories: [ Interviews ]
 image: assets/images/dequeue.png
 beforetoc: "DEQueue as it stands for double-ended queue (pronouned as 'deck') is one of the hidden data structures that helps solving bunch of coding interview questions. "
 toc: true

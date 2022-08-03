@@ -2,7 +2,7 @@
 layout: post
 title:  "dbt (data build tool) in a real world scenario, Beginner dbt tutorial"
 author: Pramod
-categories: [DataScience, MySQL, PostgreSQL]
+categories: [DataScience]
 tags: [red, yellow]
 image: assets/images/dbt-introduction-tutorial.png
 description: "dbt (data build tool) explained with real world example, going from ETL to ELT and where exactly dbt fits in data transformation. dbt as it stands for data build tool connects with your data warehouse directly and can interact with all data reads and writes. If you want to perform some data analysis all we need to do is write simple SELECT queries on the raw data table. Once you write your SELECT query and run it, dbt automatically takes care of fetching the data, applying all different validations, logics and writes the data back into your warehouse."

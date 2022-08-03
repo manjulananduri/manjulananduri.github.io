@@ -2,7 +2,7 @@
 layout: post
 title:  "Connecting dbt mysql with PlanetScale database (Vitess) - A case study"
 author: Pramod
-categories: [DataScience, MySQL, PostgreSQL]
+categories: [DataScience]
 tags: [red, yellow]
 image: assets/images/dbt-mysql-planetscale.jpg
 description: "An ultimate case study to combine dbt (data build tool) data transformation at scale using dbt mysql + Vitess from Planetscale database"

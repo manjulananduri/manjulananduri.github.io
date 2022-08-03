@@ -2,7 +2,7 @@
 layout: post
 title:  "Coding Interview Questions - Pattern 1 - Tries (Prefix Trees)"
 author: Pramod
-categories: [ Jekyll, tutorial ]
+categories: [Interviews]
 image: assets/images/trie.png
 beforetoc: "Trie is a must learn data structure for top tech company interviews."
 toc: true

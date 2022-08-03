@@ -2,7 +2,7 @@
 layout: post 
 title:  "Basic Markdown syntax cheatsheet"
 author: Pramod 
-categories: [ Markdown, Html ]
+categories: [ Markdown ]
 tags: [red, yellow] 
 beforetoc: "Markdown is a lightweight markup language for writing formatted elements with plain text"
 toc: true

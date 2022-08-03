@@ -2,7 +2,7 @@
 layout: post
 title:  "dbt(data build tool) course for beginners with dbt cloud + snowflake for dbt certification"
 author: Pramod
-categories: [DataScience, MySQL, PostgreSQL]
+categories: [DataScience]
 tags: [red, yellow]
 image: assets/images/dbt-course-cloud.jpg
 description: "dbt (data build tool) explained with real world example, going from ETL to ELT and where exactly dbt fits in data transformation. A detailed course towards dbt certification"

@@ -2,7 +2,7 @@
 layout: post
 title:  "Carbon language memory safety for secure memory management"
 author: Pramod
-categories: [Programming, Carbon, PostgreSQL]
+categories: [Carbon]
 tags: [red, yellow]
 image: assets/images/carbon-memory-safety.png
 description: "Memory management is critical to Carbon language to address memory safety issues from C++. Carbon language looks like it has great roadmap to achieve this"
@@ -10,6 +10,7 @@ hidden: true
 suggestions: ['carbon-language-tutorial-syntax/']
 beforetoc: "Memory management is critical to Carbon language to address memory safety issues from C++"
 toc: true
+featured: true
 tableofcontents: true
 promote: false
 ---
@@ -85,6 +86,8 @@ also be available even when using Address Sanitizer.
 Once the above goals are achieved then future goals like 'Safe Carbon Subset' will be addressed even though the intial 0.1 design doesn't handle this, there are definitely 
 plans to address memory management with fundemental concepts around 'safety'
   
+
+
 
 ## Conclusion:
 

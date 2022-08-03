@@ -2,13 +2,13 @@
 layout: post
 title:  "Carbon language tutorial with syntax, examples to get started"
 author: Pramod
-categories: [Programming, Carbon, PostgreSQL]
+categories: [Carbon]
 tags: [red, yellow]
 image: assets/images/carbon-language-tutorial.png
 description: "Google introduced Carbon language as the next generation programming language with a goal to replace C++ as a successor"
 featured: true
 hidden: true
-suggestions: ['dbt-tutorial-real-world-scenario-guide/']
+suggestions: ['carbon-language-memory-safety/']
 beforetoc: "Google Carbon language is an open source Programming language that is successor to C++"
 toc: true
 tableofcontents: true
