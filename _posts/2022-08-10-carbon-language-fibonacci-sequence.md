@@ -1,3 +1,20 @@
+---
+layout: post
+title:  "Carbon language tutorial with syntax, examples to get started"
+author: Pramod
+categories: [Programming, Carbon]
+tags: [red, yellow]
+description: "Google introduced Carbon language as the next generation programming language with a goal to replace C++ as a successor"
+featured: false
+hidden: true
+suggestions: ['carbon-language-tutorial-syntax/']
+beforetoc: "Google Carbon language is an open source Programming language that is successor to C++"
+toc: true
+tableofcontents: true
+promote: true
+last_modified_at: 2022-08-01T23:02:00+00:00
+---
+
 Carbon language beginner series:
 
 Google introduced [Carbon programming language](https://tipseason.com/carbon-language-tutorial-syntax/) recently.
