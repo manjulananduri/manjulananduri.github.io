@@ -1,0 +1,17 @@
+---
+title: "Categories"
+layout: default
+permalink: "/carbon-language.html"
+---
+
+<div class="row listrecent">
+    {% for post in site.categories.Carbon %}
+    {% if post.title != null %}
+    {% if group == null or group == post.group %}
+    {% include postbox.html %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
+</div>
