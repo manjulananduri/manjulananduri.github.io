@@ -86,6 +86,8 @@ Once the above goals are achieved then future goals like 'Safe Carbon Subset' wi
 plans to address memory management with fundemental concepts around 'safety'
   
 
+
+
 ## Conclusion:
 
 As we know , Carbon language is still in development phase, these goals might change rapidly as things evolve. Having a clear roadmap on how these problems needs to be addressed 
