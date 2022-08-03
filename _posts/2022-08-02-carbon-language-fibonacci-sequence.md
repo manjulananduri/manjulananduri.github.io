@@ -4,8 +4,9 @@ title:  "Carbon language fibonacci series, print nth fibonacci number"
 author: Pramod
 categories: [Carbon]
 tags: [red, yellow]
+image: assets/images/carbon-fibonacci-series.png
 description: "Simplest way to print fibonacci series in carbon programming language. Working without errors to print the full series"
-featured: false
+featured: true
 hidden: true
 suggestions: ['carbon-language-tutorial-syntax/']
 beforetoc: "Google Carbon language is an open source Programming language that is successor to C++"

@@ -10,6 +10,7 @@ hidden: true
 suggestions: ['carbon-language-tutorial-syntax/']
 beforetoc: "Memory management is critical to Carbon language to address memory safety issues from C++"
 toc: true
+featured: true
 tableofcontents: true
 promote: false
 ---
