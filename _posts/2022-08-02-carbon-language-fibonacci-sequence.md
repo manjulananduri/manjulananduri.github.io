@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Carbon language fibonacci series, print nth fibonacci number"
+title:  "Carbon language Fibonacci series, print nth Fibonacci number"
 author: Pramod
 categories: [Carbon]
 tags: [red, yellow]
