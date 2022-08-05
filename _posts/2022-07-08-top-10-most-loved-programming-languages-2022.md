@@ -183,6 +183,14 @@ Only 45.75%  love to use Java.
 
 Source of this data analysis is the [StackOverflow Developer Survey 2022](https://survey.stackoverflow.co/2022/#technology-most-loved-dreaded-and-wanted)
 
+
+# Carbon language 
+
+As you got to know about top 10 most loved programming languages, Google recently introduced Carbon programming language as a successor to C++. 
+Given that Rust is in the top #1 list of most loved programming language , there is a hug community discussion if carbon language is a competition to Rust. If you want to learn more about carbon language 
+you can read this here  [Carbon language tutorial](/carbon-language-tutorial-syntax)
+
+
 > * Bonus content:
 > Top Coding interview problems and solutions: 
 > If you preparing for coding interview here are the top 30 coding interview list.
