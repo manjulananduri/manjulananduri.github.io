@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Carbon language tutorial with syntax, examples to get started"
+title:  "Carbon language tutorial with syntax, examples - A beginner guide"
 author: Pramod
 categories: [Carbon]
 tags: [red, yellow]
@@ -13,7 +13,7 @@ beforetoc: "Google Carbon language is an open source Programming language that i
 toc: true
 tableofcontents: true
 promote: true
-last_modified_at: 2022-08-01T23:02:00+00:00
+last_modified_at: 2022-08-09T00:02:00+00:00
 ---
 
 Google introduced Carbon language as the next generation programming language with a goal to replace C++ as a successor. It's an open source project still in experimental phase. Originally demonstrated by Chandler Carruth in [CppNorth](https://cppnorth.ca/) conference, Carbon language looks like a great alternative to C++.

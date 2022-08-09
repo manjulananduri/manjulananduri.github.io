@@ -1,5 +1,5 @@
 ---
 layout: carbon-language
-title: Carbon language tutorials
+title: Carbon language documentation
 permalink: /carbon-language
 ---
