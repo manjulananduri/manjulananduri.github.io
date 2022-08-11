@@ -15,7 +15,9 @@ tableofcontents: true
 promote: true
 ---
 
-Google introduced Carbon language as the next generation programming language with a goal to replace C++ as a successor. It's an open source project still in experimental phase. Originally demonstrated by Chandler Carruth in [CppNorth](https://cppnorth.ca/) conference, Carbon language looks like a great alternative to C++.
+Google introduced Carbon language as the next generation programming language with a goal to replace C++ as a successor. It's an open source project still in experimental phase. 
+Originally demonstrated by Chandler Carruth in [CppNorth](https://cppnorth.ca/) conference, Carbon language looks like a great alternative to C++.
+Carbon language release date is **19 July 2022**
 
 In this tutorial we will learn about various aspects of Carbon language and jump into carbon language basic syntax along with examples code that you can use to try the language after reading through the end of this documentation.
 
