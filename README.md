@@ -7,8 +7,16 @@ bundle exec jekyll doctor
 
 [Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/)
 
+
+
 ![mediumish](assets/images/mediumish-jekyll-template.png)
 
+
+[TipSeason Home](http://tipseason.com/)
+
+[Carbon language tutorial](https://tipseason.com/carbon-language-tutorial-syntax/)
+
+[TipSeason Carbon memory safety](https://tipseason.com/carbon-language-memory-safety/)
 
 ### Copyright
 
