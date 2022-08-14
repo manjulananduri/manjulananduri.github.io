@@ -54,13 +54,15 @@ Carbon language is not inherited from legacy C or C++. It's built from scratch w
 4. **Modern and evolving** features like fast and scalable builds that can work with existing C++ builds, easier to learn.
 5. **Built with Open Source** with clear goals and priorities having batteries included approach such as compilers, libraries, documentation, package manager etc.
 
-### Carbon language VS Rust comparison
+### [Carbon language VS Rust comparison](https://tipseason.com/carbon-language-vs-rust/)
 
 As part of the Carbon language evolution, lot of factors are considered. Some of them include taking a look at garbage collected languages (like Java), more modern language such as Rust , swift , Kotlin and so on.
 
 [Rust](https://www.rust-lang.org/) is thoroughly evaluated as a replacement to C++. Infact Carbon language insists to use Rust and ignore Carbon if possible as Rust is technically and economically more viable language.
 
 However for organizations that are already using C++ , it's very difficult to migrate to Rust. Software written in Rust has properties and modules that non of the languages like C++ or Carbon has. Adapting to Rust for large C++ codebases is almost not practical given that there is no inter-operability. We will talk in depth about this in a separate article soon. If you are still curious, you can learn more about it [here](https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/faq.md#why-not-rust) on why Rust is not a replacement for C++.
+
+Here is a detailed comparison between Carbon language vs Rust. [Rust vs Carbon comparison](https://tipseason.com/carbon-language-vs-rust)  
 
 Now that we know what Carbon language is and why we need to use it, let's dive into the actual setup/installation, syntax, examples.
 
