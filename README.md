@@ -12,7 +12,7 @@ bundle exec jekyll doctor
 ![mediumish](assets/images/mediumish-jekyll-template.png)
 
 
-[TipSeason Home](http://tipseason.com/)
+[TipSeason Home](https://tipseason.com/)
 
 [Carbon language tutorial](https://tipseason.com/carbon-language-tutorial-syntax/)
 
