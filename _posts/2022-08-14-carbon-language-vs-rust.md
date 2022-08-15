@@ -33,7 +33,7 @@ Here is the comparison across various properties for each of these languages.
 #### Rust Lang
 
 * Rust (or Rust-lang) was originally developed by former Mozilla employee [Graydon Hoare](https://github.com/graydon) as a personal project which got sponsorship form Mozilla in 2009 and was announced in 2010. Rust 1.0 was release on May 15, 2015.
-* The primary purpose / goals of Rust lang are to provide Performance, Reliability with high concurrency, safety.
+* The primary purpose / goals of Rust lang are to provide Performance, Reliability with high safety, concurrency. 
 * It's used in many production systems in various backend applications, cross-platform command-line tools,  embedded systems, WebAssembly etc.
 
 #### Carbon Language
