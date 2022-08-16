@@ -5,7 +5,7 @@ author: Pramod
 categories: [Carbon]
 tags: [red, yellow]
 image: assets/images/carbon-vs-rust-compare.jpg
-description: "In this tutorial we will compare Carbon Language vs Rust with various properties including side by side table differences"
+description: "In this tutorial we will compare Carbon Language vs Rust with various properties including side by side table comparison"
 featured: true
 hidden: true
 suggestions: ['carbon-language-tutorial-syntax/']
@@ -50,16 +50,20 @@ As new languages evolve, having interoperability is a key element which can make
 
 Comparing Carbon lang vs Rust interoperability with C++,
 
-#### Interoperability in Carbon
-* Carbon language supports bidirectional interoperability with C++. So code written in carbon language can be called in C++ using subset of library wrappers and code written in C++ can be called in Carbon language easily.
-* This is one of the primary selling points of carbon language as they want to make migration from C++ code relatively seamless
-
 #### Interoperability in Rust
 * Rust doesn't have native language level support for interoperability with C++. Rust supports interop with C. However C++ interop is still not in place and an ongoing work, although it has large gap to support C++. So the common pattern is to rewrite the code in Rust instead of doing an interop with C++.
 * However there are external libraries like [cxx](https://cxx.rs/index.html) and [autocxx](https://google.github.io/autocxx/) which try to solve this problem out of the box for interoperability in Rust-lang.
 
+#### Interoperability in Carbon
+* Carbon language supports bidirectional interoperability with C++. So code written in carbon language can be called in C++ using subset of library wrappers and code written in C++ can be called in Carbon language easily.
+* This is one of the primary selling points of carbon language as they want to make migration from C++ code relatively seamless
+
 ## 3. Garbage collection
-In simple terms, garbage collection is the process of cleaning up unused variables/references from program memory. As the programs execute, variables or objects that are no longer referenced in the code accumulate space on the heap. So cleaning up these resources is important for efficient memory management. Some languages (Eg: Java, python, golang ) perform garbage collection at run time using periodic background threads to deallocate space. Few other languages (Eg: Rust) achieve this by adding relevant cleanup code at compile time.
+At a very high level, garbage collection is **an automatic** process to clean up unused variables/references from program memory especially the heap memory. 
+As the programs execute, variables or objects that are no longer referenced in the code accumulate space on the heap. 
+So cleaning up these resources is important for efficient memory management. 
+Some languages (Eg: Java, python, golang ) perform garbage collection at run time using periodic background threads to deallocate space. 
+Few other languages (Eg: Rust) achieve this by adding relevant cleanup code at compile time.
 
 Garbage collection differences between Carbon lang and Rust are as follows:
 
@@ -72,12 +76,16 @@ All of this happens at compile time by adding relevant cleanup code. So there is
 
 #### GC in Carbon language
 - Carbon language does not have GC either. Just like C++, carbon-lang provides methods to manually manage memory. In C++ we need to use `new` and `delete` to allocate and deallocate the memory.
-- Similar to that Carbon language has `heap.New` and `heap.Delete` to allocate and deallocate memory. So GC can be achieved with manual memory allocation.
+- Similar to that Carbon language has `heap.New` and `heap.Delete` to allocate and deallocate memory. 
 
 Although this can have some cons in terms of unwanted memory errors this is a general usage pattern for low level languages. Some of the common errors are addressed using [memory safety](https://tipseason.com/carbon-language-memory-safety/) goals of carbon-lang.
 
 ## 4. Safety in Carbon Lang vs Rust
 Safety of a programming language involves secure mechanisms to safeguard against software bugs and security vulnerabilities. Some common safety mechanisms include Spatial Memory safety, Temporal memory safety, Type safety, Date race safety. You can read more about them [here](https://tipseason.com/carbon-language-memory-safety/)
+
+#### Rust Safety
+- Safety is the first citizen in Rust. Rust supports safety at compile time. To avoid Garbage collection at runtime , Rust automatically adds relevant code based on variable scopes.  This helps avoiding manual memory allocation thereby enhancing overall language safety.
+- Rust is memory-safe, type-safe, null-safe and thread-safe by design. If the compiler detects the code is unsafe, it throws compilation errors. Unless you specifiy `unsafe` keyword Rust doesn't allow you to perform [unsafe](https://doc.rust-lang.org/rust-by-example/unsafe.html) code.
 
 #### Safety in Carbon Language
 - Carbon language has high priority to performance over [Safety](https://github.com/carbon-language/carbon-lang/blob/3276903cee2c18b05f14a03a87fd21ec7d8f4642/docs/design/README.md). It has tight goals to achieve performance similar to C++. This means some of the options like Garbage collection etc., should be manually managed (at-least initially with incremental feature addition).
@@ -88,9 +96,6 @@ As per Carbon docs,
 
 So as the language evolves, compile time safety similar to Rust could be an option for Carbon.
 
-#### Rust Safety
-- Safety is the first citizen in Rust. Rust supports safety at compile time. To avoid Garbage collection at runtime , Rust automatically adds relevant code based on variable scopes.  This helps avoiding manual memory allocation thereby enhancing overall language safety.
-- Rust is memory-safe, type-safe, null-safe and thread-safe by design. If the compiler detects the code is unsafe, it throws compilation errors. Unless you specifiy `unsafe` keyword Rust doesn't allow you to perform [unsafe](https://doc.rust-lang.org/rust-by-example/unsafe.html) code.
 
 ## 5. Borrow checker
 Borrow checker is a mechanism that validates and helps you manage ownership rules in the code.
