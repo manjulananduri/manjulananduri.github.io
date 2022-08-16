@@ -5,8 +5,7 @@ author: Pramod
 categories: [Carbon]
 tags: [red, yellow]
 image: assets/images/carbon-vs-rust-compare.jpg
-description: "In this tutorial we will compare C3. Garbage collection
-arbon Language vs Rust with various properties including side by side table differences"
+description: "In this tutorial we will compare Carbon Language vs Rust with various properties including side by side table comparison"
 featured: true
 hidden: true
 suggestions: ['carbon-language-tutorial-syntax/']
