@@ -55,8 +55,8 @@ Comparing Carbon vs Rust interoperability with C++,
 * However there are external libraries like [cxx](https://cxx.rs/index.html) and [autocxx](https://google.github.io/autocxx/) which try to solve this problem out of the box for interoperability in Rust-lang.
 
 #### Interoperability in Carbon
-* Carbon language supports bidirectional interoperability with C++. So code written in carbon language can be called in C++ using subset of library wrappers and code written in C++ can be called in Carbon language easily.
-* This is one of the primary selling points of carbon language as they want to make migration from C++ code relatively seamless
+* Carbon supports bidirectional interoperability with C++. So code written in carbon can be called in C++ using subset of library wrappers and code written in C++ can be called in Carbon easily.
+* This is one of the primary selling points of carbon as they want to make migration from C++ code relatively seamless
 
 ## 3. Garbage collection
 At a very high level, garbage collection is **an automatic** process to clean up unused variables/references from program memory especially the heap memory. 
@@ -65,7 +65,7 @@ So cleaning up these resources is important for efficient memory management.
 Some languages (Eg: Java, python, golang ) perform garbage collection at run time using periodic background threads to deallocate space. 
 Few other languages (Eg: Rust) achieve this by adding relevant cleanup code at compile time.
 
-Garbage collection differences between Carbon lang and Rust are as follows:
+Garbage collection differences between Carbon and Rust are as follows:
 
 #### GC in Rust
 - Rust is a GC free language. It manages memory cleanup using ownership mechanism. When a variable goes out of scope and is not reachable, 2 things can happen.
