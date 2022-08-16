@@ -22,7 +22,7 @@ The moment Google open-sourced [Carbon programming language](https://tipseason.c
 
 Well, answering these questions may not be straight forward unless we do a detailed analysis between [Rust](https://www.rust-lang.org/) and [Carbon language](https://github.com/carbon-language/carbon-lang/).
 
-In this article, we will go through the comparison between carbon language vs Rust and get some insights on above questions towards the end of this post. As we go through the post, we will also have a side by side comparison for Carbon to Rust for the listed properties.
+In this article, we will go through the comparison between Carbon language vs Rust and get some insights on above questions towards the end of this post. As we go through the post, we will also have a side by side comparison for Carbon to Rust for the listed properties.
 
 Let's get started.
 
@@ -55,8 +55,8 @@ Comparing Carbon vs Rust interoperability with C++,
 * However there are external libraries like [cxx](https://cxx.rs/index.html) and [autocxx](https://google.github.io/autocxx/) which try to solve this problem out of the box for interoperability in Rust-lang.
 
 #### Interoperability in Carbon
-* Carbon supports bidirectional interoperability with C++. So code written in carbon can be called in C++ using subset of library wrappers and code written in C++ can be called in Carbon easily.
-* This is one of the primary selling points of carbon as they want to make migration from C++ code relatively seamless
+* Carbon supports bidirectional interoperability with C++. So code written in Carbon can be called in C++ using subset of library wrappers and code written in C++ can be called in Carbon easily.
+* This is one of the primary selling points of Carbon as they want to make migration from C++ code relatively seamless
 
 ## 3. Garbage collection
 At a very high level, garbage collection is **an automatic** process to clean up unused variables/references from program memory especially the heap memory. 
@@ -204,14 +204,14 @@ Every language has its own pros and cons. But each language is designed with spe
 
 Learning new things are always fun. So give a try with each of these languages and explore around.
 
-Hope this tutorial helps you get some idea about fundamental differences between Carbon and Rust. If you have any other thoughts in mind or if you have any other questions, drop your comment below. Also subscribe to our carbon language newsletter here to get latest language updates.
+Hope this tutorial helps you get some idea about fundamental differences between Carbon and Rust. If you have any other thoughts in mind or if you have any other questions, drop your comment below. Also subscribe to our Carbon language newsletter here to get latest language updates.
 
 {% include mailchimp-carbon.html %}
 
 --- 
 ### Learn Carbon language from scratch with these resources:
 
-[carbon language tutorial](https://tipseason.com/carbon-language-tutorial-syntax)
+[Carbon language tutorial](https://tipseason.com/carbon-language-tutorial-syntax)
 
 [Carbon language memory safety](https://tipseason.com/carbon-language-memory-safety)
 
