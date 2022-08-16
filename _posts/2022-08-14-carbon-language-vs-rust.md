@@ -5,7 +5,8 @@ author: Pramod
 categories: [Carbon]
 tags: [red, yellow]
 image: assets/images/carbon-vs-rust-compare.jpg
-description: "In this tutorial we will compare Carbon Language vs Rust with various properties including side by side table differences"
+description: "In this tutorial we will compare C3. Garbage collection
+arbon Language vs Rust with various properties including side by side table differences"
 featured: true
 hidden: true
 suggestions: ['carbon-language-tutorial-syntax/']
@@ -59,7 +60,11 @@ Comparing Carbon lang vs Rust interoperability with C++,
 * However there are external libraries like [cxx](https://cxx.rs/index.html) and [autocxx](https://google.github.io/autocxx/) which try to solve this problem out of the box for interoperability in Rust-lang.
 
 ## 3. Garbage collection
-In simple terms, garbage collection is the process of cleaning up unused variables/references from program memory. As the programs execute, variables or objects that are no longer referenced in the code accumulate space on the heap. So cleaning up these resources is important for efficient memory management. Some languages (Eg: Java, python, golang ) perform garbage collection at run time using periodic background threads to deallocate space. Few other languages (Eg: Rust) achieve this by adding relevant cleanup code at compile time.
+At a very high level, garbage collection is **an automatic** process to clean up unused variables/references from program memory especially the heap memory. 
+As the programs execute, variables or objects that are no longer referenced in the code accumulate space on the heap. 
+So cleaning up these resources is important for efficient memory management. 
+Some languages (Eg: Java, python, golang ) perform garbage collection at run time using periodic background threads to deallocate space. 
+Few other languages (Eg: Rust) achieve this by adding relevant cleanup code at compile time.
 
 Garbage collection differences between Carbon lang and Rust are as follows:
 
@@ -72,7 +77,7 @@ All of this happens at compile time by adding relevant cleanup code. So there is
 
 #### GC in Carbon language
 - Carbon language does not have GC either. Just like C++, carbon-lang provides methods to manually manage memory. In C++ we need to use `new` and `delete` to allocate and deallocate the memory.
-- Similar to that Carbon language has `heap.New` and `heap.Delete` to allocate and deallocate memory. So GC can be achieved with manual memory allocation.
+- Similar to that Carbon language has `heap.New` and `heap.Delete` to allocate and deallocate memory. 
 
 Although this can have some cons in terms of unwanted memory errors this is a general usage pattern for low level languages. Some of the common errors are addressed using [memory safety](https://tipseason.com/carbon-language-memory-safety/) goals of carbon-lang.
 
