@@ -140,6 +140,9 @@ fn Main() -> i32 {
 }
 ```
 
+For windows, Carbon language is not yet natively supported. However you can install `wsl` which is like installing Linux on top of windows. 
+You can do that using `wsl --install` and then perform above steps. 
+
 The file extension for Carbon language code is `.carbon` . So if you write new carbon language file you need to have a file which ends with extension of `.carbon`. Example: `demo.carbon` .
 
 Now that we have carbon language setup, let's look at the some of the basic syntax that can be used in day to day basis for Carbon language.
