@@ -22,7 +22,7 @@ The moment Google open-sourced [Carbon programming language](https://tipseason.c
 
 Well, answering these questions may not be straight forward unless we do a detailed analysis between [Rust](https://www.rust-lang.org/) and [Carbon language](https://github.com/carbon-language/carbon-lang/).
 
-In this article, we will go through the comparison between carbon language vs Rust and get some insights on above questions towards the end of this post. As we go through the post, we will also have a side by side comparison for carbon lang to rust for the listed properties.
+In this article, we will go through the comparison between Carbon language vs Rust and get some insights on above questions towards the end of this post. As we go through the post, we will also have a side by side comparison for Carbon to Rust for the listed properties.
 
 Let's get started.
 
@@ -33,7 +33,7 @@ Here is the comparison across various properties for each of these languages.
 #### Rust Lang
 
 * Rust (or Rust-lang) was originally developed by former Mozilla employee [Graydon Hoare](https://github.com/graydon) as a personal project which got sponsorship form Mozilla in 2009 and was announced in 2010. Rust 1.0 was release on May 15, 2015.
-* The primary purpose / goals of Rust lang are to provide Performance, Reliability with high safety, concurrency. 
+* The primary purpose / goals of Rust are to provide Performance, Reliability with high safety, concurrency. 
 * It's used in many production systems in various backend applications, cross-platform command-line tools,  embedded systems, WebAssembly etc.
 
 #### Carbon Language
@@ -48,15 +48,15 @@ If you are new to Carbon, you can get started with video tutorials on this [Carb
 Language Interoperability ( in short `interop` ) is the ability of one programming language to be able to **interact** with a different programming language as part of the same system. So code written in one language should be compatible with code written in another language.
 As new languages evolve, having interoperability is a key element which can make new language adoption easy.
 
-Comparing Carbon lang vs Rust interoperability with C++,
+Comparing Carbon vs Rust interoperability with C++,
 
 #### Interoperability in Rust
 * Rust doesn't have native language level support for interoperability with C++. Rust supports interop with C. However C++ interop is still not in place and an ongoing work, although it has large gap to support C++. So the common pattern is to rewrite the code in Rust instead of doing an interop with C++.
 * However there are external libraries like [cxx](https://cxx.rs/index.html) and [autocxx](https://google.github.io/autocxx/) which try to solve this problem out of the box for interoperability in Rust-lang.
 
 #### Interoperability in Carbon
-* Carbon language supports bidirectional interoperability with C++. So code written in carbon language can be called in C++ using subset of library wrappers and code written in C++ can be called in Carbon language easily.
-* This is one of the primary selling points of carbon language as they want to make migration from C++ code relatively seamless
+* Carbon supports bidirectional interoperability with C++. So code written in Carbon can be called in C++ using subset of library wrappers and code written in C++ can be called in Carbon easily.
+* This is one of the primary selling points of Carbon as they want to make migration from C++ code relatively seamless
 
 ## 3. Garbage collection
 At a very high level, garbage collection is **an automatic** process to clean up unused variables/references from program memory especially the heap memory. 
@@ -65,7 +65,7 @@ So cleaning up these resources is important for efficient memory management.
 Some languages (Eg: Java, python, golang ) perform garbage collection at run time using periodic background threads to deallocate space. 
 Few other languages (Eg: Rust) achieve this by adding relevant cleanup code at compile time.
 
-Garbage collection differences between Carbon lang and Rust are as follows:
+Garbage collection differences between Carbon and Rust are as follows:
 
 #### GC in Rust
 - Rust is a GC free language. It manages memory cleanup using ownership mechanism. When a variable goes out of scope and is not reachable, 2 things can happen.
@@ -80,7 +80,7 @@ All of this happens at compile time by adding relevant cleanup code. So there is
 
 Although this can have some cons in terms of unwanted memory errors this is a general usage pattern for low level languages. Some of the common errors are addressed using [memory safety](https://tipseason.com/carbon-language-memory-safety/) goals of carbon-lang.
 
-## 4. Safety in Carbon Lang vs Rust
+## 4. Safety in Carbon vs Rust
 Safety of a programming language involves secure mechanisms to safeguard against software bugs and security vulnerabilities. Some common safety mechanisms include Spatial Memory safety, Temporal memory safety, Type safety, Date race safety. You can read more about them [here](https://tipseason.com/carbon-language-memory-safety/)
 
 #### Rust Safety
@@ -112,7 +112,7 @@ Some of the most frequently used package managers are maven, gradle, pip, cargo 
 The central repository for Rust packages is [crates.io](https://crates.io) . With Cargo you can download dependencies, compile, distribute packages with Crates package registry.
 
 #### Package manager in Carbon Lang
-Looking at Carbon language goals, it is projected to include package manager as part of Carbon lang tools and ecosystem.
+Looking at Carbon language goals, it is projected to include package manager as part of Carbon tools and ecosystem.
 
 > Infrastructure to enable package management and other library ecosystem support:  The goal is to support what the ecosystem needs, regardless of the exact form this ends up taking.
 Source: [Carbon language goals](https://github.com/carbon-language/carbon-lang/blob/075b3aba1bdbcb26488529fe35778981d219e5ca/docs/project/goals.md)
@@ -196,22 +196,22 @@ Since Carbon is too early in its development we cannot exactly predict this. Bas
 
 
 Things can change a lot while the language is still growing. We will cover this closely as things evolve, so make sure to subscribe to our Carbon language newsletter.
-What do you think the future of Carbon lang is ? Drop your thoughts in the comments.
+What do you think the future of Carbon is ? Drop your thoughts in the comments.
 
 ## Conclusion
 
-Every language has its own pros and cons. But each language is designed with specific goals in mind. Both Carbon language and Rust lang  has a great scope and applications for each of them can vary as things progress.
+Every language has its own pros and cons. But each language is designed with specific goals in mind. Both Carbon and Rust have a great scope and applications for each of them can vary as things progress.
 
 Learning new things are always fun. So give a try with each of these languages and explore around.
 
-Hope this tutorial helps you get some idea about fundamental differences between Carbon and Rust. If you have any other thoughts in mind or if you have any other questions, drop your comment below. Also subscribe to our carbon language newsletter here to get latest language updates.
+Hope this tutorial helps you get some idea about fundamental differences between Carbon and Rust. If you have any other thoughts in mind or if you have any other questions, drop your comment below. Also subscribe to our Carbon language newsletter here to get latest language updates.
 
 {% include mailchimp-carbon.html %}
 
 --- 
 ### Learn Carbon language from scratch with these resources:
 
-[carbon language tutorial](https://tipseason.com/carbon-language-tutorial-syntax)
+[Carbon language tutorial](https://tipseason.com/carbon-language-tutorial-syntax)
 
 [Carbon language memory safety](https://tipseason.com/carbon-language-memory-safety)
 
