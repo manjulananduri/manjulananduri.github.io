@@ -24,6 +24,8 @@ Well, answering these questions may not be straight forward unless we do a detai
 
 In this article, we will go through the comparison between Carbon language vs Rust and get some insights on above questions towards the end of this post. As we go through the post, we will also have a side by side comparison for Carbon to Rust for the listed properties.
 
+Please note that Carbon vs Rust Syntax level detailed comparison will be coming soon. So stay tuned!  
+
 Let's get started.
 
 ## Carbon language vs Rust Comparison
