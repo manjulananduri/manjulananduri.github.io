@@ -8,8 +8,7 @@ toc: true
 promote: true
 ---
 
-## Introduction: 
-
+## Introduction:
 6 to 7 seconds is what it takes a recruiter to decide on your Resume. This is an average number as per [Indeed](https://www.indeed.com/career-advice/resumes-cover-letters/how-long-do-employers-look-at-resumes#:~:text=On%20average%2C%20employers%20look%20at,for%20only%20a%20few%20seconds.) analysis. 
 
 Here are 5 changes you can make to your Resume today to Stand Out of others
