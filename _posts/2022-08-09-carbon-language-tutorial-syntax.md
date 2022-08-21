@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Google Carbon language tutorial with syntax, examples - A beginner guide"
+title:  "Google Carbon language tutorial with syntax, examples [Beginner guide]"
 author: Pramod
 categories: [Carbon]
 tags: [red, yellow]
