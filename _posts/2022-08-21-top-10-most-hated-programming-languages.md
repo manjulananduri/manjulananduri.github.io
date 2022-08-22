@@ -23,7 +23,7 @@ Quick disclaimer: Each language has its own advantages and disadvantages and eve
 
 Stackoverflow conducted a developer survey in 2022 in various categories of technology, programming languages, professional tools, cloud providers etc. This survey is the primary source of data for this article. 
 
-In this post, we will look at top 10 most hated programming languages of 2022 and what they are used for, based on 71,467 responses received from [StackOverflow survey(https://survey.stackoverflow.co/2022/).
+In this post, we will look at top 10 most hated programming languages of 2022 and what they are used for, based on 71,467 responses received from [StackOverflow survey](https://survey.stackoverflow.co/2022/).
 
 To have a neutral tone, we will use **dreaded** (instead of hated) as we go through the post. 
 
