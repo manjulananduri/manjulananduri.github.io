@@ -11,7 +11,7 @@ hidden: true
 suggestions: ['top-10-most-loved-programming-languages-2022/']
 beforetoc: "Here is the list of top 10 most hated programming languages in 2022 and what are they used for!"
 toc: true
-tableofcontents: true
+tableofcontents: false
 promote: true
 ---
 
