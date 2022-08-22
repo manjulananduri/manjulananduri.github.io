@@ -26,6 +26,17 @@ authors:
     url: https://twitter.com/thetipseason
     description: "Educating everyone with the beauty of programming!!"
 
+  Mani:
+    name: Mani
+    display_name: Mani
+    avatar: 'assets/images/avatar.png'
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: manigopalmurthy at gmail dot com
+    web: https://www.instagram.com/thetipseason/
+    twitter: https://twitter.com/thetipseason
+    url: https://twitter.com/thetipseason
+    description: "Educating everyone with the beauty of programming!!"
+
 # Plugins
 plugins:
   - jekyll-paginate
