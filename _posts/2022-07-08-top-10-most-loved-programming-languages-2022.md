@@ -32,9 +32,15 @@ A statically-typed language is a language (such as Java, C, or C++) where the va
 #### What is a dynamically typed language ?
 In dynamically typed language (Eg: Javascript, Python), variable types are interpreted at runtime. Eg: a = "b"  . Here type of variable a is determined at runtime.
 
-**Alright! here we go. Top 10 most loved programming languages of 2022 and  which companies are using them?**
+In this post, we will go through top 10 most loved programming languages of 2022. Also you can read through 
 
-# #1: Rust
+[Top 10 most hated programming languages of 2022 ](https://tipseason.com/top-10-most-hated-programming-languages/)
+
+Alright! Let's dive in.
+
+Here is the top 10 most loved programming languages of 2022 and which companies are using them?**
+
+## 1. Rust
 
 Rust is a blazingly fast, memory efficient statically-typed programming language designed for performance and safety. Concurrency and memory management are some of the key highlights. It can run on embedded devices and its easy to integrate with other systems while maintaining Reliability and Productivity.
 
@@ -49,7 +55,7 @@ Rust is a blazingly fast, memory efficient statically-typed programming language
 - Cloudflare
 - Facebook
 
-# #2: Elixir
+## 2. Elixir
 
 Elixir is a dynamic, functional language that leverages Erlang Virtual Machine. While Erlang is and old language created in 1980s Elixir involved as a new language to take advantage of its parallel and concurrent computation. Its best for running low-latency distributed, and fault-tolerant systems and also been used for Web development , multimedia processing too.
 
@@ -63,7 +69,7 @@ Elixir is a dynamic, functional language that leverages Erlang Virtual Machine. 
 - Duffel
 
 
-# #3: Clojure
+## 3. Clojure
 
 Clojure is a compiled language and is a dialect of Lisp and shares lot of code and powerful macro system. Its a dynamic, general-purpose programming language, combining the approachability and interactive development of a scripting language with an efficient and robust infrastructure for multithreaded programming. It runs on the JVM, CLR, Node.js, and modern mobile and desktop web browsers.
 
@@ -76,7 +82,7 @@ Clojure is a compiled language and is a dialect of Lisp and shares lot of code a
 - SoundCloud
 - LivingSocial
 
-# #4: TypeScript
+## 4. TypeScript
 
 This is one of the favorites for frontend developers. TypeScript adds additional syntax to JavaScript to support a tighter integration with your editor to catch errors early in the development. TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
@@ -89,7 +95,7 @@ This is one of the favorites for frontend developers. TypeScript adds additional
 - Accenture
 - CircleCI
 
-# #5: Julia
+## 5. Julia
 
 If you want to combine Speed similar to C/C++ while maintaining the usability of python, Julia language is your best bet. It's a dynamically typed, feels like a scripting language with high performance used in many data science applications.
 
@@ -102,7 +108,7 @@ If you want to combine Speed similar to C/C++ while maintaining the usability of
 - NASA
 - Intel
 
-# #6: Python
+## 6. Python
 I don't think Python requires introduction :-) . Its a dynamically typed programming language that lets you work more quickly and integrate your systems more effectively.
 Multiple applications in data science , machine learning and very beginner friendly.
 
@@ -115,7 +121,7 @@ Multiple applications in data science , machine learning and very beginner frien
 - Coupang
 - Spotify
 
-# #7: Delphi
+## 7. Delphi
 Delphi is a high-level, compiled, strongly typed language that supports structured and object-oriented design. It's a language + IDE based on Pascal compiler. Delphi's compilers generate native code for Microsoft Windows, macOS, iOS, Android and Linux.
 
 65.51% like to use Delphi. It has specific used c
@@ -127,7 +133,7 @@ Delphi is a high-level, compiled, strongly typed language that supports structur
 - Conseil
 - MediaSolution
 
-# #8: Go
+## 8. Go
 Golang is a fast, reliable, and efficient open source programming language supported by Google. It's statically typed, compiled language that is easy  to learn and get started with Built-in concurrency and a robust standard library. It's one of the fast growing languages used in many backend applications too.
 
 64.58%  love using Go. Definitely worth giving it a try.
@@ -139,7 +145,7 @@ Golang is a fast, reliable, and efficient open source programming language suppo
 - Netflix
 - Microsoft
 
-# #9: SQL
+## 9. SQL
 SQL stands for Structured Query Language and is used to communicate with a databases. It is the standard language for relational database management systems for different kind of CRUD operations. Some of the databases implementing SQL are MySQL, PostgreSQL , MsSQL.
 Kick start learning SQL by observing the difference between PostgreSQL vs MySQL by checking here [TipSeason PostgreSQL vs MySQL Syntax](https://tipseason.com/postgres-vs-mysql-syntax-comparision/)
 
@@ -155,7 +161,7 @@ Used by every company using backend databases.
 
 64.25% love SQL. This is a must learn domain specific language for any kind of database .
 
-# #10: C# #
+## 10. C# #
 C# (pronounced "See Sharp") is a modern, object-oriented, and type-safe programming language similar to Java OOPs.  It's developed by Microsoft and used in various different applications including .NET, windows based applications
 
 #### Top companies using C#
@@ -168,7 +174,7 @@ C# (pronounced "See Sharp") is a modern, object-oriented, and type-safe programm
 63.38% like to use C#
 
 
-# Java
+## Java
 
 While many of us use Java for real world programming , it's not ranked in the top 10 as per the StackOverflow most loved languages.
 
@@ -184,7 +190,7 @@ Only 45.75%  love to use Java.
 Source of this data analysis is the [StackOverflow Developer Survey 2022](https://survey.stackoverflow.co/2022/#technology-most-loved-dreaded-and-wanted)
 
 
-# Carbon language 
+## Carbon language 
 
 As you got to know about top 10 most loved programming languages, Google recently introduced Carbon programming language as a successor to C++. 
 Given that Rust is in the top #1 list of most loved programming language , there is a hug community discussion if carbon language is a competition to Rust. If you want to learn more about carbon language 
@@ -219,3 +225,10 @@ If you have any other better suggestions or sources , drop a comment below.
 As a knowledge check,
 
 **Which countries produce the most programming languages? Drop your answers below. **
+
+
+## Suggested Articles:
+
+[Top 10 most hated programming languages of 2022 ](https://tipseason.com/top-10-most-hated-programming-languages/)
+
+[Carbon language tutorial](https://tipseason.com/carbon-language-tutorial-syntax)
