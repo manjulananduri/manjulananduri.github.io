@@ -1,0 +1,39 @@
+---
+title: "Back of the envovelope calculations for system design"
+layout: default
+permalink: "/system-design-calculator.html"
+disqus: false
+archive: false
+---
+
+<div class="container">
+    <div class="row">
+
+        <!-- Post Share -->
+        <div class="col-md-2 pl-0">
+            {% include share.html %}
+        </div>
+
+        <div class="col-md-9 flex-first flex-md-unordered">
+            <div class="jumbotron">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <label for="fromTimeZone" class="form-label">Daily active users</label>
+                            <br>
+                            <input type="text" class="form-control typeahead tt-query " id="fromTimeZone"
+                                   spellcheck="false"
+                                   placeholder="America/Los_Angeles">
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="button" value="Convert" class="btn btn-success">
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
