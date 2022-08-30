@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "8 Stand out resume tips to try today"
+title:  "8 Stand out resume tips - Easy to implement"
 author: Pramod
 categories: [Interviews]
 beforetoc: "Resume tips to standout for tech interviews"
