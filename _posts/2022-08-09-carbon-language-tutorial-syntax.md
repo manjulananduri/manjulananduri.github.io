@@ -24,7 +24,7 @@ In this tutorial we will learn about various aspects of Carbon language and jump
 
 Let's dive in.
 
-## What and Why Carbon Language ?
+## Introduction to Carbon Language
 
 Carbon language can replace C++ as things evolve. C++ is already a great language to work with. It can give high performance and widely used in many production systems. It can run with multiple platforms, hardware architecture and many operating systems. However some of the problems with C++ are
 
