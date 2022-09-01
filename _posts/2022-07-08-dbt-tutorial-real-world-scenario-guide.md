@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "dbt (data build tool) in a real world scenario, Beginner dbt tutorial"
+title:  "dbt (data build tool) tutorial with a real world example"
 author: Pramod
 categories: [DataScience]
 tags: [red, yellow]
