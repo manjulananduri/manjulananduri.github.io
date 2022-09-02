@@ -1,6 +1,6 @@
 ---
 layout: post 
-title:  "PostgreSQL Vs MySQL Comparison with syntax - A developer guide"
+title:  "PostgreSQL Vs MySQL differences in syntax - A developer guide"
 author: Pramod 
 categories: [Database, MySQL, PostgreSQL]
 tags: [red, yellow]
@@ -30,7 +30,7 @@ For the purpose of this tutorial we use `psql` and `mysql` clients for showcasin
 `mysql` is a terminal based client for MySQL. We can connect to MySQL server with `mysql` and perform different operations.<br>
 So let's get started.
 
-## 1. Show a list of all databases in PostgreSQL vs MySQL
+## 1. Show a list of all databases
 
 As part of setup, we have created a database named `demo` (using `create database demo`) upfront in both PostgreSQL and
 MySQL. To show a list of all databases present in PostgreSQL or MySQL, we can use the below commands:
@@ -81,7 +81,7 @@ mysql> show databases;
 MySQL `show databases` is equivalent to PostgreSQL list (`\l`) databases.
 
 ---
-## 2. Use or Change database in PostgreSQL vs MySQL
+## 2. Use or Change database
 
 If you have multiple databases on your DB server, we often need to switch between multiple databases to perform
 various DDL or DML operations or to read data. In order to change or use a different database than the currently selected database, we
@@ -117,7 +117,7 @@ Database changed
 mysql> 
 ```
 ---
-## 3. Show schemas in PostgreSQL vs MySQL
+## 3. Show schemas
 Schema is like a namespace of database objects such as tables, views, indexes etc. Depending on the type of DB server, 
 a database can contain multiple schemas, but a schema belongs to only one database. In some DB servers, schema and database 
 are used synonymously. 
@@ -163,7 +163,7 @@ mysql> show schemas;
 5 rows in set (0.02 sec)
 ```
 ---
-## 4. Show a list of all tables in PostgreSQL vs MySQL
+## 4. Show a list of all tables
 Once we change to the desired database, one of the most frequently used operations is to list all the 
 tables that are present in the current database. 
 
@@ -218,7 +218,7 @@ mysql> show tables;
 ```
 ---
 
-## 5. Describe table in PostgreSQL vs MySQL
+## 5. Describe table
 Now that we know how to list all the tables, let's focus on specific table. If we have to describe the table 
 fields, index etc, we can use the below queries. 
 
@@ -277,7 +277,7 @@ mysql> describe table demo_table_primarykey;
 ```
 
 ---
-## 6. Show create table in PostgreSQL vs MySQL
+## 6. Show create table
 If we want to see how the table is created or detailed indexes etc, MySQL has a convenient way to show the exact table structure. 
 But in PostgreSQL there is no straight forward way to see it. But here are some alternatives. 
 
@@ -312,7 +312,7 @@ mysql> show create table demo_table_primarykey;
 
 ```
 ---
-## 7. Show list of users or roles in PostgreSQL vs MySQL
+## 7. Show list of users or roles
 To view the list of users or roles in PostgreSQL vs MySQL we can use the below syntax. 
 ##### List users or roles in PostgreSQL:
 Detailed of information of users and roles can be obtained from `\du`
@@ -351,7 +351,7 @@ mysql> SELECT User, Host from mysql.user;
 
 ```
 ---
-## 8. Show process list in PostgreSQL vs MySQL
+## 8. Show process list
 If you have a slow query or you want to view the list of current running process list, we can use the below queries.
 ##### Show process list in PostgreSQL:
 To show process list in PostgreSQL, we can rely on `pg_stat_activity` table. This table has very useful information about 
@@ -391,7 +391,7 @@ mysql> show processlist;
 As you can see from the above comparison, each database is different and the way you can get information from these
 databases change a bit. So bookmark and share this post to ease your day-to-day development.
 
-## 9. Comments, Quotes, Case sensitivty in PostgreSQL VS MySQL
+## 9. Comments, Quotes, Case sensitivty
 There are some basic differences between PostgreSQL VS MySQL in terms of comments, quotes, case sensitivity. Lets check them here. 
 
 ##### Comments:
@@ -406,7 +406,75 @@ There are some basic differences between PostgreSQL VS MySQL in terms of comment
 - PosgreSQL is case-sensitive. Example: `WHERE site = 'tipseason.com'` might give different results than `WHERE site = 'TipSeason.com'` . We can use case conversion like (lower , upper etc.) and compare the objects. 
 - MySQL is case-insensitive. So in above example both queries gives same results. 
 
-## PostgreSQL vs MySQL Comparison Side by side comparison CheatSheet in Table form
+
+## PostgreSQL vs MySQL differences side by side 
+Here is a quick side by side comparison between PostgreSQL vs MySQL in syntax.
+
+<table class="table table-striped">
+    <tr>
+        <th>How to</th>
+        <th>PostgreSQL</th>
+        <th>MySQL</th>
+    </tr>
+    <tr>
+        <td>Show list of databases</td>
+        <td class="text text-danger">\l</td>
+        <td class="text text-primary">show databases</td>
+    </tr>
+    <tr>
+        <td>Use database</td>
+        <td class="text text-danger">\c {db_name}</td>
+        <td class="text text-primary">use {db_name}</td>
+    </tr>
+    <tr>
+        <td>Show list of schemas</td>
+        <td class="text text-danger">\dn</td>
+        <td class="text text-primary">show schemas</td>
+    </tr>
+    <tr>
+        <td>Show list of tables</td>
+        <td class="text text-danger">\d or \d+ or \dt or \dt+</td>
+        <td class="text text-primary">show tables</td>
+    </tr>
+    <tr>
+        <td>Describe table</td>
+        <td class="text text-danger">\dt {table_name} or \d+ {table_name}</td>
+        <td class="text text-primary">describe {table_name}</td>
+    </tr>
+    <tr>
+        <td>Show create table</td>
+        <td class="text text-danger">pg_dump -st {table_name} {dbname}</td>
+        <td class="text text-primary">show create table {table_name} </td>
+    </tr>
+    <tr>
+        <td>Show list of users or roles</td>
+        <td class="text text-danger">\du</td>
+        <td class="text text-primary">SELECT User, Host from mysql.user; </td>
+    </tr>
+    <tr>
+        <td>Show process list</td>
+        <td class="text text-danger">select * from pg_stat_activity</td>
+        <td class="text text-primary">show processlist</td>
+    </tr>
+    <tr>
+        <td>Comment single line</td>
+        <td class="text text-danger">--  (double dash)</td>
+        <td class="text text-primary"># (hash) </td>
+    </tr>
+    <tr>
+        <td>String quotes</td>
+        <td class="text text-danger">Only supports single quote (') eg:`where name = 'TipSeason'` </td>
+        <td class="text text-primary">Supports both single(') and double quotes (") eg: `where name = "TipSeason"` </td>
+    </tr>
+    <tr>
+        <td>Case sensitivity</td>
+        <td class="text text-danger">Postgres is case sensitive eg: `WHERE name = 'TipSeason'` gives different results than `WHERE name = 'tipseason'` </td>
+        <td class="text text-primary">MySQL is case insensitive. </td>
+    </tr>
+
+</table>
+
+
 
 <div class="alert alert-warning" role="alert">
 It's always easier to compare things in a table form side by side. 
