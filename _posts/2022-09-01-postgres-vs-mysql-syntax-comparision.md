@@ -1,6 +1,6 @@
 ---
 layout: post 
-title:  "PostgreSQL Vs MySQL Syntax - A beginners guide to use postgres and mysql with comparison and examples"
+title:  "PostgreSQL Vs MySQL Comparison with syntax - A developer guide"
 author: Pramod 
 categories: [Database, MySQL, PostgreSQL]
 tags: [red, yellow]
