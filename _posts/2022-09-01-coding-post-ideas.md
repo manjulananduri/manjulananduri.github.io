@@ -20,7 +20,12 @@ When we want to write our tech blogs either as a profession or a hobby, sometime
 2. What are the pros and cons of specific coding post types
 3. Any example references for them ?
 
-To answer these questions, in this tutorial we will learn about 25+ coding post types / ideas along with examples that you can implement in your next trending article. Let's get started.
+To answer these questions, in this tutorial we will learn about 25+ coding post types / ideas along with examples that you can implement in your next trending article. 
+
+Let's get started.
+
+There are many types of programming posts people blog about. Here are the best ones to include in your next programming post.
+
 
 ## 1. Listicles
 Listicles are the articles written in list format. Best example for this is the post that you are reading right now [15 Coding post ideas](#) is a listicle. It has list of 25+ ideas where each of them can be explained individually while covering the whole topic.
