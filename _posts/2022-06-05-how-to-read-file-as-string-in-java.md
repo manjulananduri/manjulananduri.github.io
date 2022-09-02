@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "How to read and write to file as a string in java in 5 simple ways"
+title:  "Java read file to string - 5 simple ways"
 author: Pramod
 categories: [ Java]
 tags: [red, yellow]
 image: assets/images/FileToString.jpg
-description: "5 simple ways to convert file to a string in java"
+description: "5 simple ways to convert file to a string in java - read and write"
 beforetoc: "5 simple ways to convert file to a string in java"
 featured: true
 hidden: true
@@ -14,13 +14,14 @@ promote: true
 suggestions: ['how-to-read-convert-an-inputstream-into-a-string-in-java/']
 ---
 
-
+In this tutorial we will discuss 5 simple ways to read a file to string in Java.
 Writing real world application code in java involves file and string processing. Some of the common use cases to convert a file to string are as follows.
 
 1. Read a JSON file and parse content from it.
 2. Read a CSV file for machine learning input data.
 
-There are numerous other use cases for this. So given the huge number of applications,  in this tutorial we will discuss 5 simple and handpicked ways to read or convert a file into a String in Java.
+There are numerous other use cases for this. So given the huge number of applications, in this how to guide, we will discuss 5 simple and handpicked ways to read or convert a file into a String in Java.
+
 Depending upon your project configuration, you can use any of the following methods.
 
 ##### 1. Using Java 1.11+ inbuilt Files package: 
