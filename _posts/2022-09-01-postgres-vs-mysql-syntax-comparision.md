@@ -412,7 +412,7 @@ Here is a quick side by side comparison between PostgreSQL vs MySQL in syntax.
 
 <table class="table table-striped">
     <tr>
-        <th>How to</th>
+        <th>Property</th>
         <th>PostgreSQL</th>
         <th>MySQL</th>
     </tr>
