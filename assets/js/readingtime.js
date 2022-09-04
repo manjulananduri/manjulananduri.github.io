@@ -55,6 +55,6 @@ function calculate() {
 }
 
 function getMinutes(time) {
-    var prefix = time < 0 ? ' minute' : ' minutes';
+    var prefix = time <= 1 ? ' minute' : ' minutes';
     return time + prefix;
 }
