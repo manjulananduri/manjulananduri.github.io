@@ -6,6 +6,9 @@ disqus: false
 archive: false
 ---
 
+<script src="/assets/js/readingtime.js"></script>
+
+
 <div class="container">
     <div class="row">
         <div class="col-md-11 flex-first flex-md-unordered">
@@ -21,9 +24,11 @@ archive: false
                     <hr>
 
                     <div class="mb-3 form-group">
-                        <label for="inputEmail3" class="col-form-label">&nbsp;Enter your content</label>
-                        <textarea class="form-control" id="inputText" rows="4"
-                                  placeholder="Enter the text that you want to estimate the time to read. We don't store any kind of content. "></textarea>
+                        <label for="inputContent" class="col-form-label">&nbsp;Enter your content</label>
+                        <textarea class="form-control" id="inputContent" rows="4"
+                                  placeholder="Enter the text that you want to estimate the time to read."></textarea>
+                        <small id="contentHelp" class="form-text text-muted">Note: We don't store any kind of
+                            content.</small>
                     </div>
 
                     <div class="mb-3 form-group row">
@@ -31,38 +36,50 @@ archive: false
                     </div>
 
                     <div class="mb-3 form-group row">
-                        <label for="inputEmail3" class="col-sm-6 col-form-label">Total Number of words</label>
+                        <label for="inputWordCount" class="col-sm-6 col-form-label">Total Number of words</label>
                         <div class="col-sm-3">
-                            <input type="email" class="form-control" id="inputEmail3" placeholder="0">
+                            <input type="email" class="form-control" id="inputWordCount" placeholder="0">
+                            <small id="wordCountHelp" class="form-text text-muted">Word count to measure</small>
                         </div>
+
                     </div>
 
                     <hr>
 
                     <div class="mb-3 form-group row">
-                        <label for="inputEmail3" class="col-sm-6 col-form-label">Number of images (Optional)</label>
+                        <label for="inputImageCount" class="col-sm-6 col-form-label">Number of images (Optional)</label>
                         <div class="col-sm-3">
-                            <input type="email" class="form-control" id="inputEmail3" placeholder="0">
+                            <input type="email" class="form-control" id="inputImageCount" placeholder="0">
+                            <small id="imageCountHelp" class="form-text text-muted">Each image adds 10 seconds reading
+                                time</small>
                         </div>
                     </div>
 
                     <div class="mb-3 form-group row">
-                        <label for="inputEmail3" class="col-sm-6 col-form-label">Words per minute (Optional)</label>
+                        <label for="inputWpm" class="col-sm-6 col-form-label">Words per minute (Optional)</label>
                         <div class="col-sm-3">
-                            <input style="width:100%" type="range" class="form-range mt-2" id="customRange1">
-                            <p for="customRange1" class="form-label" min="0" max="1000" value="500" steps="100">225
-                                wpm</p>
+                            <input style="width:100%" type="range" class="form-range mt-2" id="inputWpm" min="0"
+                                   max="500" value="225">
+                            <p for="customRange1" class="form-label" id="inputWpmLabel">225 wpm</p>
+                            <small id="wpmHelp" class="form-text text-muted">Average reading speed is 225 wpm</small>
                         </div>
                     </div>
 
 
                     <div class="mb-3 form-group">
-                        <button type="button" class="btn btn-primary">Calculate</button>
+                        <button type="button" class="btn btn-primary" id="calculate">Calculate</button>
+                    </div>
+
+                    <div class="mb-3 form-group">
+                        <p class=" d-flex flex-wrap align-items-center" id="helperMessage">
+                            <i class="text-warning material-icons">lightbulb</i>
+                            Reading speed can range from 200 to 250 words per minute (wpm)
+                        </p>
                     </div>
                 </form>
 
 
-                <div id="results" class="mt-3">
+                <div id="results" class="mt-3" style="display:none;">
                     <table class="table table-hover table-bordered ">
                         <thead>
                         <tr class="text-center text-success">
@@ -71,16 +88,28 @@ archive: false
                         </thead>
                         <tbody>
                         <tr>
-                            <th scope="row">Estimated time to read</th>
-                            <td>10 minutes</td>
+                            <th scope="row">Estimated time to read (Total)</th>
+                            <td id="estimatedTimeTotal"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Estimated time to read content</th>
+                            <td id="estimatedTimeContent"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Estimated time to read images</th>
+                            <td id="estimatedTimeImages"></td>
                         </tr>
                         <tr>
                             <th scope="row">Total Words</th>
-                            <td>100</td>
+                            <td id="wordCount"></td>
                         </tr>
                         <tr>
                             <th scope="row">Total Characters</th>
-                            <td>1000</td>
+                            <td id="charCount"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Total Spaces</th>
+                            <td id="spaceCount"></td>
                         </tr>
                         </tbody>
                     </table>
