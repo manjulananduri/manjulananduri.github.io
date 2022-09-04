@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "25+ Coding post ideas for trending tech blogs"
+title:  "25+ Coding post types - Ideas for trending tech blogs"
 author: Mani
 categories: [Programming]
 tags: [red, yellow]
@@ -175,6 +175,13 @@ Latest news and writing posts related to latest trending topics is one other goo
 24\. Algorithm explanation posts <br>
 25\. Standards in the industry <br>
 26\. Surveys / Performance reports <br>
+
+**Additional resources:**
+
+[20 Types of programming posts](https://betterprogramming.pub/20-types-of-programming-posts-552be6e7d326)
+
+[15 Inspiring Blog Post Ideas for Developers](https://inspirezone.tech/blog-post-ideas-for-developers/)
+
 
 ## Conclusion
 There are tons of other variations of articles that you can write about. 

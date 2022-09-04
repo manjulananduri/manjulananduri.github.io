@@ -1,0 +1,96 @@
+---
+title: "Reading time calculator | TipSeason"
+layout: default
+permalink: "/reading-time-calculator.html"
+disqus: false
+archive: false
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-11 flex-first flex-md-unordered">
+
+            <div class="container">
+
+                <form class="p-3 p-md-4 border rounded-3 bg-light">
+
+
+                    <h2 class="text-center text-info">Reading time calculator</h2>
+                    <p class="text-center text-info">Estimate the time to read a blog post / any content</p>
+
+                    <hr>
+
+                    <div class="mb-3 form-group">
+                        <label for="inputEmail3" class="col-form-label">&nbsp;Enter your content</label>
+                        <textarea class="form-control" id="inputText" rows="4"
+                                  placeholder="Enter the text that you want to estimate the time to read. We don't store any kind of content. "></textarea>
+                    </div>
+
+                    <div class="mb-3 form-group row">
+                        <div class="col-sm-6">- Or -</div>
+                    </div>
+
+                    <div class="mb-3 form-group row">
+                        <label for="inputEmail3" class="col-sm-6 col-form-label">Total Number of words</label>
+                        <div class="col-sm-3">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="0">
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="mb-3 form-group row">
+                        <label for="inputEmail3" class="col-sm-6 col-form-label">Number of images (Optional)</label>
+                        <div class="col-sm-3">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="0">
+                        </div>
+                    </div>
+
+                    <div class="mb-3 form-group row">
+                        <label for="inputEmail3" class="col-sm-6 col-form-label">Words per minute (Optional)</label>
+                        <div class="col-sm-3">
+                            <input style="width:100%" type="range" class="form-range mt-2" id="customRange1">
+                            <p for="customRange1" class="form-label" min="0" max="1000" value="500" steps="100">225
+                                wpm</p>
+                        </div>
+                    </div>
+
+
+                    <div class="mb-3 form-group">
+                        <button type="button" class="btn btn-primary">Calculate</button>
+                    </div>
+                </form>
+
+
+                <div id="results" class="mt-3">
+                    <table class="table table-hover table-bordered ">
+                        <thead>
+                        <tr class="text-center text-success">
+                            <th scope="col" colspan="2">Results</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">Estimated time to read</th>
+                            <td>10 minutes</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Total Words</th>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Total Characters</th>
+                            <td>1000</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</div>
