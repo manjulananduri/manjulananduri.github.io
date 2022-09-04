@@ -20,14 +20,18 @@ bundle exec jekyll doctor
 
 ### Copyright
 
-Theme copyrights:
-Copyright (C) 2019 Sal, https://www.wowthemes.net
-
-**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
-
 **Content copyrights:**
 
 All content in this blog owned by TipSeason.com
+
+Not allowed to reproduce or reuse for any purpose
+
+**Blog template/theme copyrights:**
+
+Copyright (C) 2019 Sal, https://www.wowthemes.net
+
+**Mediumish for Jekyll** is designed and developed by <a href="https://www.wowthemes.net" rel="nofollow">Sal</a> and it is *free* under MIT license. 
+
 
 ### Contribute
 
