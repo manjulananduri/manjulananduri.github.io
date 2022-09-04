@@ -130,6 +130,23 @@
                     </div>
                 </li>-->
 
+                {% if page.url == "/tools" %}
+                <li class="nav-item active">
+                    {% else %}
+
+                <li class="nav-item dropdown">
+                    {% endif %}
+
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                       role="button"
+                       aria-haspopup="true" aria-expanded="false">
+                        Tools
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{{ site.baseurl }}/reading-time-calculator">Reading Time Calculator</a>
+                    </div>
+                </li>
+
 
                 {% if page.url contains "/tips/" %}
                 <li class="nav-item active">
