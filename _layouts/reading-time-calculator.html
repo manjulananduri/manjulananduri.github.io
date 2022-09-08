@@ -8,7 +8,6 @@ archive: false
 
 <script src="/assets/js/readingtime.js"></script>
 
-
 <div class="container">
     <div class="row">
         <div class="col-md-11 flex-first flex-md-unordered">
@@ -18,8 +17,8 @@ archive: false
                 <form class="p-3 p-md-4 border rounded-3 bg-light">
 
 
-                    <h2 class="text-center text-info">Reading time calculator</h2>
-                    <p class="text-center text-info">Estimate the time to read a blog post / any content</p>
+                    <h2 class="text-center text-success">Reading time calculator</h2>
+                    <p class="text-center text-success">Estimate the time to read a blog post / any content</p>
 
                     <hr>
 
@@ -90,22 +89,6 @@ archive: false
                         </thead>
                         <tbody>
                         <tr>
-                            <th scope="row">Estimated time to read (Total)</th>
-                            <td id="estimatedTimeTotal"></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Estimated time to read content</th>
-                            <td id="estimatedTimeContent"></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Estimated time to read images</th>
-                            <td id="estimatedTimeImages"></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Total Words</th>
-                            <td id="wordCount"></td>
-                        </tr>
-                        <tr>
                             <th scope="row">Total Characters</th>
                             <td id="charCount"></td>
                         </tr>
@@ -113,14 +96,197 @@ archive: false
                             <th scope="row">Total Spaces</th>
                             <td id="spaceCount"></td>
                         </tr>
+                        <tr>
+                            <th scope="row">Total Words</th>
+                            <td id="wordCount"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Estimated time to read content</th>
+                            <td id="estimatedTimeContent"></td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Estimated time to read images</th>
+                            <td id="estimatedTimeImages"></td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Estimated time to read (Total)</th>
+                            <td id="estimatedTimeTotal"></td>
+                        </tr>
+
+
                         </tbody>
                     </table>
                 </div>
 
-                <div id="faqs" class="mt-3">
+                <div class="mt-3" class="accordion" id="accordionExample">
+
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What is reading time calculator?
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                             data-parent="#accordionExample">
+                            <div class="card-body">
+                                <strong>Reading time calculator (or Read time estimator) </strong> is a free tool to
+                                estimate the time to read a blog post or article. You can calculate the total read
+                                time of a book too if you know the number of words. This tool gives various information
+                                like <br>
+                                <ul>
+                                    <li>Number of words</li>
+                                    <li>Number of spaces</li>
+                                    <li>Number of characters</li>
+                                    <li>Estimated total time to read the content</li>
+                                    <li>Estimated time to view the images</li>
+                                    <li>Estimated total time to read</li>
+                                </ul>
+                                If your blog post or article contains images, then try to provide accurate information
+                                in the number of images input, which will be used to
+                                have the overall time to calculate both text + image read time.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                    How to use this tool ?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                             data-parent="#accordionExample">
+                            <div class="card-body">
+                                To estimate the reading time you can provide
+                                <ul>
+                                    <li>The <b>actual content (in Enter your content
+                                        input field) </b> or <b>the total number of
+                                        words (in Total number of words) </b></li>
+                                    <li> In addition you can also provide the total number of images (optional field)
+                                        that
+                                        you
+                                        have in your content.
+                                        Each image adds 10 seconds additional time to read.
+                                    </li>
+                                    <li> You can change the words per minute (wpm) to change the reading speed. Default
+                                        wpm
+                                        is
+                                        225wpm.
+                                    </li>
+                                    <li>Once you enter the inputs, press <b>Calculate</b> button to calcuate the
+                                        estimated
+                                        reading time.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                    Do we store the content any where ?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                             data-parent="#accordionExample">
+                            <div class="card-body">
+                                <strong>No</strong>. We don't store any kind of content that you provided. This tool is
+                                purely a Javascript based tool,
+                                which will take the input, get the count of total words and perform calculations based
+                                on words per minute (wpm). All calculations happen in the browser and no backend calls
+                                are made. So you can confidently paste your content.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                    How is reading time calculated ?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                             data-parent="#accordionExample">
+                            <div class="card-body">
+                                Reading time is calculated using below formula: <br>
+                                Estimated Reading time = (Total words / wpm) + (number of images * 10 seconds)
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                    What are the applications of reading time calculator ?
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                             data-parent="#accordionExample">
+                            <div class="card-body">
+                                There are number of applications / use cases. Here are some examples.
+                                <ul>
+                                    <li><b>Google search reading time estimation: </b> Google recently started
+                                        experimenting
+                                        with
+                                        <a href="https://searchengineland.com/google-search-quick-read-5-min-read-labels-387599">quick
+                                            read time labels</a> to display time to read an article. This
+                                        calculator helps reaching that estimation time
+                                    </li>
+                                    <li>Show time to read for articles or blog posts</li>
+                                    <li>Calculate time to read a book</li>
+                                    <li>Literally calculate reading time for anything that you read :-)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingSix">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
+                                        aria-controls="collapseSix">
+                                    Credits
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                             data-parent="#accordionExample">
+                            <div class="card-body">
+                                This tool is built with love at <a href="https://tipseason.com/">TipSeason.com</a>. All
+                                rights
+                                reserved to TipSeason.
+                            </div>
+                        </div>
+                    </div>
 
 
                 </div>
+
 
             </div>
 
