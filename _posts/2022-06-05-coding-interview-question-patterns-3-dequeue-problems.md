@@ -17,7 +17,16 @@ Top interview problems that can be solved with this pattern include:
 <a target="_blank" href="https://leetcode.com/problems/sliding-window-maximum/">Sliding Window Maximum</a> <br> 
 <a target="_blank" href="https://leetcode.com/problems/largest-rectangle-in-histogram/">Largest rectangle in a histogram</a>
 
+### Different Ways to declare Deque in java. 
+```java
+Deque deque = new LinkedList();
 
+Deque deque = new ArrayDeque();
+
+ArrayDeque<Integer> queue = new ArrayDeque<>();
+```
+
+### Dequeue methods ( cheatsheet ) quick reference: 
   
 ```java
 add(Element e) : The method inserts particular element at the end of the deque.
