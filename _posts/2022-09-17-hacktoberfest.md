@@ -32,7 +32,7 @@ While the main event is in october, month of September is dedicated to preparati
 
 > Hacktoberfest is a great opportunity for both open source contributors + maintainers to achieve their open source goals.
 
-* As of 2022 People of any experience level (beginner , intermediate, advanced) and with any expertise (technical or non technical) can participate in Hacktoberfest.
+* In Hacktoberfest 2022 People of any experience level (beginner , intermediate, advanced) and with any expertise (technical or non technical) can participate in the event.
 * Tenhnical projects might not need an introduction. For non-technical projects, repositories with Low-code and Non-Code projects are great choices for non techn folks.
 * Here are some examples from Hacktoberfest source website:
 
