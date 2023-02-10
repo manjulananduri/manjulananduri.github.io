@@ -28,12 +28,14 @@ Arrays.sort(intervals, (a,b) -> a[0] - b[0]);
 Arrays.sort(intervals, (a,b) -> {return (a[0] - b[0]);}); 
 
 //Sort Based on Month Length. 
-String[] months = {"January","February","March","April","May","June","July","August","September","October","December"};
+String[] months = {"January","February","March","April"};
 Arrays.sort(months, (a, b) -> a.length() - b.length());
-Arrays.sort(months, 
-    (String a, String b) -> { return Integer.signum(a.length() - b.length()) }; 
-);
 Arrays.sort(months, Comparator.comparingInt(String::length));
+Arrays.sort(months, 
+    (String a, String b) -> { 
+        return Integer.signum(a.length() - b.length()) 
+    }; 
+);
 
 ```
 
