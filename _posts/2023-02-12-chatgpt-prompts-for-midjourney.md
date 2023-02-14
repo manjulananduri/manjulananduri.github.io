@@ -25,7 +25,7 @@ ChatGPT is a state-of-the-art language model developed by OpenAI, capable of gen
 
 In order to generate chatgpt prompts for midjourney we can follow few simple steps. 
 
-Step 1: Setup ChatGPT for midjourney context
+### Step 1: Setup ChatGPT for midjourney context
 While ChatGPT is a smart AI assistant, it's knowledge is limited to training data until 2021 at the time of writing this article. 
 The key ingredient to make ChatGPT give creative prompts for midjourney is to properly set context for ChatGPT to understand what is MidJourney. 
 To do that we will use the following prompt 
@@ -48,7 +48,7 @@ A deep-sea diver encountering a massive, majestic whale.
 
 Note that every New Chat in ChatGPT creates context for that specific conversation. So if when asking about prompt, try in a new chat so that you can reuse that Chat window for prompts in next steps. 
 
-Step 2: Decide your Concept
+### Step 2: Decide your Concept
 
 The second step in using ChatGPT to generate prompts for Mid-Journey is to choose a concept or theme that you want to explore. This could be anything from a specific style of art to a particular subject matter. Consider what you want to create and what you hope to achieve with your AI-generated art. If you not sure what concept to chose, ask ChatGPT to 
 > Give me a list of 5 creative concepts that I can use to generate AI art
@@ -65,7 +65,7 @@ Sure, here is a list of 5 creative concepts that you can use to generate AI art
 
 ```
 
-Step 3: Provide a Starting concept Prompt
+### Step 3: Provide a Starting concept Prompt
 
 Once you've chosen your concept, it's time to provide ChatGPT with a starting prompt. This could be as simple as "A peacock and a parrot"  or "A car and a bike" etc.  You can also specify this simply by skipping step 1 and step 2 with a prompt like "create a generative AI art prompt for a beautiful butterfly in forest" or "generate a prompt for a futuristic cityscape for generative AI art". The starting prompt should be clear and concise, providing ChatGPT with enough information to generate relevant prompts.
 
@@ -83,7 +83,7 @@ A fantastical jungle where peacocks and parrots reign supreme, their feathers an
 A playful scene where a curious parrot perches on the head of a majestic peacock, each adorned with elaborate, complementary plumage.
 ```
 
-Step 4: Request different variations
+### Step 4: Request different variations
 
 After providing your starting prompt, ask ChatGPT to generate different variations for the same concept. This will give you a variety of options to choose from, allowing you to select the one that best fits your needs. You can ask ChatGPT to provide the variations by entering 
 
@@ -91,11 +91,12 @@ After providing your starting prompt, ask ChatGPT to generate different variatio
 
 Quick tip: ChatGPT can become too creative at this point. So ask ChatGPT to customize it as per your interests just like you make your specifications to a graphic designer. 
 
-Step 5: Copy and Paste the Prompts into Mid-Journey
+### Step 5: Copy and Paste the Prompts into Mid-Journey
 
-Once you've selected the prompt you want to use, simply copy and paste it into the Mid-Journey app. The app will then use the prompt to generate AI-generated art based on your specifications.
+Once you've selected the prompt you want to use, simply copy and paste it into the Mid-Journey discord app with the tag `/imagine`. The app will then use the prompt to generate AI-generated art based on your specifications.
+Eg: `/imagine a butterfly with a beautiful wings on a unicorn`
 
-Step 6: Experiment and Refine
+### Step 6: Experiment and Refine
 
 Finally, experiment with different prompts and see what kind of results you get. You may want to try using different concepts or adjusting your prompts to see how they affect the AI-generated art. With time and experimentation, you'll be able to fine-tune your prompts and get the most out of the Mid-Journey app.
 
