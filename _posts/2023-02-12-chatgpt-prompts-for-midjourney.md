@@ -2,7 +2,7 @@
 layout: post
 title:  "50+ Chatgpt prompts for Midjourney - Generative AI art"
 author: Pramod
-categories: [ Interviews, Behavioral ]
+categories: [ ChatGPT, Midjourney ]
 image: assets/images/chatgpt.png
 beforetoc: "Master the art of using ChatGPT for midjourney, stable difussion or DALL-E-2"
 featured: true
@@ -104,6 +104,7 @@ Similar steps can be followed for generating prompts for stable diffusion, DALL-
 
 In conclusion, using ChatGPT to generate prompts for Mid-Journey can help you get the most out of the app and create unique, high-quality AI-generated art. Give it a try and see what kind of results you can achieve!
 
+## 50+ chatgpt prompts
 Here are 50+ chatgpt prompts that you can instantly use for midjourney or DALL-E or other AI generated art. 
 
 ## Futuristic Cities
