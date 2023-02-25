@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "50+ ChatGPT prompts for resume writing. Using Them with Bard AI to Stand Out"
+title:  "50+ ChatGPT prompts for resume writing and job search (Bard AI compatible)"
 author: Pramod
 categories: [ Interviews, Behavioral, Resume ]
 image: assets/images/chatgpt.png
@@ -9,7 +9,9 @@ featured: true
 toc: true
 promote: true
 ---
-In the previous article we learnt about 
+
+In the previous article we learnt about [50+ Chatgpt prompts for Midjourney - Generative AI art](/chatgpt-prompts-for-midjourney/). In this blog post we will look at effective ChatGPT prompts for resume writing and job search. 
+
 When you're on the hunt for a new job, your resume is often the first impression that potential employers will have of
 you. It's essential to make sure your resume showcases your skills, experience, and achievements in a way that stands
 out from the crowd. But how do you know where to start, or what to include on your resume? That's where ChatGPT comes
