@@ -48,6 +48,11 @@ A deep-sea diver encountering a massive, majestic whale.
 
 Note that every New Chat in ChatGPT creates context for that specific conversation. So if when asking about prompt, try in a new chat so that you can reuse that Chat window for prompts in next steps. 
 
+Before trying out next steps, don't miss out this
+
+<a href="https://etsy.me/3Zy9Knu"><img src="/assets/images/chatgpt-prompts-ai-tools.jpg" alt="HTML tutorial" style="width:80%;"></a>
+
+
 ### Step 2: Decide your Concept
 
 The second step in using ChatGPT to generate prompts for Mid-Journey is to choose a concept or theme that you want to explore. This could be anything from a specific style of art to a particular subject matter. Consider what you want to create and what you hope to achieve with your AI-generated art. If you not sure what concept to chose, ask ChatGPT to 

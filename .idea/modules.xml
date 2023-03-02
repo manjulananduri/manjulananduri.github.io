@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/mediumish-theme-jekyll.iml" filepath="$PROJECT_DIR$/.idea/mediumish-theme-jekyll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_interviews/_interviews.iml" filepath="$PROJECT_DIR$/_interviews/_interviews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_site/_site.iml" filepath="$PROJECT_DIR$/_site/_site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manjulananduri.github.io.iml" filepath="$PROJECT_DIR$/manjulananduri.github.io.iml" />
     </modules>
   </component>
 </project>
