@@ -50,7 +50,7 @@ Note that every New Chat in ChatGPT creates context for that specific conversati
 
 Before trying out next steps, don't miss out this
 
-<a href="https://etsy.me/3Zy9Knu"><img src="/assets/images/chatgpt-prompts-ai-tools.jpg" alt="HTML tutorial" style="width:80%;"></a>
+<a href="https://etsy.me/3Zy9Knu"><img src="/assets/images/chatgpt-prompts-ai-tools.jpg" alt="chatgpt prompts and ai tools download" style="width:80%;"></a>
 
 
 ### Step 2: Decide your Concept
