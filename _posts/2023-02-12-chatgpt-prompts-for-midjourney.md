@@ -16,7 +16,10 @@ But what if you could take that experience even further with auto generated prom
 Whether you're a professional artist, graphic designer, or simply looking to explore your creativity, Midjourney + Chatgpt is the ultimate tool combination that you need to have creative images for your use case. 
 
 In this blog post, we'll explore how you can harness the power of ChatGPT to generate prompts for Midjourney, taking your image generation experience to the next level.
-You will learn about basic steps to create midjourney prompts + bonus chatgpt prompt to help you create prompts for midjourney. Let's get started. 
+You will learn about basic steps to create midjourney prompts + bonus chatgpt prompt to help you create prompts for midjourney. Let's get started.
+
+In addition, you can access midjourney cheatsheet with Commands, properties, image hacks here.      
+<a href="/midjourney-cheatsheet/"> Midjourney CheatSheet - Commands, properties, image hacks </a>
 
 ## How to make chatgpt to generate prompts for midjourney ? 
 Mid-Journey is an innovative app that utilizes artificial intelligence to generate art from simple prompts. With its user-friendly interface and powerful algorithms, it offers a unique and exciting way to create art and explore new concepts. To make the most of this app, it's important to have high-quality prompts that inspire and guide the AI to generate the best results. 
