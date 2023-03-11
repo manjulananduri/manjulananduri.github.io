@@ -5,7 +5,6 @@ author: Pramod
 categories: [ ChatGPT, Midjourney ]
 image: assets/images/chatgpt.png
 beforetoc: "Master the art of using ChatGPT as a data scientist, software developer"
-featured: true
 toc: true
 promote: true
 ---
@@ -278,4 +277,4 @@ ChatGPT is a powerful tool for generating informative and insightful responses t
 Combining AI with code can exponentially increase our productivity. 
 
 Hope you had fun trying these prompts of chatgpt prompts for datascience. AI is the current and upcoming trend.
-To keep yourself updated with latest trends subscribe to our newsletter for latest AI + Chatgpt prompts news. Also follow us on social media on twitter at https://twitter.com/thetipseason
+To keep yourself updated with latest trends subscribe to our newsletter for latest AI + Chatgpt prompts news. Also follow us on social media on twitter at [tipseason](https://twitter.com/thetipseason)
