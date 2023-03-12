@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "75+ Chatgpt prompts for data science | developers (Bard AI Compatible) "
+title:  "75+ Chatgpt prompts for data science | software developers (Bard AI Compatible)"
 author: Pramod
 categories: [ ChatGPT, Midjourney ]
 image: assets/images/chatgpt.png
@@ -15,7 +15,7 @@ ChatGPT + Data science is an ultimate combination for data scientists and softwa
 In this blog post, we'll explore over 75+ ChatGPT prompts specifically tailored for data science applications. These
 prompts can be used to generate text for a wide range of tasks, including code generation, data preprocessing, model
 training, hyperparameter tuning, data exploration, and natural language processing, data analytics , data mining and a
-lot more. 
+lot more.   
 
 In case you missed it, check out 
 
