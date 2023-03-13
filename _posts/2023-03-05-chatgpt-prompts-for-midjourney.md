@@ -21,6 +21,14 @@ You will learn about basic steps to create midjourney prompts + bonus chatgpt pr
 In addition, you can access midjourney cheatsheet with Commands, properties, image hacks here.      
 <a href="/midjourney-cheatsheet/"> Midjourney CheatSheet - Commands, properties, image hacks </a>
 
+In case if you missed it, you can check other chatgpt promtps here :
+
+[50+ ChatGPT prompts for writing](/chatgpt-prompts-for-writing/)
+
+[50+ ChatGPT prompts for resume writing and job search](/chatgpt-prompts-for-resume/)
+
+[75+ ChatGPT prompts for data science](/chatgpt-prompts-for-data-science/)
+
 Alright! Let's get started!!
 
 ## How to make chatgpt to generate prompts for midjourney ? 
