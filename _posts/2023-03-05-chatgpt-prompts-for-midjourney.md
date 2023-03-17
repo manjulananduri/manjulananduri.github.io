@@ -38,6 +38,11 @@ ChatGPT is a state-of-the-art language model developed by OpenAI, capable of gen
 
 In order to generate chatgpt prompts for midjourney we can follow few simple steps. 
 
+Before trying out next steps, don't miss out this limited time offer: 
+
+<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" style="width:80%;"></a>
+
+
 ### Step 1: Setup ChatGPT for midjourney context
 While ChatGPT is a smart AI assistant, it's knowledge is limited to training data until 2021 at the time of writing this article. 
 The key ingredient to make ChatGPT give creative prompts for midjourney is to properly set context for ChatGPT to understand what is MidJourney. 
@@ -59,12 +64,7 @@ A mermaid lounging on a rock, surrounded by glittering schools of fish.
 A deep-sea diver encountering a massive, majestic whale.
 ```
 
-Note that every New Chat in ChatGPT creates context for that specific conversation. So if when asking about prompt, try in a new chat so that you can reuse that Chat window for prompts in next steps. 
-
-Before trying out next steps, don't miss out this
-
-<a href="https://etsy.me/3Zy9Knu"><img src="/assets/images/chatgpt-prompts-ai-tools.jpg" alt="chatgpt prompts and ai tools download" style="width:80%;"></a>
-
+Note that every New Chat in ChatGPT creates context for that specific conversation. So if when asking about prompt, try in a new chat so that you can reuse that Chat window for prompts in next steps.
 
 ### Step 2: Decide your Concept
 
