@@ -28,6 +28,12 @@ Packed with commands, properties, image hacks, and more, this cheatsheet is your
 creativity and pushing past any obstacle. Whether you're a writer, artist, or designer, this cheatsheet will help you
 stay on track and bring your vision to life.
 
+
+Before jumping into the cheatsheet, don't miss out this.  
+
+<a href="https://etsy.me/3Zy9Knu"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" style="width:80%;"></a>
+
+
 Use this cheatsheet as a reference when you engineer your midjourney prompts.
 
 Let's get started!!
