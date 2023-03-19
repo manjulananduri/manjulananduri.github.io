@@ -1,0 +1,82 @@
+---
+layout: default
+disqus: false
+archive: false
+---
+
+<!-- Begin Article
+================================================== -->
+
+<div class="row">
+    <a href="/ai-tools" class="text-info ml-3">
+        <span>
+            <i class="fas fa-arrow-left"></i>
+        </span>
+        <span >Back</span>
+    </a>
+</div>
+
+<div class="row mt-2">
+    <div class="col-5 mt-2">
+
+        <img class="img-fluid lazyimg ts-shadow-lg rounded" src="{{ page.imageurl }}"/>
+
+        <div class="mt-5">
+            <p>Spread the love: </p>
+            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <div class="addthis_inline_share_toolbox"></div>
+        </div>
+    </div>
+    <div class="col-6 ml-4">
+
+        <h4>
+            <a href="{{page.siteurl}}?ref=tipseason.com" target="_blank" class="text-danger">{{ page.title }}
+                &nbsp;&nbsp;<i class="fas fa-external-link-alt"></i>
+            </a>
+        </h4>
+
+        <p><a target="_blank" href="{{page.siteurl}}?ref=tipseason.com">{{ page.siteurl }}</a></p>
+
+        <p>{{ page.description }}</p>
+
+
+        <hr>
+
+        <div>
+            <p>Tags: </p>
+
+            {% for tag in page.tags %}
+
+            <a href="#" class="btn btn-info btn-icon-split btn-sm">
+                                            <span class="icon text-white-50">
+                                                <i class="fas fa-hashtag"></i>
+                                            </span>
+                <span class="text">{{ tag }}</span>
+            </a>
+
+            {% endfor %}
+        </div>
+
+        <p>
+        <p>Price: </p>
+        <a href="#" class="btn btn-success btn-icon-split btn-sm">
+                                        <span class="icon text-white-50">
+                                            <i class="fas fa-check"></i>
+                                        </span>
+            <span class="text">{{page.pricing}}</span>
+        </a>
+        </p>
+
+        <p>
+        <p>Category: </p>
+        <a href="#" class="btn btn-primary btn-icon-split btn-sm">
+                                        <span class="icon text-white-50">
+                                            <i class="fas fa-check"></i>
+                                        </span>
+            <span class="text">{{page.category}}</span>
+        </a>
+        </p>
+
+    </div>
+</div>
+

@@ -1,7 +1,17 @@
 
 .bg-banner{
     /*background-color: #f7f8ff!important;*/
+
+    /* Previous green color */
     background-color: #009688 !important;
+    /* background-color: #08aab6 !important; */
+    /* background-color: #0097a3 !important;  */
+
+    /*
+    Some more colors:
+    #066895
+    */
+
 
     /*background-color: #17a2b8!important;*/
 }
@@ -70,3 +80,15 @@
 .toc_items a:link {
     color: #09774e;
 }
+
+
+.border-bottom-info {
+  border-bottom: 0.25rem solid #36b9cc !important;
+}
+
+.ts-shadow-lg {
+  box-shadow:0 0.5rem 2rem #04c0ec !important;
+}
+
+
+

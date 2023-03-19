@@ -6,14 +6,20 @@ disqus: false
 archive: false
 ---
 
-<div class="row listrecent">
-    {% for post in site.categories.Carbon %}
-    {% if post.title != null %}
-    {% if group == null or group == post.group %}
-    {% include card.html %}
-    {% endif %}
-    {% endif %}
-    {% endfor %}
-    {% assign pages_list = nil %}
-    {% assign group = nil %}
+<!--<div class="row listrecent d-flex align-items-center justify-content-center">-->
+<div class="container">
+    <div class="row">
+
+    </div>
+    <div class="row listrecent">
+        {% for post in site.categories.Carbon %}
+        {% if post.title != null %}
+        {% if group == null or group == post.group %}
+        {% include card.html %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+        {% assign pages_list = nil %}
+        {% assign group = nil %}
+    </div>
 </div>
