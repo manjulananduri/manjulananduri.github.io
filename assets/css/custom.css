@@ -3,7 +3,9 @@
     /*background-color: #f7f8ff!important;*/
 
     /* Previous green color */
-    background-color: #009688 !important;
+    /* background-color: #009688 !important; */
+    /* Good blue */
+    background-color: #055c8e !important;
     /* background-color: #08aab6 !important; */
     /* background-color: #0097a3 !important;  */
 
@@ -90,5 +92,8 @@
   box-shadow:0 0.5rem 2rem #04c0ec !important;
 }
 
+.text-highlight {
+    color: #105c83;
+}
 
 

@@ -9,10 +9,60 @@ archive: false
 <!--<div class="row listrecent d-flex align-items-center justify-content-center">-->
 <div class="container">
     <div class="row">
-
+        <div class="col text-center text-highlight">
+            <h2>Discover best AI tools to stay ahead of others!</h2>
+        </div>
     </div>
+
+    <div class="row mt-3">
+        <div class="col-md-6 mx-auto text-center ">
+            <div class="input-group input-group-lg mb-3">
+                <input type="text" class="form-control  border-info" placeholder="Search"
+                       aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append ">
+                    <span class="input-group-text border-info" id="basic-addon2"><i class="fas fa-search text-highlight"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col mx-auto text-center">
+            <p>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Content Writing</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Video Generation</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Coding</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Design</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Copyrighting</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Legal</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Finance</a>
+
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Copyrighting</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Legal</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Finance</a>
+
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Content Writing</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Video Generation</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Coding</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Design</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Copyrighting</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Legal</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Finance</a>
+
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Content Writing</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Video Generation</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Coding</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Design</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Copyrighting</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Legal</a>
+                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Finance</a>
+
+            </p>
+        </div>
+    </div>
+
     <div class="row listrecent">
-        {% for post in site.categories.Carbon %}
+        {% for post in site.aitools %}
         {% if post.title != null %}
         {% if group == null or group == post.group %}
         {% include card.html %}

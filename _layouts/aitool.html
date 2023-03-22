@@ -19,7 +19,8 @@ archive: false
 <div class="row mt-2">
     <div class="col-5 mt-2">
 
-        <img class="img-fluid lazyimg ts-shadow-lg rounded" src="{{ page.imageurl }}"/>
+        <img class="img-fluid lazyimg ts-shadow-lg rounded" src="{% if page.image contains " ://" %}{{ page.image }}{% else %}{{
+        site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}"/>
 
         <div class="mt-5">
             <p>Spread the love: </p>

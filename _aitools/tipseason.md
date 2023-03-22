@@ -2,7 +2,7 @@
 layout: aitool
 title: TipSeason
 siteurl: https://tipseason.com/
-imageurl: https://tipseason.com/assets/images/midjourney-series-tipseason.png
+image: https://tipseason.com/assets/images/midjourney-series-tipseason.png
 description: "A free stable diffusion API tool with many models to help implement generative AI into your app.
 <br><br>Prodia is changing the game of AI integration in software applications by offering an easily accessible API for image and music generation. Their mission to democratize AI has resulted in over one million API-generated creations every week.
 <br><br>Prodia's Stable Diffusion API is streamlined and user-friendly, eliminating the need for developers to handle their own GPU infrastructure. With Prodia, the hassle of training AI models and managing GPU resources is a thing of the past. Their powerful GPU resources do the heavy lifting, allowing developers to focus on bringing their AI vision to life.
