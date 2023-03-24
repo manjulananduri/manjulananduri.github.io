@@ -214,4 +214,12 @@ Other Chatgpt Prompts for Midjourney or stable diffusion
 9. Imagine a world filled with robots. For example, "A bustling city where robots and humans coexist, working together to build a better future."
 10. Design a magical world. For example, "A enchanted forest filled with glittering fairies and mischievous elves."
 
-In conclusion, you now know how to generative creative prompts for midjourney using ChatGPT. Also you have a treasure trove of 50+ creative prompts for generating AI art on Midjourney, from fantastical gardens to underwater wonderlands and beyond. So why not put them to the test? Share your favorite AI-generated artwork on social media using the hashtag #tipseason, and let us know which prompts you found most inspiring. Don't forget to tag us, and see if your friends can guess which prompts you used. And to stay up to date on the latest in generative AI art, be sure to subscribe to our newsletter. With Midjourney and Chatgpt, the possibilities are truly endless. Let your imagination run wild, and discover the amazing world of generative AI art today!
+In conclusion, you now know how to generative creative prompts for midjourney using ChatGPT. Also you have a treasure
+trove of 50+ creative prompts for generating AI art on Midjourney, from fantastical gardens to underwater wonderlands
+and beyond. 
+
+So why not put them to the test? Share your favorite AI-generated artwork on social media using the hashtag
+#tipseason, and let us know which prompts you found most inspiring. Don't forget to tag us, and see if your friends can
+guess which prompts you used. And to stay up to date on the latest in generative AI art, be sure to subscribe to our
+newsletter. With Midjourney and Chatgpt, the possibilities are truly endless. Let your imagination run wild, and
+discover the amazing world of generative AI art today!
