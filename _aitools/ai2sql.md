@@ -13,7 +13,7 @@ AI2SQL supports natural language prompts in several languages, including English
 Portuguese, Chinese, Japanese and Turkish.
 "
 tags: [Programming, AI Tools]
-category: Coding Assistant 
+category: coding
 pricing: Free 
 featured: false 
 paidcustomer: false

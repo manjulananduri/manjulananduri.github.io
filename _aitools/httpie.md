@@ -9,7 +9,7 @@ increase your productivity when testing and talking to APIs.
 This initial release allows you to create requests using human language. While in preview, you can use HTTPie AI for
 free with an HTTPie account. Gradually, AI capabilities will expand throughout the platform."
 tags: [Programming, AI Tools]
-category: Coding Assistant 
+category: coding
 pricing: Free 
 featured: false 
 paidcustomer: false

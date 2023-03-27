@@ -81,7 +81,10 @@ exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, 'src', 'o
 collections:
   aitools:
     output: true
-    permalink: /ai-tool/:path
+    permalink: /ai-tools/:path
+  aicategories:
+    output: true
+    permalink: /ai-tools/category/:path
   tips:
     output: true
     permalink: /tips/:path

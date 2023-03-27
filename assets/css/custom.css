@@ -96,4 +96,16 @@
     color: #105c83;
 }
 
+.btn-info-dark {
+    color:#fff;
+    background-color:#156874;
+    border-color:#17a2b8;
+}
+
+.card-text-light {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
 

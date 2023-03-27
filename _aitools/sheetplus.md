@@ -13,7 +13,7 @@ generate it accurately within seconds.
 <br><br>
 No more struggling to remember complex formulas or spending hours trying to create them from scratch."
 tags: [Programming, AI Tools]
-category: Coding Assistant 
+category: coding
 pricing: Free 
 featured: false 
 paidcustomer: false

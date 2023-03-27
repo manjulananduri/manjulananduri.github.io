@@ -9,7 +9,7 @@ with many programming languages, including Python, Ruby, Java, and JavaScript. D
 optimization are just a few of the things that GitHub Copilot can help you with. Developers who wish to work more
 efficiently and rapidly will find it handy."
 tags: [Programming, AI Tools]
-category: Coding Assistant 
+category: coding
 pricing: Free 
 featured: false 
 paidcustomer: false

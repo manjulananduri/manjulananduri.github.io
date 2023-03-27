@@ -1,7 +1,7 @@
 ---
 title: "Reading time calculator - Google quick read label estimator | TipSeason"
 layout: default
-permalink: "/reading-time-calculator.html"
+permalink: "/ai-tools.html"
 disqus: false
 archive: false
 ---
@@ -10,7 +10,13 @@ archive: false
 <div class="container">
     <div class="row">
         <div class="col text-center text-highlight">
+            {% assign toolCategory = page.category %}
+            {% if toolCategory != null %}
+            <h2>Trending AI tools for {{ page.title }}</h2>
+            {% else %}
             <h2>Discover best AI tools to stay ahead of others!</h2>
+            {% endif %}
+
         </div>
     </div>
 
@@ -29,47 +35,54 @@ archive: false
     <div class="row mt-3">
         <div class="col mx-auto text-center">
             <p>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Content Writing</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Video Generation</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Coding</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Design</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Copyrighting</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Legal</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Finance</a>
 
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Copyrighting</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Legal</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Finance</a>
+                {% assign categories = site["aicategories"] | sort: 'order'  %}
 
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Content Writing</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Video Generation</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Coding</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Design</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Copyrighting</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Legal</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Finance</a>
+                {% if toolCategory != null  %}
+                    <a href="/ai-tools" class="btn btn-info btn-icon-split btn-sm m-1">All Categories</a>
+                {% endif %}
 
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Content Writing</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Video Generation</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Coding</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Design</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Copyrighting</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Legal</a>
-                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Finance</a>
+                {% for cat in categories %}
+
+                    {% if toolCategory != null and toolCategory == cat.category %}
+                    <a href="{{ cat.url }}" class="btn btn-info-dark btn-icon-split btn-sm m-1">{{ cat.title }}</a>
+                    {% else %}
+                    <a href="{{ cat.url }}" class="btn btn-info btn-icon-split btn-sm m-1">{{ cat.title }}</a>
+                    {% endif %}
+
+                {% endfor %}
+
+
+<!--                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Content Writing</a>-->
+<!--                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Video Generation</a>-->
+<!--                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Coding</a>-->
+<!--                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">AI Art</a>-->
+<!--                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Copyrighting</a>-->
+<!--                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Finance</a>-->
+<!--                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Marketing</a>-->
+<!--                <a href="#" class="btn btn-info btn-icon-split btn-sm m-1">Soial Media</a>-->
 
             </p>
         </div>
     </div>
-
+`
     <div class="row listrecent">
         {% for post in site.aitools %}
+
         {% if post.title != null %}
+        {% if toolCategory != null and toolCategory == post.category %}
+
+
         {% if group == null or group == post.group %}
         {% include card.html %}
         {% endif %}
+
+        {% endif %}
         {% endif %}
         {% endfor %}
+
         {% assign pages_list = nil %}
         {% assign group = nil %}
+
     </div>
 </div>

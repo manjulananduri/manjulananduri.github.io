@@ -8,7 +8,7 @@ GitHub Copilot.
 <br>
 Automate away the repetitive parts of coding, so you can stay focused on making your creative vision a reality"
 tags: [Programming, AI Tools]
-category: Coding Assistant 
+category: coding
 pricing: Free 
 featured: false 
 paidcustomer: false

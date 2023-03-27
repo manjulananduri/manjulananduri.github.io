@@ -9,7 +9,7 @@ description: "A free stable diffusion API tool with many models to help implemen
 <br><br>To learn more about how Prodia can help make your AI dreams a reality, sign up and start building today." 
 tech: [Vue.js, Github Pages]
 tags: [Programming, AI Tools, Blogging]
-category: Writing
+category: coding
 pricing: Free
 featured: false
 paidcustomer: false

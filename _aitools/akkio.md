@@ -8,7 +8,7 @@ minutes — no code or data science skills required.<br>
 Akkio has let us build and deploy predictive models with no code, in no time. We've used Akkio to improve the
 performance of our internal processes: we can automate and improve decision making, saving time and improving results."
 tags: [Programming, AI Tools]
-category: Coding Assistant 
+category: coding
 pricing: Free 
 featured: false 
 paidcustomer: false

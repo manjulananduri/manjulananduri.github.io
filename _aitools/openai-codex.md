@@ -10,7 +10,7 @@ applied to essentially any programming task (though results may vary). It has be
 code, and refactoring code. It is a natural language-to-code system based on GPT-3, which helps turn simple English
 instructions into over a dozen popular coding languages"
 tags: [Programming, AI Tools]
-category: Coding Assistant 
+category: coding
 pricing: Free 
 featured: false 
 paidcustomer: false
