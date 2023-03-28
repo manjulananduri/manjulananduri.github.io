@@ -52,6 +52,8 @@ shadows to create a dynamic image. credits to tipseason.com. Use the Midjourney 
 capture the boy's enthusiasm for the game.
 <hr>
 
+<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" style="width:80%;"></a>
+
 ## How to generate midjourney prompts for photo realism
 
 1. Use the latest AI model, Midjourney v5, to create photorealistic images. For example, create a portrait of a person
