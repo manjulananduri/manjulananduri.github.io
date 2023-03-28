@@ -23,6 +23,8 @@ In addition, you can access midjourney cheatsheet with Commands, properties, ima
 
 In case if you missed it, you can check other chatgpt promtps here :
 
+[50+ Midjourney prompts for photo realistic images](/midjourney-prompts-for-realism/)
+
 [50+ ChatGPT prompts for writing](/chatgpt-prompts-for-writing/)
 
 [50+ ChatGPT prompts for resume writing and job search](/chatgpt-prompts-for-resume/)
