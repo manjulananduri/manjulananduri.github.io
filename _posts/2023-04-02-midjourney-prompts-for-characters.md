@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "50+ Midjourney prompts for realism, V5 high quality photo realistic prompt ideas"
+title:  "50+ Midjourney prompts for characters and artists"
 author: Pramod
 categories: [ ChatGPT, Midjourney ]
 image: assets/images/midjourney-series-tipseason.png
@@ -43,11 +43,8 @@ aspect ratio. credits to tipseason.com. Use the Midjourney v5 with photorealism 
 ultra-realistic image that captures the subject's natural beauty and personality.
 <hr>
 
-<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" class="img-fluid"></a>
-<br>
-<hr>
-
 <img class="img-fluid" src="/assets/images/realism-boy.png" alt="Midjourney prompts for photorealistic images">
+
 > Create a realistic image of a young boy playing football in an urban park. Use a Nikon D850 DSLR camera with a 200mm
 lens at F 1.2 aperture setting to isolate the subject and add a blurred backdrop of skyscrapers. The park should have a
 busy street and streetlights in the background to add a sense of city life. Use dramatic lighting with sunlight and
@@ -55,6 +52,7 @@ shadows to create a dynamic image. credits to tipseason.com. Use the Midjourney 
 capture the boy's enthusiasm for the game.
 <hr>
 
+<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" style="width:80%;"></a>
 
 ## How to generate midjourney prompts for photo realism
 
@@ -88,7 +86,124 @@ capture the boy's enthusiasm for the game.
     creative advantage. For example, create a portrait of a person with Vermeer lighting, creating a soft and warm glow
     that illuminates their face.
 
-## Midjourney prompts for realism or realistic photos 
+Character keywords:
+
+Concept Character, portrait
+
+
+## Midjourney prompts character definitions: 
+
+1. Absent Minded Professor: A character who is forgetful or preoccupied with their work.
+2. Alien: A creature from another planet or galaxy.
+3. Anarchist: A person who advocates for the abolition of government and the creation of a society based on voluntary cooperation.
+4. Astronaut: A person who travels in space.
+5. Blind Seer: A character who is blind but possesses prophetic powers or insights.
+6. Clown: A comic performer who wears a costume and makeup.
+7. Cowboy: A person who herds cattle or performs other tasks on a ranch or farm.
+8. Crone: An old woman who is often portrayed as a witch or sorceress.
+9. Dark Lord: An evil character who has supernatural powers.
+10. Devil: A supernatural being who is often associated with evil or temptation.
+11. Dracula: A vampire who is the main character in Bram Stoker's novel "Dracula."
+12. Dragon Lady: A stereotypical character of a strong-willed, cunning, and deceitful Asian woman.
+13. Dumb Blonde: A stereotypical character of an attractive but unintelligent woman with blonde hair.
+14. Evil: A character who is wicked or morally corrupt.
+15. Evil Clown: A clown who has sinister or malevolent intentions.
+16. Fairy: A supernatural being often depicted as small, with wings, and magical abilities.
+17. Femme Fatale: A seductive woman who uses her charms to manipulate men.
+18. Filipina: A woman of Filipino descent.
+19. French Maid: A female domestic servant who wears a traditional French uniform.
+20. Gamer: A person who plays video games.
+21. Geek: A person who is highly knowledgeable and enthusiastic about a particular subject or activity, typically technology or academic pursuits.
+22. Geisha: A traditional Japanese female entertainer who acts as a hostess and whose skills include performing various arts such as music and dance.
+23. Ghost: A supernatural being of a deceased person that continues to haunt the living.
+24. Girl Next Door: A stereotypical character of a friendly and wholesome young woman.
+25. Goblin: A small, mischievous creature often depicted as ugly or grotesque.
+26. God: A supernatural being who is often associated with creation and control of the universe.
+27. Goddess: A female deity often associated with fertility, love, and war.
+28. Goth: A subculture characterized by dark clothing, makeup, and a fascination with death and the supernatural.
+29. Goth Punk: A subculture that combines elements of goth and punk fashion and music.
+30. Hag: An ugly and malicious old woman who is often portrayed as a witch or sorceress.
+31. Hipster: A person who follows the latest trends and fashions, often with an alternative or counter-culture twist.
+32. Hispanic: A person of Hispanic or Latin American descent.
+33. Housewife: A woman who manages a household and cares for her family.
+34. Indigenous: A person who is native to a particular region or country.
+35. Journalist: A person who collects, writes, and reports news and other information.
+37. Lab Technician: A person who works in a laboratory performing scientific experiments or tests.
+38. Medusa: A character from Greek mythology who has snakes for hair and can turn people to stone with her gaze.
+39. Mermaid: A mythical creature that is half-human and half-fish.
+40. Mother Nature: A personification of nature that is often depicted as a nurturing and benevolent force.
+41. Muse: A Greek goddess who inspires artists and creatives.
+42. Mythological King: A character from ancient mythology who is a ruler of a kingdom.
+43. Nerd: A person who is socially awkward and has an obsessive interest in a particular subject, often related to science, technology, or academic pursuits.
+44. Ninja: A character from Japanese folklore who is trained in martial arts and espionage.
+45. Nun: A woman who has taken religious vows and lives in a convent or monastery.
+46. Occult Detective: A character who investigates paranormal and supernatural phenomena.
+47. Painter: A person who creates art using paint.
+48. Patriarch: A male head of a family or social group.
+49. Pierrot: A character from French pantomime who is often depicted as a sad clown.
+50. Pirate: A character who engages in piracy, or the act of robbing ships at sea.
+51. Police Officer: A person who is responsible for enforcing the law and maintaining public order.
+52. Politician: A person who holds or seeks political office.
+53. Priest: A person who has been ordained to perform religious rituals and lead a community in worship.
+54. Priestess: A female priest.
+55. Professor: A person who teaches at a college or university and conducts research in their field of expertise.
+56. Queen: A female monarch who rules a kingdom or empire.
+57. Quincy Punk: A subculture that combines elements of punk and traditional Japanese fashion.
+58. Redneck: A stereotypical character of a rural, white, working-class person with conservative views and unsophisticated manners.
+59. Robot: A machine that can perform tasks automatically.
+60. Samurai: A warrior from feudal Japan who is trained in martial arts and bushido, the code of conduct for the samurai.
+61. Secretary: A person who performs administrative and clerical duties in an office or other organization.
+62. Sniper: A person who shoots from a hidden position, often from a long distance away.
+63. Soldier: A person who serves in the military.
+64. Spellcaster: A character who can cast spells or perform magic.
+65. Spy: A person who collects information secretly, often for a government or military organization.
+66. Student: A person who is studying at a school or university.
+67. Superhero: A character with extraordinary powers or abilities who uses them to fight for justice and protect others.
+68. Swordman: A person skilled in the use of a sword.
+69. Teen: A person between the ages of 13 and 19.
+70. Toddler: A child between the ages of 1 and 3.
+71. Tomboy: A girl who behaves in a boyish manner or has interests traditionally associated with boys.
+72. Vamp: A stereotypical character of a seductive and mysterious female vampire.
+73. Vampire: A supernatural being who feeds on the blood of humans or animals.
+74. Warrior: A person who fights in battles or wars.
+75. Werewolf: A supernatural being who can transform from a human into a wolf.
+76. White Woman: A woman of white or European descent.
+77. Witch: A character who practices magic and is often associated with evil or the supernatural.
+78. Wizard: A male witch or a person who practices magic and has exceptional knowledge and skill in their craft.
+79. Yuppie: A stereotypical character of a young, urban professional who is affluent and career-driven.
+80. Zombie: A fictional undead being that is reanimated and often depicted as mindless and hungry for human flesh.
+81. Batman: A comic book superhero who fights crime in the fictional city of Gotham.
+82. Superman: Another comic book superhero who possesses incredible strength and abilities.
+83. Harry Potter: The main character in a popular series of young adult novels, who attends a school for wizards and battles dark magic.
+84. Darth Vader: A central character in the Star Wars film franchise, known for his ominous black armor and use of the Force.
+85. James Bond: A fictional British secret agent who stars in a series of spy novels and films.
+86. Sherlock Holmes: A detective character created by Sir Arthur Conan Doyle, known for his intelligence, deductive reasoning, and problem-solving abilities.
+87. Wonder Woman: A DC Comics superhero who possesses incredible strength and agility, as well as the ability to fly.
+88. Spider-Man: A Marvel Comics superhero with spider-like abilities, including superhuman strength and the ability to shoot webs.
+89. Frodo Baggins: The main character in J.R.R. Tolkien's The Lord of the Rings trilogy, who sets out on a quest to destroy a powerful ring.
+90. Gandalf: A wizard character from The Lord of the Rings who helps Frodo on his journey.
+91. Captain America: A Marvel Comics superhero who fights for justice and American values.
+92. Iron Man: Another Marvel Comics superhero who uses his wealth and technology to create a suit of armor and fight crime.
+93. Thor: A Marvel Comics superhero based on the Norse god of the same name, known for his strength and ability to wield a magical hammer.
+94. Wolverine: A Marvel Comics superhero with regenerative powers and retractable claws.
+95. The Joker: A famous villain from the Batman comic books and films, known for his twisted sense of humor and chaotic personality.
+96. Hannibal Lecter: A character from the novel The Silence of the Lambs, known for his intelligence and cannibalistic tendencies.
+97. Indiana Jones: A fictional archaeologist and adventurer who stars in a series of movies.
+98. Buffy the Vampire Slayer: The titular character from a popular television series about a young woman who fights against supernatural forces.
+99. Ellen Ripley: The main character in the Alien film franchise, known for her bravery and resourcefulness in the face of danger.
+100. Dr. Frankenstein: The central character in Mary Shelley's novel Frankenstein, who creates a monster through scientific experimentation.
+101. Baby: A very young human. 
+102. Businessman: A person who engages in commercial or industrial activities.
+103. Carpenter: A person who builds or repairs wooden structures.
+104. Cartographer: A person who creates maps.
+
+
+Generative AI art has become an increasingly popular field in recent years, with artists and developers using machine
+learning algorithms to create everything from abstract paintings to photorealistic portraits. By leveraging the power of
+AI, these creators are able to push the boundaries of what's possible in the world of art, exploring new techniques and
+styles that were previously impossible to achieve.
+
+## Midjourney prompts for characters  
 Based on above rules, here are 50+ photorealistic high quality midjourney prompts that you can try today. 
 
 <img class="img-fluid" src="/assets/images/realism-writer.png" alt="Midjourney prompts for photorealistic images">
