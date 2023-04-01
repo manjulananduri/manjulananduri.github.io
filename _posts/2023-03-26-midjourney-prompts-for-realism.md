@@ -35,7 +35,7 @@ Alright! Let's get started!!
 
 <img class="img-fluid" src="/assets/images/realism-girls.png" alt="Midjourney realism prompts image for girls">
 
->  C1reate a personal and intimate portrait of a young woman sitting on a wooden bench in a park on a sunny day. Use a Sony
+>  Create a personal and intimate portrait of a young woman sitting on a wooden bench in a park on a sunny day. Use a Sony
 α7 III camera with a 85mm lens at F 1.2 aperture setting to blur the background and isolate the subject. The park should
 have lush greenery and flowers in the background to add a natural and peaceful vibe to the image. Use dreamlike lighting
 with soft sunlight falling on the subject's face and hair. The image should be shot in high resolution and in a 9:16
