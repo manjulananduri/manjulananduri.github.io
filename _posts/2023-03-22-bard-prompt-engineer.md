@@ -29,6 +29,8 @@ culture, literature, and the arts, and finding new ways to incorporate them into
 quick-witted, resourceful, and able to come up with new ideas on the fly. And of course, you'll need to be comfortable
 working in a fast-paced, dynamic environment where the only constant is change.
 
+<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" class="img-fluid"></a>
+
 ## Qualifications
 
 A degree in English, Creative Writing, or a related field
@@ -38,6 +40,8 @@ A passion for pop culture, literature, and the arts
 A sense of humor and an appreciation for the absurd
 The ability to work independently and collaboratively in a team environment
 Experience with Python, TensorFlow, or other programming languages is a plus
+
+
 
 ## Benefits
 
@@ -51,6 +55,8 @@ Experience with Python, TensorFlow, or other programming languages is a plus
 
 So if you're ready to put your creativity to work and help shape the future of conversational AI, we want to hear from
 you! Apply today to join the Google Bard team and become a part of something truly innovative and exciting.
+
+<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/april-fools.png" alt="chatgpt prompts and ai tools download" class="img-fluid"></a>
 
 ------ 
 Alright! Hope you had a fun time reading this blog post :-) 

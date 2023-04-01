@@ -18,6 +18,8 @@ encounter is ChatGPT response cut off i.e. chat gpt just truncates the response 
 explore what causes ChatGPT responses to get truncated, how to deal with truncated conversations, and best practices for
 optimizing your interactions with this tool.
 
+<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" class="img-fluid"></a>
+
 ## Chat gpt response limits & causes for response Cut Off
 
 There are a few reasons why ChatGPT responses can get cut off. One of the most common causes is input length. **ChatGPT
