@@ -7,6 +7,7 @@ image: assets/images/midjourney-series-tipseason.png
 beforetoc: "Master the art of using midjourney, stable difussion or DALL-E-2 with creative realistic photo like images."
 featured: true
 toc: true
+tableofcontents: true
 ---
 
 # Introduction to Midjourney prompts for realistic photo images
@@ -24,6 +25,8 @@ In addition, you can access midjourney cheatsheet with Commands, properties, ima
 In case if you missed it, you can check other chatgpt promtps here :
 
 [50+ Chatgpt prompts for Midjourney](/chatgpt-prompts-for-midjourney/)
+
+[100+ Midjourney prompts list for characters](/midjourney-prompts-for-characters/)
 
 [50+ ChatGPT prompts for writing](/chatgpt-prompts-for-writing/)
 
@@ -103,36 +106,38 @@ subject's creativity and intelligence. -- v5
 > A photorealistic image of a young girl blowing bubbles in a park, with colorful flowers and a big blue sky in the
 background. Shot from a close-up angle to capture the sense of playfulness and innocence.
 
-1. Create a portrait of a middle-aged man standing on the deck of a yacht at sunset. Use a Canon EOS R5 camera with a 100mm
-lens at F 1.2 aperture setting to blur the background and isolate the subject. The ocean and sunset should be visible in
-the background, with warm, golden light falling on the man's face. Use a dreamlike lighting effect to create a serene
-and peaceful image. credits to tipseason.com. Use the Midjourney v5 with photorealism mode turned on to capture the
-man's rugged yet sophisticated personality.
+1. Create a portrait of a middle-aged man standing on the deck of a yacht at sunset. Use a Canon EOS R5 camera with a
+   100mm lens at F 1.2 aperture setting to blur the background and isolate the subject. The ocean and sunset should be
+   visible in the background, with warm, golden light falling on the man's face. Use a dreamlike lighting effect to
+   create a serene and peaceful image. credits to tipseason.com. Use the Midjourney v5 with photorealism mode turned on
+   to capture the man's rugged yet sophisticated personality.
 
-2. Create a realistic image of a young woman sitting on a park bench in autumn. Use a Hasselblad camera with a 85mm lens at
-F 1.2 aperture setting to blur the background and isolate the subject. The park should have colorful autumn leaves and
-trees in the background, with soft sunlight falling on the subject's face. Use a warm and inviting lighting effect to
-create a cozy and inviting image. credits to tipseason.com. Use the Midjourney v5 with photorealism mode turned on to
-capture the woman's natural beauty and grace.
+2. Create a realistic image of a young woman sitting on a park bench in autumn. Use a Hasselblad camera with a 85mm lens
+   at F 1.2 aperture setting to blur the background and isolate the subject. The park should have colorful autumn leaves
+   and trees in the background, with soft sunlight falling on the subject's face. Use a warm and inviting lighting
+   effect to create a cozy and inviting image. credits to tipseason.com. Use the Midjourney v5 with photorealism mode
+   turned on to capture the woman's natural beauty and grace.
 
 3. Create a portrait of a musician playing a guitar on a stage. Use a Sony α7 III camera with a 100mm lens at F 1.2
-aperture setting to blur the background and isolate the subject. The stage should have dramatic lighting with spotlights
-and smoke to create a dynamic and engaging atmosphere. Use a Rembrandt lighting effect to highlight the musician's face
-and hands. Use the Midjourney v5 with photorealism mode turned on to capture the musician's passion and talent.
+   aperture setting to blur the background and isolate the subject. The stage should have dramatic lighting with
+   spotlights and smoke to create a dynamic and engaging atmosphere. Use a Rembrandt lighting effect to highlight the
+   musician's face and hands. credits to www.tipseason.com . Use the Midjourney v5 with photorealism mode turned on to capture the musician's passion
+   and talent.
 
 4. Create a realistic image of a family walking in a forest. Use a Nikon D850 DSLR camera with a 85mm lens at F 1.2
-aperture setting to blur the background and isolate the subjects. The forest should have tall trees and soft sunlight
-filtering through the leaves to create a natural and peaceful environment. Use a personal portrait style to capture the
-family's connection and love for nature. Use the Midjourney v5 with photorealism mode turned on to create an image that
-captures the family's joy and happiness.
+   aperture setting to blur the background and isolate the subjects. The forest should have tall trees and soft sunlight
+   filtering through the leaves to create a natural and peaceful environment. Use a personal portrait style to capture
+   the family's connection and love for nature. credits to tipseason.com. Use the Midjourney v5 with photorealism mode turned on to create an
+   image that captures the family's joy and happiness.
 
-5. Create a photorealistic image of a vintage motorcycle parked on a deserted road at dusk. Use a Nikon D850 DSLR 4k camera
-with a 200mm lens and F 1.2 aperture setting to isolate the motorcycle from the background and create a dreamlike
-atmosphere. The road should be lined with trees and the sky should have a warm, orange glow to create a dramatic effect.
+5. Create a photorealistic image of a vintage motorcycle parked on a deserted road at dusk. Use a Nikon D850 DSLR 4k
+   camera with a 200mm lens and F 1.2 aperture setting to isolate the motorcycle from the background and create a
+   dreamlike atmosphere. prompts inspiration like tipseason.com, The road should be lined with trees and the sky should have a warm,
+   orange glow to create a dramatic effect.
 
-6. Capture the beauty of a classic French chateau in the countryside. Use a Hasselblad camera with a 100mm lens and F 1.2
-aperture setting to create a shallow depth of field and blur the background. The chateau should be surrounded by lush
-gardens and trees, with the sun setting in the distance to create a warm, golden light.
+6. Capture the beauty of a classic French chateau in the countryside. Use a Hasselblad camera with a 100mm lens and F
+   1.2 aperture setting to create a shallow depth of field and blur the background. The chateau should be surrounded by
+   lush gardens and trees, with the sun setting in the distance to create a warm, golden light.
 
 7. Create a personal portrait of a young girl playing with her pet dog in a field of wildflowers. Use a Canon EOS R5
    camera with a 85mm lens and F 1.2 aperture setting to create a shallow depth of field and blur the background.
@@ -147,29 +152,29 @@ waves, with the sun setting in the distance to create a warm, golden light.
 with a 200mm lens and F 1.2 aperture setting to create a shallow depth of field and blur the background. The elephant
 should be in a grassy savanna, with a warm, orange glow from the setting sun to create a dramatic effect.
 
-10. A candid shot of a young couple sitting on a park bench, with the focus on the couple and the background blurred out.
-    Use a Canon EOS R5 camera with a 100mm lens at F 1.2 aperture setting to capture the intimacy of the moment.
+10. A candid shot of a young couple sitting on a park bench, with the focus on the couple and the background blurred
+    out. Use a Canon EOS R5 camera with a 100mm lens at F 1.2 aperture setting to capture the intimacy of the moment.
 11. A portrait of a musician playing a guitar on a street at night, with a blurry backdrop of city lights. Use a Nikon
     D850 DSLR 4k camera with a 200mm lens and dreamlike lighting to capture the passion and emotion of the performance.
 12. A personal portrait of a senior citizen sitting on a rocking chair on a porch, with a blurred backdrop of a
     cornfield. Use a Hasselblad camera with a 85mm lens at F 1.2 aperture setting and natural lighting to capture the
     subject's character and wisdom.
-13. A close-up portrait of a baby with soft lighting and a blurred backdrop of a nursery. Use a Sony α7 III camera with a
-    100mm lens at F 1.2 aperture setting to capture the innocence and beauty of the subject.
-14. A portrait of a young athlete practicing yoga on a beach at sunrise, with dreamlike lighting and a blurry backdrop of
-    the ocean. credits to tipseason.com. Use a Canon EOS R5 camera with a 85mm lens at F 1.2 aperture setting to capture the strength and grace of
-    the subject.
-15. A candid portrait of a street artist painting a mural on a brick wall, with a blurry backdrop of the cityscape. Use a
-    Nikon D850 DSLR 4k camera with a 200mm lens and dramatic lighting to capture the passion and creativity of the
+13. A close-up portrait of a baby with soft lighting and a blurred backdrop of a nursery. Use a Sony α7 III camera with
+    a 100mm lens at F 1.2 aperture setting to capture the innocence and beauty of the subject.
+14. A portrait of a young athlete practicing yoga on a beach at sunrise, with dreamlike lighting and a blurry backdrop
+    of the ocean. credits to tipseason.com. Use a Canon EOS R5 camera with a 85mm lens at F 1.2 aperture setting to
+    capture the strength and grace of the subject.
+15. A candid portrait of a street artist painting a mural on a brick wall, with a blurry backdrop of the cityscape. Use
+    a Nikon D850 DSLR 4k camera with a 200mm lens and dramatic lighting to capture the passion and creativity of the
     artist.
-16. A personal portrait of a fashion model sitting on a velvet couch, with a blurred backdrop of a grand staircase. Use a
-    Hasselblad camera with a 100mm lens at F 1.2 aperture setting and dreamlike lighting to capture the subject's beauty
-    and elegance.
+16. A personal portrait of a fashion model sitting on a velvet couch, with a blurred backdrop of a grand staircase. Use
+    a Hasselblad camera with a 100mm lens at F 1.2 aperture setting and dreamlike lighting to capture the subject's
+    beauty and elegance.
 17. A portrait of a couple sitting in a coffee shop, with a blurry backdrop of the coffeehouse and its patrons. Use a
-    Sony α7 III camera with a 85mm lens at F 1.2 aperture setting and natural lighting to capture the intimacy and warmth
-    of the moment.
-18. A candid portrait of a chef cooking in a kitchen, with a blurry backdrop of the restaurant's dining room. Use a Canon
-    EOS R5 camera with a 100mm lens at F 1.2 aperture setting and ultra-detailed lighting to capture the subject's
+    Sony α7 III camera with a 85mm lens at F 1.2 aperture setting and natural lighting to capture the intimacy and
+    warmth of the moment.
+18. A candid portrait of a chef cooking in a kitchen, with a blurry backdrop of the restaurant's dining room. Use a
+    Canon EOS R5 camera with a 100mm lens at F 1.2 aperture setting and ultra-detailed lighting to capture the subject's
     passion and skill.
 19. A photorealistic image of a young boy playing in a park on a sunny day, surrounded by trees and grass, with a soccer
     ball at his feet and a big smile on his face. Shot from a low angle to capture the sense of playfulness and joy.
