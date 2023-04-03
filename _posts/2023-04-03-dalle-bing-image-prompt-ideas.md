@@ -30,6 +30,8 @@ In case if you missed it, you can check other chatgpt or midjourney AI promtps h
 
 [50+ Chatgpt prompts for Midjourney](/chatgpt-prompts-for-midjourney/)
 
+[100+ Midjourney prompts list for characters](/midjourney-prompts-for-characters/)
+
 [50+ ChatGPT prompts for writing](/chatgpt-prompts-for-writing/)
 
 [50+ ChatGPT prompts for resume writing and job search](/chatgpt-prompts-for-resume/)
