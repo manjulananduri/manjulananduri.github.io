@@ -26,6 +26,19 @@ But creating great prompts isn't just about stringing together words. It's about
 in time. It's about bringing your vision to life in a way that only AI art can. That's why we've included tips and
 tricks for crafting the perfect prompt, so you can create art that's truly one-of-a-kind.
 
+In case if you missed it, you can check other chatgpt or midjourney AI promtps here :
+
+[50+ Chatgpt prompts for Midjourney](/chatgpt-prompts-for-midjourney/)
+
+[200+ DALLE or Bing image creator prompts list](/dalle-bing-image-prompt-ideas/)
+
+[50+ ChatGPT prompts for writing](/chatgpt-prompts-for-writing/)
+
+[50+ ChatGPT prompts for resume writing and job search](/chatgpt-prompts-for-resume/)
+
+[75+ ChatGPT prompts for data science](/chatgpt-prompts-for-data-science/)
+
+
 Alright let's get started!
 
 <img class="img-fluid" style="width:80%;" src="/assets/images/dalle-tipseason-logo.png" alt="Logo for a Korean cosmetics brand, an image of a tree of different colors, a minimalist style">

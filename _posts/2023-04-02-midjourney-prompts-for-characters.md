@@ -29,6 +29,8 @@ In case if you missed it, you can check other chatgpt or midjourney AI promtps h
 
 [50+ Chatgpt prompts for Midjourney](/chatgpt-prompts-for-midjourney/)
 
+[200+ DALLE or Bing image creator prompts list](/dalle-bing-image-prompt-ideas/)
+
 [50+ ChatGPT prompts for writing](/chatgpt-prompts-for-writing/)
 
 [50+ ChatGPT prompts for resume writing and job search](/chatgpt-prompts-for-resume/)
