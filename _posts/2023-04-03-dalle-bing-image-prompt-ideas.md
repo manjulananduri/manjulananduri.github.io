@@ -30,7 +30,7 @@ In case if you missed it, you can check other chatgpt or midjourney AI promtps h
 
 [50+ Chatgpt prompts for Midjourney](/chatgpt-prompts-for-midjourney/)
 
-[200+ DALLE or Bing image creator prompts list](/dalle-bing-image-prompt-ideas/)
+[100+ Midjourney prompts list for characters](/midjourney-prompts-for-characters/)
 
 [50+ ChatGPT prompts for writing](/chatgpt-prompts-for-writing/)
 
