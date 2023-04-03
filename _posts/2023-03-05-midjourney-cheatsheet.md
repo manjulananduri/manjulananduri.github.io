@@ -142,7 +142,7 @@ Here are the commands that you  can run using the `/` tag.
 - `--hd`: Use an early alternative Model that produces larger, less consistent images. This algorithm may be suitable for abstract and landscape images.
 - `--test`: Use the Midjourney special test model.
 - `--testp`: Use the Midjourney special photography-focused test model.
-- `--version <1, 2, or 3>` or `--v <1 2, or 3>`: Use an earlier version of the Midjourney algorithm. The current algorithm (V4) is the default setting.
+- `--version <1, 2, 3, 4 or 5>` or `--v <1 2, 3, 4 or 5>`: Use an earlier version of the Midjourney algorithm. The current algorithm (V5) is the default setting.
 
 ### Upscaler Parameters
 - `--uplight`: Use an alternative "light" upscaler when selecting the U buttons. The results are closer to the original grid image. The upscaled image is less detailed and smoother.
