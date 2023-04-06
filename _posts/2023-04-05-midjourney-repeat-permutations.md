@@ -17,6 +17,8 @@ photo realistic images. In this blog post we will look at midjourney new feature
 
 In case if you missed it, you can check other chatgpt or midjourney AI promtps here :
 
+[Midjourney describe feature](/midjourney-describe-feature/)
+
 [Midjourney release notes](/midjourney-release-notes/)
 
 [50+ Chatgpt prompts for Midjourney](/chatgpt-prompts-for-midjourney/)
@@ -24,7 +26,6 @@ In case if you missed it, you can check other chatgpt or midjourney AI promtps h
 [200+ DALLE or Bing image creator prompts list](/dalle-bing-image-prompt-ideas/)
 
 [50+ ChatGPT prompts for writing](/chatgpt-prompts-for-writing/)
-
 
 Midjourney is an AI art generation tool that creates images using natural language descriptions. It gained massive
 popularity among artists, designers, and writers who are interested in exploring the boundaries between language and
