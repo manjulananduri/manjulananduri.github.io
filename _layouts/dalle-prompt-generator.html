@@ -1,0 +1,76 @@
+---
+title: "DALLE-2 prompt generator : Create best ai image prompts"
+layout: default
+permalink: "/dalle-prompt-generator.html"
+disqus: false
+archive: false
+---
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <h4>AI Art Prompt Generator</h4>
+        </div>
+        <div class="card-body">
+            <form>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" class="form-control" id="subject" placeholder="Enter a subject">
+                </div>
+                <div class="form-group">
+                    <label for="environment">Environment:</label>
+                    <input type="text" class="form-control" id="environment"
+                           placeholder="Enter a description of the environment">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="aspect_ratio">Aspect Ratio:</label>
+                    <select class="form-control" id="aspect_ratio">
+                        <option value="9:16">9:16</option>
+                        <option value="16:9">16:9</option>
+                        <option value="1:1">1:1</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="video_quality">Video Quality:</label>
+                    <select class="form-control" id="video_quality">
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="niji">Niji</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="generatePrompt()">Generate Prompt</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div class="card mt-3">
+        <div class="card-header">
+            <h4>Generated Prompt</h4>
+        </div>
+        <div class="card-body">
+            <div id="output"></div>
+        </div>
+    </div>
+
+
+</div>
+
+<script>
+	function generatePrompt() {
+		const subject = document.getElementById('subject').value;
+		const environment = document.getElementById('environment').value;
+		const aspectRatio = document.getElementById('aspect_ratio').value;
+		const videoQuality = document.getElementById('video_quality').value;
+
+		const prompt = `/imagine prompt: [${subject}], a detailed description of [${subject}] that will include very specific imagery details, with a detailed description describing the environment of the scene, with a detailed description describing the mood/feelings and atmosphere of the scene, [${aspectRatio}], A description of how [${videoQuality}] will be realized.`;
+
+		document.getElementById('output').textContent = prompt;
+	}
+
+</script>
+
+
