@@ -82,6 +82,10 @@ Clojure is a compiled language and is a dialect of Lisp and shares lot of code a
 - SoundCloud
 - LivingSocial
 
+Tip: Since each language works differently, programming assignments can take sometime. So here is a great way to get help
+from [programming assignment experts from CustomWritings](https://www.customwritings.com/programming-assignments.html)
+for beginners. 
+
 ## 4. TypeScript
 
 This is one of the favorites for frontend developers. TypeScript adds additional syntax to JavaScript to support a tighter integration with your editor to catch errors early in the development. TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
