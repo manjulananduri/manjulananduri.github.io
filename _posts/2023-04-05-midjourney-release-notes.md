@@ -15,6 +15,8 @@ keep track of latest updates from midjourney. These announcements are taken dire
 
 This is a great way to keep track of trending ai news and latest releases from web. 
 
+<a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a>
+
 # April 5, 2023
 
 ## Highlights: [Midjourney repeat and permutations feature](/midjourney-repeat-permutations/)

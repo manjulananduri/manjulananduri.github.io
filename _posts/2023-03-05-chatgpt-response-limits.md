@@ -46,6 +46,8 @@ previous response.
 
 "Could you finish the example you gave in the second paragraph of your previous response?"
 
+<a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a>
+
 ## 2: Ask chatgpt to continue from specific line or context for code blocks
 
 Solution 1 works best if the response is a regular paragraph or long form output. But if you expect chatgpt to give a

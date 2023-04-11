@@ -38,7 +38,7 @@ In case if you missed it, you can check other chatgpt or midjourney AI promtps h
 
 Alright! Let's get started!!
 
-<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" class="img-fluid"></a>
+<a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a>
 
 
 ## Midjourney describe command
@@ -72,6 +72,8 @@ Here is how upload image looks like:
 <img src="/assets/images/midjourney-describe-image-upload.png" class="img-fluid" alt="midjourney describe command image upload">
 
 Once you upload the image press Enter or Send the message. 
+
+<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" class="img-fluid"></a>
 
 ### Step 3: Progress & output 
 Once the prompt is entered, image will be uploaded on to discord and sent to midjourney. 
