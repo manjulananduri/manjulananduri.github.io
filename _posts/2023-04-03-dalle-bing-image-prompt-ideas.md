@@ -16,7 +16,8 @@ experience art, allowing artists and designers to explore new frontiers in creat
 integrated DALL-E-2 to its [Bing image creator tool](https://www.bing.com/create). So we will use DALL-E-2 to bing image
 creator interchangeably.
 
-<a href="https://etsy.me/3Zy9Knu"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" style="width:80%;" ></a>
+<a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a>
+
 
 Prompt engineering is an art of creating best prompts to describe our ideas to AI tools. That's why we've put together a
 list of 200+ unique and inspiring prompts to help you get started across different categories. From fluffy kittens to
@@ -69,6 +70,8 @@ and whimsical scene.
 
 By following this format of [adjective] [noun] [verb] [style] [mood], you can create prompts that are both creative and
 descriptive, leading to more accurate and interesting AI-generated art.
+
+<a href="https://etsy.me/3Zy9Knu"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" style="width:80%;" ></a>
 
 ## Tips to create best prompts for DALL-E
 

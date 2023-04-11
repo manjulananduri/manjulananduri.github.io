@@ -1,76 +1,168 @@
 ---
-title: "DALLE-2 prompt generator : Create best ai image prompts"
+title: "DALLE Prompt generator - Create best ai image prompts with bing image creator"
 layout: default
 permalink: "/dalle-prompt-generator.html"
 disqus: false
 archive: false
 ---
+<script>
+$(document).ready(function() {
+  // Get references to the input and output elements
+  var $userPrompt = $('#userPrompt');
+  var $outputPrompt = $('#outputPrompt');
 
-<div class="container mt-5">
-    <div class="card">
-        <div class="card-header">
-            <h4>AI Art Prompt Generator</h4>
+  // Attach an event listener to the input element
+  $userPrompt.on('input', function() {
+    // Get the user's input
+    var input = $userPrompt.val();
+
+    // Update the output element with the input
+    $outputPrompt.text(input);
+  });
+});
+
+</script>
+
+<style>
+<!--    body {-->
+<!--        background-color: #e6f7f7;-->
+<!--        opacity: 0.8;-->
+<!--        background-image: radial-gradient(#444cf7 0.5px, #e6f7f7 0.5px);-->
+<!--        background-size: 10px 10px;-->
+<!--    }-->
+
+    body  {
+        background-color: #c7ffe8;
+        opacity: 0.8;
+        background-image: radial-gradient(#444cf7 0.5px, #c7ffe8 0.5px);
+        background-size: 10px 10px;
+    }
+
+
+
+</style>
+
+<!--<div class="row listrecent d-flex align-items-center justify-content-center">-->
+<div class="container">
+    <div class="row">
+        <div class="col text-center text-danger">
+            <h2>Dalle Prompt generator</h2>
         </div>
-        <div class="card-body">
-            <form>
-                <div class="form-group">
-                    <label for="subject">Subject:</label>
-                    <input type="text" class="form-control" id="subject" placeholder="Enter a subject">
+    </div>
+
+    <div class="row justify-content-center m-3">
+        <div class="col-md-8">
+            <div class="d-flex justify-content-between border rounded p-3 bg-white align-items-center">
+                <div class="text-black rounded p-2 overflow-y-auto scrollbar">
+                    <span class="badge badge-secondary p-2" >/imagine: </span>
+
+                    <div id="outputPrompt"></div>
                 </div>
-                <div class="form-group">
-                    <label for="environment">Environment:</label>
-                    <input type="text" class="form-control" id="environment"
-                           placeholder="Enter a description of the environment">
-                </div>
+                <button class="btn btn-primary d-flex align-items-center">
+                    Copy
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row m-3">
+        <div class="col-md-8 mx-auto text-center ">
+            <textarea class="form-control border-info" id="userPrompt" rows="2"
+                      placeholder="Start typing your main idea here..."></textarea>
+        </div>
+    </div>
+
+    <div class="row justify-content-center m-3">
+        <div class="col-md-8 mx-auto text-center ">
+            <button type="button" class="btn btn-info btn-lg m-1" id="inputStyle" data-toggle="modal"
+                    data-target="#styleModal">Styles
+            </button>
+            <button type="button" class="btn btn-info btn-lg m-1">Lighting</button>
+            <button type="button" class="btn btn-info btn-lg m-1">Artist</button>
+            <button type="button" class="btn btn-info btn-lg m-1">Camera</button>
+            <button type="button" class="btn btn-info btn-lg m-1">Colors</button>
+            <button type="button" class="btn btn-info btn-lg m-1">Materials</button>
+            <button type="button" class="btn btn-info btn-lg m-1">Aspect Ratio</button>
+        </div>
+    </div>
+
+    <div class="row justify-content-center m-3">
+        <div class="col-md-10 mx-auto text-center ">
 
 
-                <div class="form-group">
-                    <label for="aspect_ratio">Aspect Ratio:</label>
-                    <select class="form-control" id="aspect_ratio">
-                        <option value="9:16">9:16</option>
-                        <option value="16:9">16:9</option>
-                        <option value="1:1">1:1</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="video_quality">Video Quality:</label>
-                    <select class="form-control" id="video_quality">
-                        <option value="5">5</option>
-                        <option value="4">4</option>
-                        <option value="niji">Niji</option>
-                    </select>
-                </div>
-                <button type="button" class="btn btn-primary" onclick="generatePrompt()">Generate Prompt</button>
-            </form>
         </div>
     </div>
 
 
-
-    <div class="card mt-3">
-        <div class="card-header">
-            <h4>Generated Prompt</h4>
+    <!--<div class="row">
+        <div class="col-md-8 mx-auto text-center d-flex align-items-center border border-info p-3">
+            <div class="border rounded-6 float-right" id="finalOutput" placeholder="Your prompt output here!">Your prompt output
+                here!
+            </div>
+            <div class="float-right">
+                <a href="#" class="btn btn-info" aria-label="Copy Prompt">Copy Prompt</a>
+            </div>
         </div>
-        <div class="card-body">
-            <div id="output"></div>
-        </div>
-    </div>
-
+    </div>-->
 
 </div>
 
-<script>
-	function generatePrompt() {
-		const subject = document.getElementById('subject').value;
-		const environment = document.getElementById('environment').value;
-		const aspectRatio = document.getElementById('aspect_ratio').value;
-		const videoQuality = document.getElementById('video_quality').value;
-
-		const prompt = `/imagine prompt: [${subject}], a detailed description of [${subject}] that will include very specific imagery details, with a detailed description describing the environment of the scene, with a detailed description describing the mood/feelings and atmosphere of the scene, [${aspectRatio}], A description of how [${videoQuality}] will be realized.`;
-
-		document.getElementById('output').textContent = prompt;
-	}
-
-</script>
+<!-- Modal -->
+<div class="modal fade" id="styleModal" tabindex="-1" aria-labelledby="styleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="styleModalLabel">Select Style</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="3D" id="3dCheck">
+                    <label class="form-check-label" for="3dCheck">
+                        3D
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Abstract Art" id="abstractArtCheck">
+                    <label class="form-check-label" for="abstractArtCheck">
+                        Abstract Art
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Abstract Expressionism"
+                           id="abstractExpressionismCheck">
+                    <label class="form-check-label" for="abstractExpressionismCheck">
+                        Abstract Expressionism
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Abstract Illusion"
+                           id="abstractIllusionCheck">
+                    <label class="form-check-label" for="abstractIllusionCheck">
+                        Abstract Illusion
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Action Painting" id="actionPaintingCheck">
+                    <label class="form-check-label" for="actionPaintingCheck">
+                        Action Painting
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Alebrijes" id="alebrijesCheck">
+                    <label class="form-check-label" for="alebrijesCheck">
+                        Alebrijes
+                    </label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" id="applyStyleBtn">Apply</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 

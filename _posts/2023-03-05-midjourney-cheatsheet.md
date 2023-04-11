@@ -31,8 +31,7 @@ stay on track and bring your vision to life.
 
 Before jumping into the cheatsheet, don't miss out this.  
 
-<a href="https://etsy.me/3Zy9Knu"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" style="width:80%;"></a>
-
+<a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a>
 
 Use this cheatsheet as a reference when you engineer your midjourney prompts.
 
@@ -118,6 +117,9 @@ Here are the commands that you  can run using the `/` tag.
 </table>
 
 <br>
+
+<a href="https://etsy.me/3Zy9Knu"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" style="width:80%;"></a>
+
 
 ## Midjourney Parameter List Cheatsheet
 

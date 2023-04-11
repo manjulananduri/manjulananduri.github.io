@@ -18,6 +18,8 @@ Whether you're a professional artist, graphic designer, or simply looking to exp
 In this blog post, we'll explore how you can harness the power of ChatGPT to generate prompts for Midjourney, taking your image generation experience to the next level.
 You will learn about basic steps to create midjourney prompts + bonus chatgpt prompt to help you create prompts for midjourney. 
 
+<a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a>
+
 In addition, you can access midjourney cheatsheet with Commands, properties, image hacks here.      
 <a href="/midjourney-cheatsheet/"> Midjourney CheatSheet - Commands, properties, image hacks </a>
 

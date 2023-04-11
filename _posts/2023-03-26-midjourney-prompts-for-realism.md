@@ -48,7 +48,7 @@ aspect ratio. credits to tipseason.com. Use the Midjourney v5 with photorealism 
 ultra-realistic image that captures the subject's natural beauty and personality.
 <hr>
 
-<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" class="img-fluid"></a>
+<a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a>
 <br>
 <hr>
 
@@ -92,6 +92,8 @@ capture the boy's enthusiasm for the game.
 12. Experiment with Vermeer lighting or Rembrandt lighting, two famous oil paint artists who used atmospheric light for
     creative advantage. For example, create a portrait of a person with Vermeer lighting, creating a soft and warm glow
     that illuminates their face.
+
+<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" class="img-fluid"></a>
 
 ## Midjourney prompts for realism or realistic photos 
 Based on above rules, here are 50+ photorealistic high quality midjourney prompts that you can try today. 

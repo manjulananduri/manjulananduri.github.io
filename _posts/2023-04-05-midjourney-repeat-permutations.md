@@ -37,8 +37,7 @@ $60/mo plan) and fast-hours only.
 
 Let's take a closer look at these new features.
 
-<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" class="img-fluid"></a>
-
+<a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a>
 
 ## Midjourney repeat feature
 
@@ -61,6 +60,8 @@ perfect for artists and designers who want to iterate quickly and experiment wit
 * /imagine a rainbow --repeat 4 --chaos --blend 0.7: This command will generate 4 images of a rainbow with a 
 high level of chaos and a blend of 0.7
 
+
+<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" class="img-fluid"></a>
 
 ## Midjourney Permutations Feature
 

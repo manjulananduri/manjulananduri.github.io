@@ -39,7 +39,7 @@ In case if you missed it, you can check other chatgpt or midjourney AI promtps h
 
 Alright! Let's get started!!
 
-<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" class="img-fluid"></a>
+<a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a>
 
 ## Midjourney tips for creative character prompts 
 Here are some of the practical tips to get best results out of midjourney prompts that involve characters, personas, 
@@ -67,6 +67,7 @@ these changes.
 * Example: Your character has been traveling alone for a while, but they stumble upon a small village in the middle of
    the forest. As they explore, they meet a group of people who are very different from anyone they've met before.
    Choose one of these new characters and write a scene where they challenge your main character's beliefs or values.
+
 
 ### 4. Consider the character's backstory 
 Think about the character's past experiences and how they may have shaped who they are. Use this information to create
@@ -97,6 +98,7 @@ Mid-journey prompts can be a great way to introduce new skills or challenges tha
 about what skills or challenges would be most relevant to the character's journey and create prompts that focus on those
 areas.
 
+<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" class="img-fluid"></a>
 
 ## Midjourney prompts character ideas and definitions: 
 
