@@ -28,6 +28,8 @@ In case if you missed it, you can check other chatgpt promtps here :
 
 [100+ Midjourney prompts list for characters](/midjourney-prompts-for-characters/)
 
+[120+ Midjourney prompts for portraits](/midjourney-prompts-for-portraits/)
+
 [200+ DALLE or Bing image creator prompts list](/dalle-bing-image-prompt-ideas/)
 
 [50+ ChatGPT prompts for writing](/chatgpt-prompts-for-writing/)
