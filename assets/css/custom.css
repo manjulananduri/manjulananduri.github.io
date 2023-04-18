@@ -79,3 +79,10 @@
     box-shadow:0 0 1rem #04c0ec !important
 }
 
+.btn-info-dark {
+    color:#fff;
+    background-color:#156874;
+    border-color:#17a2b8;
+}
+
+
