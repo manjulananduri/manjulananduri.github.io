@@ -6,38 +6,119 @@ disqus: false
 archive: false
 ---
 <script>
-$(document).ready(function() {
-  // Get references to the input and output elements
-  var $userPrompt = $('#userPrompt');
-  var $outputPrompt = $('#outputPrompt');
 
-  // Attach an event listener to the input element
-  $userPrompt.on('input', function() {
-    // Get the user's input
-    var input = $userPrompt.val();
+    var outputArray = []; // Global output array for selected button values
+    var styleArray = ["Abstract", "Impressionism", "Surrealism", "Realism", "Expressionism"];
+    var lightingArray = ["Soft lighting", "Hard lighting", "Natural lighting", "Artificial lighting"];
 
-    // Update the output element with the input
-    $outputPrompt.text(input);
-  });
-});
+    var styleArray = ["Abstract", "Impressionism", "Surrealism", "Realism", "Expressionism"];
+    var lightingArray = ["Soft lighting", "Hard lighting", "Natural lighting", "Artificial lighting"];
+    var artistArray = ["Picasso", "Van Gogh", "Da Vinci", "Michelangelo", "Rembrandt"];
+    var cameraArray = ["Low angle", "High angle", "Wide angle", "Fish eye"];
+    var colorsArray = ["Red", "Blue", "Green", "Yellow", "Orange"];
+    var texturesArray = ["3d fractals", "agate", "aluminum", "amber", "anodized", "ammolite", "amigurumi", "amethyst", "anodized titanium", "awning stripe", "basalt", "brass", "breton stripes pattern", "brick", "bronze", "brushed aluminum", "ceramic", "celtic knot", "bumpy", "candy stripes", "chain pattern", "chainmail", "chalk stripes"];
+    var aspectRatioArray = ["1:1", "16:9", "4:3"];
+
+
+    $(document).ready(function () {
+
+        $('#buttonTabs').tab();
+
+
+        // Get references to the input and output elements
+        var $userPrompt = $('#userPrompt');
+        var $outputPrompt = $('#outputPrompt');
+
+        // Attach an event listener to the input element
+        $userPrompt.on('input', function () {
+            // Get the user's input
+            var input = $userPrompt.val();
+
+            // Update the output element with the input
+            $outputPrompt.text(input);
+        });
+
+        populateButtonGroups(styleArray, "#inputStyle", "#styleSection");
+        populateButtonGroups(lightingArray, "#inputLighting", "#lightingSection");
+        populateButtonGroups(artistArray, "#inputArtist", "#artistSection");
+        populateButtonGroups(cameraArray, "#inputCamera", "#cameraSection");
+        populateButtonGroups(colorsArray, "#inputColors", "#colorsSection");
+        populateButtonGroups(texturesArray, "#inputTextures", "#texturesSection");
+
+        registerCopyToClipBoard();
+    });
+
+    function registerCopyToClipBoard() {
+        $('#copyButton').click(function () {
+            var textToCopy = $('#outputPrompt').text(); // Get the text to copy
+            navigator.clipboard.writeText(textToCopy); // Copy the text to clipboard
+
+            $("#copyButton").html("Copy <i class=\"fa fa-check\" aria-hidden=\"true\"></i>");
+        });
+    }
+
+
+    function populateButtonGroups(inputArray, inputButtonId, choiceSectionId) {
+        $(choiceSectionId).on('click', 'button', handleButtonClick);
+        var html = ''; // String to hold the HTML for the buttons
+        // Loop through the button values and create a button element for each one
+        for (var i = 0; i < inputArray.length; i++) {
+            html += '<button type="button" class="btn btn-success m-1" data-value="' + inputArray[i] + '">'
+                + inputArray[i] + '</button>';
+        }
+        // Set the HTML of the buttonList div to the button elements
+        $(choiceSectionId).html(html);
+        $(inputButtonId).click(function () {
+
+            $("#choiceList").show(); // Show the whole div
+            $(".choiceSection").hide(); // Hide all other elements
+            // Show the buttonList div
+            $(choiceSectionId).show(); // Show only current choice
+        });
+    }
+
+
+    // Function to handle button clicks
+    function handleButtonClick() {
+        var button = $(this);
+        var value = button.data('value');
+
+        // Toggle the "active" class on the button to select/unselect it
+        button.toggleClass('active');
+
+        // If the button is selected, add its value to the output array
+        if (button.hasClass('active')) {
+            outputArray.push(value);
+            $(this).addClass("btn-danger").html(`${value} <i class="fa fa-check"></i>`);
+        }
+        // If the button is unselected, remove its value from the output array
+        else {
+            outputArray = outputArray.filter(function (item) {
+                return item !== value;
+            });
+            $(this).removeClass("btn-danger").html(`${value}`);
+        }
+
+        // Log the current state of the output array
+        console.log(outputArray);
+
+        // Get the output string with comma separated values and include userPrompt value
+        var userPromptValue = $('#userPrompt').val().trim();
+        var outputString = userPromptValue + (userPromptValue && outputArray.length ? ', ' : '') + outputArray.join(', ');
+
+        // var outputString = outputArray.join(', ');
+        $('#outputPrompt').text(outputString);
+
+    }
 
 </script>
 
 <style>
-<!--    body {-->
-<!--        background-color: #e6f7f7;-->
-<!--        opacity: 0.8;-->
-<!--        background-image: radial-gradient(#444cf7 0.5px, #e6f7f7 0.5px);-->
-<!--        background-size: 10px 10px;-->
-<!--    }-->
-
-    body  {
+    body {
         background-color: #c7ffe8;
-        opacity: 0.8;
-        background-image: radial-gradient(#444cf7 0.5px, #c7ffe8 0.5px);
+        background-image: radial-gradient(#373fed 0.5px, #f5fffe 0.5px);
         background-size: 10px 10px;
     }
-
 
 
 </style>
@@ -52,14 +133,14 @@ $(document).ready(function() {
 
     <div class="row justify-content-center m-3">
         <div class="col-md-8">
-            <div class="d-flex justify-content-between border rounded p-3 bg-white align-items-center">
+            <div class="d-flex justify-content-between shadow rounded p-3 bg-light align-items-center">
                 <div class="text-black rounded p-2 overflow-y-auto scrollbar">
-                    <span class="badge badge-secondary p-2" >/imagine: </span>
+                    <!--                    <span class="badge badge-secondary p-2">/imagine: </span>-->
 
                     <div id="outputPrompt"></div>
                 </div>
-                <button class="btn btn-primary d-flex align-items-center">
-                    Copy
+                <button class="btn btn-primary d-flex align-items-center" id="copyButton">
+                    Copy <i class="fa fa-copy ml-1"></i>
                 </button>
             </div>
         </div>
@@ -74,95 +155,30 @@ $(document).ready(function() {
 
     <div class="row justify-content-center m-3">
         <div class="col-md-8 mx-auto text-center ">
-            <button type="button" class="btn btn-info btn-lg m-1" id="inputStyle" data-toggle="modal"
-                    data-target="#styleModal">Styles
-            </button>
-            <button type="button" class="btn btn-info btn-lg m-1">Lighting</button>
-            <button type="button" class="btn btn-info btn-lg m-1">Artist</button>
-            <button type="button" class="btn btn-info btn-lg m-1">Camera</button>
-            <button type="button" class="btn btn-info btn-lg m-1">Colors</button>
-            <button type="button" class="btn btn-info btn-lg m-1">Materials</button>
-            <button type="button" class="btn btn-info btn-lg m-1">Aspect Ratio</button>
+            <button type="button" class="btn btn-info m-1" id="inputStyle">Styles</button>
+            <button type="button" class="btn btn-info m-1" id="inputLighting">Lighting</button>
+            <button type="button" class="btn btn-info m-1" id="inputArtist">Artist</button>
+            <button type="button" class="btn btn-info m-1" id="inputCamera">Camera</button>
+            <button type="button" class="btn btn-info m-1" id="inputColors">Colors</button>
+            <button type="button" class="btn btn-info m-1" id="inputTextures">Textures</button>
         </div>
     </div>
 
-    <div class="row justify-content-center m-3">
+    <div class="row justify-content-center m-3" id="choiceList" style="display:none;">
         <div class="col-md-10 mx-auto text-center ">
 
+            <div id="styleSection" class="choiceSection"></div>
+            <div id="lightingSection" class="choiceSection"></div>
+            <div id="artistSection" class="choiceSection"></div>
+            <div id="cameraSection" class="choiceSection"></div>
+            <div id="colorsSection" class="choiceSection"></div>
+            <div id="texturesSection" class="choiceSection"></div>
+            <div id="aspectRatioSection" class="choiceSection"></div>
 
         </div>
     </div>
 
 
-    <!--<div class="row">
-        <div class="col-md-8 mx-auto text-center d-flex align-items-center border border-info p-3">
-            <div class="border rounded-6 float-right" id="finalOutput" placeholder="Your prompt output here!">Your prompt output
-                here!
-            </div>
-            <div class="float-right">
-                <a href="#" class="btn btn-info" aria-label="Copy Prompt">Copy Prompt</a>
-            </div>
-        </div>
-    </div>-->
-
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="styleModal" tabindex="-1" aria-labelledby="styleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="styleModalLabel">Select Style</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="3D" id="3dCheck">
-                    <label class="form-check-label" for="3dCheck">
-                        3D
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="Abstract Art" id="abstractArtCheck">
-                    <label class="form-check-label" for="abstractArtCheck">
-                        Abstract Art
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="Abstract Expressionism"
-                           id="abstractExpressionismCheck">
-                    <label class="form-check-label" for="abstractExpressionismCheck">
-                        Abstract Expressionism
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="Abstract Illusion"
-                           id="abstractIllusionCheck">
-                    <label class="form-check-label" for="abstractIllusionCheck">
-                        Abstract Illusion
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="Action Painting" id="actionPaintingCheck">
-                    <label class="form-check-label" for="actionPaintingCheck">
-                        Action Painting
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="Alebrijes" id="alebrijesCheck">
-                    <label class="form-check-label" for="alebrijesCheck">
-                        Alebrijes
-                    </label>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary" data-dismiss="modal" id="applyStyleBtn">Apply</button>
-            </div>
-        </div>
-    </div>
 </div>
 
 

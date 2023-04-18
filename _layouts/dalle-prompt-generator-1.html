@@ -1,0 +1,210 @@
+---
+title: "DALLE Prompt generator - Create best ai image prompts with bing image creator"
+layout: default
+permalink: "/dalle-prompt-generator.html"
+disqus: false
+archive: false
+---
+<script>
+    $(document).ready(function () {
+        // Get references to the input and output elements
+        var $userPrompt = $('#userPrompt');
+        var $outputPrompt = $('#outputPrompt');
+
+        // Attach an event listener to the input element
+        $userPrompt.on('input', function () {
+            // Get the user's input
+            var input = $userPrompt.val();
+
+            // Update the output element with the input
+            $outputPrompt.text(input);
+        });
+
+
+        // Get the submit button in the modal
+        var submitBtn = document.getElementById("applyStyleBtn");
+
+        // When the submit button is clicked, get the checked checkboxes and append them to the main content
+        submitBtn.onclick = function () {
+            // Get all the checkboxes in the modal
+            var checkboxes = document.querySelectorAll('#styleModal input[type=checkbox]');
+
+            // get the existing text from outputPrompt div
+            var existingText = $('#outputPrompt').text();
+
+            // append the response from previous checkbox content with commas
+            var checkboxResponse = ""; // replace with the actual checkbox response
+
+            var first = false;
+            // write back the appended text to outputPrompt div
+            $('#outputPrompt').text(appendedText);
+            // Loop through all the checkboxes
+            for (var i = 0; i < checkboxes.length; i++) {
+                var checkbox = checkboxes[i];
+
+                // If the checkbox is checked, get its value and append it to the main content
+                if (checkbox.checked) {
+                    var value = checkbox.value;
+                    checkboxResponse = checkboxResponse + "," + value;
+                }
+
+
+                // check if the last character of the current output is a comma
+                if (existingText.slice(-1) === ',') {
+                    // if the last character is a comma, then append the checkbox value without adding a comma
+                    existingText += ' ' + checkboxValue;
+                } else {
+                    // if the last character is not a comma, then add a comma before appending the checkbox value
+                    existingText += ', ' + checkboxValue;
+                }
+            }
+
+            // Hide the modal
+            //modal.style.display = "none";
+
+            var appendedText = existingText + ", " + checkboxResponse;
+            $('#outputPrompt').text(appendedText);
+
+
+        }
+
+
+    });
+
+
+</script>
+
+<style>
+    body {
+        background-color: #c7ffe8;
+        background-image: radial-gradient(#373fed 0.5px, #f5fffe 0.5px);
+        background-size: 10px 10px;
+    }
+
+
+</style>
+
+<!--<div class="row listrecent d-flex align-items-center justify-content-center">-->
+<div class="container">
+    <div class="row">
+        <div class="col text-center text-danger">
+            <h2>Dalle Prompt generator</h2>
+        </div>
+    </div>
+
+    <div class="row justify-content-center m-3">
+        <div class="col-md-8">
+            <div class="d-flex justify-content-between shadow rounded p-3 bg-white align-items-center">
+                <div class="text-black rounded p-2 overflow-y-auto scrollbar">
+                    <!--                    <span class="badge badge-secondary p-2">/imagine: </span>-->
+
+                    <div id="outputPrompt"></div>
+                </div>
+                <button class="btn btn-primary d-flex align-items-center" id="copyButton">
+                    Copy
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row m-3">
+        <div class="col-md-8 mx-auto text-center ">
+            <textarea class="form-control border-info" id="userPrompt" rows="2"
+                      placeholder="Start typing your main idea here..."></textarea>
+        </div>
+    </div>
+
+    <div class="row justify-content-center m-3">
+        <div class="col-md-8 mx-auto text-center ">
+            <button type="button" class="btn btn-info btn-lg m-1" id="inputStyle" data-toggle="modal"
+                    data-target="#styleModal">Styles
+            </button>
+            <button type="button" class="btn btn-info btn-lg m-1">Lighting</button>
+            <button type="button" class="btn btn-info btn-lg m-1">Artist</button>
+            <button type="button" class="btn btn-info btn-lg m-1">Camera</button>
+            <button type="button" class="btn btn-info btn-lg m-1">Colors</button>
+            <button type="button" class="btn btn-info btn-lg m-1">Materials</button>
+            <button type="button" class="btn btn-info btn-lg m-1">Aspect Ratio</button>
+        </div>
+    </div>
+
+    <div class="row justify-content-center m-3">
+        <div class="col-md-10 mx-auto text-center ">
+
+
+        </div>
+    </div>
+
+
+    <!--<div class="row">
+        <div class="col-md-8 mx-auto text-center d-flex align-items-center border border-info p-3">
+            <div class="border rounded-6 float-right" id="finalOutput" placeholder="Your prompt output here!">Your prompt output
+                here!
+            </div>
+            <div class="float-right">
+                <a href="#" class="btn btn-info" aria-label="Copy Prompt">Copy Prompt</a>
+            </div>
+        </div>
+    </div>-->
+
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="styleModal" tabindex="-1" aria-labelledby="styleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="styleModalLabel">Select Style</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="3D" id="3dCheck">
+                    <label class="form-check-label" for="3dCheck">
+                        3D
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Abstract Art" id="abstractArtCheck">
+                    <label class="form-check-label" for="abstractArtCheck">
+                        Abstract Art
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Abstract Expressionism"
+                           id="abstractExpressionismCheck">
+                    <label class="form-check-label" for="abstractExpressionismCheck">
+                        Abstract Expressionism
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Abstract Illusion"
+                           id="abstractIllusionCheck">
+                    <label class="form-check-label" for="abstractIllusionCheck">
+                        Abstract Illusion
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Action Painting" id="actionPaintingCheck">
+                    <label class="form-check-label" for="actionPaintingCheck">
+                        Action Painting
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Alebrijes" id="alebrijesCheck">
+                    <label class="form-check-label" for="alebrijesCheck">
+                        Alebrijes
+                    </label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" id="applyStyleBtn">Apply</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
