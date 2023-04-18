@@ -70,3 +70,12 @@
 .toc_items a:link {
     color: #09774e;
 }
+
+.ts-shadow-lg {
+    box-shadow:0 0.5rem 2rem #04c0ec !important;
+}
+
+.ts-shadow-surround {
+    box-shadow:0 0 1rem #04c0ec !important
+}
+
