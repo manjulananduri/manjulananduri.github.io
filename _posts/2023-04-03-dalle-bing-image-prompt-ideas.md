@@ -27,6 +27,10 @@ But creating great prompts isn't just about stringing together words. It's about
 in time. It's about bringing your vision to life in a way that only AI art can. That's why we've included tips and
 tricks for crafting the perfect prompt, so you can create art that's truly one-of-a-kind.
 
+<div class="alert alert-warning" role="alert">
+  Create infinite prompts with our <a href="/dalle-prompt-generator">DALL-E-2 AI Art prompt generator</a>
+</div>
+
 In case if you missed it, you can check other chatgpt or midjourney AI promtps here :
 
 [50+ Chatgpt prompts for Midjourney](/chatgpt-prompts-for-midjourney/)
