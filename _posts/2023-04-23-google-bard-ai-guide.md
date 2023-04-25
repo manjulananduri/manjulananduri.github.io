@@ -15,7 +15,9 @@ tableofcontents: true
 
 > Technology has been growing at an exponential pace in the last few years, and AI is at the forefront of this innovation. Google Bard AI is one of the greatest innovations to change the way we use and interact with technology
 
-Google introduced [Bard AI](https://bard.google.com/) which is an AI-powered chatbot where we can interact with AI just
+Google introduced Bard AI, an AI-powered chatbot that allows us to interact with AI in a human-like way.
+
+Google introduced [Bard AI](https://bard.google.com/), an AI-powered chatbot that allow us to interact with AI just
 like humans talk. It leverages the concept of generative AI which can create new content of various types based on the
 data it learnt from the training. Bard AI is built on Google's Language Model for Dialogue Applications (LaMDA) and is
 capable of holding fluid, multi-turn conversations on a variety of topics. With Bard, users can collaborate with AI to
@@ -25,9 +27,21 @@ Bard AI can simplify your workflows by automating repetitive tasks, providing qu
 you in decision making. For instance, if you are a content creator, you can use Bard AI to brainstorm blog post ideas,
 generate summaries or even write full stories. 
 
+##### Example: Bard as SQL terminal
+> I want you to act as a SQL terminal in front of an example database. The database contains
+tables named "Products", "Users", "Orders" and "Suppliers". I will type queries and you will reply with what the
+terminal would show. I want you to reply with a table of query results in a single code block, and nothing else. Do not
+write explanations. Do not type commands unless I instruct you to do so. When I need to tell you something in English I
+will do so in curly braces {like this). My first command is 'SELECT TOP 10 * FROM Products ORDER BY Id DESC'
+
+<img src="/assets/images/bard-sql-terminal-new.png" class="img-fluid"/>
+
+
 Another way Bard AI can help is by providing quick access to information and solve problems. For example, if you are a
 software developer, you can use [Bard AI to write code](https://blog.google/technology/ai/code-with-bard/) , look up
 code snippets, explain complex concepts, debug your code. This helps you to work more efficiently and effectively.
+
+
 
 In addition, Bard AI can assist you in decision making. For instance, if you are planning a trip, you can ask Bard AI to
 advice you compare different destinations, create a list of todos, create a budget, and even plan your itinerary. This
@@ -44,7 +58,7 @@ Alright let dive right in!
 phase and is being released to public in phases. Right now Google released this to US and UK customers in US English
 language and is planning to expand to more countries and languages. You can add yourself to waitlist if you don't have access yet. 
 * Once you are out of waitlist and have access to Bard, you will see a clean interface like below.
-<img src="/assets/images/bard-main-page.png" class="img-fluid"/>
+<img src="/assets/images/bard-home-page-new.png" class="img-fluid"/>
 * As you can see, it has a user interface similar to a chatbot. You can chat with Bard just like you speak with your friend. 
 * A prompt is like a question or task or conversation that you can use to interact with Bard. Prompt Engineering is one
   of the recent Job profiles that gained light after AI chatbots. Example of a prompt can be: _Draft a packing list for
@@ -77,33 +91,28 @@ Francisco today_, and it can get the fresh information on the fly.
 
 ## Tips & Tricks to master Bard AI prompts:
 
-#### Be specific
-When asking Bard for help, try to be as specific as possible. Provide context and relevant details so that
-Bard can provide you with the most accurate and useful response.
+Bard is an AI tool that can help you with a wide variety of tasks, from learning new skills to brainstorming ideas. To get the most out of Bard, here are some tips to keep in mind:
 
-#### Use natural language
-Bard is designed to understand and respond to natural language, so try to phrase your questions in
-a conversational way.
+#### 1. Be specific
+When asking Bard for help, be as specific as possible. Provide context and relevant details so that Bard can provide you with the most accurate and useful response. For example, instead of asking "How do I code?", ask "How do I create a function in Python that calculates the sum of two numbers?"
 
-#### Experiment with different prompts
-Bard has a wide variety of prompts across multiple categories. Don't be afraid to try
-out different prompts to see what works best for you.
+#### 2. Use natural language
+Bard is designed to understand and respond to natural language, so try to phrase your questions in a conversational way. For example, instead of asking "What is the syntax for creating a loop in Java?", ask "How do I make a loop in Java?"
 
-#### Use Bard to learn new skills
-Bard can provide explanations and examples for coding and other technical topics, so use
-it as a resource to learn new skills.
+#### 3. Experiment with different prompts
+Bard has a wide variety of prompts across multiple categories. Don’t be afraid to try out different prompts to see what works best for you. For example, if you're stuck on a coding problem, try using a prompt related to debugging or troubleshooting.
 
-#### Collaborate with Bard
-Bard is designed to be a collaborative tool, so use it to brainstorm ideas, write stories, or
-create music. You might be surprised at the results!
+#### 4. Use Bard to learn new skills
+Bard can provide explanations and examples for coding and other technical topics, so use it as a resource to learn new skills. For example, if you're interested in learning how to code, ask Bard for help with a specific concept, such as conditional statements or arrays.
 
-#### Review Bard's responses
-While Bard is designed to provide accurate and helpful responses, it's still important to
-review its output for accuracy and relevancy.
+#### 5. Collaborate with Bard
+Bard is designed to be a collaborative tool, so use it to brainstorm ideas, write stories, or create music. You might be surprised at the results! For example, if you're a writer, try using Bard to generate ideas for characters or plot twists.
 
-#### Provide feedback
-As an experimental AI, Bard is constantly learning and improving. If you have feedback on Bard's
-responses or functionality, let the developers know so that they can continue to improve the tool.
+#### 6. Review Bard’s responses
+While Bard is designed to provide accurate and helpful responses, it’s still important to review its output for accuracy and relevancy. For example, if you're using Bard to help you with a research project, double-check any information that Bard provides to make sure it's accurate.
+
+#### 7. Provide feedback
+As an experimental AI, Bard is constantly learning and improving. If you have feedback on Bard’s responses or functionality, let the developers know so that they can continue to improve the tool. For example, if you notice that Bard frequently provides irrelevant responses to your queries, provide feedback to the developers so that they can fine-tune Bard's algorithms.
 
 Great. With all these tips and hacks in mind, let's jump into 200+ prompts across 20+ categories on how to use Bard.
 <hr> 
@@ -118,15 +127,6 @@ Lets dive in!
 Bard can be used for various use cases. Software engineering is one of the great improvements in recent version of Bard. 
 Check the example below. 
 
-#### Bard as SQL terminal
-I want you to act as a SQL terminal in front of an example database. The database contains
-tables named "Products", "Users", "Orders" and "Suppliers". I will type queries and you will reply with what the
-terminal would show. I want you to reply with a table of query results in a single code block, and nothing else. Do not
-write explanations. Do not type commands unless I instruct you to do so. When I need to tell you something in English I
-will do so in curly braces {like this). My first command is 'SELECT TOP 10 * FROM Products ORDER BY Id DESC'
-
-<img src="/assets/images/bard-sql-terminal.png" class="img-fluid"/>
-
 #### Bard as Linux Terminal: 
 Pretend as Linux Terminal:: I want you to act as a linux terminal. I will type commands and you will reply with what the
 terminal should show. I want you to only reply with the terminal output inside one unique code block, and nothing else.
@@ -136,7 +136,7 @@ English, I will do so by putting text inside curly brackets {like this}. my firs
 <img src="/assets/images/bard-linux-terminal.png" class="img-fluid"/>
 
 #### Write Code 
-Can you write code to create a new file and add content "Hello world" in java ?
+Can you write code to create a new file and add content "Hello world" in java?
 
 <img src="/assets/images/bard-code-java.png" class="img-fluid"/>
 
@@ -842,8 +842,13 @@ Record a funny podcast content about {topic} that will make your audience laugh 
 
 ## Conclusion:
 
-In conclusion, there could be infinite use cases that you can create with Bard AI. Hope this post helps you understand
+Use cases of Bard are infinite. Just go ahead and play with it to explore new possibilities. Hope this post helps you understand
 and experiment with Bard in depth. Try out Bard today and see what you can create! And don't forget to share your
 creations with us! We love seeing what our users create using Bard.
 
+Join our Google Bard AI reddit community here : [GoogleBardAIChat Reddit](https://www.reddit.com/r/GoogleBardAIChat/) 
 
+If you enjoyed this post, we encourage you to share it with your friends and followers on social media and following us
+on twitter [@thetipseason](https://twitter.com/thetipseason). Stay up-to-date on the latest trends in generative AI,by subscribing to our newsletter here. 
+
+Thanks for reading, and happy creating!
