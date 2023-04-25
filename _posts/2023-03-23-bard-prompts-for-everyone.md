@@ -28,6 +28,9 @@ creative coding, here are some of the best prompts you can try.
 We have some initial categories here but we will keep adding new categories every week. So make sure to subscribe to our
 newsletter for latest AI trends and prompts 
 
+In case you missed it, check out 
+[Ultimate Bard AI use case guide with 200+ best prompts across 20+ categories](/google-bard-ai-guide/)
+
 Let's get started.
 
 Here are some of the best prompts that you can ask Bard AI or ChatGPT. 
