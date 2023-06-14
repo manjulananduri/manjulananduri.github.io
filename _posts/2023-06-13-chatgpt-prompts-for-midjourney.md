@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "100+ Chatgpt prompts for Midjourney - Generative AI art"
+title:  "100+ Chatgpt prompts for Midjourney - Generative AI art prompt generator"
 author: Pramod
 categories: [ ChatGPT, Midjourney ]
 image: assets/images/chatgpt.png
