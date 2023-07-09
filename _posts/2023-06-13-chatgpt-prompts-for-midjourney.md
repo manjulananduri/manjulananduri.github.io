@@ -7,6 +7,7 @@ image: assets/images/chatgpt.png
 beforetoc: "Master the art of using ChatGPT for midjourney, stable difussion or DALL-E-2"
 featured: true
 toc: true
+tableofcontents: true
 ---
 
 # Introduction to ChatGPT Prompts for Midjourney 
