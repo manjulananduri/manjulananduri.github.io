@@ -14,7 +14,7 @@ promote: true
 PostgreSQL, often referred to as Postgres, is a powerful and versatile open-source relational database management system (RDBMS). 
 One of its standout features is the ability to extend its functionality using extensions. 
 Extensions are modular components that provide additional features, data types, functions, and more to enhance the capabilities of PostgreSQL. 
-In this article, we will explore 4 different methods to get the list of extensions in PostgreSQL using psql, pg_extension and 2 other easy 
+In this article, we will explore 3 different methods to get the list of extensions in PostgreSQL using psql, pg_extension and 2 other easy 
 
 ## 1. Using the psql Command-Line Utility with \dx:
 
