@@ -4,7 +4,7 @@ title:  "100+ Top Behavioral interview questions for software engineer"
 author: Pramod
 categories: [ Interviews, Behavioral, Software Engineer ]
 image: assets/images/interviews.png
-beforetoc: "100+ Top Behavioral interview questions software engineer"
+beforetoc: "100+ Top and common Behavioral interview questions software engineer"
 featured: true
 toc: true
 promote: true
