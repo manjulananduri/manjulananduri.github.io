@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "100+ Top Behavioral interview questions for software engineer"
+title:  "100+ Top Behavioral interview questions for Software Engineers"
 author: Pramod
 categories: [ Interviews, Behavioral, Software Engineer ]
 image: assets/images/interviews.png
@@ -22,7 +22,9 @@ But overall questions asked in these rounds are similar to ones listed in this t
 
 One highly effective approach to mastering behavioral interview questions is by employing the STAR technique. The STAR
 method provides a structured framework for candidates to respond to situational questions, enabling them to provide
-comprehensive and well-organized answers.
+comprehensive and well-organized answers. In addition to STAR method, there are 4 other alternative techniques to crack
+Behavioral interview questions. They can be found in detail in this blog
+post [Behavioral interview techniques to stand out of others: STAR, PAR, CAR, SOAR,SAO](/behavioral-interview-techniques/)
 
 ## The STAR Technique
 
@@ -81,7 +83,7 @@ Prepare thoroughly and use the STAR technique to respond eloquently, and you'll 
 software engineering interviews. Good luck!
 
 ## 100+ Top behavioral or leadership interview questions for software engineer
-Here's a list of top 50 must-learn behavioral interview questions for software engineers:
+Here's a list of top 100+ must-learn behavioral interview questions for software engineers:
 
 1. Describe a challenging technical problem you faced and how you approached solving it.
 2. Can you walk me through a project you worked on where you had to collaborate with a cross-functional team?
