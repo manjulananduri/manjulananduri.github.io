@@ -1,0 +1,302 @@
+---
+title: "AI Art prompt generator"
+layout: default
+permalink: "/ai-prompt-generator.html"
+disqus: false
+archive: false
+---
+
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>AI Art Generation Prompts</title>-->
+<!--    &lt;!&ndash; Add Twitter Bootstrap CSS &ndash;&gt;-->
+<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">-->
+<!--</head>-->
+
+<style>
+    body {
+<!--        background-color: #fbfff9;-->
+<!--        background-color: #c7ffe8;-->
+<!--        background-image: radial-gradient(#373fed 0px, #f7fffe 0px);-->
+<!--        background-size: 10px 10px;-->
+    }
+
+
+</style>
+
+<body>
+<h1 class="text-center mb-4">AI Prompt Generator</h1>
+<div class="container mt-4 my-3 p-3 bg-body rounded shadow ">
+    <form id="promptForm">
+        <div class="mb-3">
+            <label for="concept" class="form-label">Concept:</label>
+            <textarea class="form-control ts-border-surround border-info" id="concept" name="concept" rows="3"
+                      placeholder="Enter the concept to generate prompts... Example: Logo design" required></textarea>
+<!--            <input type="text" class="form-control" id="concept" name="concept" required>-->
+        </div>
+        <div class="mb-3">
+            <label for="promptCount" class="form-label">Prompt Count:</label>
+            <input type="number" class="form-control" id="promptCount" name="promptCount" placeholder="Number of prompts" max="10" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Generate Prompts</button>
+        <img src="/assets/images/tipseason-loading.gif" style="display:none;" id="loading">
+    </form>
+
+    <!-- Display the generated prompts here -->
+    <div id="outputContainer" class="mt-4"></div>
+
+    <!-- HTML template for the prompt card -->
+    <div class="card shadow-sm template-card d-none mt-1">
+        <div class="card-body">
+            <div class="row align-items-center mb-3">
+                <div class="col-md-9">
+                    <h5 class="card-title">Prompt</h5>
+                </div>
+                <div class="col-md-3 text-right">
+                    <button class="btn btn-secondary btn-sm copy-button">Copy <i class="fa fa-copy ml-1"></i></button>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <p class="card-text prompt-text"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex flex-wrap keyword-tags"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- The rest of your HTML content -->
+
+
+</div>
+
+
+<div class="accordion container mt-4 my-3 p-3 bg-body rounded shadow" id="faqAccordion">
+    <!-- FAQ 1 -->
+    <div class="card">
+        <div class="card-header" id="faqHeading1">
+            <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                    What is the AI Art Prompt Generator?
+                </button>
+            </h2>
+        </div>
+
+        <div id="faqCollapse1" class="collapse show" aria-labelledby="faqHeading1" data-parent="#faqAccordion">
+            <div class="card-body">
+                The AI Art Prompt Generator is a web application that utilizes artificial intelligence to generate creative art prompts based on given concepts. It provides a simple and efficient way for graphic designers, artists, and anyone interested in AI art to explore new ideas and inspirations.
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ 2 -->
+    <div class="card">
+        <div class="card-header" id="faqHeading2">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                    How does the AI Art Prompt Generator work?
+                </button>
+            </h2>
+        </div>
+
+        <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent="#faqAccordion">
+            <div class="card-body">
+                The AI Art Prompt Generator uses sophisticated AI models and algorithms to analyze the input concept and generate creative prompts. It processes the concept's keywords, themes, and relevant information to provide a diverse range of prompts, such as illustrations, designs, and visual concepts, that can be used as inspiration for AI-generated art projects.
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ 4: How can I use the generated prompts in Midjourney? -->
+    <div class="card">
+        <div class="card-header" id="faqHeading4">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                    How can I use the generated prompts in Midjourney?
+                </button>
+            </h2>
+        </div>
+        <div id="faqCollapse4" class="collapse" aria-labelledby="faqHeading4" data-parent="#faqAccordion">
+            <div class="card-body">
+                You can copy the prompts generated by the AI Art Prompt Generator and paste them into the input field of Midjourney, an AI art generation app. Midjourney will then use these prompts to create beautiful AI art based on the concepts you provided. Explore various combinations of prompts and witness the magic of AI-powered creativity in Midjourney's stunning artwork!
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ 5: Can I use the prompts in DALL·E? -->
+    <div class="card">
+        <div class="card-header" id="faqHeading5">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                    Can I use the prompts in DALL·E?
+                </button>
+            </h2>
+        </div>
+        <div id="faqCollapse5" class="collapse" aria-labelledby="faqHeading5" data-parent="#faqAccordion">
+            <div class="card-body">
+                Yes, you can use the prompts generated by the AI Art Prompt Generator as inputs for DALL·E, a groundbreaking AI model that can generate stunning images from textual prompts. Simply provide the generated prompts to DALL·E, and it will create artistic images that align with the concepts you provided. Experience the endless possibilities of AI art with DALL·E and the AI Art Prompt Generator.
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ 6: How do the prompts work with Stable Diffusion? -->
+    <div class="card">
+        <div class="card-header" id="faqHeading6">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                    How do the prompts work with Stable Diffusion?
+                </button>
+            </h2>
+        </div>
+        <div id="faqCollapse6" class="collapse" aria-labelledby="faqHeading6" data-parent="#faqAccordion">
+            <div class="card-body">
+                The prompts generated by the AI Art Prompt Generator can be used in Stable Diffusion, an AI-based creative tool that allows you to create stunning animations and visual effects. By inputting the generated prompts into Stable Diffusion, you can witness how the AI interprets and transforms the concepts into dynamic and visually appealing animations. Unlock new dimensions of creativity by combining the AI Art Prompt Generator and Stable Diffusion in your art journey.
+            </div>
+        </div>
+    </div>
+    <!-- Add more FAQs following the same pattern -->
+
+    <!-- FAQ 3 -->
+    <div class="card">
+        <div class="card-header" id="faqHeading3">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                    How many prompts can I get from the AI Art Prompt Generator?
+                </button>
+            </h2>
+        </div>
+
+        <div id="faqCollapse3" class="collapse" aria-labelledby="faqHeading3" data-parent="#faqAccordion">
+            <div class="card-body">
+                The number of prompts you can get from the AI Art Prompt Generator depends on the settings you choose. You can specify the count of prompts you want to generate, and the AI will provide you with creative and descriptive prompt variations to explore and use for your art projects.
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Add jQuery and Bootstrap's JavaScript libraries -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Add custom script to handle form submission and API response -->
+<script>
+        $(document).ready(function () {
+            // Function to handle form submission
+            $("#promptForm").submit(function (event) {
+                event.preventDefault();
+                $("#loading").show();
+                const promptCount = $("#promptCount").val();
+                const concept = $("#concept").val();
+                // Call your backend API with the promptCount and concept as parameters
+                // Replace "YOUR_API_ENDPOINT" with the actual API endpoint
+                // const apiUrl = `YOUR_API_ENDPOINT?promptCount=${promptCount}&concept=${concept}`;
+                const apiUrl = `https://aiart.manigopalmurthy.workers.dev/prompts?count=${promptCount}&concept=${concept}`;
+                // const apiUrl = `https://127.0.0.1:63553/prompts?count=${promptCount}&concept=${concept}`;
+
+                $.ajax({
+                    url: apiUrl,
+                    type: "GET",
+                    dataType: "json",
+                    success: function (data) {
+                        // Process the API response here and display the prompts
+                        displayPrompts(data);
+                    },
+                    error: function (error) {
+                        console.error("Error fetching prompts:", error);
+                    }
+                });
+            });
+
+
+
+            function getRandomBadgeColorClass() {
+                const colors = ["primary", "secondary", "success", "danger", "warning", "info"];
+                return "badge badge-" + colors[Math.floor(Math.random() * colors.length)];
+            }
+
+            function displayPrompts(data) {
+                const outputContainer = $("#outputContainer");
+                outputContainer.empty();
+
+                if (data && data.candidates && data.candidates.length > 0) {
+                  const candidatesJsonString = data.candidates[0].output;
+                  const candidates = JSON.parse(candidatesJsonString.trim());
+
+                  const templateCard = $(".template-card").clone().removeClass("template-card d-none");
+
+                  candidates.forEach(function (candidate) {
+                    const promptText = candidate.prompt;
+                    const keywords = candidate.keywords;
+
+                    const promptCard = templateCard.clone();
+                    const cardBody = promptCard.find(".card-body");
+
+                    // Update prompt text
+                    cardBody.find(".prompt-text").text(promptText);
+
+                    // Add keyword tags
+                    const tagsContainer = cardBody.find(".keyword-tags");
+                    tagsContainer.empty();
+                    keywords.forEach(function (keyword) {
+                      const tag = $("<span>").addClass(getRandomBadgeColorClass() + " m-1").text(keyword);
+                      tagsContainer.append(tag);
+                    });
+
+                    // Copy to Clipboard button click event
+                    const copyButton = cardBody.find(".copy-button");
+                    copyButton.click(function () {
+                      copyToClipboard(promptText);
+                    });
+
+                    outputContainer.append(promptCard);
+                  });
+                } else {
+                  outputContainer.text("No prompts found.");
+                }
+
+                $("#loading").hide();
+              }
+
+            function copyToClipboard(text) {
+                const tempInput = $("<input>");
+                $("body").append(tempInput);
+                tempInput.val(text).select();
+                document.execCommand("copy");
+                tempInput.remove();
+                alert("Prompt copied to clipboard!");
+            }
+
+            // Function to display the prompts and keywords
+            function displayPrompts1(data) {
+              const outputContainer = $("#outputContainer");
+              outputContainer.empty();
+
+              if (data && data.candidates && data.candidates.length > 0) {
+                const candidates = JSON.parse(data.candidates[0].output);
+                const promptList = $("<ul>");
+
+                candidates.forEach(function (candidate) {
+                  const prompt = candidate.prompt;
+                  const keywords = candidate.keywords;
+
+                  const listItem = $("<li>").text(`Prompt: ${prompt}, Keywords: ${keywords}`);
+                  promptList.append(listItem);
+                });
+
+                outputContainer.append(promptList);
+              } else {
+                outputContainer.text("No prompts found.");
+              }
+            }
+
+
+        });
+    </script>
+</body>
+
+</html>
