@@ -30,6 +30,8 @@ In case if you missed it, you can check other chatgpt promtps here :
 
 [120+ Midjourney prompts for portraits](/midjourney-prompts-for-portraits/)
 
+[150+ Midjourney prompts for coloring book pages](/midjourney-prompts-for-coloring-books/)
+
 [200+ DALLE or Bing image creator prompts list](/dalle-bing-image-prompt-ideas/)
 
 [50+ ChatGPT prompts for writing](/chatgpt-prompts-for-writing/)
