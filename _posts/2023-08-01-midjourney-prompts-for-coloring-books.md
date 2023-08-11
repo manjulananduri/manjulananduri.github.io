@@ -24,6 +24,8 @@ In addition, you can access midjourney cheatsheet with Commands, properties, ima
 
 In case if you missed it, you can check other chatgpt promtps here :
 
+[150+ Midjourney prompts for Architecture](/midjourney-prompts-for-architecture/)
+
 [100+ Chatgpt prompts for Midjourney](/chatgpt-prompts-for-midjourney/)
 
 [100+ Midjourney prompts list for characters](/midjourney-prompts-for-characters/)
@@ -39,7 +41,7 @@ Alright! Let's get started!!
 <img class="img-fluid" src="/assets/images/coloring-book-1.jpg" alt="Midjourney coloring book prompt">
 
 > Coloring book page with Enchanted Forest - A mystical forest with magical creatures, fairies, and hidden treasures. 
- w/w image. Sketch style like tipseason. No color. Detailed and intricate designs for adults to enjoy.
+ b/w image. Sketch style like tipseason. No color. Detailed and intricate designs for adults to enjoy.
 
 <hr>
 
