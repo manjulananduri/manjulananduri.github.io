@@ -28,6 +28,10 @@ In case if you missed it, you can check other chatgpt promtps here :
 
 [50+ Midjourney prompts for photo realistic images](/midjourney-prompts-for-realism/)
 
+[150+ Midjourney prompts for Architecture](/midjourney-prompts-for-architecture/)
+
+[150+ Midjourney prompts for children coloring books](/midjourney-prompts-for-coloring-books/)
+
 [50+ ChatGPT prompts for writing](/chatgpt-prompts-for-writing/)
 
 [50+ ChatGPT prompts for resume writing and job search](/chatgpt-prompts-for-resume/)
