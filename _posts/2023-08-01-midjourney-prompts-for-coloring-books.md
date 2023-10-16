@@ -26,6 +26,8 @@ In case if you missed it, you can check other chatgpt promtps here :
 
 [150+ Midjourney prompts for Architecture](/midjourney-prompts-for-architecture/)
 
+[150+ Midjourney prompts for t-shirt design](/midjourney-prompts-for-tshirt-design/)
+
 [100+ Chatgpt prompts for Midjourney](/chatgpt-prompts-for-midjourney/)
 
 [100+ Midjourney prompts list for characters](/midjourney-prompts-for-characters/)
