@@ -10,7 +10,7 @@ toc: true
 tableofcontents: true
 ---
 
-## Introduction to Midjourney prompts for portraits  
+## Introduction to Midjourney prompts for architecture  
 
 In the previous blog post, we explored [50+ best midjourney prompts](/midjourney-prompts-for-realism/) for creating
 photo realistic images. In this blog post we will look at 
@@ -26,6 +26,10 @@ In addition, you can access midjourney cheatsheet with Commands, properties, ima
 <a href="/midjourney-cheatsheet/"> Midjourney CheatSheet - Commands, properties, image hacks </a>
 
 In case if you missed it, you can check other chatgpt or midjourney AI promtps here .
+
+[250+ Adobe firefly prompts for text to image generation](/adobe-firefly-prompts/)
+
+[150+ Midjourney prompts for t-shirt design](/midjourney-prompts-for-tshirt-design/)
 
 [150+ Midjourney prompts for children coloring books](/midjourney-prompts-for-coloring-books/)
 
