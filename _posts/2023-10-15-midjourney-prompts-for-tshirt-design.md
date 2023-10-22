@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "150+ Midjourney prompts for T-shirt design, unique and trending"
+title: "150+ Midjourney prompts for t-shirts design, unique and trending"
 author: Pramod
 categories: [ChatGPT, Midjourney]
 image: assets/images/tshirts/midjourney-tshirts.png
@@ -25,6 +25,8 @@ In addition, you can access midjourney cheatsheet with Commands, properties, ima
 <a href="/midjourney-cheatsheet/"> Midjourney CheatSheet - Commands, properties, image hacks </a>
 
 In case if you missed it, you can check other chatgpt promtps here :
+
+[250+ Adobe firefly prompts for text to image generation](/adobe-firefly-prompts/)
 
 [150+ Midjourney prompts for coloring book pages, cool and simple](/midjourney-prompts-for-coloring-books/)
 
