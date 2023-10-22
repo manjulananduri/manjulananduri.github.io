@@ -15,7 +15,7 @@ promote: true
 Alright let's get started.
  
 
-In case if you missed it, you can check other promtps here :
+In case if you missed it, you can check other posts here :
 
 [150+ Midjourney prompts for t-shirt design](/midjourney-prompts-for-tshirt-design/)
 
