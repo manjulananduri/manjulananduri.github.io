@@ -145,15 +145,12 @@ In case if you missed it, you can check other posts here :
 ## Travel & Geography Jokes
 
 29. Why don't scientists trust atoms? Because they make up everything.
-30. I've been to the dentist so many times; I know the drill.
-31. I'm friends with all electricians. We have good current connections.
 32. I stayed up all night to see where the sun went. It finally dawned on me.
 
 
 ## Medical Jokes
 
 36. I told my wife she was drawing her eyebrows too high. She looked surprised.
-37. I'm friends with all electricians. We have good current connections.
 38. I used to be a baker, but I couldn't make enough dough.
 39. My doctor told me I need more Vitamin Sea. So, I booked a beach vacation.
 
@@ -167,7 +164,6 @@ In case if you missed it, you can check other posts here :
 
 44. I used to be a baker, but I couldn't make enough dough.
 45. What do you call a fish that wears a crown? King Mackerel.
-46. I'm friends with all electricians. We have good current connections.
 47. I stayed up all night to see where the sun went. It finally dawned on me.
 
 ## Dad Jokes
