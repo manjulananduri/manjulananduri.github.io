@@ -46,18 +46,12 @@ In case if you missed it, you can check other posts here :
 4. Marriage is when a man and woman become one. The trouble starts when they try to decide which one.
 5. Why did the husband bring a ladder to the bar? Because he heard the drinks were on the house.
 6. My wife told me I should do lunges to stay in shape. That would be a big step forward.
-7. Why did the wife bring a ladder to the restaurant? Because she heard the food was out of this world.
 8. Marriage is like a deck of cards. In the beginning, all you need is two hearts and a diamond. By the end, you're looking for a club and a spade.
 9. Why do married people live longer? Because they can't argue with their spouse if they're dead.
 10. My wife told me to do lunges to stay in shape. That would be a big step forward.
-11. Why did the husband bring a ladder to the bar? Because he heard the drinks were on the house.
 12. Marriage is like a deck of cards. In the beginning, all you need is two hearts and a diamond. By the end, you're looking for a club and a spade.
-13. Why do married people live longer? Because they can't argue with their spouse if they're dead.
-14. My wife and I were happy for twenty years. Then we met.
 15. I asked my wife if she ever fantasizes about me, and she said yes. It was the most amazing two minutes of my life.
 16. Why do married people live longer? Because they can't argue with their spouse if they're dead.
-17. My wife told me I should do lunges to stay in shape. That would be a big step forward.
-18. Why did the husband bring a ladder to the bar? Because he heard the drinks were on the house.
 19. Marriage is like a deck of cards. In the beginning, all you need is two hearts and a diamond. By the end, you're looking for a club and a spade.
 20. My wife and I were happy for twenty years. Then we met.
 
