@@ -43,17 +43,13 @@ In case if you missed it, you can check other posts here :
 1. Marriage is when a man and woman become one. The trouble starts when they try to decide which one.
 2. Why don't scientists trust atoms? Because they make up everything, just like some people in relationships.
 3. What's the secret to a happy marriage? A sense of humor and a short memory.
-4. Marriage is when a man and woman become one. The trouble starts when they try to decide which one.
-5. Why did the husband bring a ladder to the bar? Because he heard the drinks were on the house.
-6. My wife told me I should do lunges to stay in shape. That would be a big step forward.
-8. Marriage is like a deck of cards. In the beginning, all you need is two hearts and a diamond. By the end, you're looking for a club and a spade.
-9. Why do married people live longer? Because they can't argue with their spouse if they're dead.
-10. My wife told me to do lunges to stay in shape. That would be a big step forward.
-12. Marriage is like a deck of cards. In the beginning, all you need is two hearts and a diamond. By the end, you're looking for a club and a spade.
-15. I asked my wife if she ever fantasizes about me, and she said yes. It was the most amazing two minutes of my life.
-16. Why do married people live longer? Because they can't argue with their spouse if they're dead.
-19. Marriage is like a deck of cards. In the beginning, all you need is two hearts and a diamond. By the end, you're looking for a club and a spade.
-20. My wife and I were happy for twenty years. Then we met.
+4. Why did the husband bring a ladder to the bar? Because he heard the drinks were on the house.
+5. My wife told me I should do lunges to stay in shape. That would be a big step forward.
+6. Marriage is like a deck of cards. In the beginning, all you need is two hearts and a diamond. By the end, you're looking for a club and a spade.
+7. Why do married people live longer? Because they can't argue with their spouse if they're dead.
+8. My wife told me to do lunges to stay in shape. That would be a big step forward.
+9. I asked my wife if she ever fantasizes about me, and she said yes. It was the most amazing two minutes of my life.
+10. My wife and I were happy for twenty years. Then we met.
 
 ## Classic Jokes
 
