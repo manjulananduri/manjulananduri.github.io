@@ -21,6 +21,10 @@ In case you missed it check out other Golang articles here
 
 [Golang read file line by line - 3 Simple ways](/how-to-read-file-line-by-line-golang/)
 
+[Golang enums implementation with examples](/golang-enums/)
+
+[Golang sets implementation in 2 simple ways](/golang-sets-implementation/)
+
 Let's dive in.
 
 ## Golang for loop Syntax
