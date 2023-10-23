@@ -43,23 +43,13 @@ In case if you missed it, you can check other posts here :
 1. Marriage is when a man and woman become one. The trouble starts when they try to decide which one.
 2. Why don't scientists trust atoms? Because they make up everything, just like some people in relationships.
 3. What's the secret to a happy marriage? A sense of humor and a short memory.
-4. Marriage is when a man and woman become one. The trouble starts when they try to decide which one.
-5. Why did the husband bring a ladder to the bar? Because he heard the drinks were on the house.
-6. My wife told me I should do lunges to stay in shape. That would be a big step forward.
-7. Why did the wife bring a ladder to the restaurant? Because she heard the food was out of this world.
-8. Marriage is like a deck of cards. In the beginning, all you need is two hearts and a diamond. By the end, you're looking for a club and a spade.
-9. Why do married people live longer? Because they can't argue with their spouse if they're dead.
-10. My wife told me to do lunges to stay in shape. That would be a big step forward.
-11. Why did the husband bring a ladder to the bar? Because he heard the drinks were on the house.
-12. Marriage is like a deck of cards. In the beginning, all you need is two hearts and a diamond. By the end, you're looking for a club and a spade.
-13. Why do married people live longer? Because they can't argue with their spouse if they're dead.
-14. My wife and I were happy for twenty years. Then we met.
-15. I asked my wife if she ever fantasizes about me, and she said yes. It was the most amazing two minutes of my life.
-16. Why do married people live longer? Because they can't argue with their spouse if they're dead.
-17. My wife told me I should do lunges to stay in shape. That would be a big step forward.
-18. Why did the husband bring a ladder to the bar? Because he heard the drinks were on the house.
-19. Marriage is like a deck of cards. In the beginning, all you need is two hearts and a diamond. By the end, you're looking for a club and a spade.
-20. My wife and I were happy for twenty years. Then we met.
+4. Why did the husband bring a ladder to the bar? Because he heard the drinks were on the house.
+5. My wife told me I should do lunges to stay in shape. That would be a big step forward.
+6. Marriage is like a deck of cards. In the beginning, all you need is two hearts and a diamond. By the end, you're looking for a club and a spade.
+7. Why do married people live longer? Because they can't argue with their spouse if they're dead.
+8. My wife told me to do lunges to stay in shape. That would be a big step forward.
+9. I asked my wife if she ever fantasizes about me, and she said yes. It was the most amazing two minutes of my life.
+10. My wife and I were happy for twenty years. Then we met.
 
 ## Classic Jokes
 
@@ -145,15 +135,12 @@ In case if you missed it, you can check other posts here :
 ## Travel & Geography Jokes
 
 29. Why don't scientists trust atoms? Because they make up everything.
-30. I've been to the dentist so many times; I know the drill.
-31. I'm friends with all electricians. We have good current connections.
 32. I stayed up all night to see where the sun went. It finally dawned on me.
 
 
 ## Medical Jokes
 
 36. I told my wife she was drawing her eyebrows too high. She looked surprised.
-37. I'm friends with all electricians. We have good current connections.
 38. I used to be a baker, but I couldn't make enough dough.
 39. My doctor told me I need more Vitamin Sea. So, I booked a beach vacation.
 
@@ -167,7 +154,6 @@ In case if you missed it, you can check other posts here :
 
 44. I used to be a baker, but I couldn't make enough dough.
 45. What do you call a fish that wears a crown? King Mackerel.
-46. I'm friends with all electricians. We have good current connections.
 47. I stayed up all night to see where the sun went. It finally dawned on me.
 
 ## Dad Jokes
