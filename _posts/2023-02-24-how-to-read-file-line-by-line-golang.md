@@ -9,8 +9,13 @@ toc: true
 promote: true
 ---
 
-Welcome back to our Golang tutorial series! In our previous post, we covered 3 simple ways to get the first character of
-a string in Golang. If you missed that post, you can check it out here: [how to get first character of a string in golang](https://tipseason.com/how-to-get-first-character-in-string-golang/). 
+Welcome back to our Golang tutorial series! 
+
+In our previous post, we covered about
+
+[3 simple ways to get the first character of a string in Golang](/how-to-get-first-character-in-string-golang/)
+
+[Golang for loops: 5 basic ways with examples using range, arrays, maps iteration](/2023-10-22-golang-for-loop/)
 
 In this post, we'll be discussing another important topic - how to read a file line by line in Golang. Reading a file
 line by line is a common task in programming, and Golang provides several ways to accomplish this. We'll be exploring 3

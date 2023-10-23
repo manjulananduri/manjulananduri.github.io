@@ -13,7 +13,13 @@ Loops are an essential part of any programming language. They allow us to execut
 The for loop is one of the most common loops in programming. 
 
 There are multiple variations for using Golang for-loops. In this tutorial we will discuss 5 unique ways to use for-loops. 
-We will also discuss about ways to arrays, maps using range keyword with for loop combination. 
+We will also discuss various ways to iterate arrays, maps using range keyword with for loop combination. 
+
+In case you missed it check out other Golang articles here
+
+[3 simple ways to get the first character of a string in Golang](/how-to-get-first-character-in-string-golang/)
+
+[Golang read file line by line - 3 Simple ways](/how-to-read-file-line-by-line-golang/)
 
 Let's dive in.
 
