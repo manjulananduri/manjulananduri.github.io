@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "Google Bard AI prompt engineering tutorial with 200+ best prompts"
+title: "Ultimate Bard AI use case guide with 200+ best prompts across 20+ categories"
 author: Pramod 
 categories: [ BardAI, ChatGPT, Midjourney ]
 image: assets/images/bard-ai-header.png 
