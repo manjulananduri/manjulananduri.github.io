@@ -152,7 +152,7 @@ Kick start learning SQL by observing the difference between PostgreSQL vs MySQL 
 We are launching an online SQL course based on DBT (data build tool) for beginners with practical hands on project.
 First 20 people to signup for the course, will get course for free and next 30 people will get a 50% discount. Make sure to signup here.
 
-If you are not sure about what DBT is, its one of the fast growing framework used in data analytics. You can learn more about it here [DBT Tutorial for beginners](/DBT-tutorial-real-world-scenario-guide/)
+If you are not sure about what DBT is, its one of the fast growing framework used in data analytics. You can learn more about it here [DBT Tutorial for beginners](/dbt-tutorial-real-world-scenario-guide/)
 
 {% include mailchimp.html %}
 

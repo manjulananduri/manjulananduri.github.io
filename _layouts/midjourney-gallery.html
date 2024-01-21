@@ -1,0 +1,154 @@
+---
+title: "Midjourney Gallery with prompts"
+layout: default
+permalink: "/midjourney-gallery.html"
+disqus: false
+archive: false
+---
+
+<div class="container">
+
+    <!-- Gallery -->
+    <div class="row">
+
+
+        {% assign i = 0 %}
+        {% for image in site.static_files %}
+            {% if image.path contains 'images/gallery' %}
+                {% assign rem = i | modulo:2 %}
+                {% if rem == 0 %}
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                {% endif %}
+                        <img
+                                src="{{ site.baseurl }}{{ image.path }}"
+                                class="w-100 shadow shadow-1-strong rounded mb-4"
+                        />
+                {% if rem == 1 %}
+                    </div>
+                {% endif %}
+                {% assign i = i | plus:1 %}
+            {% endif %}
+        {% endfor %}
+
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                    class="w-100 shadow shadow-1-strong rounded mb-4"
+                    alt="Boat on Calm Water"
+            />
+
+            <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mountains in the Clouds"
+            />
+
+            <!--            <img-->
+            <!--                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"-->
+            <!--                    class="w-100 shadow-sm shadow-1-strong rounded mb-4"-->
+            <!--                    alt="Wintry Mountain Landscape"-->
+            <!--            />-->
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mountains in the Clouds"
+            />
+
+            <!--            <img-->
+            <!--                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"-->
+            <!--                    class="w-100 shadow-1-strong rounded mb-4"-->
+            <!--                    alt="Boat on Calm Water"-->
+            <!--            />-->
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mountains in the Clouds"
+            />
+
+            <!--            <img-->
+            <!--                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"-->
+            <!--                    class="w-100 shadow-1-strong rounded mb-4"-->
+            <!--                    alt="Boat on Calm Water"-->
+            <!--            />-->
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mountains in the Clouds"
+            />
+
+            <!--            <img-->
+            <!--                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"-->
+            <!--                    class="w-100 shadow-1-strong rounded mb-4"-->
+            <!--                    alt="Boat on Calm Water"-->
+            <!--            />-->
+        </div>
+
+        <!-- <div class="col-lg-4 mb-4 mb-lg-0">
+             <img
+                     src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                     class="w-100 shadow-1-strong rounded mb-4"
+                     alt="Waves at Sea"
+             />
+
+             <img
+                     src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                     class="w-100 shadow-1-strong rounded mb-4"
+                     alt="Yosemite National Park"
+             />
+         </div>
+
+         <div class="col-lg-4 mb-4 mb-lg-0">
+             <img
+                     src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                     class="w-100 shadow-1-strong rounded mb-4"
+                     alt="Waves at Sea"
+             />
+
+             <img
+                     src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                     class="w-100 shadow-1-strong rounded mb-4"
+                     alt="Yosemite National Park"
+             />
+         </div>
+
+         <div class="col-lg-4 mb-4 mb-lg-0">
+             <img
+                     src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                     class="w-100 shadow-1-strong rounded mb-4"
+                     alt="Waves at Sea"
+             />
+
+             <img
+                     src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                     class="w-100 shadow-1-strong rounded mb-4"
+                     alt="Yosemite National Park"
+             />
+         </div>
+
+         <div class="col-lg-4 mb-4 mb-lg-0">
+             <img
+                     src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                     class="w-100 shadow-1-strong rounded mb-4"
+                     alt="Mountains in the Clouds"
+             />
+
+             <img
+                     src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                     class="w-100 shadow-1-strong rounded mb-4"
+                     alt="Boat on Calm Water"
+             />
+         </div>-->
+
+    </div>
+    <!-- Gallery -->
+
+</div>

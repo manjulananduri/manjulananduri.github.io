@@ -15,7 +15,17 @@ Getting the first character of a string may seem like a trivial task, but it can
 
 By the end of this article, you will have a good understanding of these methods and be able to choose the one that best suits your needs. these methods in detail.
 
-So, let's dive in and explore the 3 simple ways to get the first character of a string in Golang. 
+In case you missed it check out other Golang articles here
+
+[Golang read file line by line - 3 Simple ways](/how-to-read-file-line-by-line-golang/)
+
+[Golang enums implementation with examples](/golang-enums/)
+
+[Golang sets implementation in 2 simple ways](/golang-sets-implementation/)
+
+[Golang for loops: 5 basic ways with examples using range, arrays, maps iteration](/golang-for-loop/)
+
+So, let's dive in and explore the 3 simple ways to get the first character of a string in Golang.
 
 ## 1. Use the index position to access the string characters
 

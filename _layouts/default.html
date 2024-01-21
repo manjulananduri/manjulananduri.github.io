@@ -44,8 +44,9 @@
 
     {% endif %}
 
-
-
+    <!--    MailChimp Addon-->
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/13f41df6125800abe7efbd891/750d0895c842aca8ef9984840.js");</script>
+    <!--    End of MailChimp Addon-->
 
 </head>
 
@@ -144,7 +145,14 @@
                     </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="{{ site.baseurl }}/reading-time-calculator">Reading Time Calculator</a>
+                        <hr>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/time-difference-calculator">Time difference Calculator</a>
+                        <hr>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/dalle-prompt-generator">Dalle Prompt Generator</a>
+                        <hr>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/ai-prompt-generator">AI Prompt Generator</a>
                     </div>
+
                 </li>
 
 
@@ -318,13 +326,6 @@
 {% if page.layout == 'post' %}
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}
-
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-62a61b41c367e367"></script>
-<script type="text/javascript">
-    addthis.messages.on('subscribe', function (payload) {
-        alert('Thank you for subscribing!');
-    });
-</script>
 
 </body>
 </html>
