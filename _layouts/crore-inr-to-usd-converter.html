@@ -1,0 +1,258 @@
+---
+title: "Leonardo AI Prompt generator - Create best AI image prompts with unique keywords"
+layout: default
+permalink: "/leonardo-prompt-generator.html"
+disqus: false
+archive: falses
+---
+
+<style>
+    body {
+        background-color: #f5fdff;
+        /* background-image: radial-gradient(#373fed 0.5px, #f5fffe 0.5px); */
+        background-size: 10px 10px;
+    }
+
+    .card-header {
+        word-wrap: break-word !important;
+    }
+
+</style>
+
+<script>
+    const apiKey = '8358de1f036c48b99cc8d397a23b4c83'; // Replace this with your API key
+
+    function getConversionRate(callback) {
+        const endpoint = `https://openexchangerates.org/api/latest.json?app_id=${apiKey}`;
+        $.ajax({
+            url: endpoint,
+            dataType: 'jsonp',
+            success: function(data) {
+                const rate = data.rates.INR;
+                callback(rate);
+            },
+            error: function() {
+                alert('Unable to fetch conversion rates. Please check your API key or connection.');
+            }
+        });
+    }
+
+    function convertToUSD() {
+        getConversionRate(function(rate) {
+            let crores = document.getElementById('crores').value;
+            let usdValue = crores * 10000000 / rate; // 1 crore = 10 million
+            document.getElementById('usd').value = usdValue.toFixed(2);
+        });
+    }
+</script>
+
+
+<!--<div class="row listrecent d-flex align-items-center justify-content-center">-->
+<div class="container">
+    <div class="row">
+        <div class="col text-center text-danger">
+            <object data="/assets/images/leonardo-logo.svg" width="200" height="200"> </object>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col text-center text-danger">
+            <h2>Indian Crores to USD Converter</h2>
+        </div>
+    </div>
+
+    <div class="row justify-content-center m-3">
+        <div class="container mt-5">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="crores">INR Crores:</label>
+                    <input type="number" class="form-control" id="crores" placeholder="Enter amount in crores">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="usd">USD:</label>
+                    <input type="text" class="form-control" id="usd" readonly>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-primary" onclick="convertToUSD()">Convert</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row justify-content-center m-3" id="subscribe">
+        <iframe src="https://tipseason.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+    </div>
+
+    <div>
+        
+    </div>
+
+    <div class="row justify-content-center m-3" id="faqs">
+        <div class="col-md-10 mx-auto text-center ">
+
+            <div class="accordion" id="faqAccordion">
+
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                What is this Leonardo AI?
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                         data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Leonardo AI is an AI tool for generating images from text descriptions. It allows users to create unique and original digital art by converting textual descriptions into corresponding images, bringing conceptual art to life online within seconds. The tool is known for producing high-quality image assets for computer games, but it can also create stunning image assets for various other projects. Leonardo AI utilizes pre-trained AI models to generate production-ready assets with unique styles based on user prompts, allowing for rapid ideation and iteration. The tool operates on a freemium model, permitting users to create a certain amount of images daily without any charge 1. It is accessible via a dashboard on their main website and is straightforward to use.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion" id="tips-accordion">
+                    <div class="card">
+                        <div class="card-header" id="heading-tips">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapse-tips" aria-expanded="false"
+                                        aria-controls="collapse-tips">
+                                    Tips for using the Dalle AI art prompt generator tool
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse-tips" class="collapse" aria-labelledby="heading-tips"
+                             data-parent="#tips-accordion">
+                            <div class="card-body">
+                                <ul>
+                                    <li>Experiment with different combinations of art styles, subjects, and techniques
+                                        to explore new creative possibilities.
+                                    </li>
+                                    <li>Don't be afraid to iterate and generate multiple prompts to find the one that
+                                        resonates with your artistic vision.
+                                    </li>
+                                    <li>Use the generated prompts as a starting point and feel free to add your own
+                                        ideas, interpretations, and personal touches to make the artwork truly unique.
+                                    </li>
+                                </ul>
+                                <p>Yes, you can use the generated art prompts for your commercial art or design
+                                    projects. However, please note that the prompts generated by the tool are for
+                                    inspiration purposes only and may not be used as standalone artworks without proper
+                                    attribution or licensing of any third-party content, if applicable.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How do I use the AI art prompt generator tool?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Using the tool is simple:
+
+                            <ol>
+                                <li>Enter a starting prompt. For eg: A dog, A city, A mountain</li>
+                                <li>As you enter, you should see the prompt being generated on the top output box.</li>
+                                <li>Explore the generated prompt and use it as inspiration for your art or design
+                                    project.
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="heading-Five">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-Fives" aria-expanded="true" aria-controls=""collapse-Fives">
+                                    Can this tool be used for any AI art generation tools like Midjourney, Stable Diffusion, etc.?
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapse-Fives" class="collapse show" aria-labelledby="heading-Five" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Yes, the AI art prompt generator tool can be used in conjunction with any AI art generation tool to provide additional inspiration and creative direction. The tool generates random art prompts based on user-selected options, and can be used as a starting point or inspiration source for any AI-generated artwork, regardless of the specific tool or platform used to create it.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Question 4 -->
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Can I save or download the generated art prompts?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            The tool does not currently have a save or download feature. However, you can easily capture
+                            screenshots or copy the generated prompts to use in your art or design project.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
+                                    aria-controls="collapseFive" aria-expanded="false">
+                                Is the AI art prompt generator tool suitable for all skill levels?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                        <div class="card-body">
+                            Yes, the tool is designed to cater to artists and designers of all skill levels, from
+                            beginners to experienced professionals. The generated prompts can be used as a creative aid
+                            and inspiration source for artists at any stage of their artistic journey.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingSix">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix"
+                                    aria-expanded="false" aria-controls="collapseSix">
+                                Can I suggest new art styles, subjects, or techniques to be added to the tool?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Currently, the tool uses a predefined set of art styles, subjects, and techniques. However,
+                            we appreciate user feedback and suggestions for improvement. You can reach out to us with
+                            your suggestions, and we will consider them for future updates of the tool.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+
