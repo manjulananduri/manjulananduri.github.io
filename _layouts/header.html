@@ -60,6 +60,15 @@
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </noscript>
 
+<style>
+    .bg-banner{
+        /*background-color: #f7f8ff!important;*/
+        /*background-color: #009688 !important;*/
+        background-color: #0e6082!important;
+        /*background-color: #17a2b8!important;*/
+    }
+
+</style>
 
 <!-- Begin Menu Navigation
 ================================================== -->
@@ -74,16 +83,20 @@
         </a>
         <!-- End Logo -->
 
+
+
+<!--
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+        </button>-->
 
         <div class="collapse navbar-collapse" id="navbarMediumish">
 
             <!-- Begin Menu -->
 
             <ul class="navbar-nav ml-auto">
+
 
                 {% if page.url == "/" %}
                 <li class="nav-item active">
@@ -94,42 +107,6 @@
                     <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
                 </li>
 
-                {% if page.url contains "/carbon-language/" %}
-                <li class="nav-item active">
-                    {% else %}
-
-                <li class="nav-item">
-                    {% endif %}
-                    <a class="nav-link" href="{{ site.baseurl }}/carbon-language.html">Carbon Language</a>
-                </li>
-
-
-                {% if page.url contains "/interviews/" %}
-                <li class="nav-item active">
-                    {% else %}
-
-                <li class="nav-item">
-                    {% endif %}
-                    <a class="nav-link" href="{{ site.baseurl }}/coding-interviews.html">Interviews</a>
-                </li>
-
-               <!-- {% if page.url contains "/tools/" %}
-                <li class="nav-item dropdown active">
-                    {% else %}
-
-                <li class="nav-item dropdown">
-                    {% endif %}
-&lt;!&ndash;                    <a class="nav-link" href="{{ site.baseurl }}/#"></a>&ndash;&gt;
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Tools
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{ site.baseurl }}/timezone-converter.html">TimeZone Converter</a>
-                        <a class="dropdown-item" href="#">JSON Formatter</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">String Splitter</a>
-                    </div>
-                </li>-->
 
                 {% if page.url == "/tools" %}
                 <li class="nav-item active">
@@ -144,31 +121,40 @@
                         Tools
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="{{ site.baseurl }}/reading-time-calculator">Reading Time Calculator</a>
-                        <hr>
-                        <a class="dropdown-item" href="{{ site.baseurl }}/time-difference-calculator">Time difference Calculator</a>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/ai-prompt-generator">AI Prompt Generator</a>
                         <hr>
                         <a class="dropdown-item" href="{{ site.baseurl }}/dalle-prompt-generator">Dalle Prompt Generator</a>
                         <hr>
-                        <a class="dropdown-item" href="{{ site.baseurl }}/leonardo-prompt-generator">LeonardoAI Prompt Generator</a>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/reading-time-calculator">Reading Time Calculator</a>
                         <hr>
-                        <a class="dropdown-item" href="{{ site.baseurl }}/ai-prompt-generator">AI Prompt Generator</a>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/time-difference-calculator">Time difference Calculator</a>
                     </div>
 
                 </li>
 
 
-                {% if page.url contains "/tips/" %}
-                <li class="nav-item active">
-                    {% else %}
+                <li class="nav-item" id="login" style="display: none;">
+                    <a class="nav-link" href="{{ site.baseurl }}/login">Login</a>
+                </li>
 
-                <li class="nav-item">
-                    {% endif %}
-                    <a class="nav-link" href="{{ site.baseurl }}{{site.tips[0].url}}">Tips</a>
+                <li class="nav-item"  id="signup" style="display: none;">
+                    <a class="nav-link" href="{{ site.baseurl }}/signup">SignUp</a>
+                </li>
+
+                <li class="nav-item dropdown" style="display: none;" id="profile">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                       role="button"
+                       aria-haspopup="true" aria-expanded="false" id="username">
+                    </a>
+                    <div class="dropdown-menu">
+                        <!-- <a class="dropdown-item" href="{{ site.baseurl }}/ai-prompt-generator">AI Prompt Generator</a>
+                        <hr> -->
+                        <a class="dropdown-item" href="#" id="logout">Logout</a>
+                    </div>
                 </li>
 
 
-                {% if page.url == "/categories" %}
+                <!--{% if page.url == "/tools" %}
                 <li class="nav-item active">
                     {% else %}
 
@@ -178,21 +164,15 @@
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
                        role="button"
                        aria-haspopup="true" aria-expanded="false">
-                        Categories
+                        Welcome
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="{{ site.baseurl }}/categories">All Categories</a>
-                        {% for category in site.categories %}
-                        <a class="dropdown-item" href="{{ site.baseurl }}/categories#{{ category[0] }}">{{ category[0] }}</a>
-                        {% endfor %}
+                        <a class="dropdown-item" href="https://us8.list-manage.com/contact-form?u=13f41df6125800abe7efbd891&form_id=bfba3f28362a84ec99ce783c427eb5a7">Contact Us</a>
+                        <hr>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/ai-prompt-generator">Logout</a>
                     </div>
-                </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="https://us8.list-manage.com/contact-form?u=13f41df6125800abe7efbd891&form_id=bfba3f28362a84ec99ce783c427eb5a7" rel="nofollow">Contact Us</a>
-                </li>
-
-                {% include search-lunr.html %}
+                </li>-->
 
             </ul>
 
@@ -328,6 +308,7 @@
 {% if page.layout == 'post' %}
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}
+
 
 </body>
 </html>
