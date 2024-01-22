@@ -224,12 +224,13 @@ archive: false
                 outputContainer.empty();
 
                 if (data && data.candidates && data.candidates.length > 0) {
-                  const candidatesJsonString = data.candidates[0].output;
-                  const candidates = JSON.parse(candidatesJsonString.trim());
-
+                  const candidatesJsonString = data.candidates[0].content.parts[0].text;
+                  const candidates = JSON.parse(finalJsonString);
+                  console.log(candidates);
+                  
                   const templateCard = $(".template-card").clone().removeClass("template-card d-none");
-
                   candidates.forEach(function (candidate) {
+                    
                     const promptText = candidate.prompt;
                     const keywords = candidate.keywords;
 
