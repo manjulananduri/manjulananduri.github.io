@@ -225,9 +225,9 @@ archive: false
 
                 if (data && data.candidates && data.candidates.length > 0) {
                   const candidatesJsonString = data.candidates[0].content.parts[0].text;
-                  const candidates = JSON.parse(finalJsonString);
+                  const candidates = JSON.parse(candidatesJsonString.trim());
                   console.log(candidates);
-                  
+
                   const templateCard = $(".template-card").clone().removeClass("template-card d-none");
                   candidates.forEach(function (candidate) {
                     
