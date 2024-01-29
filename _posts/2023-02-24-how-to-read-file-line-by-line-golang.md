@@ -17,6 +17,8 @@ In other Golang posts, we covered about
 
 [3 simple ways to get the first character of a string in Golang](/how-to-get-first-character-in-string-golang/)
 
+[Golang get last element of slice / array / list - Simple and fast](/how-to-get-last-element-of-slice-golang/)
+
 [Golang enums implementation with examples](/golang-enums/)
 
 [Golang sets implementation in 2 simple ways](/golang-sets-implementation/)

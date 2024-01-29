@@ -26,6 +26,9 @@ In case you missed it check out other Golang articles here
 
 [Golang for loops: 5 basic ways with examples using range, arrays, maps iteration](/golang-for-loop/)
 
+[Golang get last element of slice / array / list - Simple and fast](/how-to-get-last-element-of-slice-golang/)
+
+[Golang get map keys - 3 Simple ways](/how-to-get-keys-in-map-golang/)
 
 ## What is a Set Data Structure?
 
