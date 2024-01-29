@@ -13,6 +13,8 @@ Welcome back to our Golang tutorial series!
 
 In other Golang posts, we covered about
 
+[Golang read file line by line - 3 Simple ways](/how-to-get-keys-in-map-golang/)
+
 [3 simple ways to get the first character of a string in Golang](/how-to-get-first-character-in-string-golang/)
 
 [Golang enums implementation with examples](/golang-enums/)
