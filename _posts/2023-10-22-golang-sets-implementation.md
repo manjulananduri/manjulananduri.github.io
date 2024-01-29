@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Golang sets implementation in 2 simple ways"
+title:  "Golang hash sets implementation in 2 simple ways"
 author: Pramod
 categories: [Interviews, Golang]
 image: assets/images/golang.jpg
