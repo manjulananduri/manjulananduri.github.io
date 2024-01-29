@@ -19,7 +19,7 @@ In case you missed it check out other Golang articles here
 
 [Golang read file line by line - 3 Simple ways](/how-to-read-file-line-by-line-golang/)
 
-[Golang read file line by line - 3 Simple ways](/how-to-get-keys-in-map-golang/)
+[Golang get map keys - 3 Simple ways](/how-to-get-keys-in-map-golang/)
 
 [Golang enums implementation with examples](/golang-enums/)
 
