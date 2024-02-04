@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "200+ Midjourney prompts for interior design - Creative and beautiful"
+title: "200+ Midjourney prompts for interior design and architecture"
 author: Pramod
 categories: [ChatGPT, Midjourney]
 image: assets/images/interiordesign/midjourney-interior-design-banner.jpg
@@ -11,7 +11,7 @@ tableofcontents: true
 promote: true
 ---
 
-# Introduction to Midjourney Prompts for Tshirt Design
+# Introduction to Midjourney Prompts for interior architecture Design
 
 Ever dreamt of stepping into a world where your interior design fantasies come to life? Where walls whisper untold stories, textures sing symphonies, and every corner brims with breathtaking beauty? Well, hold onto your paintbrushes, fellow design enthusiasts, because Midjourney is here to make your dreams a digital reality!
 
@@ -27,6 +27,8 @@ In addition, you can access midjourney cheatsheet with Commands, properties, ima
 <a href="/midjourney-cheatsheet/"> Midjourney CheatSheet - Commands, properties, image hacks </a>
 
 In case if you missed it, you can check other chatgpt promtps here :
+
+[150+ Bard AI image prompts](/bard-prompts-for-images/)
 
 [150+ Midjourney prompts for Architecture](/midjourney-prompts-for-architecture/)
 

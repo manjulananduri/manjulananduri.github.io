@@ -38,7 +38,7 @@ This one-liner grabs all the keys from your myMap and stores them in a slice nam
 keys := maps.Keys(myMap)
 ```
 
-This one-liner grabs all the keys from your myMap and stores them in a slice named keys. The keys are returned in an unordered list, but that's often all you need. 
+This one-liner grabs all the keys from your myMap and stores them in a slice named keys. The keys are returned in an unordered list, but that's often all you need.
 Simple, efficient, and perfect for those who appreciate conciseness.
 
 ### Example:
@@ -56,12 +56,14 @@ func main() {
 }
 ```
 
-### Output: 
+### Output:
+
 ```
 Map keys: [apple banana cherry]
 ```
 
 ## 2. Range Loop iteration:
+
 Traverse the map using a range loop, extracting and storing the keys in a separate slice:
 
 Main Code:
@@ -72,6 +74,7 @@ for k := range myMap {
   keys = append(keys, k)
 }
 ```
+
 While it doesn't directly return the keys, it achieves the same goal. This approach might be preferable for beginners due to its familiarity and readability.
 
 ### Example:
@@ -91,12 +94,14 @@ func main() {
 }
 ```
 
-### Output: 
+### Output:
+
 ```
 Map keys: [cherry apple banana]
 ```
 
 ## 3. Reflection (Golang Versions prior to 1.18):
+
 Before Go `1.18`, the reflect package was the key master for generic key extraction. This approach is slightly more complex but unlocks some hidden potential:
 
 ```
@@ -108,8 +113,8 @@ for _, key := range mapKeys {
   keys = append(keys, key.Interface().(string))
 }
 ```
-Here, we use reflection to access the map's internal structure and obtain its keys. This method works for maps with any value type, not just strings. However, it comes with slightly higher complexity and less readability compared to the previous methods.
 
+Here, we use reflection to access the map's internal structure and obtain its keys. This method works for maps with any value type, not just strings. However, it comes with slightly higher complexity and less readability compared to the previous methods.
 
 ### Example:
 
@@ -132,7 +137,8 @@ func main() {
 }
 ```
 
-### Output: 
+### Output:
+
 ```
 Map keys: [apple banana cherry]
 ```
@@ -141,14 +147,15 @@ Choosing the right method:
 
 Now that you have met the three key-extraction methods, which one should you choose? Here's a quick guide:
 
-* Go 1.18+: Embrace the maps.Keys function for its simplicity and efficiency.
-* Pre-Go 1.8: Reach for the range loop for clear and familiar key extraction.
-* Generic Key Extraction: Utilize the reflection magic for maps with any value type.
+- Go 1.18+: Embrace the maps.Keys function for its simplicity and efficiency.
+- Pre-Go 1.8: Reach for the range loop for clear and familiar key extraction.
+- Generic Key Extraction: Utilize the reflection magic for maps with any value type.
 
 Choose the one that resonates with your Golang version, coding style, and specific needs.
 
 ### Conclusion
-We have explored three simple ways to get the keys from a map using Golang. 
+
+We have explored three simple ways to get the keys from a map using Golang.
 
 Each method has its advantages and disadvantages, and the best method to use will depend on the specific requirements of
 your programming scenario.
