@@ -296,7 +296,6 @@ own personal experiences and emotions. So, explore, experiment, and let your
 creativity flow!
 
 If you enjoyed this post, we encourage you to share it with your friends and
-followers on social media and following us on twitter @thetipseason And if you
-want to stay up-to-date on the latest trends in generative art and AI, be sure
+followers on social media and following us on twitter [@thetipseason](https://twitter.com/thetipseason) And if you want to stay up-to-date on the latest trends in generative art and AI, be sure
 to follow our newsletter for more tips, tricks, and insights. Thanks for
 reading, and happy creating!
