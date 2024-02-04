@@ -20,6 +20,20 @@ to build our very own HTTP web server using the power of Java's socket programmi
 Buckle up, as we're about to demystify the inner workings of the web and gain
 valuable insights into its core technologies.
 
+In case you missed it check out our other programming articles here
+
+[Java read file to string - 5 simple ways](/how-to-read-file-as-string-in-java/)
+
+[How to read or convert an inputstream into a string in java](/how-to-read-file-as-string-in-java/)
+
+[Golang read file line by line - 3 Simple ways](/how-to-read-file-line-by-line-golang/)
+
+[Golang get last element of slice / array / list - Simple and fast](/how-to-get-last-element-of-slice-golang/)
+
+[Golang get map keys - 3 Simple ways](/how-to-get-keys-in-map-golang/)
+
+[Golang enums implementation with examples](/golang-enums/)
+
 ## Understanding HTTP
 
 Before we delve into the code, let's gain a basic understanding of the Hypertext Transfer Protocol (HTTP). It's the language servers and clients use to converse. Here's a simplified breakdown:

@@ -29,6 +29,8 @@ In case you missed it check out other Golang articles here
 
 [Golang for loops: 5 basic ways with examples using range, arrays, maps iteration](/golang-for-loop/)
 
+[Simple HTTP server with java socket programming](/simple-http-server-socket-java/)
+
 So, let's dive in and explore the 3 simple ways to get the first character of a string in Golang.
 
 ## 1. Use the index position to access the string characters
