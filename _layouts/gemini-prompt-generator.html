@@ -321,44 +321,17 @@ archive: false
             function displayPrompts(data) {
                 const outputContainer = $("#outputContainer");
                 outputContainer.empty();
-                outputContainer.html(data);
+                // outputContainer.html(data);
 
-                // if (data && data.candidates && data.candidates.length > 0) {
-                //   const candidatesJsonString = data.candidates[0].content.parts[0].text;
-                //   const candidates = JSON.parse(candidatesJsonString.trim());
-                //   console.log(candidates);
+                if (data && data.candidates && data.candidates.length > 0) {
+                    const candidatesRaw = data.candidates[0].content.parts[0].text;
+                    candidates = candidatesRaw.replace("```html", "")
+                    candidates = candidates.replace("```", "")
+                    outputContainer.html(candidates);
 
-                //   const templateCard = $(".template-card").clone().removeClass("template-card d-none");
-                //   candidates.forEach(function (candidate) {
-                    
-                //     const promptText = candidate.prompt;
-                //     const keywords = candidate.keywords;
-
-                //     const promptCard = templateCard.clone();
-                //     const cardBody = promptCard.find(".card-body");
-
-                //     // Update prompt text
-                //     cardBody.find(".prompt-text").text(promptText);
-
-                //     // Add keyword tags
-                //     const tagsContainer = cardBody.find(".keyword-tags");
-                //     tagsContainer.empty();
-                //     keywords.forEach(function (keyword) {
-                //       const tag = $("<span>").addClass(getRandomBadgeColorClass() + " m-1").text(keyword);
-                //       tagsContainer.append(tag);
-                //     });
-
-                //     // Copy to Clipboard button click event
-                //     const copyButton = cardBody.find(".copy-button");
-                //     copyButton.click(function () {
-                //       copyToClipboard(promptText);
-                //     });
-
-                //     outputContainer.append(promptCard);
-                //   });
-                // } else {
-                //   outputContainer.text("No prompts found.");
-                // }
+                } else {
+                    outputContainer.text("No prompts found.");
+                }
 
                 $("#loading").hide();
               }
