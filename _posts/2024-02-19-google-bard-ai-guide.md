@@ -1,8 +1,8 @@
 ---
 layout: post 
-title: "Ultimate Bard AI use case guide with 200+ best prompts across 20+ categories"
+title: "Ultimate Google Gemini AI guide with 200+ best prompts across 20+ categories"
 author: Pramod 
-categories: [ BardAI, ChatGPT, Midjourney ]
+categories: [ BardAI, ChatGPT, Midjourney, Gemini ]
 image: assets/images/bard-ai-header.png 
 beforetoc: "Ultimate Bard AI use case guide with 200+ best prompts across 20+ categories"
 toc: true 
@@ -15,19 +15,17 @@ tableofcontents: true
 
 > Technology has been growing at an exponential pace in the last few years, and AI is at the forefront of this innovation. Google Bard AI is one of the greatest innovations to change the way we use and interact with technology
 
-Google introduced Bard AI, an AI-powered chatbot that allows us to interact with AI in a human-like way.
-
-Google introduced [Bard AI](https://bard.google.com/), an AI-powered chatbot that allow us to interact with AI just
+Google introduced [Gemini AI](https://gemini.google.com/) (previously known as [Bard AI](https://bard.google.com/)) an AI-powered chatbot that allow us to interact with AI just
 like humans talk. It leverages the concept of generative AI which can create new content of various types based on the
-data it learnt from the training. Bard AI is built on Google's Language Model for Dialogue Applications (LaMDA) and is
-capable of holding fluid, multi-turn conversations on a variety of topics. With Bard, users can collaborate with AI to
+data it learnt from the training. Gemini AI is built on Google's Language Model for Dialogue Applications (LaMDA) and is
+capable of holding fluid, multi-turn conversations on a variety of topics. With Gemini, users can collaborate with AI to
 supercharge their imagination, boost productivity, and bring their ideas to life.
 
-Bard AI can simplify your workflows by automating repetitive tasks, providing quick access to information, and assist
-you in decision making. For instance, if you are a content creator, you can use Bard AI to brainstorm blog post ideas,
+Gemini AI can simplify your workflows by automating repetitive tasks, providing quick access to information, and assist
+you in decision making. For instance, if you are a content creator, you can use Gemini AI to brainstorm blog post ideas,
 generate summaries or even write full stories. 
 
-##### Example: Bard as SQL terminal
+##### Example: Gemini as SQL terminal
 > I want you to act as a SQL terminal in front of an example database. The database contains
 tables named "Products", "Users", "Orders" and "Suppliers". I will type queries and you will reply with what the
 terminal would show. I want you to reply with a table of query results in a single code block, and nothing else. Do not
@@ -37,97 +35,97 @@ will do so in curly braces {like this). My first command is 'SELECT TOP 10 * FRO
 <img src="/assets/images/bard-sql-terminal-new.png" class="img-fluid"/>
 
 
-Another way Bard AI can help is by providing quick access to information and solve problems. For example, if you are a
-software developer, you can use [Bard AI to write code](https://blog.google/technology/ai/code-with-bard/) , look up
+Another way Gemini AI can help is by providing quick access to information and solve problems. For example, if you are a
+software developer, you can use [Gemini AI to write code](https://blog.google/technology/ai/code-with-bard/) , look up
 code snippets, explain complex concepts, debug your code. This helps you to work more efficiently and effectively.
 
 
 
-In addition, Bard AI can assist you in decision making. For instance, if you are planning a trip, you can ask Bard AI to
+In addition, Gemini AI can assist you in decision making. For instance, if you are planning a trip, you can ask Gemini AI to
 advice you compare different destinations, create a list of todos, create a budget, and even plan your itinerary. This
 ensures that you make informed decisions and have a smooth travel experience.
 
-Use cases of Bard are endless. In this article, we will explore details of Bard and various ways in which Bard can simplify
+Use cases of Gemini are endless. In this article, we will explore details of Gemini and various ways in which Gemini can simplify
 workflows and provide you with over 200 prompts across 20+ categories to help you make the most of this powerful tool.
 
 Alright let dive right in!
 
-## How to use Bard AI
+## How to use Gemini AI
 
-* To access Bard, go to [https://bard.google.com/](https://bard.google.com/). Note that Bard is still in experimental
+* To access Gemini, go to [https://gemini.google.com/](https://gemini.google.com/). Note that Gemini is still in experimental
 phase and is being released to public in phases. Right now Google released this to US and UK customers in US English
 language and is planning to expand to more countries and languages. You can add yourself to waitlist if you don't have access yet. 
-* Once you are out of waitlist and have access to Bard, you will see a clean interface like below.
+* Once you are out of waitlist and have access to Gemini, you will see a clean interface like below.
 <img src="/assets/images/bard-home-page-new.png" class="img-fluid"/>
-* As you can see, it has a user interface similar to a chatbot. You can chat with Bard just like you speak with your friend. 
-* A prompt is like a question or task or conversation that you can use to interact with Bard. Prompt Engineering is one
+* As you can see, it has a user interface similar to a chatbot. You can chat with Gemini just like you speak with your friend. 
+* A prompt is like a question or task or conversation that you can use to interact with Gemini. Prompt Engineering is one
   of the recent Job profiles that gained light after AI chatbots. Example of a prompt can be: _Draft a packing list for
   my weekend fishing and camping trip_
-* Once you enter your prompt you should see response from Bard within few seconds. 
-* You can respond to that response and continue your conversation. Currently, Bard’s ability to hold context is
-  purposefully limited for now. As Bard continues to learn, its ability to hold context during longer conversations will
+* Once you enter your prompt you should see response from Gemini within few seconds. 
+* You can respond to that response and continue your conversation. Currently, Gemini’s ability to hold context is
+  purposefully limited for now. As Gemini continues to learn, its ability to hold context during longer conversations will
   improve.
-* Since Bard is still in learning phase, you can provide feedback to Bard either as `Good Response`, `Bad Response` or
+* Since Gemini is still in learning phase, you can provide feedback to Gemini either as `Good Response`, `Bad Response` or
   you can even ask to generate `New Response` for the previous question using the buttons shown below. <img src="/assets/images/bard-feedback.png" class="img-fluid"/>
 
 * If you need relevant Search related topics for your prompt, you can press `Google it` button which gives list of
   topics similar to your prompt
 * In addition, on the left side navigation, there are other options like `Reset chat` (to reset your ongoing chat) , 
-`Bard Activity` (to view the history of all the chats you had with Bard).  
+`Gemini Activity` (to view the history of all the chats you had with Gemini).  
 
-## What makes Bard unique ?
+## What makes Gemini unique ?
 
-Recent developments in generative AI has given birth to many other chatbots like Bard AI. All these technologies
-including Bard AI have the ability to quickly learn and generate new content with minimal information. As much as
-generative AI it has advantages, there are disadvantages as well in terms of safety and privacy of these systems. Bard
+Recent developments in generative AI has given birth to many other chatbots like Gemini AI. All these technologies
+including Gemini AI have the ability to quickly learn and generate new content with minimal information. As much as
+generative AI it has advantages, there are disadvantages as well in terms of safety and privacy of these systems. Gemini
 AI clearly differentiates from others in this aspect as Google is commited and taking
 a [responsible AI approach](https://ai.google/responsibilities/responsible-ai-practices/)
-to improve these systems. While the experiments are still in progress, you can expect Bard to evolve as more safe and
+to improve these systems. While the experiments are still in progress, you can expect Gemini to evolve as more safe and
 secure to use AI system than others.
 
-Other unique feature of Bard is that it can connect to internet and Google search. So Bard can keep itself continuously
-updated with the latest information. For example, you can ask Bard to give info on _what is the weather like in San
+Other unique feature of Gemini is that it can connect to internet and Google search. So Gemini can keep itself continuously
+updated with the latest information. For example, you can ask Gemini to give info on _what is the weather like in San
 Francisco today_, and it can get the fresh information on the fly.
 
-## Tips & Tricks to master Bard AI prompts:
+## Tips & Tricks to master Gemini AI prompts:
 
-Bard is an AI tool that can help you with a wide variety of tasks, from learning new skills to brainstorming ideas. To get the most out of Bard, here are some tips to keep in mind:
+Gemini is an AI tool that can help you with a wide variety of tasks, from learning new skills to brainstorming ideas. To get the most out of Gemini, here are some tips to keep in mind:
 
 #### 1. Be specific
-When asking Bard for help, be as specific as possible. Provide context and relevant details so that Bard can provide you with the most accurate and useful response. For example, instead of asking "How do I code?", ask "How do I create a function in Python that calculates the sum of two numbers?"
+When asking Gemini for help, be as specific as possible. Provide context and relevant details so that Gemini can provide you with the most accurate and useful response. For example, instead of asking "How do I code?", ask "How do I create a function in Python that calculates the sum of two numbers?"
 
 #### 2. Use natural language
-Bard is designed to understand and respond to natural language, so try to phrase your questions in a conversational way. For example, instead of asking "What is the syntax for creating a loop in Java?", ask "How do I make a loop in Java?"
+Gemini is designed to understand and respond to natural language, so try to phrase your questions in a conversational way. For example, instead of asking "What is the syntax for creating a loop in Java?", ask "How do I make a loop in Java?"
 
 #### 3. Experiment with different prompts
-Bard has a wide variety of prompts across multiple categories. Don’t be afraid to try out different prompts to see what works best for you. For example, if you're stuck on a coding problem, try using a prompt related to debugging or troubleshooting.
+Gemini has a wide variety of prompts across multiple categories. Don’t be afraid to try out different prompts to see what works best for you. For example, if you're stuck on a coding problem, try using a prompt related to debugging or troubleshooting.
 
-#### 4. Use Bard to learn new skills
-Bard can provide explanations and examples for coding and other technical topics, so use it as a resource to learn new skills. For example, if you're interested in learning how to code, ask Bard for help with a specific concept, such as conditional statements or arrays.
+#### 4. Use Gemini to learn new skills
+Gemini can provide explanations and examples for coding and other technical topics, so use it as a resource to learn new skills. For example, if you're interested in learning how to code, ask Gemini for help with a specific concept, such as conditional statements or arrays.
 
-#### 5. Collaborate with Bard
-Bard is designed to be a collaborative tool, so use it to brainstorm ideas, write stories, or create music. You might be surprised at the results! For example, if you're a writer, try using Bard to generate ideas for characters or plot twists.
+#### 5. Collaborate with Gemini
+Gemini is designed to be a collaborative tool, so use it to brainstorm ideas, write stories, or create music. You might be surprised at the results! For example, if you're a writer, try using Gemini to generate ideas for characters or plot twists.
 
-#### 6. Review Bard’s responses
-While Bard is designed to provide accurate and helpful responses, it’s still important to review its output for accuracy and relevancy. For example, if you're using Bard to help you with a research project, double-check any information that Bard provides to make sure it's accurate.
+#### 6. Review Gemini’s responses
+While Gemini is designed to provide accurate and helpful responses, it’s still important to review its output for accuracy and relevancy. For example, if you're using Gemini to help you with a research project, double-check any information that Gemini provides to make sure it's accurate.
 
 #### 7. Provide feedback
-As an experimental AI, Bard is constantly learning and improving. If you have feedback on Bard’s responses or functionality, let the developers know so that they can continue to improve the tool. For example, if you notice that Bard frequently provides irrelevant responses to your queries, provide feedback to the developers so that they can fine-tune Bard's algorithms.
+As an experimental AI, Gemini is constantly learning and improving. If you have feedback on Gemini’s responses or functionality, let the developers know so that they can continue to improve the tool. For example, if you notice that Gemini frequently provides irrelevant responses to your queries, provide feedback to the developers so that they can fine-tune Gemini's algorithms.
 
-Great. With all these tips and hacks in mind, let's jump into 200+ prompts across 20+ categories on how to use Bard.
+Great. With all these tips and hacks in mind, let's jump into 200+ prompts across 20+ categories on how to use Gemini.
 <hr> 
 
-## Bard AI Prompts list for multiple use cases:
-Here are some of the best examples that you can use with Bard. Note that if you see text in [brackets] , its like a
-variable. Replace it with whichever topic or niche that you need. Also there are additional examples in our other [Bard AI promt list](/bard-prompts-for-everyone/) post to follow. 
+## Gemini AI Prompts list for multiple use cases:
+Here are some of the best examples that you can use with Gemini. Note that if you see text in [brackets] , its like a
+variable. Replace it with whichever topic or niche that you need. Also there are additional examples in our other [Gemini AI promt list](/bard-prompts-for-everyone/) post to follow. 
 
 Lets dive in!
 
 ## Software Engineering
-Bard can be used for various use cases. Software engineering is one of the great improvements in recent version of Bard. 
+Gemini can be used for various use cases. Software engineering is one of the great improvements in recent version of Gemini. 
 Check the example below. 
 
-#### Bard as Linux Terminal: 
+#### Gemini as Linux Terminal: 
 Pretend as Linux Terminal:: I want you to act as a linux terminal. I will type commands and you will reply with what the
 terminal should show. I want you to only reply with the terminal output inside one unique code block, and nothing else.
 do not write explanations. do not type commands unless I instruct you to do so. When I need to tell you something in
@@ -179,7 +177,7 @@ Write a SQL query to give a list of products by joining with a review table .
 
 <hr> 
 
-## Bard Prompts for Marketing
+## Gemini Prompts for Marketing
 
 #### Action Plan
 Generate a [number] step action plan for [specific marketing goal or challenge].
@@ -808,7 +806,7 @@ Write a poem with a specific structure and rhyme scheme, such as a Shakespearean
 * How do I get a good night's sleep?
 
 <hr>
-## Having fun with Bard Jokes
+## Having fun with Gemini Jokes
 
 #### Funny One-Liner:
 Create a funny one-liner about {topic} that will make people laugh.
@@ -842,11 +840,11 @@ Record a funny podcast content about {topic} that will make your audience laugh 
 
 ## Conclusion:
 
-Use cases of Bard are infinite. Just go ahead and play with it to explore new possibilities. Hope this post helps you understand
-and experiment with Bard in depth. Try out Bard today and see what you can create! And don't forget to share your
-creations with us! We love seeing what our users create using Bard.
+Use cases of Gemini are infinite. Just go ahead and play with it to explore new possibilities. Hope this post helps you understand
+and experiment with Gemini in depth. Try out Gemini today and see what you can create! And don't forget to share your
+creations with us! We love seeing what our users create using Gemini.
 
-Join our Google Bard AI reddit community here : [GoogleBardAIChat Reddit](https://www.reddit.com/r/GoogleBardAIChat/) 
+Join our Google Gemini AI reddit community here : [GoogleBardAIChat Reddit](https://www.reddit.com/r/GoogleBardAIChat/) 
 
 If you enjoyed this post, we encourage you to share it with your friends and followers on social media and following us
 on twitter [@thetipseason](https://twitter.com/thetipseason). Stay up-to-date on the latest trends in generative AI,by subscribing to our newsletter here. 
