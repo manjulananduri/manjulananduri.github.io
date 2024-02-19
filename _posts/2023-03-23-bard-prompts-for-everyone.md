@@ -1,8 +1,8 @@
 ---
 layout: post 
-title: "200+ Best Bard AI prompts you can't miss - ChatGPT compatible"
+title: "200+ Best Gemini AI prompts you can't miss (Bard AI prompts)"
 author: Pramod 
-categories: [ BardAI, ChatGPT, Midjourney ]
+categories: [ BardAI, ChatGPT, Midjourney, Gemini ]
 image: assets/images/ai-series.png 
 beforetoc: "Master the art of using ChatGPT as a data scientist, software developer"
 toc: true 
@@ -13,13 +13,13 @@ tableofcontents: true
 
 ### Introduction
 
-Google Bard AI is a powerful chatbot language model that can help you with all sorts of creative
+Google Gemini AI (previously known as Bard AI) is a powerful chatbot language model that can help you with all sorts of creative
 tasks [similar but bit different from ChatGPT](https://tipseason.com/bard-vs-chatgpt/). With just a few prompts, you can
 generate actionable content for marketing, AI art , blogging, teachers, poems, scripts, musical pieces, email, letters,
 and even code.
 
-In this blog post, we'll share some of our favorite Bard AI prompts for different purposes. You can
-access [bard here](https://bard.google.com/).
+In this blog post, we'll share some of our favorite Gemini AI prompts for different purposes. You can
+access [Gemini here](https://gemini.google.com/).
 
 Note that you can use below prompts even for ChatGPT so don't forget to bookmark and share this link. Whether you're
 looking for inspiration for your next essay, blog post, or business proposal, or you want to try your hand at some
@@ -29,13 +29,13 @@ We have some initial categories here but we will keep adding new categories ever
 newsletter for latest AI trends and prompts 
 
 In case you missed it, check out 
-[Ultimate Bard AI use case guide with 200+ best prompts across 20+ categories](/google-bard-ai-guide/)
+[Ultimate Gemini AI use case guide with 200+ best prompts across 20+ categories](/google-bard-ai-guide/)
 
 Let's get started.
 
-Here are some of the best prompts that you can ask Bard AI or ChatGPT. 
+Here are some of the best prompts that you can ask Gemini AI or ChatGPT. 
 
-### Google Bard AI prompts for marketing
+### Google Gemini AI prompts for marketing
 For below prompts replace the content in brackets with your product or service that you want. Here is an example for
 
 > [Product or service] ad script: [keywords or phrases] prompt: 
@@ -93,7 +93,7 @@ For below prompts replace the content in brackets with your product or service t
 * [Product or service] blog post ideas: [keywords or phrases]
 * [Company] blog post ideas: [keywords or phrases]
 
-### Google Bard prompts for Blogging or Copyrighting
+### Google Gemini prompts for Blogging or Copyrighting
 
 #### 1. Blog post
 
@@ -219,7 +219,7 @@ Write a blog post that debates the pros and cons of [topic], providing valuable 
 
 Write a blog post that provides [audience] with a checklist for [topic], helping them stay organized and on track.
 
-### Bard prompts for teachers
+### Gemini prompts for teachers
 
 #### 1. Lesson Plan:
 
@@ -327,7 +327,7 @@ Design a project or activity that involves {specific community group} and promot
 {specific subject} concepts.
 
 
-### Bard Prompts for resume & cover letter
+### Gemini Prompts for resume & cover letter
 
 #### 1. Resume Creation:
 Create a professional and visually appealing resume for a {specific profession or field} that highlights the applicant's
@@ -366,10 +366,10 @@ Write a cover letter using language that aligns with the culture and values of a
 Revise a {specific profession or field} resume to include relevant keywords that match the requirements of potential employers and increase the applicant's chances of being selected for an interview.
 
 
-### Google Bard prompts for AI Art like midjourney
+### Google Gemini prompts for AI Art like midjourney
 
 AI Art generation tools such as midjourney, stable diffusion, DALL-E etc became hot ai tools for text to image based ai
-models. You can ask Bard AI to generate promtps for AI art. Here are some examples.
+models. You can ask Gemini AI to generate promtps for AI art. Here are some examples.
 
 1. Pretend you are a graphic designer from tipseason.com generating creative images for midjourney. Midjourney is an app
    that can generate AI art from simple prompts. I will give you a concept and you will give me 5 different prompts that
@@ -405,7 +405,7 @@ models. You can ask Bard AI to generate promtps for AI art. Here are some exampl
 30. Write an AI art piece that is inspired by a specific detective story.
 31. Write an AI art piece that is inspired by a specific spy story.
 
-Some examples generated from Bard AI using the first prompt above:
+Some examples generated from Gemini AI using the first prompt above:
 
 1. A spacesuit that is made of a material that is both strong and lightweight.
 2. A spacesuit that is designed to protect the wearer from the harsh environment of space.
@@ -419,9 +419,9 @@ Some examples generated from Bard AI using the first prompt above:
 10. A mountain scene that is seen from a distance.
 
 
-### Prompts created by Bard AI on its own
+### Prompts created by Gemini AI on its own
 
-Here are 30 prompt templates that you can ask BardAI about content writing and blogging:
+Here are 30 prompt templates that you can ask GeminiAI about content writing and blogging:
 
 1. Write a blog post about [topic] that is [adjective] and [adjective].
 2. Write a guest blog post for [website] about [topic].
@@ -456,9 +456,9 @@ Here are 30 prompt templates that you can ask BardAI about content writing and b
 
 ### Conclusion:
 
-In conclusion, these 200+ Bard AI prompts are sure to inspire you to create something amazing. Try out Bard today and
+In conclusion, these 200+ Gemini AI prompts are sure to inspire you to create something amazing. Try out Gemini today and
 see what you can create! And don't forget to share your creations with us! We love seeing what our users create using
-Bard.
+Gemini.
 
 
 

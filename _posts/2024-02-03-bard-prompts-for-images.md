@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "150+ Google Bard prompts for image generation - ImageFX prompts for AI Art"
+title: "150+ Google Gemini prompts for image generation - Bard prompts for AI Art"
 author: Pramod
 categories: [ChatGPT, Midjourney]
 image: assets/images/bardai/bard-banner.png
