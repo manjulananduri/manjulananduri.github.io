@@ -33,6 +33,8 @@ Before jumping into the cheatsheet, don't miss out this.
 
 <a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a>
 
+[600+ Free Midjourney prompts in 20+ categories](/midjourney-prompts/)
+
 Use this cheatsheet as a reference when you engineer your midjourney prompts.
 
 Let's get started!!

@@ -22,7 +22,9 @@ experiment with different settings, lighting, and camera techniques to create st
 In addition, you can access midjourney cheatsheet with Commands, properties, image hacks here.      
 <a href="/midjourney-cheatsheet/"> Midjourney CheatSheet - Commands, properties, image hacks </a>
 
-In case if you missed it, you can check other chatgpt promtps here :
+In case if you missed it, you can check other midjourney/chatgpt promtps here :
+
+[600+ Free Midjourney prompts in 20+ categories](/midjourney-prompts/)
 
 [50+ Chatgpt prompts for Midjourney](/chatgpt-prompts-for-midjourney/)
 

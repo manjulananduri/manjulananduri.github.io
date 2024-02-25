@@ -27,6 +27,8 @@ In addition, you can access midjourney cheatsheet with Commands, properties, ima
 
 In case if you missed it, you can check other chatgpt or midjourney AI promtps here :
 
+[600+ Free Midjourney prompts in 20+ categories](/midjourney-prompts/)
+
 [50+ Chatgpt prompts for Midjourney](/chatgpt-prompts-for-midjourney/)
 
 [200+ DALLE or Bing image creator prompts list](/dalle-bing-image-prompt-ideas/)

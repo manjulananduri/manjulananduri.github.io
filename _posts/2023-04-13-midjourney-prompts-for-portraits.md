@@ -36,9 +36,11 @@ In addition, you can access midjourney cheatsheet with Commands, properties, ima
 
 In case if you missed it, you can check other chatgpt or midjourney AI promtps here :
 
+[600+ Free Midjourney prompts in 20+ categories](/midjourney-prompts/)
+
 [50+ Chatgpt prompts for Midjourney](/chatgpt-prompts-for-midjourney/)
 
-[50+ Midjourney prompts for photo realistic images](/midjourney-prompts-for-realism/)
+[100+ Midjourney prompts for photo realistic images](/midjourney-prompts-for-realism/)
 
 [100+ Midjourney prompts list for characters](/midjourney-prompts-for-characters/)
 

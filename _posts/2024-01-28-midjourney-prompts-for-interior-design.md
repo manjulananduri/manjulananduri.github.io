@@ -28,6 +28,8 @@ In addition, you can access midjourney cheatsheet with Commands, properties, ima
 
 In case if you missed it, you can check other chatgpt promtps here :
 
+[600+ Free Midjourney prompts in 20+ categories](/midjourney-prompts/)
+
 [150+ Bard AI image prompts](/bard-prompts-for-images/)
 
 [150+ Midjourney prompts for Architecture](/midjourney-prompts-for-architecture/)
