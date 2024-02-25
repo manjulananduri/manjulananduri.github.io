@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Midjourney describe function - Image to prompt description generator"
+title:  "Midjourney describe feature - Image to prompt description generator"
 author: Pramod
 categories: [ ChatGPT, Midjourney ]
 image: assets/images/midjourney-series-tipseason.png
@@ -23,6 +23,7 @@ to get prompts for the images.
 
 In case if you missed it, you can check other chatgpt or midjourney AI promtps here :
 
+[600+ Free Midjourney prompts in 20+ categories](/midjourney-prompts/)
 
 [50+ Chatgpt prompts for Midjourney](/chatgpt-prompts-for-midjourney/)
 

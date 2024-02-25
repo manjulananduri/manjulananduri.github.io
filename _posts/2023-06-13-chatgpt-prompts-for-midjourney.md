@@ -26,7 +26,9 @@ In addition, you can access midjourney cheatsheet with Commands, properties, ima
 
 In case if you missed it, you can check other chatgpt promtps here :
 
-[50+ Midjourney prompts for photo realistic images](/midjourney-prompts-for-realism/)
+[600+ Free Midjourney prompts in 20+ categories](/midjourney-prompts/)
+
+[100+ Midjourney prompts for photo realistic images](/midjourney-prompts-for-realism/)
 
 [150+ Midjourney prompts for Architecture](/midjourney-prompts-for-architecture/)
 

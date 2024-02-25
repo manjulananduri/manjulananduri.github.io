@@ -27,6 +27,8 @@ In addition, you can access midjourney cheatsheet with Commands, properties, ima
 
 In case if you missed it, you can check other chatgpt or midjourney AI promtps here .
 
+[600+ Free Midjourney prompts in 20+ categories](/midjourney-prompts/)
+
 [100+ Chatgpt jokes to laugh](/chatgpt-jokes/)
 
 [250+ Adobe firefly prompts for text to image generation](/adobe-firefly-prompts/)
