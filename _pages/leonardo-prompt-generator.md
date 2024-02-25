@@ -1,5 +1,5 @@
 ---
 layout: leonardo-prompt-generator
-title: LeonardoAI prompt generator 
+title: Leonardo AI prompt generator 
 permalink: /leonardo-prompt-generator
 ---
