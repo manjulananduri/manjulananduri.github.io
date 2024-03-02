@@ -1,17 +1,17 @@
 ---
 layout: post 
-title: "Ultimate Google Gemini AI guide with 200+ best prompts across 20+ categories"
+title: "200+ Google Gemini prompts in 20+ categories with prompt techniques"
 author: Pramod 
 categories: [ BardAI, ChatGPT, Midjourney, Gemini ]
 image: assets/images/bard-ai-header.png 
-beforetoc: "Ultimate Bard AI use case guide with 200+ best prompts across 20+ categories"
+beforetoc: "Ultimate Google Gemini (Bard) AI use case guide with 200+ best prompts across 20+ categories"
 toc: true 
 promote: true 
 featured: true 
 tableofcontents: true
 ---
 
-## What is Google Bard AI ?
+## What is Google Gemini AI ?
 
 > Technology has been growing at an exponential pace in the last few years, and AI is at the forefront of this innovation. Google Bard AI is one of the greatest innovations to change the way we use and interact with technology
 
