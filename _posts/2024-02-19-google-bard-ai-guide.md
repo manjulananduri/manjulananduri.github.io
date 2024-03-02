@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "Ultimate Google Gemini AI guide with 200+ best prompts across 20+ categories"
+title: "200+ Google Gemini prompts in 20+ categories with prompt techniques"
 author: Pramod 
 categories: [ BardAI, ChatGPT, Midjourney, Gemini ]
 image: assets/images/bard-ai-header.png 
