@@ -33,18 +33,6 @@ const analytics = getAnalytics(app);
 const auth = getAuth();
 const googleProvider = new GoogleAuthProvider();
 
-/*  // Check authentication state
-    onAuthStateChanged(auth, (user) => {
-        if (user) {
-            // User is signed in
-            console.log("User is signed in:", user.displayName);
-            toggleProfileSection(user);
-        } else {
-            // User is signed out
-            console.log("User is signed out.");
-        }
-    }); */
-
 function toggleProfileSection(user) {
   if (user != null) {
     $("#username").text(user.email);
