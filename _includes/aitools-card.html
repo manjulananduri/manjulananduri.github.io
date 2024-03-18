@@ -1,0 +1,48 @@
+<div class="col-12 col-md-6 col-lg-4 mt-3 rounded-top">
+    <div class="card h-100 border-bottom-info" style="cursor: pointer;">
+        <div class="maxthumb rounded-top">
+            <a href="{{ site.baseurl }}{{ post.url }}" class="toolLink">
+                {% if post.key %}
+                    <img class="img-fluid lazyimg ts-shadow-lg rounded" src="{{ site.imagesUrl }}/aitools/{{ post.key }}.jpg" alt="{{ post.title }}"/>
+                {% endif %}
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-highlight" href="{{ site.baseurl }}{{ post.url }}">{{ post.display_name | strip_html |
+                    truncatewords:3 }}</a>
+            </h2>
+            <h4 class="card-text-light">{{ post.content | strip_html | truncatewords:15 }}</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                <a href="/ai-tools/category/{{ post.category_slug }}" class="btn btn-info btn-sm categoryLink">{{ post.category }}</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+<script>
+    $(document).ready(function(){
+        // When mouse enters the card div
+        $(".card").mouseenter(function(){
+            $(this).addClass("ts-shadow-lg rounded"); // Add the class
+        });
+        // When mouse leaves the card div
+        $(".card").mouseleave(function(){
+            $(this).removeClass("ts-shadow-lg rounded"); // Remove the class
+        });
+
+        // Click event for the whole card
+        $(".card").click(function(){
+            var toolLink = $(this).find(".toolLink").attr("href");
+            window.location.href = toolLink; // Redirect to the mainLink
+        });
+
+        // Click event for the category link
+        $(".categoryLink").click(function(event){
+            event.stopPropagation(); // Prevent the click event from bubbling up to the card
+        });
+    });
+</script>
