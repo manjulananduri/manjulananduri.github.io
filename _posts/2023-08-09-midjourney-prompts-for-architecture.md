@@ -3,7 +3,7 @@ layout: post
 title: "150+ Midjourney prompts for Architecture + 50 top architects"
 author: Pramod
 categories: [ ChatGPT, Midjourney ]
-image: assets/images/midjourney-architecture.png
+image: assets/images/midjourney-architecture.jpg
 beforetoc: "Master the art of using midjourney, stable difussion or DALL-E-2 with creative realistic portrait like image: stunning and beautiful prompts"
 featured: true
 toc: true

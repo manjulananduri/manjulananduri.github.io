@@ -3,7 +3,7 @@ layout: post
 title:  "150+ Midjourney prompts for coloring book pages, cool and simple"
 author: Pramod
 categories: [ ChatGPT, Midjourney ]
-image: assets/images/midjourney-series-tipseason.png
+image: assets/images/midjourney-series-tipseason.jpg
 beforetoc: "Master the art of using midjourney, stable difussion or DALL-E-2 with creative and cool coloring book pages"
 featured: true
 toc: true

@@ -3,7 +3,7 @@ layout: post
 title:  "200+ DALLE Bing image creator prompts list: Best ideas in different styles"
 author: Pramod
 categories: [ ChatGPT, Midjourney, DALLE-2 ]
-image: assets/images/ai-art-series.png
+image: assets/images/ai-art-series.jpg
 beforetoc: "Master the art of using AI art with DALL-E-2 or Bing image creator with creative realistic photo like images."
 featured: true
 toc: true

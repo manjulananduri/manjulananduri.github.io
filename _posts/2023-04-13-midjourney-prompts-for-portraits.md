@@ -3,7 +3,7 @@ layout: post
 title:  "120+ Midjourney prompts for portraits, 50 best keywords for realistic portraits"
 author: Pramod
 categories: [ ChatGPT, Midjourney ]
-image: assets/images/midjourney-series-tipseason.png
+image: assets/images/midjourney-series-tipseason.jpg
 beforetoc: "Master the art of using midjourney, stable difussion or DALL-E-2 with creative realistic portrait like images stunning and beautiful prompts"
 featured: true
 toc: true

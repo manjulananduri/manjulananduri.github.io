@@ -3,7 +3,7 @@ layout: post
 title:  "Midjourney describe feature - Image to prompt description generator"
 author: Pramod
 categories: [ ChatGPT, Midjourney ]
-image: assets/images/midjourney-series-tipseason.png
+image: assets/images/midjourney-series-tipseason.jpg
 beforetoc: "Master the art of using midjourney, stable difussion or DALL-E-2 with creative realistic photo like images."
 featured: true
 toc: true
