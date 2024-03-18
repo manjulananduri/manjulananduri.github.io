@@ -44,8 +44,9 @@
 
     {% endif %}
 
-
-
+    <!--    MailChimp Addon-->
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/13f41df6125800abe7efbd891/750d0895c842aca8ef9984840.js");</script>
+    <!--    End of MailChimp Addon-->
 
 </head>
 
@@ -90,8 +91,17 @@
 
                 <li class="nav-item">
                     {% endif %}
-                    <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
+                    <a class="nav-link" href="{{ site.baseurl }}/ai-tools/">Home</a>
                 </li>
+
+                <li class="nav-item">
+                    <a target="_blank" class="nav-link" href="https://tipseason.etsy.com/">Shop </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Blog </a>
+                </li>
+
 
                 {% if page.url == "/tools" %}
                 <li class="nav-item active">
@@ -103,49 +113,33 @@
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
                        role="button"
                        aria-haspopup="true" aria-expanded="false">
-                        Tools
+                        Free Tools
                     </a>
                     <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{{ site.baseurl }}/ai-tools">All Tools</a>
+                        <hr>
                         <a class="dropdown-item" href="{{ site.baseurl }}/reading-time-calculator">Reading Time Calculator</a>
+                        <hr>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/time-difference-calculator">Time difference Calculator</a>
+                        <hr>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/dalle-prompt-generator">Dalle Prompt Generator</a>
+                        <hr>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/leonardo-prompt-generator">Leonardo Prompt Generator</a>
+                        <hr>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/ai-prompt-generator">AI Art Prompt Generator</a>
+                        <hr>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/gemini-prompt-generator">Gemini Prompt Generator<a>
+                        <hr>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/adobe-firefly-prompt-generator">Adobe firefly Prompt Generator<a>
+                        <hr>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/inr-crore-usd-converter">INR crore to USD converter</a>
                     </div>
-                </li>
 
-
-                {% if page.url contains "/tips/" %}
-                <li class="nav-item active">
-                    {% else %}
-
-                <li class="nav-item">
-                    {% endif %}
-                    <a class="nav-link" href="{{ site.baseurl }}{{site.tips[0].url}}">Tips</a>
-                </li>
-
-
-                {% if page.url == "/categories" %}
-                <li class="nav-item active">
-                    {% else %}
-
-                <li class="nav-item dropdown">
-                    {% endif %}
-
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
-                       role="button"
-                       aria-haspopup="true" aria-expanded="false">
-                        Categories
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="{{ site.baseurl }}/categories">All Categories</a>
-                        {% for category in site.categories %}
-                        <a class="dropdown-item" href="{{ site.baseurl }}/categories#{{ category[0] }}">{{ category[0] }}</a>
-                        {% endfor %}
-                    </div>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="https://us8.list-manage.com/contact-form?u=13f41df6125800abe7efbd891&form_id=bfba3f28362a84ec99ce783c427eb5a7" rel="nofollow">Contact Us</a>
+                    <a class="btn btn-success btn-sm nav-link" href="#">Submit a Tool</a>
                 </li>
-
-                {% include search-lunr.html %}
 
             </ul>
 
@@ -281,13 +275,6 @@
 {% if page.layout == 'post' %}
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}
-
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-62a61b41c367e367"></script>
-<script type="text/javascript">
-    addthis.messages.on('subscribe', function (payload) {
-        alert('Thank you for subscribing!');
-    });
-</script>
 
 </body>
 </html>

@@ -98,13 +98,9 @@
                     <a target="_blank" class="nav-link" href="https://tipseason.etsy.com/">Shop </a>
                 </li>
 
-                {% if page.url contains "/carbon-language/" %}
-                <li class="nav-item active">
-                    {% else %}
-
+            
                 <li class="nav-item">
-                    {% endif %}
-                    <a class="nav-link" href="{{ site.baseurl }}/carbon-language.html">Carbon Language</a>
+                    <a class="nav-link" href="{{ site.baseurl }}/ai-tools">AI Tools</a>
                 </li>
 
 
@@ -116,24 +112,6 @@
                     {% endif %}
                     <a class="nav-link" href="{{ site.baseurl }}/coding-interviews.html">Interviews</a>
                 </li>
-
-               <!-- {% if page.url contains "/tools/" %}
-                <li class="nav-item dropdown active">
-                    {% else %}
-
-                <li class="nav-item dropdown">
-                    {% endif %}
-&lt;!&ndash;                    <a class="nav-link" href="{{ site.baseurl }}/#"></a>&ndash;&gt;
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Tools
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{ site.baseurl }}/timezone-converter.html">TimeZone Converter</a>
-                        <a class="dropdown-item" href="#">JSON Formatter</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">String Splitter</a>
-                    </div>
-                </li>-->
 
                 {% if page.url == "/tools" %}
                 <li class="nav-item active">
@@ -179,7 +157,6 @@
                     <a class="nav-link" href="{{ site.baseurl }}{{site.tips[0].url}}">Tips</a>
                 </li>
 
-
                 {% if page.url == "/categories" %}
                 <li class="nav-item active">
                     {% else %}
@@ -194,6 +171,7 @@
                     </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="{{ site.baseurl }}/categories">All Categories</a>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/carbon-language.html">Carbon Language</a>
                         {% for category in site.categories %}
                         <a class="dropdown-item" href="{{ site.baseurl }}/categories#{{ category[0] }}">{{ category[0] }}</a>
                         {% endfor %}

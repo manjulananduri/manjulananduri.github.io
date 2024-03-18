@@ -5,9 +5,6 @@ permalink: "/ai-tools.html"
 disqus: false
 archive: false
 ---
-
-{% include tools.html %}
-
 {% include aitools-header.html %}
 
 <!-- This page forms layout for individual category pages. For example: ai-tools/category/email-writing  -->
@@ -45,8 +42,11 @@ archive: false
 
     <hr>
 
-    <h3> We are adding more tools every day. Check out other categories meanwhile! </h3>
-    <h4> Submit your tool! </h4>
+    {% include aitools-submit.html %}
+    
+    {% include advertise.html %}
+
+    {% include tools.html %}
 
 </div>
-{% include advertise.html %}
+

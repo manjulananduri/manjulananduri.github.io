@@ -1,5 +1,5 @@
 ---
-title:  6pen Art - Trending AI tool for Image generation
+title:  6pen Art - Trending AI tool for Image generation and alternatives
 display_name:  6pen Art
 category: Image generation
 category_slug: image-generation
