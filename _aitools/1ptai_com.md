@@ -1,5 +1,5 @@
 ---
-title:  1ptai - Trending AI tool for ChatGPT
+title:  1ptai - Trending AI tool for ChatGPT and best alternatives
 display_name:  1ptai
 category: ChatGPT
 category_slug: chatgpt
