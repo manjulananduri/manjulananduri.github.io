@@ -1,11 +1,52 @@
 ---
 title: "Free AI tools trending | TipSeason"
-layout: default
+layout: default-aitools
 permalink: "/ai-tools.html"
 disqus: false
 archive: false
 ---
-                
-{% include tools.html %}
+{% include aitools-header.html %}
 
-{% include advertise.html %}
+<!-- This page forms layout for individual category pages. For example: ai-tools/category/email-writing  -->
+
+<!--<div class="row listrecent d-flex align-items-center justify-content-center">-->
+<div class="container">
+    <div class="row">
+        <div class="col text-center text-highlight">
+            {% assign toolCategory = page.display_name %}
+            {% if toolCategory != null %}
+                <h1>Trending AI tools for {{ page.display_name }}</h1>
+                <h2>Discover 2000+ AI tools free, paid and freemium!</h2>
+            {% else %}
+                <h2>Discover best AI tools to stay ahead of others!</h2>
+                <h3>2000+ AI tools free, paid and freemium!</h3>
+            {% endif %}
+
+        </div>
+    </div>
+
+    {% include aitools-categories.html %}
+    
+    <!-- In below context: post is aitool , page is category -->
+    <div class="row listrecent">
+        {% for post in site.aitools %}
+  
+            {% if page.category_slug != null %}
+                {% if page.category_slug == post.category_slug %}
+                    {% include aitools-card.html %}
+                {% endif %}
+            {% endif %}
+
+        {% endfor %}
+    </div>
+
+    <hr>
+
+    {% include aitools-promote.html %}
+
+    {% include advertise.html %}
+
+    {% include tools.html %}
+
+</div>
+

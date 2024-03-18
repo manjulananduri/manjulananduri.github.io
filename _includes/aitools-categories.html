@@ -1,0 +1,24 @@
+<div class="row mt-3">
+    <div class="col mx-auto text-center">
+        <p>
+
+            {% assign categories = site["aicategories"] | sort  %}
+
+            {% assign toolCategory = page.display_name %}
+            {% if toolCategory != null  %}
+                <a href="/ai-tools" class="btn btn-info btn-icon-split btn-sm m-1">All Categories</a>
+            {% endif %}
+
+            <!-- comes from config.yml for collection: aicategories -->
+            {% for cat in categories %}
+
+                {% if toolCategory != null and toolCategory == cat.display_name %}
+                <a href="{{ cat.url }}" class="btn btn-info-dark btn-icon-split btn-sm m-1">{{ cat.display_name }}</a>
+                {% else %}
+                <a href="{{ cat.url }}" class="btn btn-info btn-icon-split btn-sm m-1">{{ cat.display_name }}</a>
+                {% endif %}
+
+            {% endfor %}
+        </p>
+    </div>
+</div>

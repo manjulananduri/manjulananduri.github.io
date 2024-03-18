@@ -3,7 +3,7 @@ layout: post
 title:  "Google Bard prompt engineer job - Chief Creativity Connoisseur"
 author: Pramod
 categories: [ ChatGPT, Midjourney ]
-image: assets/images/ai-series.png
+image: assets/images/ai-series.jpg
 beforetoc: "Google Bard AI prompt engineering jobs and openings for everyone"
 featured: true
 toc: true

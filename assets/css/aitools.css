@@ -1,0 +1,97 @@
+
+.bg-banner{   
+    /* Good blue color */
+    background-color: #055c8e !important;
+}
+
+
+.bg-white {
+    /*background-color: #f7f8ff!important;*/
+    background-color: white !important;
+}
+
+.navbar-light .navbar-brand {
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.code-post p {
+    margin: 0 0 1rem 0;
+}
+
+.code-block-singleline {
+  font-family: monospace;
+  background-color: #e9ecef;
+  margin: 0px;
+  padding:4px;
+  border-radius: 4px;
+  overflow: auto;
+  width: 50%;
+}
+
+.code-block-singleline-fullwidth {
+  font-family: merriweather,"pt serif",Georgia,times new roman,serif;
+  background-color: #e9ecef;
+  color: #481313;
+  margin: 0px;
+  padding:4px;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.code-block-multiline {
+  font-family: monospace;
+  background-color: #e9ecef;
+  margin: 20px;
+  padding:4px;
+  border-radius: 4px;
+  width: 50%;
+}
+
+.code-highlight-focus {
+    color: #007dd4;
+    font-weight: 500;
+}
+
+.code-post {
+    /*font-family: 'Oxygen', serif;*/
+    /*font-size: 1.3rem;*/
+    font-family: merriweather,"pt serif",Georgia,times new roman,serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 1);
+}
+
+.toc_items a:link {
+    color: #09774e;
+}
+
+
+.border-bottom-info {
+  border-bottom: 0.25rem solid #36b9cc !important;
+}
+
+.ts-shadow-lg {
+  box-shadow:0 0.5rem 2rem #04c0ec !important;
+}
+
+.text-highlight {
+    color: #105c83;
+}
+
+.btn-info-dark {
+    color:#fff;
+    background-color:#156874;
+    border-color:#17a2b8;
+}
+
+.card-text-light {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+

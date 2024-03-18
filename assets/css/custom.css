@@ -1,11 +1,9 @@
 
 .bg-banner{
-    /*background-color: #f7f8ff!important;*/
-    background-color: #009688 !important;
-
-    /*background-color: #17a2b8!important;*/
+    /* Old green color background-color: #009688 !important; */
+    background-color: #027a88 !important;
+    
 }
-
 
 .bg-white {
     /*background-color: #f7f8ff!important;*/
@@ -70,9 +68,16 @@
 .toc_items a:link {
     color: #09774e;
 }
+.border-bottom-info {
+  border-bottom: 0.25rem solid #36b9cc !important;
+}
 
 .ts-shadow-lg {
-    box-shadow:0 0.5rem 2rem #04c0ec !important;
+  box-shadow:0 0.5rem 2rem #04c0ec !important;
+}
+
+.text-highlight {
+    color: #105c83;
 }
 
 .ts-shadow-surround {
@@ -89,4 +94,8 @@
     border-color:#17a2b8;
 }
 
-
+.card-text-light {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    font-weight: 400;
+}

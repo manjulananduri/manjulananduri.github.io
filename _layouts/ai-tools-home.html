@@ -1,0 +1,39 @@
+---
+title: "Reading time calculator - Google quick read label estimator | TipSeason"
+layout: default-aitools
+permalink: "/ai-tools-home.html"
+disqus: false
+archive: false
+---
+<!-- This page forms layout for AI tools Homepage. For example: tipseason.com/ai-tools/  -->
+{% include aitools-header.html %}
+
+<!--<div class="row listrecent d-flex align-items-center justify-content-center">-->
+<div class="container">
+    <div class="row">
+        <div class="col text-center text-highlight">
+            <h1>Discover best AI tools to stay ahead of others!</h2>
+            <h2>2000+ AI tools free, paid and freemium!</h3>
+        </div>
+    </div>
+
+    {% include aitools-categories.html %}
+
+
+    <div class="row listrecent">
+        {% assign displayed_categories = "" %}
+        {% for post in site.aitools %}
+            {% unless displayed_categories contains post.category %}
+                {% assign displayed_categories = displayed_categories | append: post.category | append: "|" %}
+                {% include aitools-card.html %}
+            {% endunless %}
+        {% endfor %}
+    </div>
+
+    <hr>
+
+    {% include aitools-promote.html %}
+    {% include aitools-categories.html %}
+
+</div>
+

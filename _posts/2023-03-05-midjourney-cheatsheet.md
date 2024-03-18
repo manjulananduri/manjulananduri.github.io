@@ -3,7 +3,7 @@ layout: post
 title:  "Midjourney prompts cheatsheet - Commands, properties, image hacks and more"
 author: Pramod
 categories: [ ChatGPT, Midjourney ]
-image: assets/images/midjourney-series-tipseason.png
+image: assets/images/midjourney-series-tipseason.jpg
 beforetoc: "Master the art of AI image generation with Midjourney commands cheatsheet. Incudes commands, properties, image prompt techniques, master guide"
 featured: true
 toc: true

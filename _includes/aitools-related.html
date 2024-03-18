@@ -1,0 +1,15 @@
+<!-- Related tools section-->
+<!-- In below context: post is aitool , page is category -->
+<div class="col col-md-10 mx-auto text-center">
+    <h4 class="text text-primary">Best {{ page.display_name }} alternatives for {{ page.category }}</h4>
+    <div class="row listrecent mt-3">
+        {% assign filtered_tools = site.aitools | where: "category_slug", page.category_slug %}
+        {% assign random_tools = filtered_tools | sample: 10 %}
+    
+        {% for post in random_tools %}
+            {% if page.key != post.key %}
+                {% include aitools-card.html %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

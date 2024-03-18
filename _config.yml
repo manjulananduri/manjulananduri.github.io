@@ -13,6 +13,8 @@ mailchimp-enable: false
 include: ["_pages"]
 url: https://tipseason.com
 permalink: /:title/
+assetsUrl: https://assets.tipseason.com
+imagesUrl: https://assets.tipseason.com/images
 
 # Authors
 authors:
@@ -79,6 +81,12 @@ lazyimages: "disabled"
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, 'src', 'out']
 
 collections:
+  aitools:
+    output: true
+    permalink: /ai-tool/:path
+  aicategories:
+    output: true
+    permalink: /ai-tools/category/:path
   tips:
     output: true
     permalink: /tips/:path

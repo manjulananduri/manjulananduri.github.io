@@ -3,7 +3,7 @@ layout: post
 title: "200+ Best Gemini AI prompts you can't miss (Bard AI prompts)"
 author: Pramod 
 categories: [ BardAI, ChatGPT, Midjourney, Gemini ]
-image: assets/images/ai-series.png 
+image: assets/images/ai-series.jpg 
 beforetoc: "Master the art of using ChatGPT as a data scientist, software developer"
 toc: true 
 promote: true 
