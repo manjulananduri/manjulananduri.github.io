@@ -83,8 +83,6 @@
 .toc_items a:link {
     color: #09774e;
 }
-
-
 .border-bottom-info {
   border-bottom: 0.25rem solid #36b9cc !important;
 }
@@ -95,6 +93,14 @@
 
 .text-highlight {
     color: #105c83;
+}
+
+.ts-shadow-surround {
+    box-shadow:0 0 1rem #04c0ec !important
+}
+
+.ts-shadow-surround-md {
+    box-shadow:0 0 0.5rem #c8f5ff !important
 }
 
 .btn-info-dark {
@@ -108,5 +114,3 @@
     line-height: 1.6;
     font-weight: 400;
 }
-
-

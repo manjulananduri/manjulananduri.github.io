@@ -31,8 +31,9 @@ stay on track and bring your vision to life.
 
 Before jumping into the cheatsheet, don't miss out this.  
 
-<a href="https://etsy.me/3Zy9Knu"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" style="width:80%;"></a>
+<a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a>
 
+[600+ Free Midjourney prompts in 20+ categories](/midjourney-prompts/)
 
 Use this cheatsheet as a reference when you engineer your midjourney prompts.
 
@@ -119,6 +120,9 @@ Here are the commands that you  can run using the `/` tag.
 
 <br>
 
+<a href="https://etsy.me/3Zy9Knu"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" style="width:80%;"></a>
+
+
 ## Midjourney Parameter List Cheatsheet
 
 ### Basic Parameters
@@ -142,7 +146,7 @@ Here are the commands that you  can run using the `/` tag.
 - `--hd`: Use an early alternative Model that produces larger, less consistent images. This algorithm may be suitable for abstract and landscape images.
 - `--test`: Use the Midjourney special test model.
 - `--testp`: Use the Midjourney special photography-focused test model.
-- `--version <1, 2, or 3>` or `--v <1 2, or 3>`: Use an earlier version of the Midjourney algorithm. The current algorithm (V4) is the default setting.
+- `--version <1, 2, 3, 4 or 5>` or `--v <1 2, 3, 4 or 5>`: Use an earlier version of the Midjourney algorithm. The current algorithm (V5) is the default setting.
 
 ### Upscaler Parameters
 - `--uplight`: Use an alternative "light" upscaler when selecting the U buttons. The results are closer to the original grid image. The upscaled image is less detailed and smoother.

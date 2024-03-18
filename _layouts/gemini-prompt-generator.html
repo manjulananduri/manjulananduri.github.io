@@ -1,0 +1,385 @@
+---
+title: "Gemini prompt generator : Google AI prompt helper"
+layout: default
+permalink: "/gemini-prompt-generator.html"
+disqus: false
+archive: false
+---
+
+<style>
+    body {
+<!--        background-color: #fbfff9;-->
+<!--        background-color: #c7ffe8;-->
+<!--        background-image: radial-gradient(#373fed 0px, #f7fffe 0px);-->
+<!--        background-size: 10px 10px;-->
+    }
+
+
+</style>
+
+<body>
+<h1 class="text-center mb-4">Gemini Prompt Generator</h1>
+<h4 class="text-center mb-4">AI powered prompts for Google Gemini AI prompt engineering</h4>
+<div class="container mt-4 my-3 p-3 bg-body rounded shadow ">
+    <form id="promptForm">
+        <div class="mb-3">
+            <label for="topic" class="form-label">Prompt Topic:</label>
+            <textarea class="form-control ts-border-surround border-info" id="topic" name="topic" rows="3"
+                      placeholder="Enter the concept to generate prompts... Example: resume creation" maxlength="300" required></textarea>
+<!--            <input type="text" class="form-control" id="concept" name="concept" required>-->
+        </div>
+        <button type="submit" class="btn btn-primary">Generate Prompts</button>
+        <img src="/assets/images/tipseason-loading.gif" style="display:none;" id="loading">
+    </form>
+
+    <!-- Display the generated prompts here -->
+    <div id="outputContainer" class="mt-4"></div>
+
+    <!-- HTML template for the prompt card -->
+    <div class="card shadow-sm template-card d-none mt-1">
+        <div class="card-body">
+            <div class="row align-items-center mb-3">
+                <div class="col-md-9">
+                    <h5 class="card-title">Prompt</h5>
+                </div>
+                <div class="col-md-3 text-right">
+                    <button class="btn btn-secondary btn-sm copy-button">Copy <i class="fa fa-copy ml-1"></i></button>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <p class="card-text prompt-text"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex flex-wrap keyword-tags"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- The rest of your HTML content -->
+
+
+</div>
+
+{% include advertise.html %}
+
+{% include tools.html %}
+
+<div class="row justify-content-center m-3" id="subscribe">
+    <iframe src="https://tipseason.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What is Gemini Prompt Generator?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        Gemini Prompt Generator is an AI-powered tool that helps you create effective prompts for Gemini
+                        AI
+                        (Bard AI), a
+                        large language model known for its ability to generate creative text formats. By providing you
+                        with
+                        tailored prompts based on your desired outcome, Gemini Prompt Generator empowers you to leverage
+                        Gemini AI (Bard AI)'s capabilities for various purposes, such as:
+                        <ul>
+                            <li>Writing compelling resumes and cover letters</li>
+                            <li>Crafting engaging blog posts and articles</li>
+                            <li>Generating creative writing pieces like poems, scripts, or stories</li>
+                            <li>Brainstorming ideas and solutions for different tasks</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How does Gemini Prompt Generator work?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Using Gemini Prompt Generator is simple! Just provide some basic information about your desired
+                        outcome,
+                        such as the topic you want to write about or the task you want to accomplish. Gemini will then
+                        generate
+                        a series of prompts specifically designed to guide Gemini AI (Bard AI) towards creating the
+                        content
+                        you need. You
+                        can choose from different prompt styles and tones to match your specific requirements.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What are the benefits of using Gemini Prompt Generator?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Gemini Prompt Generator offers several benefits:
+                        <ul>
+                            <li>**Saves time and effort:** By providing pre-written prompts, Gemini eliminates the need
+                                to
+                                start
+                                from scratch, saving you valuable time and energy.
+                            <li>**Improves quality:** Gemini's prompts are crafted to guide Gemini AI (Bard AI) towards
+                                generating
+                                high-quality, relevant content that meets your specific needs.
+                            <li>**Boosts creativity:** Gemini can help you overcome writer's block and spark new ideas
+                                by
+                                suggesting unexpected prompts and approaches.
+                            <li>**Easy to use:** The tool is user-friendly and requires no technical expertise, making
+                                it
+                                accessible to everyone.
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            What are some examples of how I can use Gemini Prompt Generator?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h4>Writing:</h4>
+                        <ul>
+                            <li>Craft a unique and engaging product description: Provide product name, key features,
+                                target
+                                audience, and desired tone.</li>
+                            <li>Generate a creative short story: Specify genre, setting, main characters, and starting
+                                sentence.
+                            </li>
+                            <li>Write a persuasive email: Outline recipient, purpose, key points, and desired outcome.
+                            </li>
+                            <li>Draft a blog post outline: Give topic, target audience, and desired angle.</li>
+                            <li>Develop a script for a YouTube video: Outline concept, target audience, and key points.
+                            </li>
+                        </ul>
+                        <h4>Content Creation:</h4>
+                        <ul>
+                            <li>Brainstorm ideas for a social media post: Specify platform, target audience, and desired
+                                message.
+                            </li>
+                            <li>Generate song lyrics: Specify genre, mood, and theme.</li>
+                            <li>Create a catchy slogan or tagline: Describe brand, product, and target audience.</li>
+                            <li>Design a dream vacation itinerary: State interests, budget, and travel style.</li>
+                            <li>Plan a fun and unique date night: Outline interests, budget, and desired location.</li>
+                        </ul>
+                        <h4>Personal Development:</h4>
+                        <ul>
+                            <li>Write a self-reflection journal entry: Prompt on a specific topic or challenge.</li>
+                            <li>Generate a list of daily affirmations: Based on desired goals and values.</li>
+                            <li>Brainstorm solutions to a personal problem: Describe the issue and your current
+                                approach.
+                            </li>
+                            <li>Craft a compelling elevator pitch: Highlight skills and experience.</li>
+                            <li>Develop interview questions: Based on specific role and company.</li>
+                        </ul>
+                        <p>Remember, these are just a few examples. With creativity, use Gemini Prompt Generator for
+                            various
+                            tasks
+                            and fuel your imagination!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Do I need any technical knowledge to use Gemini Prompt Generator?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body">
+                        No, absolutely not! Gemini Prompt Generator is designed to be user-friendly and accessible to
+                        everyone. You don't need any programming skills or technical knowledge to use it effectively.
+                        The
+                        interface is intuitive and guides you through the process step-by-step.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="card-header" id="headingSix">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Are there any limitations to what Gemini Prompt Generator can do?
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                <div class="card-body">
+                    While Gemini Prompt Generator provides valuable assistance, it's important to remember it's a tool,
+                    not a replacement for human creativity and judgment. The final results ultimately depend on the
+                    quality of your prompts and the capabilities of Gemini AI (Bard AI). Additionally, keep in mind that
+                    Gemini AI (Bard AI) is
+                    still under development, and its outputs may not always be perfect. However, by working
+                    collaboratively with Gemini and providing clear instructions, you can maximize its potential and
+                    achieve impressive results.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingSeven">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        How much does it cost to use Gemini Prompt Generator?
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                <div class="card-body">
+                    Pricing information for Gemini Prompt Generator depends on the specific implementation and usage
+                    model. Please refer to the relevant documentation or contact the developer for details.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingEight">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        How can I learn more about Gemini Prompt Generator?
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                <div class="card-body">
+                    For more information about Gemini Prompt Generator, please visit its official website (if available)
+                    or contact the developer. You can also find helpful resources and tutorials online that demonstrate
+                    how to use the tool effectively.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- Add jQuery and Bootstrap's JavaScript libraries -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Add custom script to handle form submission and API response -->
+<script>
+        $(document).ready(function () {
+            // Function to handle form submission
+            $("#promptForm").submit(function (event) {
+                event.preventDefault();
+                $("#loading").show();
+                // const promptCount = $("#promptCount").val();
+                const topic = $("#topic").val();
+                const apiUrl = `https://gemini.manigopalmurthy.workers.dev/prompts?topic=${topic}`;
+                // const apiUrl = `https://127.0.0.1:63553/prompts?count=${promptCount}&concept=${concept}`;
+
+                $.ajax({
+                    url: apiUrl,
+                    type: "GET",
+                    dataType: "json",
+                    success: function (data) {
+                        // Process the API response here and display the prompts
+                        displayPrompts(data);
+                    },
+                    error: function (error) {
+                        console.error("Error fetching prompts:", error);
+                    }
+                });
+            });
+
+
+
+            function getRandomBadgeColorClass() {
+                const colors = ["primary", "secondary", "success", "danger", "warning", "info"];
+                return "badge badge-" + colors[Math.floor(Math.random() * colors.length)];
+            }
+
+            function displayPrompts(data) {
+                const outputContainer = $("#outputContainer");
+                outputContainer.empty();
+                // outputContainer.html(data);
+
+                if (data && data.candidates && data.candidates.length > 0) {
+                    const candidatesRaw = data.candidates[0].content.parts[0].text;
+                    candidates = candidatesRaw.replace("```html", "")
+                    candidates = candidates.replace("```", "")
+                    outputContainer.html(candidates);
+
+                } else {
+                    outputContainer.text("No prompts found.");
+                }
+
+                $("#loading").hide();
+              }
+
+            function copyToClipboard(text) {
+                const tempInput = $("<input>");
+                $("body").append(tempInput);
+                tempInput.val(text).select();
+                document.execCommand("copy");
+                tempInput.remove();
+                alert("Prompt copied to clipboard!");
+            }
+
+            // Function to display the prompts and keywords
+            function displayPrompts1(data) {
+              const outputContainer = $("#outputContainer");
+              outputContainer.empty();
+
+              if (data && data.candidates && data.candidates.length > 0) {
+                const candidates = JSON.parse(data.candidates[0].output);
+                const promptList = $("<ul>");
+
+                candidates.forEach(function (candidate) {
+                  const prompt = candidate.prompt;
+                  const keywords = candidate.keywords;
+
+                  const listItem = $("<li>").text(`Prompt: ${prompt}, Keywords: ${keywords}`);
+                  promptList.append(listItem);
+                });
+
+                outputContainer.append(promptList);
+              } else {
+                outputContainer.text("No prompts found.");
+              }
+            }
+
+
+        });
+    </script>
+</body>
+
+</html>

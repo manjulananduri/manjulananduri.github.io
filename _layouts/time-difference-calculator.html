@@ -1,0 +1,187 @@
+---
+title: "Timestamp difference calculator for software developers "
+layout: default
+permalink: "/time-difference-calculator.html"
+disqus: false
+archive: false
+---
+
+<script src="/assets/js/moment.js"></script>
+<script src="/assets/js/moment-timezone.js"></script>
+<script src="/assets/js/timedifference.js"></script>
+
+
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-6 border p-4 border rounded bg-light ">
+            <h4 class="text-center text-info mb-2">Timestamp difference calculator</h4>
+            <h6 class="text-center mb-4">Calculate the duration between timestamps or dates for software developers or data analysts</h6>
+            <hr>
+            <form>
+                <div class="form-group row">
+                    <label for="inpStartTime" class="col-sm-4 col-form-label">Start Time: </label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="inpStartTime" placeholder="Enter start time">
+                        <small id="startTimeHelp" class="form-text text-muted text-left">Eg: 2023-04-03 23:17:57</small>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inpEndTime" class="col-sm-4 col-form-label">End Time: </label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="inpEndTime" placeholder="Enter end time">
+                        <small id="imageCountHelp" class="form-text text-muted text-left">Eg: 2023-04-06
+                            07:16:13</small>
+                    </div>
+                </div>
+
+
+                <div class="form-group row">
+                    <label for="dateFormat" class="col-sm-4 col-form-label">Date Format:</label>
+                    <div class="col-sm-8">
+                        <select class="form-control" id="dateFormat">
+                            <option value="YYYY-MM-DD HH:mm:ss">YYYY-MM-DD HH:mm:ss</option>
+                            <option value="MM-DD-YYYY HH:mm:ss">MM-DD-YYYY HH:mm:ss</option>
+                            <option value="DD-MM-YYYY HH:mm:ss">DD-MM-YYYY HH:mm:ss</option>
+                            <option value="MM/DD/YYYY HH:mm:ss">MM/DD/YYYY HH:mm:ss</option>
+                            <option value="DD/MM/YYYY HH:mm:ss">DD/MM/YYYY HH:mm:ss</option>
+                            <option value="hh:mm:ss">hh:mm:ss</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group row" style="display:none;" id="customFormat">
+                    <label for="customDateFormat" class="col-sm-4 col-form-label">Custom Format: </label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="customDateFormat" placeholder="Enter custom format">
+                        <small id="customDateFormatHelp" class="form-text text-muted text-left">Eg: DD-MM-YYYY
+                            HH:mm:ss</small>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="calculate" class="col-sm-4 col-form-label"></label>
+                    <div class="col-sm-4">
+                        <button type="button" class="form-control btn btn-primary" id="calculate">Calculate</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-3" id="resultHolder" style="display:none;">
+        <div class="col-md-6 border p-4 border rounded bg-light ">
+            <h4 class="text-center text-success mb-4">Time Difference</h4>
+            <div class="text-center" id="results"></div>
+        </div>
+    </div>
+
+
+    <div class="row justify-content-center mt-5">
+        {% include shop.html %}
+    </div>
+
+    <div class="row justify-content-center mt-5">
+        <div class="accordion" id="faqAccordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                            How do I use the time difference calculator?
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        To use the time difference calculator, simply enter the start time and end time in the input
+                        boxes and click the "Calculate" button. The time difference in days, hours, minutes, and seconds
+                        will be displayed in the output section below. You can also choose the date format and time zone
+                        from the dropdown menus to customize the input and output formats.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-header" id="headingOneOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOneOne"
+                                aria-expanded="false" aria-controls="collapseOneOne">
+                            How can this tool be useful for software developers?
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOneOne" class="collapse" aria-labelledby="headingOneOne" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        This tool can be incredibly useful for developers when they need to compare timestamps or
+                        calculate date/time differences. Whether you're working with logs, tracking user activity, or
+                        debugging your application, having a tool that can accurately and easily calculate time
+                        differences can save you a lot of time and headache. With the ability to customize date formats
+                        and time zones, this tool is a must-have for any developer who works with timestamps.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What date formats are supported by the calculator?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        The calculator supports a wide range of date formats including ISO 8601 format, as well as
+                        various common date formats used in different parts of the world. You can also select "Other"
+                        from the date format dropdown menu and enter a custom date format.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Can I calculate the time difference between time zones?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Yes, you can choose the time zone for the start time and end time from the time zone dropdown
+                        menu. The calculator will automatically take into account the time zone difference when
+                        calculating the time difference.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            How can I calculate the time difference in milliseconds or microseconds?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        The calculator currently only supports calculating the time difference in days, hours, minutes,
+                        and seconds. However, you can easily modify the code to calculate the time difference in
+                        milliseconds or microseconds if needed.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
