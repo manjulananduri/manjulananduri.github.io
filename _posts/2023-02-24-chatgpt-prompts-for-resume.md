@@ -207,5 +207,6 @@ Whether you're a recent graduate or an experienced professional, incorporating t
 process can help you land the job of your dreams. So what are you waiting for? Start using ChatGPT and Bard AI to
 improve your resume writing today! 
 
-Subscribe to our newsletter to get weekly ChatGPT prompts + AI tools to stay ahead of others.  
+Subscribe to our [newsletter](https://tipseason.substack.com/) to get weekly ChatGPT prompts + AI tools to stay ahead of others.  
 
+Have you polished your resume with the help of these prompts? Try your job search now with [Jooble](https://jooble.org/)!
