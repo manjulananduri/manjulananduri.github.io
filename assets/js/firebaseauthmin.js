@@ -46,40 +46,28 @@ function toggleProfileSection(user) {
   }
 }
 
-export function checkAuthAndExecute(callbackIfAuthenticated) {
-  // Set the state persistence to LOCAL
-  setPersistence(auth, browserSessionPersistence)
-    .then(() => {
-      // Check authentication state
-      onAuthStateChanged(auth, (user) => {
-        if (user) {
-          // User is signed in
-          console.log("User is signed in:", user.email);
-          console.log("User token:", user.getIdToken(true));
-          // Update the page or show user-specific content here
-          toggleProfileSection(user);
-          // Execute callback function for authenticated user
-          if (
-            callbackIfAuthenticated &&
-            typeof callbackIfAuthenticated === "function"
-          ) {
-            callbackIfAuthenticated(user);
-          }
-        } else {
-          // User is signed out
-          console.log("User is signed out.");
-          // Redirect to the login page if the user is not authenticated
-          window.location.href = "/login";
-        }
-      });
-    })
-    .catch((error) => {
-      console.error("Error setting persistence: ", error.message);
+// Set the state persistence to LOCAL
+setPersistence(auth, browserSessionPersistence)
+  .then(() => {
+    // Check authentication state
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        // User is signed in
+        console.log("User is signed in:", user.email);
+        console.log("User token:", user.getIdToken(true));
+        // Update the page or show user-specific content here
+        toggleProfileSection(user);
+      } else {
+        // User is signed out
+        console.log("User is signed out.");
+        // Redirect to the login page if the user is not authenticated
+        window.location.href = "/login";
+      }
     });
-}
-
-window.checkAuthAndExecute = checkAuthAndExecute;
-
+  })
+  .catch((error) => {
+    console.error("Error setting persistence: ", error.message);
+  });
 
 // Handle logout on the logout page
 const logoutButton = document.getElementById("logout"); // Replace with your element's ID

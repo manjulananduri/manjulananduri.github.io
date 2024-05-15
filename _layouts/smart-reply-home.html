@@ -1,0 +1,93 @@
+---
+title: "Smart Reply AI - Home"
+layout: header
+permalink: "/smart-reply-home.html"
+disqus: false
+archive: false
+---
+
+<style>
+    body {
+        < !-- background-color: #fbfff9;
+        -->< !-- background-color: #c7ffe8;
+        -->< !-- background-image: radial-gradient(#373fed 0px, #f7fffe 0px);
+        -->< !-- background-size: 10px 10px;
+        -->
+    }
+
+    input[readonly] {
+        background-color: transparent !important;
+        font-size: 1em;
+    }
+</style>
+
+<body>
+    <h1 class="text-center mb-4">Account Settings</h1>
+    <div class="container mt-4 my-3 p-3 bg-body rounded shadow">
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-6" id="cent">
+                <h5 class="font-weight-bold text-success">Total Credits: <span id="credits"></span></h5>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6" id="cent">
+                <hr>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6" id="cent">
+                <form id="apiKeyForm">
+                    <div class="mb-3">
+                        <h5><label for="apiKeyLabel" class="form-label">Your Account Key</label></h5>
+                        <div class="input-group mb-3 input-group-md">
+                            <input id="apiKey" name="apiKeyLabel" type="text" readonly
+                                class="form-control ts-border-surround border-info" placeholder="Click Generate Key"
+                                aria-label="Click Generate Key" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button id="copyBtn" class="btn btn-outline-info" type="button">Copy <i
+                                        class="fa fa-copy"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Generate Key</button>
+                    <img src="/assets/images/tipseason-loading.gif" id="loading">
+                    <div style="display:none;" id="error" class="text-danger">Error fetching data. Please try again in
+                        sometime
+                        !</div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add jQuery and Bootstrap's JavaScript libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="module" src="/assets/js/firebaseauth.js"></script>
+    <script src="/assets/js/smartreply.js"></script>
+
+    <script type="module">
+        import { checkAuthAndExecute } from "/assets/js/firebaseauth.js";
+
+        // On profile page
+        checkAuthAndExecute(
+            (user) => {
+                console.log("Inside smart reply page : " + user);
+                // User is signed in
+                console.log("Inside smart reply page User is signed in:", user.email);
+                console.log("Inside smart reply page User token:", user.getIdToken());
+                user.getIdToken()
+                    .then((idToken) => {
+                        // idToken contains the ID token string
+                        console.log("ID Token:", idToken);
+                    })
+                    .catch((error) => {
+                        console.error("Error getting ID token:", error.message);
+                    });
+            }
+        );
+
+    </script>
+</body>
+
+</html>
