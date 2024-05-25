@@ -13,21 +13,21 @@ archive: false
 ================================================== -->
 
 <div class="row">
-    <a href="/ai-tools" class="text-info ml-3" id="backBtn" >
+    <a href="/ai-tools" class="text-info ml-3" id="backBtn">
         <span>
             <i class="fas fa-home"></i>
         </span>
-        <span >Home</span>
+        <span>Home</span>
     </a>
-    &nbsp; / &nbsp; 
-    <span >{{ page.display_name }}</span>
+    &nbsp; / &nbsp;
+    <span>{{ page.display_name }}</span>
 </div>
 
 <div class="row mt-2">
     <div class="col-5 mt-2">
 
-        <img class="img-fluid lazyimg ts-shadow-lg rounded" src="{% if page.image contains " ://" %}{{ page.image }}{% else %}{{
-        site.imagesUrl }}/aitools/{{ page.key }}.jpg{% endif %}" alt="{{ page.title }}"/>
+        <img class="img-fluid lazyimg ts-shadow-lg rounded" src="{% if page.image contains " ://" %}{{ page.image }}{%
+            else %}{{ site.imagesUrl }}/aitools/{{ page.key }}.jpg{% endif %}" alt="{{ page.title }}" />
 
     </div>
     <div class="col-6 ml-4">
@@ -35,12 +35,25 @@ archive: false
         <h4 class="text-danger">{{ page.display_name }} </h4>
 
         <h6>
-            <!-- ************* LOOKING FOR HIGH QUALITY DO FOLLOW LINK ? CONTACT US! ************* -->
-            <a rel="noopener noreferrer nofollow" href="{{ page.website }}?ref=tipseason.com&utm_source=tipseason.com" target="_blank" class="btn btn-info btn-sm">Visit Website
-                &nbsp;&nbsp;<i class="fas fa-external-link-alt"></i>
-            </a>
+
+            {% if page.dofollow == true %}
+
+                <!-- ************* LOOKING FOR HIGH QUALITY DO FOLLOW LINK ? CONTACT US! ************* -->
+                <a href="{{ page.website }}?ref=tipseason.com&utm_source=tipseason.com"
+                    target="_blank" class="btn btn-info btn-sm">Visit Website
+                    &nbsp;&nbsp;<i class="fas fa-external-link-alt"></i>
+                </a>
+            {% else %}
+                <!-- ************* LOOKING FOR HIGH QUALITY DO FOLLOW LINK ? CONTACT US! ************* -->
+                <a rel="noopener noreferrer nofollow" href="{{ page.website }}?ref=tipseason.com&utm_source=tipseason.com"
+                    target="_blank" class="btn btn-info btn-sm">Visit Website
+                    &nbsp;&nbsp;<i class="fas fa-external-link-alt"></i>
+                </a>
+            {% endif %}
+
+
         </h6>
-       
+
         <p>{{ content }}</p>
 
         <p>One of the best trending AI tools for {{ page.category }} </p>
@@ -50,9 +63,9 @@ archive: false
         <p>
         <p>Category: </p>
         <a href="/ai-tools/category/{{ page.category_slug }}" class="btn btn-primary btn-icon-split btn-sm">
-                                        <span class="icon text-white-50">
-                                            <i class="fas fa-tags"></i>
-                                        </span>
+            <span class="icon text-white-50">
+                <i class="fas fa-tags"></i>
+            </span>
             <span class="text">{{ page.category }}</span>
         </a>
         </p>
@@ -60,9 +73,9 @@ archive: false
         <p>
         <p>Price: </p>
         <a href="#" class="btn btn-success btn-icon-split btn-sm">
-                                        <span class="icon text-white-50">
-                                            <i class="fas fa-check"></i>
-                                        </span>
+            <span class="icon text-white-50">
+                <i class="fas fa-check"></i>
+            </span>
             <span class="text">Freemium</span>
         </a>
         </p>
@@ -78,7 +91,7 @@ archive: false
 
 <script text="javascript">
     // Add an event listener to a back button or any element you want to trigger the navigation
-    $('#backBtn').on('click', function() {
+    $('#backBtn').on('click', function () {
         // Use the back() method to navigate to the previous page in the session history
         window.history.back();
     });
