@@ -4,12 +4,26 @@
     <h4 class="text text-primary">Best {{ page.display_name }} alternatives for {{ page.category }}</h4>
     <div class="row listrecent mt-3">
         {% assign filtered_tools = site.aitools | where: "category_slug", page.category_slug %}
-        {% assign random_tools = filtered_tools | sample: 10 %}
-    
+
+        <!-- Separate trending and non-trending tools -->
+        {% assign trending_tools = filtered_tools | where: "trending", true %}
+        {% assign non_trending_tools = filtered_tools | reject: "trending", true %}
+        {% assign random_tools = non_trending_tools | sample: 10 %}
+
+        <!-- Include trending tools first -->
+        {% for post in trending_tools %}
+            {% if page.key != post.key %}
+                {% include aitools-card.html %}
+            {% endif %}
+        {% endfor %}
+
+        <!-- Followed by 10 sample non-trending tools -->
         {% for post in random_tools %}
             {% if page.key != post.key %}
                 {% include aitools-card.html %}
             {% endif %}
         {% endfor %}
+
+
     </div>
 </div>
