@@ -19,15 +19,36 @@ archive: false
 
     {% include aitools-categories.html %}
 
+    <hr>
+
+    <div class="row">
+        <h3 class="text-danger ml-3">Trending Tools</h3>
+    </div>
+
+    <div class="row listrecent">
+
+        {% for post in site.aitools %}
+            {% if post.trending %}
+                {% include aitools-card.html %}
+            {% endif %}
+        {% endfor %}
+
+    </div>
+
+    <hr>
+    <div class="row">
+        <h3 class="text-danger ml-3">All Tools</h3>
+    </div>
 
     <div class="row listrecent">
         {% assign displayed_categories = "" %}
         {% for post in site.aitools %}
-            {% unless displayed_categories contains post.category %}
+            {% unless displayed_categories contains post.category or post.trending %}
                 {% assign displayed_categories = displayed_categories | append: post.category | append: "|" %}
                 {% include aitools-card.html %}
             {% endunless %}
         {% endfor %}
+
     </div>
 
     <hr>

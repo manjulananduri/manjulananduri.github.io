@@ -26,18 +26,33 @@ archive: false
     </div>
 
     {% include aitools-categories.html %}
-    
+
+
     <!-- In below context: post is aitool , page is category -->
     <div class="row listrecent">
-        {% for post in site.aitools %}
-  
-            {% if page.category_slug != null %}
-                {% if page.category_slug == post.category_slug %}
+        {% if page.category_slug != null %}
+            {% assign filtered_tools = site.aitools | where: "category_slug", page.category_slug %}
+
+            <!-- Separate trending and non-trending tools -->
+            {% assign trending_tools = filtered_tools | where: "trending", true %}
+            {% assign non_trending_tools = filtered_tools | reject: "trending", true %}
+            {% assign random_tools = non_trending_tools | sample: 10 %}
+
+            <!-- Include trending tools first -->
+            {% for post in trending_tools %}
+                {% if page.key != post.key %}
                     {% include aitools-card.html %}
                 {% endif %}
-            {% endif %}
+            {% endfor %}
 
-        {% endfor %}
+            <!-- Followed by 10 sample non-trending tools -->
+            {% for post in random_tools %}
+                {% if page.key != post.key %}
+                    {% include aitools-card.html %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+
     </div>
 
     <hr>
