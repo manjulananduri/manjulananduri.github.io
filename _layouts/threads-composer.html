@@ -1,0 +1,181 @@
+---
+title: "Meta Threads composer - The best thread maker for meta threads posts with AI"
+layout: default
+permalink: "/threads-composer.html"
+disqus: false
+archive: false
+lunr: false
+---
+
+<head>
+    <title>Thread Composer</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .content-input {
+            min-height: 150px;
+            overflow-y: hidden;
+            resize: none;
+        }
+
+        .thread-preview {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 0.5rem;
+            padding: 15px;
+            margin-bottom: 20px;
+            position: relative;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .thread-preview::before {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 20px;
+            height: 20px;
+            width: 2px;
+            background-color: #007bff;
+        }
+
+        .thread-preview:last-child::before {
+            display: none;
+        }
+
+        .thread-number {
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            background-color: #007bff;
+            color: white;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .char-count {
+            font-size: 0.8rem;
+            color: #6c757d;
+        }
+
+        .thread-content {
+            margin-right: 70px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .copy-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<div class="container mt-5">
+    <h1 class="mb-4 text-center">Thread Composer</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0"><i class="fas fa-pencil-alt me-2"></i> Compose</h5>
+                </div>
+                <div class="card-body">
+                    <textarea id="content" class="form-control mb-3 content-input"
+                        placeholder="Start typing your thread here..."></textarea>
+                    <p class="text-muted">Character count: <span id="charCount" class="fw-bold">0</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0"><i class="fas fa-eye me-2"></i> Preview</h5>
+                </div>
+                <div class="card-body">
+                    <div id="preview"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        const maxChars = 497;
+
+        function updatePreview() {
+            const content = $('#content').val();
+            const threads = splitIntoThreads(content);
+            let previewHtml = '';
+
+            threads.forEach((thread, index) => {
+                previewHtml += `
+                        <div class="thread-preview">
+                            <div class="thread-number">${index + 1}</div>
+                            <div class="thread-content">${thread}</div>
+                            <span class="char-count">${thread.length} characters</span>
+                            <button class="btn btn-sm btn-outline-primary copy-btn" data-thread="${encodeURIComponent(thread)}">
+                                <i class="fas fa-copy"></i> Copy
+                            </button>
+                        </div>
+                    `;
+            });
+
+            $('#preview').html(previewHtml);
+            $('#charCount').text(content.length);
+
+            // Add click event for copy buttons
+            $('.copy-btn').on('click', function () {
+                const threadContent = decodeURIComponent($(this).data('thread'));
+                copyToClipboard(threadContent);
+                $(this).html('<i class="fas fa-check"></i> Copied!');
+                setTimeout(() => {
+                    $(this).html('<i class="fas fa-copy"></i> Copy');
+                }, 2000);
+            });
+        }
+
+        function splitIntoThreads(content) {
+            const threads = [];
+            let currentThread = '';
+            const lines = content.split('\n');
+
+            for (let line of lines) {
+                if (currentThread.length + line.length + 1 > maxChars) {
+                    if (currentThread) {
+                        threads.push(currentThread.trim());
+                        currentThread = '';
+                    }
+                    while (line.length > maxChars) {
+                        threads.push(line.slice(0, maxChars));
+                        line = line.slice(maxChars);
+                    }
+                }
+                currentThread += (currentThread ? '\n' : '') + line;
+            }
+
+            if (currentThread) {
+                threads.push(currentThread.trim());
+            }
+
+            return threads;
+        }
+
+        function copyToClipboard(text) {
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+        }
+
+        $('#content').on('input', updatePreview);
+    });
+</script>

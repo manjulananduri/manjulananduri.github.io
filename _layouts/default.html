@@ -182,7 +182,9 @@
                     <a class="nav-link" href="https://us8.list-manage.com/contact-form?u=13f41df6125800abe7efbd891&form_id=bfba3f28362a84ec99ce783c427eb5a7" rel="nofollow">Contact Us</a>
                 </li>
 
-                {% include search-lunr.html %}
+                {% if page.lunr != false %}
+                    {% include search-lunr.html %}
+                {% endif %}
 
             </ul>
 
