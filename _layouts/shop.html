@@ -1,0 +1,242 @@
+---
+title: TipSeason Shop for Trending Digital products. 
+layout: default-aitools
+permalink: "/shop.html"
+disqus: false
+archive: false
+---
+
+<head>
+    <style>
+        .product-card {
+            transition: all 0.3s ease;
+            border-radius: 15px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0.5rem 2rem #04c0ec !important;
+        }
+        
+        .product-image {
+            height: 250px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .product-card:hover .product-image {
+            transform: scale(1.05);
+        }
+        
+        .discount-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #ff4757;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            z-index: 1;
+        }
+        
+        .timer {
+            background: rgb(0 52 83);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .original-price {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        .sale-price {
+            color: #ff4757;
+            font-size: 1.4em;
+            font-weight: bold;
+        }
+        
+        .features-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .features-list li {
+            margin-bottom: 5px;
+        }
+        
+        .features-list li i {
+            color: #2ecc71;
+            margin-right: 5px;
+        }
+
+        .bg-teal {
+            background-color: rgb(1, 125, 144)!important;
+            color: white!important;
+        }
+
+
+        /* Mobile Responsive Styles */
+        @media (max-width: 768px) {
+            .product-image {
+                height: 200px;
+            }
+            
+            .card-body {
+                padding: 1rem;
+            }
+            
+            .features-list {
+                font-size: 0.9em;
+            }
+            
+            .sale-price {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="container py-2">
+        <div class="timer text-center mb-4">
+            Flash Sale Ends In: <span id="countdown">00:00:00</span>
+        </div>
+        
+        <div class="row g-4" id="productContainer">
+            <!-- Products will be loaded here dynamically -->
+        </div>
+    </div>
+
+    <script>
+        // Product data in JSON format
+        const products = [
+            {
+                id: 1,
+                title: "10,000+ ChatGPT / Gemini Prompts",
+                description: "Best prompt collection for email marketing, content creators, business, social media and more. Buy once, sell forever",
+                image: "https://public-files.gumroad.com/r00ajc17lc79f2gv3s8kcfl7e98a",
+                url:"https://tipseason.gumroad.com/l/ai-prompts?utm_source=tipseason_shop&utm_medium=tipseason_shop&utm_campaign=tipseason_shop&utm_content=tipseason_shop",
+                discount: "51",
+                originalPrice: 29.99,
+                salePrice: 14.99,
+                features: [
+                    "Works with any AI",
+                    "40+ Categories",
+                    "MRR, PLR Rights available"
+                ]
+            },
+            {
+                id: 2,
+                title: "7500+ ChatGPT prompts for social media",
+                description: "Top AI prompts for social media marketing - instagram, tiktok, X, linkedin, threads, facebook,pinterest and more.",
+                image: "https://public-files.gumroad.com/ptkppn93jr1spq8q28hvuy1li95j",
+                url: "https://tipseason.gumroad.com/l/social-media-chatgpt?utm_source=tipseason_shop&utm_medium=tipseason_shop&utm_campaign=tipseason_shop&utm_content=tipseason_shop",
+                discount: "51",
+                originalPrice: 19.99,
+                salePrice: 9.49,
+                features: [
+                    "Works with any AI",
+                    "10+ Social network categories",
+                    "MRR, PLR Rights available"
+                ]
+            },
+            {
+                id: 3,
+                title: "Thriendly Threads: Grow fast and make money on Threads",
+                description: "10X Faster Threads growth and monetization Course + Community | MRR Rights | Go viral on Threads",
+                image: "https://public-files.gumroad.com/p8gjtrqn5ctk4gky52rqvasqvo7u",
+                url:"https://shop.thriendly.com/l/threads-course?[utm_source=tipseason_shop&utm_medium=tipseason_shop&utm_campaign=tipseason_shop&utm_content=tipseason_shop](https://learn.flexxable.com/instant-ai-agency/?utm_source=NewsletterReferal&utm_medium=TrendingAI&utm_campaign=EmailNewsletter&utm_content=TrendingAIEmail)",
+                discount: "30",
+                originalPrice: 34.99,
+                salePrice: 24.99,
+                features: [
+                    "Free Community",
+                    "Free Thriendly Credits",
+                    "MRR Rights available"
+                ]
+            }
+        ];
+
+        // Function to create product cards
+        function createProductCard(product) {
+            const featuresList = product.features.map(feature => 
+                `<li><i class="fas fa-check-circle"></i> ${feature}</li>`
+            ).join('');
+
+            return `
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card product-card h-100">
+                        <span class="discount-badge">-${product.discount}% OFF</span>
+                        <img src="${product.image}" class="card-img-top product-image" alt="${product.title}">
+                        <div class="card-body">
+                            <h5 class="card-title">${product.title}</h5>
+                            <p class="card-text text-muted">${product.description}</p>
+                            <ul class="features-list mb-3">
+                                ${featuresList}
+                            </ul>
+                            <div class="pricing mb-3">
+                                <span class="original-price">$${product.originalPrice}</span>
+                                <span class="sale-price ms-2">$${product.salePrice}</span>
+                            </div>
+                            <a href="${product.url}" class="btn w-100 bg-teal">View Details &nbsp; <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Load products when document is ready
+        $(document).ready(function() {
+            const productContainer = $('#productContainer');
+            
+            // Load all products
+            products.forEach(product => {
+                productContainer.append(createProductCard(product));
+            });
+
+            // Button hover effect
+            $('.product-card').hover(
+                function() {
+                    $(this).find('.btn-primary').addClass('btn-outline-primary').removeClass('btn-primary');
+                },
+                function() {
+                    $(this).find('.btn-outline-primary').addClass('btn-primary').removeClass('btn-outline-primary');
+                }
+            );
+        });
+
+        // Countdown timer
+        const countDownDate = new Date().getTime() + (12 * 60 * 60 * 1000);
+
+        const countdown = setInterval(function() {
+            const now = new Date().getTime();
+            const distance = countDownDate - now;
+
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("countdown").innerHTML = 
+                hours.toString().padStart(2, '0') + ":" + 
+                minutes.toString().padStart(2, '0') + ":" + 
+                seconds.toString().padStart(2, '0');
+
+            if (distance < 0) {
+                clearInterval(countdown);
+                document.getElementById("countdown").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
