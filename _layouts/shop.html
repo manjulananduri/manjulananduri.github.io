@@ -1,5 +1,5 @@
 ---
-title: TipSeason Shop for Trending Digital products. 
+title: TipSeason Shop for Trending Digital products.
 layout: default-aitools
 permalink: "/shop.html"
 disqus: false
@@ -14,22 +14,22 @@ archive: false
             overflow: hidden;
             cursor: pointer;
         }
-        
+
         .product-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 0.5rem 2rem #04c0ec !important;
         }
-        
+
         .product-image {
             height: 250px;
             object-fit: cover;
             transition: transform 0.3s ease;
         }
-        
+
         .product-card:hover .product-image {
             transform: scale(1.05);
         }
-        
+
         .discount-badge {
             position: absolute;
             top: 10px;
@@ -41,7 +41,7 @@ archive: false
             font-weight: bold;
             z-index: 1;
         }
-        
+
         .timer {
             background: rgb(0 52 83);
             color: white;
@@ -50,36 +50,36 @@ archive: false
             font-weight: bold;
             margin-bottom: 20px;
         }
-        
+
         .original-price {
             text-decoration: line-through;
             color: #999;
             font-size: 0.9em;
         }
-        
+
         .sale-price {
-            color: #ff4757;
+            color: #048500;
             font-size: 1.4em;
             font-weight: bold;
         }
-        
+
         .features-list {
             list-style: none;
             padding-left: 0;
         }
-        
+
         .features-list li {
             margin-bottom: 5px;
         }
-        
+
         .features-list li i {
             color: #2ecc71;
             margin-right: 5px;
         }
 
         .bg-teal {
-            background-color: rgb(1, 125, 144)!important;
-            color: white!important;
+            background-color: rgb(1, 125, 144) !important;
+            color: white !important;
         }
 
 
@@ -88,15 +88,15 @@ archive: false
             .product-image {
                 height: 200px;
             }
-            
+
             .card-body {
                 padding: 1rem;
             }
-            
+
             .features-list {
                 font-size: 0.9em;
             }
-            
+
             .sale-price {
                 font-size: 1.2em;
             }
@@ -107,12 +107,13 @@ archive: false
 
 
 </head>
+
 <body>
     <div class="container py-2">
         <div class="timer text-center mb-4">
             Flash Sale Ends In: <span id="countdown">00:00:00</span>
         </div>
-        
+
         <div class="row g-4" id="productContainer">
             <!-- Products will be loaded here dynamically -->
         </div>
@@ -123,10 +124,10 @@ archive: false
         const products = [
             {
                 id: 1,
-                title: "10,000+ ChatGPT / Gemini Prompts",
+                title: "10,000+ ChatGPT / Gemini / Claude or any AI Prompts",
                 description: "Best prompt collection for email marketing, content creators, business, social media and more. Buy once, sell forever",
                 image: "https://public-files.gumroad.com/r00ajc17lc79f2gv3s8kcfl7e98a",
-                url:"https://tipseason.gumroad.com/l/ai-prompts?utm_source=tipseason_shop&utm_medium=tipseason_shop&utm_campaign=tipseason_shop&utm_content=tipseason_shop",
+                url: "https://tipseason.gumroad.com/l/chatgpt-prompts-all?utm_source=tipseason_shop&utm_medium=tipseason_shop&utm_campaign=tipseason_shop&utm_content=tipseason_shop",
                 discount: "51",
                 originalPrice: 29.99,
                 salePrice: 14.99,
@@ -141,42 +142,75 @@ archive: false
                 title: "7500+ ChatGPT prompts for social media",
                 description: "Top AI prompts for social media marketing - instagram, tiktok, X, linkedin, threads, facebook,pinterest and more.",
                 image: "https://public-files.gumroad.com/ptkppn93jr1spq8q28hvuy1li95j",
-                url: "https://tipseason.gumroad.com/l/social-media-chatgpt?utm_source=tipseason_shop&utm_medium=tipseason_shop&utm_campaign=tipseason_shop&utm_content=tipseason_shop",
+                url: "https://tipseason.gumroad.com/l/chatgpt-social-media-prompts?utm_source=tipseason_shop&utm_medium=tipseason_shop&utm_campaign=tipseason_shop&utm_content=tipseason_shop",
                 discount: "51",
                 originalPrice: 19.99,
-                salePrice: 9.49,
+                salePrice: 8.99,
                 features: [
                     "Works with any AI",
                     "10+ Social network categories",
                     "MRR, PLR Rights available"
                 ]
             },
+
             {
                 id: 3,
-                title: "Thriendly Threads: Grow fast and make money on Threads",
-                description: "10X Faster Threads growth and monetization Course + Community | MRR Rights | Go viral on Threads",
-                image: "https://public-files.gumroad.com/p8gjtrqn5ctk4gky52rqvasqvo7u",
-                url:"https://shop.thriendly.com/l/threads-course?[utm_source=tipseason_shop&utm_medium=tipseason_shop&utm_campaign=tipseason_shop&utm_content=tipseason_shop](https://learn.flexxable.com/instant-ai-agency/?utm_source=NewsletterReferal&utm_medium=TrendingAI&utm_campaign=EmailNewsletter&utm_content=TrendingAIEmail)",
-                discount: "30",
-                originalPrice: 34.99,
-                salePrice: 24.99,
+                title: "3000+ AI video generator prompts",
+                description: "Best AI video generation prompts for Sora, stable diffusion video, Runway ML or any text to video prompts, video to video prompts",
+                image: "https://public-files.gumroad.com/90fm0ncux0b0wpbknnejp0xnctfx",
+                url: "https://tipseason.gumroad.com/l/ai-video-prompts?utm_source=tipseason_shop&utm_medium=tipseason_shop&utm_campaign=tipseason_shop&utm_content=tipseason_shop",
+                discount: "51",
+                originalPrice: 19.99,
+                salePrice: 8.99,
                 features: [
-                    "Free Community",
-                    "Free Thriendly Credits",
-                    "MRR Rights available"
+                    "Works with Sora, Stable diffusion, Runway ML or any AI",
+                    "Text to video, Video to video",
+                    "MRR, PLR Rights available"
                 ]
-            }
+            },
+            {
+                id: 4,
+                title: "2000+ AI Tools database with resell rights",
+                description: "TipSeason 2000+ AI Tools list, free and paid | MRR Rights | Passive income tools resell ideas | Side project tool database | Easy to use tools list",
+                image: "https://public-files.gumroad.com/jqvvbagdtgitgmsqex44qkgibh94",
+                url: "https://tipseason.gumroad.com/l/ai-tools-all?utm_source=tipseason_shop&utm_medium=tipseason_shop&utm_campaign=tipseason_shop&utm_content=tipseason_shop",
+                discount: "51",
+                originalPrice: 19.99,
+                salePrice: 9.99,
+                features: [
+                    "Tools in multiple categories",
+                    "Google sheets access",
+                    "MRR, PLR Rights available"
+                ]
+            },
+            {
+                id: 5,
+                title: "5555+ ChatGPT / AI Prompts for etsy sales and make money",
+                description: "ChatGPT or any AI Prompts for running and monetizing with Etsy shop. Multiple categories to help you make sales | MRR Rights",
+                image: "https://public-files.gumroad.com/lcbcojpu49wuxr5k24bzt7jn2yqi",
+                url: "https://tipseason.gumroad.com/l/etsy-prompts-all?utm_source=tipseason_shop&utm_medium=tipseason_shop&utm_campaign=tipseason_shop&utm_content=tipseason_shop",
+                discount: "51",
+                originalPrice: 19.99,
+                salePrice: 8.99,
+                features: [
+                    "50+ Categories",
+                    "Google sheets access",
+                    "MRR, PLR Rights available"
+                ]
+            },
+            
         ];
 
         // Function to create product cards
         function createProductCard(product) {
-            const featuresList = product.features.map(feature => 
+            const featuresList = product.features.map(feature =>
                 `<li><i class="fas fa-check-circle"></i> ${feature}</li>`
             ).join('');
 
             return `
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card product-card h-100">
+
+                    <div class="card product-card h-100" onclick="window.location.href='${product.url}'" style="cursor: pointer;">
                         <span class="discount-badge">-${product.discount}% OFF</span>
                         <img src="${product.image}" class="card-img-top product-image" alt="${product.title}">
                         <div class="card-body">
@@ -192,14 +226,15 @@ archive: false
                             <a href="${product.url}" class="btn w-100 bg-teal">View Details &nbsp; <i class="fas fa-arrow-right"></i> </a>
                         </div>
                     </div>
+
                 </div>
             `;
         }
 
         // Load products when document is ready
-        $(document).ready(function() {
+        $(document).ready(function () {
             const productContainer = $('#productContainer');
-            
+
             // Load all products
             products.forEach(product => {
                 productContainer.append(createProductCard(product));
@@ -207,10 +242,10 @@ archive: false
 
             // Button hover effect
             $('.product-card').hover(
-                function() {
+                function () {
                     $(this).find('.btn-primary').addClass('btn-outline-primary').removeClass('btn-primary');
                 },
-                function() {
+                function () {
                     $(this).find('.btn-outline-primary').addClass('btn-primary').removeClass('btn-outline-primary');
                 }
             );
@@ -219,7 +254,7 @@ archive: false
         // Countdown timer
         const countDownDate = new Date().getTime() + (12 * 60 * 60 * 1000);
 
-        const countdown = setInterval(function() {
+        const countdown = setInterval(function () {
             const now = new Date().getTime();
             const distance = countDownDate - now;
 
@@ -227,9 +262,9 @@ archive: false
             const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            document.getElementById("countdown").innerHTML = 
-                hours.toString().padStart(2, '0') + ":" + 
-                minutes.toString().padStart(2, '0') + ":" + 
+            document.getElementById("countdown").innerHTML =
+                hours.toString().padStart(2, '0') + ":" +
+                minutes.toString().padStart(2, '0') + ":" +
                 seconds.toString().padStart(2, '0');
 
             if (distance < 0) {
@@ -239,4 +274,5 @@ archive: false
         }, 1000);
     </script>
 </body>
+
 </html>
