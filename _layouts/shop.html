@@ -111,7 +111,7 @@ archive: false
 <body>
     <div class="container py-2">
         <div class="timer text-center mb-4">
-            Flash Sale Ends In: <span id="countdown">00:00:00</span>
+            BLACK FRIDAY Flash Sale Ends In: <span id="countdown">00:00:00</span>
         </div>
 
         <div class="row g-4" id="productContainer">
@@ -135,6 +135,21 @@ archive: false
                     "Works with ChatGPT , Gemini or any AI",
                     "10+ Categories",
                     "Free to download and use"
+                ]
+            },
+            {
+                id: 2,
+                title: "10,000+ ChatGPT / Gemini / Claude or any AI Prompts",
+                description: "Best prompt collection for email marketing, content creators, business, social media and more. Buy once, sell forever",
+                image: "https://public-files.gumroad.com/r00ajc17lc79f2gv3s8kcfl7e98a",
+                url: "https://tipseason.gumroad.com/l/chatgpt-prompts-all?utm_source=tipseason_shop&utm_medium=tipseason_shop&utm_campaign=tipseason_shop&utm_content=tipseason_shop",
+                discount: "51",
+                originalPrice: 29.99,
+                salePrice: 14.99,
+                features: [
+                    "Works with any AI",
+                    "40+ Categories",
+                    "MRR, PLR Rights available"
                 ]
             },
             {
@@ -198,7 +213,7 @@ archive: false
                     "MRR, PLR Rights available"
                 ]
             },
-            
+
         ];
 
         // Function to create product cards
@@ -251,27 +266,37 @@ archive: false
             );
         });
 
-        // Countdown timer
-        const countDownDate = new Date().getTime() + (12 * 60 * 60 * 1000);
+        // Countdown timer for Black Friday (Nov 29, 2024, 11:59:59 PM)
+        let countDownDate = new Date('Nov 29, 2024 23:59:59').getTime();
+        const now = new Date().getTime();
+
+        // If the specified date has already passed, set a default 12-hour countdown
+        if (countDownDate < now) {
+            countDownDate = now + (12 * 60 * 60 * 1000); // Add 12 hours to the current time
+        }
 
         const countdown = setInterval(function () {
-            const now = new Date().getTime();
-            const distance = countDownDate - now;
+            const currentTime = new Date().getTime();
+            const distance = countDownDate - currentTime;
 
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
             const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
             document.getElementById("countdown").innerHTML =
-                hours.toString().padStart(2, '0') + ":" +
-                minutes.toString().padStart(2, '0') + ":" +
-                seconds.toString().padStart(2, '0');
+                days.toString().padStart(2, '0') + "d " +
+                hours.toString().padStart(2, '0') + "h " +
+                minutes.toString().padStart(2, '0') + "m " +
+                seconds.toString().padStart(2, '0') + "s";
 
             if (distance < 0) {
                 clearInterval(countdown);
-                document.getElementById("countdown").innerHTML = "EXPIRED";
+                document.getElementById("countdown").innerHTML = "SALE ENDED";
             }
         }, 1000);
+
+
     </script>
 </body>
 
