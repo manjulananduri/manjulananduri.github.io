@@ -111,7 +111,7 @@ archive: false
 <body>
     <div class="container py-2">
         <div class="timer text-center mb-4">
-            BLACK FRIDAY Flash Sale Ends In: <span id="countdown">00:00:00</span>
+            Limited time Sale Ends In: <span id="countdown">00:00:00</span>
         </div>
 
         <div class="row g-4" id="productContainer">
@@ -127,7 +127,7 @@ archive: false
                 title: "600+ ChatGPT Prompts | 200 AI Tools",
                 description: "Professional ChatGPT prompts & 200+ AI tools across 10+ categories",
                 image: "https://public-files.gumroad.com/pk6scahye7kbccsozagzfo0iube8",
-                url: "https://tipseason.gumroad.com/l/gbphwn?utm_source=tipseason_freebie&utm_medium=tipseason_freebie&utm_campaign=tipseason_freebie&utm_content=tipseason_freebie",
+                url: "https://tipseason.beehiiv.com/?utm_source=tipseason_shop&utm_medium=tipseason_shop&utm_campaign=tipseason_shop",
                 discount: "100",
                 originalPrice: 9.99,
                 salePrice: 0,
@@ -266,14 +266,9 @@ archive: false
             );
         });
 
-        // Countdown timer for Black Friday (Nov 29, 2024, 11:59:59 PM)
-        let countDownDate = new Date('Nov 29, 2024 23:59:59').getTime();
-        const now = new Date().getTime();
-
-        // If the specified date has already passed, set a default 12-hour countdown
-        if (countDownDate < now) {
-            countDownDate = now + (12 * 60 * 60 * 1000); // Add 12 hours to the current time
-        }
+        // Set a dynamic timer for the next 24 hours
+        let timerDuration = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+        let countDownDate = new Date().getTime() + timerDuration;
 
         const countdown = setInterval(function () {
             const currentTime = new Date().getTime();
@@ -292,7 +287,7 @@ archive: false
 
             if (distance < 0) {
                 clearInterval(countdown);
-                document.getElementById("countdown").innerHTML = "SALE ENDED";
+                document.getElementById("countdown").innerHTML = "TIMER ENDED";
             }
         }, 1000);
 
