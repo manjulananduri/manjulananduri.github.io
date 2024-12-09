@@ -1,24 +1,49 @@
 <div class="row mt-3">
     <div class="col mx-auto text-center">
         <p>
-
-            {% assign categories = site["aicategories"] | sort  %}
+            {% assign categories = site["aicategories"] | sort %}
 
             {% assign toolCategory = page.display_name %}
-            {% if toolCategory != null  %}
+            {% if toolCategory != null %}
                 <a href="/ai-tools" class="btn btn-info btn-icon-split btn-sm m-1">All Categories</a>
             {% endif %}
 
-            <!-- comes from config.yml for collection: aicategories -->
-            {% for cat in categories %}
-
+            <!-- Limit categories to 3 initially -->
+            {% for cat in categories limit: 3 %}
                 {% if toolCategory != null and toolCategory == cat.display_name %}
-                <a href="{{ cat.url }}" class="btn btn-info-dark btn-icon-split btn-sm m-1">{{ cat.display_name }}</a>
+                    <a href="{{ cat.url }}" class="btn btn-info-dark btn-icon-split btn-sm m-1">{{ cat.display_name }}</a>
                 {% else %}
-                <a href="{{ cat.url }}" class="btn btn-info btn-icon-split btn-sm m-1">{{ cat.display_name }}</a>
+                    <a href="{{ cat.url }}" class="btn btn-info btn-icon-split btn-sm m-1">{{ cat.display_name }}</a>
                 {% endif %}
-
             {% endfor %}
+
+            <!-- Hidden categories for "Expand More" -->
+            <span id="hidden-categories" style="display: none;">
+                {% for cat in categories offset: 3 %}
+                    {% if toolCategory != null and toolCategory == cat.display_name %}
+                        <a href="{{ cat.url }}" class="btn btn-info-dark btn-icon-split btn-sm m-1">{{ cat.display_name }}</a>
+                    {% else %}
+                        <a href="{{ cat.url }}" class="btn btn-info btn-icon-split btn-sm m-1">{{ cat.display_name }}</a>
+                    {% endif %}
+                {% endfor %}
+            </span>
+
+            <!-- Expand More Button -->
+            {% if categories.size > 3 %}
+                <button id="expand-more" class="btn btn-info-dark btn-sm m-1" onclick="showMoreCategories()">More Categories <i class="fas fa-angle-double-down ml-2"></i></button>
+            {% endif %}
         </p>
     </div>
 </div>
+
+<script>
+    function showMoreCategories() {
+        const hiddenCategories = document.getElementById('hidden-categories');
+        const expandButton = document.getElementById('expand-more');
+
+        if (hiddenCategories.style.display === 'none') {
+            hiddenCategories.style.display = 'inline';
+            expandButton.style.display = 'none'; // Optionally hide the button after expanding
+        }
+    }
+</script>
