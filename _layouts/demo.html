@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter Subscription Modal</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <style>
+    /* Optional: Center iframe in modal */
+    .modal-body iframe {
+      margin: 0 auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <!-- Content -->
+  <div class="container my-5">
+    <h1>Welcome to My Blog!</h1>
+    <p>Stay updated by subscribing to our newsletter. Popups are smart and will not annoy you!</p>
+  </div>
+  
+  <!-- Newsletter Modal -->
+  <div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="newsletterModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-info" id="newsletterModalLabel">FREE 600+ ChatGPT Prompts, 200+ AI Tools list</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <iframe 
+            src="https://embeds.beehiiv.com/a45a3df8-4cb0-478a-bb88-6e7aaf2bc039" 
+            data-test-id="beehiiv-embed" 
+            width="100%" 
+            height="320" 
+            frameborder="0" 
+            scrolling="no" 
+            style="border-radius: 4px; border: 2px solid #e5e7eb; margin: 0; background-color: transparent;">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    // Function to set a cookie
+    function setCookie(name, value, days) {
+      const date = new Date();
+      date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000); // Days to milliseconds
+      document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/`;
+    }
+
+    // Function to get a cookie
+    function getCookie(name) {
+      const cookies = document.cookie.split('; ');
+      for (let i = 0; i < cookies.length; i++) {
+        const [key, value] = cookies[i].split('=');
+        if (key === name) return value;
+      }
+      return null;
+    }
+
+    // Modal logic
+    $(document).ready(function () {
+      // Check if the modal should not appear
+      if (getCookie('newsletterModalDismissed')) return;
+
+      // Show modal after a random time between 3 to 6 seconds
+      const randomTime = Math.random() * (6000 - 3000) + 3000; // Random time between 3 to 6 seconds
+      setTimeout(() => {
+        $('#newsletterModal').modal('show');
+      }, randomTime);
+
+      // Set cookie to prevent modal for 7 days when closed
+      $('#newsletterModal').on('hidden.bs.modal', function () {
+        setCookie('newsletterModalDismissed', 'true', 7);
+      });
+    });
+  </script>
+</body>
+</html>
