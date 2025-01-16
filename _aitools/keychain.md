@@ -1,10 +1,10 @@
 ---
 title:  Keychain - AI-powered platform for CPG manufacturing"
-display_name:  1ptai
-category: ChatGPT
-category_slug: chatgpt
+display_name:  Keychain
+category: Business Reports
+category_slug: business-reports
 key: keychain
-website: http://www.keychain.com
+website: https://www.keychain.com
 layout: aitool
 dofollow: true
 trending: true
