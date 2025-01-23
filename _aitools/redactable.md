@@ -7,7 +7,7 @@ key: redactable
 website: https://www.redactable.com/redactable-home
 layout: aitool
 dofollow: true
-trending: true
+trending: false
 ---
 
 Redactable is a cloud-based redaction tool that enables organizations to securely and efficiently remove sensitive information from PDF documents. Powered by AI, Redactable automates the redaction process, providing significant time savings and stronger data protection compared to traditional manual approaches.
