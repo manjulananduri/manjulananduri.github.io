@@ -6,7 +6,7 @@ category_slug: image-generation
 key: tipseason_com_ai_prompt_generator
 website: https://tipseason.com/ai-prompt-generator
 layout: aitool
-trending: true
+trending: false
 ---
 
 Create infinite prompts for AI art tools like Midjourney, DALLE-2, Gemini Image creator
