@@ -41,7 +41,7 @@ In case if you missed it, you can check other chatgpt or midjourney AI promtps h
 
 Alright! Let's get started!!
 
-<a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a>
+{% include advertise.html %}
 
 ## Midjourney tips for creative character prompts 
 Here are some of the practical tips to get best results out of midjourney prompts that involve characters, personas, 
@@ -100,7 +100,7 @@ Mid-journey prompts can be a great way to introduce new skills or challenges tha
 about what skills or challenges would be most relevant to the character's journey and create prompts that focus on those
 areas.
 
-<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" class="img-fluid"></a>
+{% include advertise.html %}
 
 ## Midjourney prompts character ideas and definitions: 
 
@@ -216,6 +216,7 @@ distinctive, avant-garde, visionary, bold, daring, imaginative, Portrait charact
 detailed, expressive, emotive, characterful, intimate, personal, revealing, captivating, engaging, striking, vivid,
 naturalistic, authentic.
 
+{% include advertise.html %}
 
 ## Midjourney prompts for characters
 Here are some of the character prompts for midjourney or DALL-E-2 or any other ai art tools 
@@ -433,6 +434,8 @@ Here are some of the character prompts for midjourney or DALL-E-2 or any other a
 57. A mixed media piece featuring a spellcaster in a dramatic pose, with a flowing cape and a wand emitting sparks of
     magic, set against a mystical and otherworldly landscape, with a variety of textures and materials, inspired by the
     works of Brian Froud.
+
+{% include advertise.html %}
 
 ## Conclusion
 

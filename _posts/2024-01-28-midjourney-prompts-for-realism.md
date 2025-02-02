@@ -56,7 +56,10 @@ aspect ratio. credits to tipseason.com. Use the Midjourney v5 with photorealism 
 ultra-realistic image that captures the subject's natural beauty and personality.
 <hr>
 
-<a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a>
+{% include advertise.html %}
+
+<!-- <a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a> -->
+
 <br>
 <hr>
 
@@ -79,6 +82,9 @@ ultra-realistic image that captures the subject's natural beauty and personality
 4. Use keywords such as "candid" "personal", 4k, 8k to recreate a natural and authentic look in high quality. For
    example, create an image of a person laughing with their friends in candid 8k form, capturing a genuine moment of joy
    and happiness.
+
+{% include advertise.html %}
+
 5. Use a wide aperture setting, such as F 1.2, to create a blurry background and make the subject stand out. For
    example, create a portrait of a person with a blurred background of a cornfield, giving the image a dreamy and
    romantic feel.
@@ -98,7 +104,9 @@ ultra-realistic image that captures the subject's natural beauty and personality
     creative advantage. For example, create a portrait of a person with Vermeer lighting, creating a soft and warm glow
     that illuminates their face.
 
-<a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" class="img-fluid"></a>
+
+
+<!-- <a href="https://etsy.me/3ljbdQ3"><img src="/assets/images/chatgpt-prompts-ai-tools-1000.jpg" alt="chatgpt prompts and ai tools download" class="img-fluid"></a> -->
 
 ## Midjourney prompts for realism or realistic photos 
 Based on above rules, here are 50+ photorealistic high quality midjourney prompts that you can try today. 
@@ -158,6 +166,8 @@ background. Shot from a close-up angle to capture the sense of playfulness and i
 8. Capture the beauty of a rugged coastline at sunset. Use a Sony α7 III camera with a 100mm lens and F 1.2 aperture
 setting to isolate the subject and create a dreamlike atmosphere. The coastline should have rocky cliffs and crashing
 waves, with the sun setting in the distance to create a warm, golden light.
+
+{% include advertise.html %}
 
 9. Create a photorealistic image of a majestic African elephant in its natural habitat. Use a Nikon D850 DSLR 4k camera
 with a 200mm lens and F 1.2 aperture setting to create a shallow depth of field and blur the background. The elephant
@@ -246,6 +256,8 @@ should be in a grassy savanna, with a warm, orange glow from the setting sun to 
 34. A realistic image of a quiet bookshop on a rainy day, with books stacked high and a warm fire in the fireplace. Shot
     from a close-up angle to capture the sense of coziness and relaxation.
 
+{% include advertise.html %}
+
 35. A photorealistic image of a young couple dancing in a ballroom, with elegant attire and romantic lighting. Shot from
     a high angle to capture the sense of grace and beauty.
 
@@ -327,6 +339,8 @@ subject's creativity and intelligence. -- v5
 63. A detailed rendering of a bustling Tokyo street at night, with neon lights, reflections, and urban energy in ultra-high definition. (Resolution: 4K, Tokyo Nightlife)
 
 64. A hyper-realistic depiction of a snowy forest during winter, with individual snowflakes and frost-covered branches in 8K resolution. (Resolution: 8K, Winter Forest)
+
+{% include advertise.html %}
 
 65. A photorealistic rendering of a futuristic cityscape, featuring sleek skyscrapers and advanced transportation systems in Ultra HD. (Resolution: Ultra HD, Futuristic City)
 

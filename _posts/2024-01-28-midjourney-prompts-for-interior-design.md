@@ -51,7 +51,9 @@ Alright! Let's get started!!
 <img class="img-fluid" src="/assets/images/interiordesign/interior-2.jpeg" alt="Midjourney prompts for interior design">
 > A contemporary living room with a gray fabric sofa, geometric rug, and brass side tables. Minimalist style like tipseason
 
-<a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a>
+{% include advertise.html %}
+
+<!-- <a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a> -->
 
 <hr>
 
@@ -86,6 +88,8 @@ Alright! Let's get started!!
 13. Moroccan Riad Escape: A sun-drenched courtyard within a traditional Moroccan riad, intricate tilework mosaics adorning the walls, lush greenery spilling from terracotta pots, a central fountain bubbling with cool water, soft cushions beckoning for afternoon siestas. (Style: Moroccan, Aesthetic: Oasis Haven)
 
 14. Art Nouveau Butterfly Haven: A whimsical bedroom inspired by Art Nouveau, swirling floral patterns dancing across walls and furniture, iridescent butterfly wings woven into the décor, soft silk fabrics cascading from a canopy bed, stained glass windows glowing with ethereal light. (Style: Art Nouveau, Aesthetic: Enchanted Slumber)
+
+{% include advertise.html %}
 
 15. Neon Cyberpunk Lair: A futuristic living room bathed in neon glow, high-tech screens lining the walls, sleek metal furniture reflecting the vibrant cityscape, metallic accents gleaming under blacklight, a holographic projection table shimmering with possibilities. (Style: Cyberpunk, Aesthetic: Electric Metropolis)
 
@@ -152,6 +156,8 @@ Alright! Let's get started!!
 46. Medieval Castle Great Hall: Step back in time with this majestic space. Imagine towering stone walls adorned with tapestries, flickering torches casting dramatic shadows on suits of armor, a long wooden table fit for a feast, stained glass windows depicting mythological scenes, and the air filled with the clinking of goblets and the strumming of lutes. (Style: Medieval, Aesthetic: Regal Grandeur)
 
 47. Mid-Century Modern Treehouse Office: Work amidst nature's embrace with this whimsical retreat. Picture sleek furniture perched on platforms amidst tree branches, sunlight filtering through leaves, panoramic windows framing breathtaking views, a vintage typewriter clicking away on a rustic desk, and the sound of birdsong filling the air. (Style: Mid-Century Modern, Aesthetic: Treetop Productivity)
+
+{% include advertise.html %}
 
 48. Futuristic Sky City Apartment: Embrace the technological future with this sleek abode. Imagine walls shimmering with holographic displays, modular furniture transforming at a touch, self-watering plants thriving in hydroponic gardens, automated drones delivering food and drinks, and panoramic windows revealing breathtaking cityscapes bathed in neon lights. (Style: Cyberpunk, Aesthetic: Urban Oasis)
 
@@ -251,6 +257,8 @@ Alright! Let's get started!!
 94. Industrial Art Studio: An art studio with an industrial edge, featuring exposed brick walls, metalwork tables, and ample natural light to inspire creativity. (Style: Industrial Art, Aesthetic: Creative Workshop)
 
 95. Scandinavian Lakeside Cabin: A cozy lakeside cabin with Scandinavian design influences, featuring natural wood textures, minimalist furniture, and panoramic views of the serene lake. (Style: Scandinavian Cabin, Aesthetic: Lakeside Tranquility)
+
+{% include advertise.html %}
 
 96. Retro Sci-Fi Lounge: A lounge with a retro-futuristic vibe, featuring space-age furniture, neon lighting, and cosmic decor that transports visitors to a bygone era of sci-fi fascination. (Style: Retro Sci-Fi, Aesthetic: Cosmic Lounge)
 
@@ -373,6 +381,8 @@ Alright! Let's get started!!
 
 154. A botanical garden-inspired dining room with floral wallpaper, potted plants, and garden-themed table settings. Garden feast setting.
 
+{% include advertise.html %}
+
 155. A zen garden-inspired outdoor patio with stone pathways, bamboo screens, and meditation cushions. Tranquil outdoor oasis.
 
 156. An artist's loft with exposed brick walls, large windows, and ample natural light. Creative loft space.
@@ -476,6 +486,7 @@ Page 14: Journey Deeper into Unique Interior Design Concepts!
 
 205. Rainbow Waterfall Reading Nook: Tucked behind a cascading waterfall, a cozy nook nestled within moss-covered rocks, rainbow hues reflected in the shimmering water, shelves overflowing with colorful books, sunlight dappling through the emerald leaves, the sound of rushing water filling the air.
 
+{% include advertise.html %}
 
 ## Conclusion
 
