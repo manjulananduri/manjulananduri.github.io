@@ -11,11 +11,11 @@ tableofcontents: true
 promote: true
 ---
 
-## Adobe firefly 
+## Adobe firefly
 
-Adobe Firefly is a new web application that harnesses the power of generative AI to enhance creativity. With Firefly, anyone can use simple text prompts to quickly generatehighest-quality output — beautiful images, text effects, and fresh color palettes. We can also make all-new content from reference images and explore more possibilities, more quickly.Note that these prompts can be used with [Midjourney](https://www.midjourney.com/), [LeonardoAI](https://leonardo.ai/), [DALL-E](https://openai.com/dall-e-2) or any other image to text generation apps. 
+Adobe Firefly is a new web application that harnesses the power of generative AI to enhance creativity. With Firefly, anyone can use simple text prompts to quickly generatehighest-quality output — beautiful images, text effects, and fresh color palettes. We can also make all-new content from reference images and explore more possibilities, more quickly.Note that these prompts can be used with [Midjourney](https://www.midjourney.com/), [LeonardoAI](https://leonardo.ai/), [DALL-E](https://openai.com/dall-e-2) or any other image to text generation apps.
 
-Major features from [Adobe firefly](https://www.adobe.com/sensei/generative-ai/firefly.html) include: 
+Major features from [Adobe firefly](https://www.adobe.com/sensei/generative-ai/firefly.html) include:
 
 <img src="/assets/images/adobe-features.jpg"  class="img-fluid" alt="adobe firefly guide features">
 
@@ -26,10 +26,9 @@ Major features from [Adobe firefly](https://www.adobe.com/sensei/generative-ai/f
 5. <b>3D to Image: </b>Generate images from the interactive positioning of 3D elements.
 6. <b>Project Stardust: </b>Move any object anywhere in your image.
 
-In this guide we will focus on 250+ prompts that you can use to generate creative images from text to image feature. Feel free to playaround with new words for creative images. 
+In this guide we will focus on 250+ prompts that you can use to generate creative images from text to image feature. Feel free to playaround with new words for creative images.
 
 Alright let's get started.
- 
 
 In case if you missed it, you can check other promtps here :
 
@@ -46,15 +45,23 @@ In case if you missed it, you can check other promtps here :
 Alright! Let's get started!!
 
 <hr>
-<a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a>
-<br>
+<!-- <a href="https://etsy.me/3GUkPIH"><img src="/assets/images/midjourney-prompts-cover.jpg" alt="1600+ midjourney prompts free download" style="width:80%;"></a>
+<br> -->
+
+{% include advertise.html %}
+
 <hr>
 
-
-## 200+ Adobe firefly prompts to try today. 
+## 200+ Adobe firefly prompts to try today.
 
 <div>
 {% for prompt in site.data.firefly %}
+
+    {% assign mod_result = forloop.index | modulo: 10 %}
+
+    {% if mod_result == 0 %}
+        {% include advertise.html %}
+    {% endif %}
 
     <div class="card text-bg-info mb-1">
         <div class="card-header"><b>Prompt #{{prompt.id}}</b></div>
@@ -64,6 +71,7 @@ Alright! Let's get started!!
     </div>
 
 {% endfor %}
+
 </div>
 
 ## Conclusion
@@ -73,8 +81,7 @@ As Firefly evolves, Adobe aims to give creators more ability to train models on 
 Firefly represents an exciting new frontier in using AI to augment human creativity. With responsible development, it has immense potential for designers, artists, and anyone who wants to bring their ideas to life.
 
 If you enjoyed this post, share it with your friends and followers on social media and following us
-on twitter @thetipseason. 
+on twitter @thetipseason.
 
 And if you want to stay up-to-date on the latest trends in generative art and AI, be sure to
 follow our newsletter for more tips, tricks, and insights. Thanks for reading, and happy creating!
-
