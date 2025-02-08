@@ -1,94 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Newsletter Subscription Modal</title>
-  
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  
-  <!-- Bootstrap JS -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  
+  <title>Instagram Carousel Creator</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <style>
-    /* Optional: Center iframe in modal */
-    .modal-body iframe {
-      margin: 0 auto;
-      display: block;
+    :root {
+      --primary-color: #2193b0;
+      --secondary-color: #6dd5ed;
+      --carousel-size: 500px;
+    }
+
+    body {
+      background-color: #f8f9fa;
+      min-height: 100vh;
+    }
+
+    .navbar {
+      background: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 1rem 2rem;
+    }
+
+    .main-container {
+      display: flex;
+      height: calc(100vh - 70px);
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .controls-section {
+      width: 320px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      overflow-y: auto;
+    }
+
+    .preview-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      overflow: auto;
+    }
+
+    .carousel-container {
+      width: var(--carousel-size);
+      height: var(--carousel-size);
+      background: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+
+    .carousel-slide {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(45deg, #6dd5ed, #2193b0);
+      position: relative;
+    }
+
+    .text-element {
+      position: absolute;
+      background: transparent;
+      color: rgb(255, 255, 255);
+      font-weight: 800;
+      padding: 10px;
+      cursor: move;
+      user-select: none;
+      border: 2px solid transparent;
+      border-radius: 4px;
+      text-align: center;
+      min-width: 100px;
+    }
+
+    .text-element:hover {
+      border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .text-element.active {
+      border: 2px dashed white;
+    }
+
+    #title {
+      font-size: 32px;
+      top: 20%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    #subtitle {
+      font-size: 24px;
+      top: 45%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    #description {
+      font-size: 16px;
+      top: 70%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .control-group {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .gradient-option {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      display: inline-block;
+      margin: 0 5px;
+      cursor: pointer;
+      border: 2px solid transparent;
+    }
+
+    .gradient-option:hover {
+      transform: scale(1.1);
+    }
+
+    .gradient-option.active {
+      border-color: var(--primary-color);
+    }
+
+    .color-picker {
+      width: 20px;
+      height: 20px;
+      padding: 0;
+      border: none;
+      border-radius: 4px;
+    }
+
+    .btn-download {
+      width: 100%;
+      padding: 12px;
+      font-weight: 600;
+      margin-top: 20px;
+      background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+      border: none;
+      color: white;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+
+    .btn-download:hover {
+      transform: translateY(-2px);
+    }
+
+    .preview-info {
+      margin-bottom: 20px;
+      color: #666;
+      text-align: center;
+    }
+
+    .selected-element-info {
+      background: #f8f9fa;
+      padding: 8px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      font-size: 0.9em;
+      color: #666;
     }
   </style>
 </head>
+
 <body>
-  <!-- Content -->
-  <div class="container my-5">
-    <h1>Welcome to My Blog!</h1>
-    <p>Stay updated by subscribing to our newsletter. Popups are smart and will not annoy you!</p>
-  </div>
-  
-  <!-- Newsletter Modal -->
-  <div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="newsletterModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title text-info" id="newsletterModalLabel">FREE 600+ ChatGPT Prompts, 200+ AI Tools list</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+  <nav class="navbar">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Instagram Carousel Creator</span>
+    </div>
+  </nav>
+
+  <div class="main-container">
+    <div class="controls-section">
+      <div class="control-group">
+        <h5>Selected Element</h5>
+        <div class="selected-element-info" id="selectedInfo">
+          No element selected
+        </div>
+        <div class="mb-3">
+          <label>Size:</label>
+          <input type="range" class="form-range" id="fontSize" min="12" max="64" value="32">
+        </div>
+        <div class="mb-3">
+          <label>Color:</label>
+          <input type="color" id="textColor" class="color-picker" value="#ffffff">
+        </div>
+        <div class="mb-3">
+          <button class="btn btn-danger" id="deleteElement" disabled>
+            <i class="fas fa-trash me-2"></i>Delete Element
           </button>
         </div>
-        <div class="modal-body">
-          <iframe 
-            src="https://embeds.beehiiv.com/a45a3df8-4cb0-478a-bb88-6e7aaf2bc039" 
-            data-test-id="beehiiv-embed" 
-            width="100%" 
-            height="320" 
-            frameborder="0" 
-            scrolling="no" 
-            style="border-radius: 4px; border: 2px solid #e5e7eb; margin: 0; background-color: transparent;">
-          </iframe>
+      </div>
+
+      <div class="control-group">
+        <h5>Background Style</h5>
+        <div class="gradient-options mt-2">
+          <!-- Deep Space -->
+          <div class="gradient-option" style="background: linear-gradient(45deg, #000428, #004E92);"
+            data-gradient="linear-gradient(45deg, #000428, #004E92)"></div>
+
+          <!-- Desert Sand -->
+          <div class="gradient-option" style="background: linear-gradient(45deg, #F4C183, #FC7D7D);"
+            data-gradient="linear-gradient(45deg, #F4C183, #FC7D7D)"></div>
+
+
+          <!-- Northern Lights -->
+          <div class="gradient-option" style="background: linear-gradient(45deg, #4ECDC4, #556270);"
+            data-gradient="linear-gradient(45deg, #4ECDC4, #556270)"></div>
+
+          <!-- Sunset Paradise -->
+          <div class="gradient-option" style="background: linear-gradient(45deg, #FFB75E, #ED8F03, #FF4E50);"
+            data-gradient="linear-gradient(45deg, #FFB75E, #ED8F03, #FF4E50)"></div>
+
+          <!-- Royal Purple -->
+          <div class="gradient-option" style="background: linear-gradient(45deg, #6B48FF, #1D006E);"
+            data-gradient="linear-gradient(45deg, #6B48FF, #1D006E)"></div>
+
+          <!-- Cotton Candy -->
+          <div class="gradient-option" style="background: linear-gradient(45deg, #FEA7B4, #FF95E9, #A187EF);"
+            data-gradient="linear-gradient(45deg, #FEA7B4, #FF95E9, #A187EF)"></div>
+
+
+          <!-- Ocean Breeze -->
+          <div class="gradient-option" style="background: linear-gradient(45deg, #48c6ef, #6f86d6);"
+            data-gradient="linear-gradient(45deg, #48c6ef, #6f86d6)"></div>
+
+          <!-- Cherry Blossom -->
+          <div class="gradient-option" style="background: linear-gradient(45deg, #F7CAC9, #B995D6);"
+            data-gradient="linear-gradient(45deg, #F7CAC9, #B995D6)"></div>
+
+          <!-- Forest Mist -->
+          <div class="gradient-option" style="background: linear-gradient(45deg, #2AF598, #009EFD);"
+            data-gradient="linear-gradient(45deg, #2AF598, #009EFD)"></div>
+
+
+
+          <!-- Emerald Dream -->
+          <div class="gradient-option" style="background: linear-gradient(45deg, #16A085, #58D68D);"
+            data-gradient="linear-gradient(45deg, #16A085, #58D68D)"></div>
+
+          <!-- Cosmic Fusion -->
+          <div class="gradient-option" style="background: linear-gradient(45deg, #8E2DE2, #4A00E0, #1E40AF);"
+            data-gradient="linear-gradient(45deg, #8E2DE2, #4A00E0, #1E40AF)"></div>
+
+          <!-- Autumn Whisper -->
+          <div class="gradient-option" style="background: linear-gradient(45deg, #DAA520, #B7410E);"
+            data-gradient="linear-gradient(45deg, #DAA520, #B7410E)"></div>
+
+          <!-- Arctic Aurora -->
+          <div class="gradient-option" style="background: linear-gradient(45deg, #43C6AC, #191654);"
+            data-gradient="linear-gradient(45deg, #43C6AC, #191654)"></div>
+
+          <!-- Rose Gold -->
+          <div class="gradient-option" style="background: linear-gradient(45deg, #F6C6EA, #EE9CA7, #FFB88C);"
+            data-gradient="linear-gradient(45deg, #F6C6EA, #EE9CA7, #FFB88C)"></div>
+
+          <!-- Midnight Bloom -->
+          <div class="gradient-option" style="background: linear-gradient(45deg, #20002C, #4B0082, #8B008B);"
+            data-gradient="linear-gradient(45deg, #20002C, #4B0082, #8B008B)"></div>
+        </div>
+      </div>
+
+      <button class="btn-download" id="downloadBtn">
+        <i class="fas fa-download me-2"></i> Download for Instagram
+      </button>
+
+      <div class="control-group mt-3">
+        <h5>Instructions</h5>
+        <small class="text-muted">
+          • Click and drag to move text<br>
+          • Double-click to edit text<br>
+          • Click element to customize<br>
+          • Final image: 1080x1080px
+        </small>
+      </div>
+    </div>
+
+    <div class="preview-section">
+      <div class="preview-info">
+        <i class="fas fa-info-circle me-2"></i>
+        Preview (Will export as 1080x1080px for Instagram)
+      </div>
+      <div class="carousel-container">
+        <div class="carousel-slide">
+          <div id="title" class="text-element">Your Title</div>
+          <div id="subtitle" class="text-element">Your Subtitle</div>
+          <div id="description" class="text-element">Your Description</div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <script>
-    // Function to set a cookie
-    function setCookie(name, value, days) {
-      const date = new Date();
-      date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000); // Days to milliseconds
-      document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/`;
-    }
-
-    // Function to get a cookie
-    function getCookie(name) {
-      const cookies = document.cookie.split('; ');
-      for (let i = 0; i < cookies.length; i++) {
-        const [key, value] = cookies[i].split('=');
-        if (key === name) return value;
-      }
-      return null;
-    }
-
-    // Modal logic
     $(document).ready(function () {
-      // Check if the modal should not appear
-      if (getCookie('newsletterModalDismissed')) return;
+      let selectedElement = null;
+      let isDragging = false;
+      let startX, startY, startLeft, startTop;
 
-      // Show modal after a random time between 3 to 6 seconds
-      const randomTime = Math.random() * (6000 - 3000) + 3000; // Random time between 3 to 6 seconds
-      setTimeout(() => {
-        $('#newsletterModal').modal('show');
-      }, randomTime);
+      // Make elements draggable
+      $('.text-element').mousedown(function (e) {
+        if (!$(e.target).is(':focus')) {
+          isDragging = true;
+          selectElement($(this));
 
-      // Set cookie to prevent modal for 7 days when closed
-      $('#newsletterModal').on('hidden.bs.modal', function () {
-        setCookie('newsletterModalDismissed', 'true', 7);
+          const rect = this.getBoundingClientRect();
+          startX = e.clientX - rect.left;
+          startY = e.clientY - rect.top;
+          startLeft = $(this).position().left;
+          startTop = $(this).position().top;
+
+          e.preventDefault();
+        }
+      });
+
+      // Function to handle element selection
+      function selectElement(element) {
+        selectedElement = element;
+        $('.text-element').removeClass('active');
+        element.addClass('active');
+        $('#deleteElement').prop('disabled', false);
+        updateSelectedInfo(element);
+      }
+
+      // Delete element functionality
+      $('#deleteElement').click(function (e) {
+        e.stopPropagation(); // Prevent document click handler
+        if (selectedElement) {
+          // Store the element before clearing selection
+          const elementToDelete = selectedElement;
+
+          // Clear selection first
+          selectedElement = null;
+          $('.text-element').removeClass('active');
+          updateSelectedInfo(null);
+          $('#deleteElement').prop('disabled', true);
+
+          // Now hide the element
+          elementToDelete.css('display', 'none');
+        }
+      });
+
+      // Handle text editing
+      $('.text-element').on('dblclick', function (e) {
+        e.stopPropagation();
+        const element = $(this);
+        element.attr('contenteditable', 'true');
+        element.focus();
+        selectElement(element);
+        isDragging = false;
+      });
+
+      // Disable dragging when editing text
+      $('.text-element').on('focus', function () {
+        isDragging = false;
+      });
+
+      // Handle blur event when editing is done
+      $('.text-element').on('blur', function () {
+        $(this).attr('contenteditable', 'false');
+      });
+
+      // Prevent drag when editing
+      $('.text-element').on('keydown', function (e) {
+        e.stopPropagation();
+        isDragging = false;
+      });
+
+      $(document).mousemove(function (e) {
+        if (isDragging && selectedElement) {
+          const container = $('.carousel-slide');
+          const rect = container[0].getBoundingClientRect();
+
+          let left = e.clientX - rect.left - startX;
+          let top = e.clientY - rect.top - startY;
+
+          left = Math.max(0, Math.min(left, container.width() - selectedElement.width()));
+          top = Math.max(0, Math.min(top, container.height() - selectedElement.height()));
+
+          selectedElement.css({
+            left: left + 'px',
+            top: top + 'px',
+            transform: 'none'
+          });
+        }
+      });
+
+      $(document).mouseup(function () {
+        isDragging = false;
+      });
+
+      function updateSelectedInfo(element) {
+        if (element) {
+          $('#selectedInfo').html(`Editing: ${element.text()}`);
+          $('#fontSize').val(parseInt(element.css('font-size')));
+          // $('#textColor').val(rgb2hex(element.css('color')));
+        } else {
+          $('#selectedInfo').html('No element selected');
+          $('#deleteElement').prop('disabled', true);
+        }
+      }
+
+      // Font size control
+      $('#fontSize').on('input', function (e) {
+        e.stopPropagation(); // Prevent document click handler
+        if (selectedElement) {
+          selectedElement.css('font-size', $(this).val() + 'px');
+        }
+      });
+
+      // Color control
+      $('#textColor').on('input', function (e) {
+        e.stopPropagation(); // Prevent document click handler
+        if (selectedElement) {
+          selectedElement.css('color', $(this).val());
+        }
+      });
+
+      // Background gradient
+      $('.gradient-option').click(function (e) {
+        e.stopPropagation(); // Prevent document click handler
+        $('.gradient-option').removeClass('active');
+        $(this).addClass('active');
+        $('.carousel-slide').css('background', $(this).data('gradient'));
+      });
+
+      // Click handler for selecting elements
+      $('.text-element').click(function (e) {
+        e.stopPropagation(); // Prevent document click handler
+        if (!isDragging) {
+          selectElement($(this));
+        }
+      });
+
+      // Modified document click handler to exclude controls
+      $(document).click(function (e) {
+        // Don't deselect if clicking within the controls section or on a text element
+        if (!$(e.target).closest('.controls-section, .text-element').length) {
+          selectedElement = null;
+          $('.text-element').removeClass('active');
+          updateSelectedInfo(null);
+        }
+      });
+
+      // Initialize the first element as selected
+      selectElement($('#title'));
+
+
+      // Download functionality with proper Instagram size
+      $('#downloadBtn').click(function () {
+        const btn = $(this);
+        btn.prop('disabled', true).html('<i class="fas fa-spinner fa-spin me-2"></i> Generating...');
+
+        // Create a temporary div for the 1080px version
+        const tempDiv = $('.carousel-slide').clone();
+        tempDiv.css({
+          width: '1080px',
+          height: '1080px',
+          position: 'absolute',
+          left: '-9999px',
+          fontSize: '96px', // Scaled up font size
+          padding: ($('#paddingControl').val() * 1080 / 500) + 'px' // Scale padding
+        });
+        $('body').append(tempDiv);
+
+        html2canvas(tempDiv[0], {
+          width: 1080,
+          height: 1080,
+          scale: 1
+        }).then(canvas => {
+          const link = document.createElement('a');
+          link.download = 'instagram-carousel.png';
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+
+          tempDiv.remove();
+          btn.prop('disabled', false).html('<i class="fas fa-download me-2"></i> Download for Instagram');
+        });
       });
     });
   </script>
 </body>
+
 </html>
