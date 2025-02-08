@@ -7,7 +7,7 @@ key: nectar_ai
 website: https://nectar.ai
 layout: aitool
 dofollow: true
-trending: true
+trending: false
 ---
 
 Create your perfect dream companion in just seconds!
@@ -17,5 +17,3 @@ Our Image Creator is a powerful generative AI tool to create photos and videos, 
 
 
 https://twitter.com/TryNectarAI
-
-
