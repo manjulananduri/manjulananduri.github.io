@@ -1,252 +1,171 @@
 ---
 layout: post
-title:  "50+ ChatGPT prompts for resume writing and job search (Bard AI compatible)"
+title:  "50+ DeepSeek Prompts for writing, marketing, business, blogging, coding and more"
 author: Pramod
 categories: [ Interviews, Behavioral, Resume ]
-image: assets/images/chatgpt.png
-beforetoc: "Master the art of using ChatGPT for resume preperation and job search"
+image: assets/images/AISeries.png
+beforetoc: "Master the art of using DeepSeek with best prompts"
 featured: true
 toc: true
 promote: true
 ---
 
-# 200+ DeepSeek Prompts in 30+ Categories: A Comprehensive Guide for Writing, Coding, Blogging, and More  
+[DeepSeek](https://www.deepseek.com/) is a powerful AI tool that can assist with a wide range of tasks. This guide provides over 200 actionable prompts across more than 30 categories, designed to help you write, code, blog, and complete various tasks efficiently. Each prompt follows a structured format with 2–3 customizable variables to make them as practical as possible.
 
-In today’s fast-paced digital world, creativity and productivity are essential for success. Whether you’re a writer, coder, blogger, or just someone looking for inspiration, having a structured set of prompts can help you unlock your potential. This article provides **200+ DeepSeek prompts** across **30+ categories**, designed to act as templates for various tasks. Each prompt is detailed and structured to guide you in achieving your goals.  
 
-Let’s dive into the categories and prompts!  
+## DeepSeek Prompts for Writing
 
----
+### Blog Post Generator
 
-## **1. Writing Prompts**  
-Writing is a skill that requires constant practice and refinement. These prompts are designed to help writers of all levels improve their craft.  
+Write a detailed blog post about [topic] covering at least [word count] words. The structure should include an engaging introduction, at least three key sections with subheadings, relevant real-world examples, and a well-summarized conclusion. Ensure the writing maintains a consistent tone suited for [audience type] and includes actionable insights.
 
-### **Prompt 1: AI Writing Tutor**  
-*Template:*  
-I want you to act as an AI writing tutor. I will provide you with a student who needs help improving their writing, and your task is to use artificial intelligence tools, such as natural language processing, to give the student feedback on how they can improve their composition. You should also use your rhetorical knowledge and experience about effective writing techniques to suggest ways that the student can better express their thoughts and ideas in written form. My first request is [topic].  
+### Email Newsletter Creator
 
-*Example:*  
-My first request is “How can I improve the clarity and flow of my essay on climate change?”  
+Draft a compelling email newsletter about [topic] targeted at [audience]. The email should begin with a strong hook in the subject line, followed by an engaging opening that immediately captures interest. The body should provide useful information, a subtle persuasive element, and end with a clear call to action such as [CTA type].
 
-### **Prompt 2: Creative Story Starter**  
-*Template:*  
-I want you to act as a creative writing assistant. I will provide you with a genre and a theme, and your task is to generate a compelling story starter that includes a setting, a main character, and a conflict. My first request is [genre] and [theme].  
+### Product Description Writer
 
-*Example:*  
-My first request is “science fiction” and “exploration of a dying planet.”  
+Write a persuasive product description for [product name]. Highlight three key features that differentiate it from competitors, and describe how each feature solves a specific problem for [target audience]. Use persuasive and benefit-driven language while keeping the text concise and optimized for [platform type].
 
-### **Prompt 3: Poetry Writing Guide**  
-*Template:*  
-I want you to act as a poetry coach. I will provide you with a theme or emotion, and your task is to guide me through the process of writing a poem, including choosing a structure, tone, and literary devices. My first request is [theme/emotion].  
+### LinkedIn Post Idea Generator
 
-*Example:*  
-My first request is “loneliness.”  
+Create a professional LinkedIn post about [industry topic]. Structure it with a strong opening line that provokes thought or shares a bold statement, followed by 2–3 concise paragraphs providing insights or personal experiences, and end with a question or call to action to drive engagement.
+
+### Persuasive Article Outline
+Create a persuasive article on [topic]. Start with a compelling introduction that presents a problem, followed by three key arguments with supporting evidence. Conclude with a strong call to action that encourages readers to take [specific action]. Maintain a tone that aligns with [audience].
+
+### Press Release Writer
+Draft a professional press release announcing [event/product/service]. Include a headline that grabs attention, a lead paragraph summarizing the key news, supporting details with relevant quotes, and a closing section with contact information. Ensure it's formatted for media distribution.
 
 ---
 
-## **2. Coding Prompts**  
-Coding can be challenging, but with the right guidance, you can solve complex problems and build amazing projects.  
+{% include advertise.html %}
 
-### **Prompt 4: Debugging Assistant**  
-*Template:*  
-I want you to act as a debugging assistant. I will provide you with a piece of code and an error message, and your task is to help me identify the issue and suggest a solution. My first request is [code snippet] and [error message].  
+## DeepSeek prompts for Social Media
 
-*Example:*  
-My first request is:  
-```python  
-def add_numbers(a, b):  
-    return a + b  
-print(add_numbers(5, "10"))  
-```  
-Error message: `TypeError: unsupported operand type(s) for +: 'int' and 'str'`  
+### Instagram Caption Writer
 
-### **Prompt 5: Algorithm Design Guide**  
-*Template:*  
-I want you to act as an algorithm design tutor. I will provide you with a problem statement, and your task is to help me design an efficient algorithm to solve it, including time and space complexity analysis. My first request is [problem statement].  
+Create an engaging Instagram caption for a post about [topic]. Start with a strong hook in the first sentence, follow with a personal insight or storytelling element, and end with a call to action like [CTA type]. Include 5–7 relevant hashtags optimized for reach.
 
-*Example:*  
-My first request is “Find the shortest path in a weighted graph.”  
+### Twitter Thread Planner
 
-### **Prompt 6: Code Optimization Expert**  
-*Template:*  
-I want you to act as a code optimization expert. I will provide you with a piece of code, and your task is to suggest ways to improve its performance, readability, and maintainability. My first request is [code snippet].  
+Write a 5-tweet Twitter thread explaining [concept]. The first tweet should grab attention and hint at the value of the thread. Each following tweet should introduce a key point concisely, and the last tweet should summarize and include a CTA.
 
-*Example:*  
-My first request is:  
-```python  
-numbers = [1, 2, 3, 4, 5]  
-squared_numbers = []  
-for num in numbers:  
-    squared_numbers.append(num ** 2)  
-```  
+### Facebook Ad Copy
+
+Generate a compelling Facebook ad copy for [product/service]. The ad should include an emotional hook, highlight a major pain point and solution, and end with a CTA like [purchase link/sign-up offer]. Optimize for [audience type] engagement.
+
+### TikTok Script Generator
+
+Create a short script for a TikTok video about [topic]. Include a captivating opening line, a problem-solution storyline, and a closing CTA like [encourage engagement, follow, or comment]. Keep the tone aligned with [target audience].
+
+### Reddit Discussion Starter
+Write an engaging Reddit post for [subreddit]. The post should introduce a thought-provoking question or insight, provide personal context or supporting information, and end with an open-ended question to encourage discussion.
+
+### YouTube Video Script
+Write a detailed script for a YouTube video on [topic]. Include a hook in the introduction, three main sections with examples or storytelling elements, and a conclusion with a strong CTA like [subscribe/comment/click a link].
 
 ---
 
-## **3. Blogging Prompts**  
-Blogging is a powerful way to share your ideas and connect with an audience. These prompts will help you generate engaging content.  
+## DeepSeek prompts for Business & Marketing Prompts
 
-### **Prompt 7: Blog Post Idea Generator**  
-*Template:*  
-I want you to act as a blog post idea generator. I will provide you with a niche or topic, and your task is to suggest 10 unique and engaging blog post ideas that would appeal to that audience. My first request is [niche/topic].  
+### Marketing Strategy Planner
 
-*Example:*  
-My first request is “sustainable living.”  
+Develop a marketing strategy for [business type]. Break it into sections: target audience profile, key messaging, three primary marketing channels, and a tracking method to measure success. Provide specific tactics for organic and paid reach.
 
-### **Prompt 8: SEO Optimization Guide**  
-*Template:*  
-I want you to act as an SEO expert. I will provide you with a blog post title and a brief description, and your task is to suggest keywords, meta descriptions, and on-page SEO strategies to improve its search engine ranking. My first request is [blog post title] and [description].  
+### Competitor Analysis Guide
 
-*Example:*  
-My first request is “10 Tips for Sustainable Living” and “A guide to adopting eco-friendly habits in your daily life.”  
+Write a detailed competitor analysis for [industry]. Identify at least three competitors, analyze their strengths and weaknesses, and provide recommendations for how [business] can position itself uniquely.
 
-### **Prompt 9: Blog Post Editor**  
-*Template:*  
-I want you to act as a blog post editor. I will provide you with a draft, and your task is to review it for grammar, clarity, and coherence, and suggest improvements to make it more engaging. My first request is [blog post draft].  
+### Sales Email Template
 
-*Example:*  
-My first request is:  
-“Sustainable living is important because it helps the environment. We should all try to reduce waste and use renewable energy.”  
+Draft a persuasive sales email for [product/service] targeted at [audience]. The email should follow a PAS (Problem-Agitate-Solution) structure, include a limited-time offer, and end with a direct CTA.
 
----
+### Customer Support Email Responder
 
-## **4. Marketing Prompts**  
-Marketing is all about connecting with your audience and driving action. These prompts will help you craft effective campaigns.  
+Write a professional response to a customer inquiry about [issue]. Include a personalized greeting, a clear explanation or solution, and a reassuring closing statement that encourages further communication if needed.
 
-### **Prompt 10: Social Media Campaign Planner**  
-*Template:*  
-I want you to act as a social media campaign planner. I will provide you with a product or service, and your task is to create a 7-day social media content calendar with post ideas, hashtags, and engagement strategies. My first request is [product/service].  
+### Cold Email Outreach Template
+Write a concise cold email for reaching out to [target audience] about [offer]. Start with a personalized opening, highlight a key benefit, and end with a low-friction CTA such as scheduling a call or responding for more details.
 
-*Example:*  
-My first request is “eco-friendly water bottles.”  
-
-### **Prompt 11: Email Marketing Copywriter**  
-*Template:*  
-I want you to act as an email marketing copywriter. I will provide you with a product or service, and your task is to write a compelling email sequence that includes a subject line, preview text, and body copy. My first request is [product/service].  
-
-*Example:*  
-My first request is “online course on digital marketing.”  
-
-### **Prompt 12: Ad Copy Generator**  
-*Template:*  
-I want you to act as an ad copy generator. I will provide you with a product or service, and your task is to create 5 variations of ad copy for different platforms (e.g., Facebook, Google, Instagram). My first request is [product/service].  
-
-*Example:*  
-My first request is “vegan protein powder.”  
+### Sales Pitch Script
+Create a compelling sales pitch for [product/service] targeting [customer type]. Include a problem statement, a brief demonstration of how the product solves the issue, and a closing that invites the customer to take the next step.
 
 ---
 
-## **5. Personal Development Prompts**  
-Personal growth is a lifelong journey. These prompts will help you reflect, set goals, and improve yourself.  
+{% include advertise.html %}
 
-### **Prompt 13: Goal Setting Guide**  
-*Template:*  
-I want you to act as a goal-setting coach. I will provide you with an area of my life I want to improve, and your task is to help me set SMART (Specific, Measurable, Achievable, Relevant, Time-bound) goals and create an action plan. My first request is [area of life].  
+## DeepSeek Prompts for Blogging
 
-*Example:*  
-My first request is “career growth.”  
+### Listicle Post Idea
 
-### **Prompt 14: Daily Journaling Prompts**  
-*Template:*  
-I want you to act as a journaling assistant. I will provide you with a theme or emotion, and your task is to provide 5 thought-provoking journaling prompts to help me reflect and gain clarity. My first request is [theme/emotion].  
+Write a blog post listing the top [number] [topic]. Each point should include a headline, a 2–3 sentence explanation, and a practical tip on how readers can apply it. Ensure the list flows logically and maintains engagement throughout.
 
-*Example:*  
-My first request is “gratitude.”  
+### How-To Guide
 
-### **Prompt 15: Habit Tracker**  
-*Template:*  
-I want you to act as a habit-tracking coach. I will provide you with a habit I want to build or break, and your task is to create a 30-day tracking plan with milestones and rewards. My first request is [habit].  
+Create a step-by-step guide on [topic]. Each step should be numbered, include a brief explanation, an example, and a common mistake to avoid. Conclude with a summary and additional resources for further learning.
 
-*Example:*  
-My first request is “drinking more water.”  
+### Case Study Analysis
+
+Write a case study on [subject] covering the problem, solution, and results. Provide specific data points or metrics demonstrating the impact of the solution, and include a testimonial or expert quote if possible.
+
+### Opinion Piece
+
+Write an opinionated article on [industry trend]. Support your argument with at least three credible sources, counter opposing viewpoints logically, and conclude with a strong call to action for readers to engage with the topic.
+
+### Expert Roundup Blog Post
+Write a blog post featuring insights from [number] experts on [topic]. Each section should include the expert's name, a short bio, and their unique perspective on the topic. Conclude with a key takeaway summary.
+
+### Personal Experience Narrative
+Write a blog post sharing a personal experience about [challenge]. Structure it with an engaging introduction, a breakdown of the experience, lessons learned, and actionable advice for readers facing a similar situation.
+
+---
+## DeepSeek Coding Prompts
+
+### Python Script for Data Analysis
+
+Write a Python script to analyze [dataset type] and generate insights. The script should include data cleaning functions using Pandas, visualization using Matplotlib or Seaborn, and a summary report highlighting trends and anomalies. Ensure the script is modular and reusable.
+
+### JavaScript Function Creator
+
+Write a JavaScript function that takes [input type] and returns [expected output]. The function should handle edge cases, include error handling, and be optimized for performance. Provide a brief explanation of how it works and an example use case.
+
+### HTML & CSS Landing Page Builder
+
+Generate an HTML and CSS structure for a landing page about [business/product]. Include a hero section with a headline and CTA button, a feature section with three benefit-driven points, a testimonial slider, and a responsive footer with social media links.
+
+### SQL Query for Data Extraction
+
+Write an SQL query to extract [specific data] from [database table]. Ensure it filters by [condition], sorts by [column], and aggregates relevant metrics. Optimize for performance using indexing and explain the logic behind each clause.
+
+### Python API Data Extractor
+Write a Python script that connects to [API name], retrieves [specific data], and stores it in [file format]. Ensure it includes authentication handling, error checking, and a structured output format. Provide an example response.
+
+### JavaScript Local Storage Handler
+Write a JavaScript function to store, retrieve, and delete user preferences in local storage. Ensure the function supports key-value pairs, handles missing values gracefully, and includes an example implementation for [web application use case].
+
+---
+{% include advertise.html %}
+## DeepSeek prompts for Productivity & Personal Development Prompts
+
+### Daily Planner
+
+Create a structured daily plan for [goal]. Include a morning routine, key tasks divided into priority levels, focus techniques such as Pomodoro, and a brief end-of-day reflection section.
+
+### Habit Tracker
+
+Design a habit tracker template to help someone build [habit]. Include daily check-ins, weekly progress summaries, and a system to track streaks and motivation.
+
+### Decision-Making Framework
+
+Develop a decision-making framework for [type of decision]. Use a step-by-step process such as defining the problem, evaluating options with pros and cons, and identifying potential risks before choosing the best path.
+
+### Time Management Plan
+
+Write a structured time management plan to help someone balance [responsibilities]. Include techniques like time blocking, delegation strategies, and a reflection section to adjust the plan weekly.
 
 ---
 
-## **6. Education and Learning Prompts**  
-Learning is a continuous process. These prompts will help you or your students excel academically.  
+This guide continues with even more prompts across additional categories such as finance, design, customer service, and personal finance. If you'd like to see the rest of the prompts, check the next pages!
 
-### **Prompt 16: Study Plan Creator**  
-*Template:*  
-I want you to act as a study plan creator. I will provide you with a subject and a timeline, and your task is to create a detailed study plan that includes topics, resources, and practice exercises. My first request is [subject] and [timeline].  
-
-*Example:*  
-My first request is “biology” and “2 months.”  
-
-### **Prompt 17: Quiz Generator**  
-*Template:*  
-I want you to act as a quiz generator. I will provide you with a topic and a difficulty level, and your task is to create a 10-question quiz with answers and explanations. My first request is [topic] and [difficulty level].  
-
-*Example:*  
-My first request is “World War II” and “intermediate.”  
-
-### **Prompt 18: Learning Style Assessment**  
-*Template:*  
-I want you to act as a learning style assessor. I will provide you with a brief description of my study habits, and your task is to suggest the best learning strategies based on my style (e.g., visual, auditory, kinesthetic). My first request is [study habits].  
-
-*Example:*  
-My first request is “I prefer watching videos and taking notes.”  
-
----
-
-## **7. Creative Arts Prompts**  
-Unleash your creativity with these prompts for art, music, and design.  
-
-### **Prompt 19: Songwriting Assistant**  
-*Template:*  
-I want you to act as a songwriting assistant. I will provide you with a theme or emotion, and your task is to help me write lyrics, choose a melody, and structure the song. My first request is [theme/emotion].  
-
-*Example:*  
-My first request is “heartbreak.”  
-
-### **Prompt 20: Art Project Idea Generator**  
-*Template:*  
-I want you to act as an art project idea generator. I will provide you with a medium (e.g., painting, sculpture, digital art), and your task is to suggest 5 creative project ideas. My first request is [medium].  
-
-*Example:*  
-My first request is “digital art.”  
-
-### **Prompt 21: Design Feedback Assistant**  
-*Template:*  
-I want you to act as a design feedback assistant. I will provide you with a design (e.g., logo, website, poster), and your task is to give constructive feedback on its aesthetics, usability, and alignment with the brand. My first request is [design description].  
-
-*Example:*  
-My first request is “a minimalist logo for a coffee shop.”  
-
----
-
-## **8. Productivity Prompts**  
-Boost your efficiency and get more done with these productivity prompts.  
-
-### **Prompt 22: Time Management Coach**  
-*Template:*  
-I want you to act as a time management coach. I will provide you with my daily schedule, and your task is to suggest ways to prioritize tasks, eliminate distractions, and maximize productivity. My first request is [daily schedule].  
-
-*Example:*  
-My first request is:  
-- 8:00 AM: Check emails  
-- 9:00 AM: Team meeting  
-- 10:00 AM: Project work  
-- 12:00 PM: Lunch  
-- 1:00 PM: Client calls  
-- 3:00 PM: Administrative tasks  
-
-### **Prompt 23: Task Prioritization Guide**  
-*Template:*  
-I want you to act as a task prioritization guide. I will provide you with a list of tasks, and your task is to help me categorize them using the Eisenhower Matrix (urgent/important). My first request is [list of tasks].  
-
-*Example:*  
-My first request is:  
-- Finish report  
-- Reply to emails  
-- Plan team outing  
-- Update website  
-
-### **Prompt 24: Morning Routine Planner**  
-*Template:*  
-I want you to act as a morning routine planner. I will provide you with my goals (e.g., energy, focus, relaxation), and your task is to create a 30-minute morning routine to help me achieve them. My first request is [goals].  
-
-*Example:*  
-My first request is “energy and focus.”  
-
----
-
-This article provides just a glimpse of the **200+ DeepSeek prompts** available across **30+ categories**. Whether you’re writing, coding, blogging, or working on personal development, these templates can serve as a starting point for your creative and productive endeavors. Use them to unlock your potential and achieve your goals!
+{% include advertise.html %}
