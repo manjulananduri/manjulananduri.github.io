@@ -12,8 +12,7 @@ permalink: /beehiiv-confirmation
                 <h5 class="text-primary mb-3">Welcome to TipSeason Trending AI Newsletter</h5>
                 <div class="alert alert-info py-2">
                     <p class="mb-1">You'll receive <strong>600+ Free ChatGPT Prompts in your email shortly</strong></p>
-                    <small class="text-muted">If you haven't received yet, please check Spam/Promotions folder for email from
-                        tipseason@mail.beehiiv.com</small>
+                    <small class="text-muted">If you haven't received yet, please check Spam/Promotions folder for email from TipSeason</small>
                 </div>
             </div>
 
