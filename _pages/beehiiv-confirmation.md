@@ -2,6 +2,7 @@
 layout: default-aitools
 title: Trending AI Newsletter confirmation
 permalink: /beehiiv-confirmation
+mailchimpdisable: true
 ---
 
 <div class="container py-3">
