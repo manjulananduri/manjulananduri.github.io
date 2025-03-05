@@ -235,6 +235,8 @@ archive: false
 
                 if (data && data.candidates && data.candidates.length > 0) {
                   const candidatesJsonString = data.candidates[0].content.parts[0].text;
+                  candidatesJsonString = candidatesJsonString.replace("```json", "")
+                  candidatesJsonString = candidatesJsonString.replace("```", "")
                   const candidates = JSON.parse(candidatesJsonString.trim());
                   console.log(candidates);
 
