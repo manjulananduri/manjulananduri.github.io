@@ -8,6 +8,7 @@ website: https://secta.ai/
 layout: aitool
 dofollow: true
 trending: true
+pricing: Paid
 ---
 
 Get hundreds of realistic headshots in minutes. Secta Labs offers instant style customization, pro-grade editing, and a complete portrait studio experience.

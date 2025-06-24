@@ -76,7 +76,12 @@ archive: false
             <span class="icon text-white-50">
                 <i class="fas fa-check"></i>
             </span>
-            <span class="text">Freemium</span>
+
+            {% if page.pricing %}
+                <span class="text">{{ page.pricing }}</span>
+            {% else %}
+                <span class="text">Freemium</span>
+            {% endif %}
         </a>
         </p>
 
