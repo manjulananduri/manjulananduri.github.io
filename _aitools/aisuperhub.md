@@ -1,9 +1,9 @@
 ---
-title:  AISuperHub - The Ultimate Hub for AI Resources
-display_name:  Refont
+title:  AISuperHub - Free AI Tools, Prompts and Vibe coding hub. 
+display_name:  AISuperHub
 category: ChatGPT
 category_slug: chatgpt
-key: refont
+key: aisuperhub
 website: https://aisuperhub.io/
 layout: aitool
 dofollow: true
