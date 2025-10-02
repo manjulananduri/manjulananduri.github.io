@@ -7,7 +7,7 @@ key: cvformatter
 website: https://www.cvformatter.co/
 layout: aitool
 dofollow: true
-trending: true
+trending: false
 ---
 
 CVFormatter is the ultimate AI SaaS that saves recruitment firms 90% of time in formatting resumes, with AI-powered CV proofreading, summarizing, and translation all in one.
