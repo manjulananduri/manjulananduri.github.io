@@ -7,7 +7,7 @@ key: thriendly
 website: https://thriendly.com/
 layout: aitool
 dofollow: true
-trending: true
+trending: false
 ---
 
 Fastest Way to Grow and Monetize on Threads and X with Viral Templates, Hooks, AI Comment Replys and more... 

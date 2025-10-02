@@ -7,7 +7,7 @@ key: secta
 website: https://secta.ai/
 layout: aitool
 dofollow: true
-trending: true
+trending: false
 pricing: Paid
 ---
 

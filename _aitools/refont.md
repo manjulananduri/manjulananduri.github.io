@@ -7,7 +7,7 @@ key: refont
 website: https://refont.ai/
 layout: aitool
 dofollow: true
-trending: true
+trending: false
 ---
 
 AI Font Generator Create Stunning Fonts in Seconds
